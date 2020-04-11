@@ -1,0 +1,21 @@
+<RCC>
+    <qresource prefix="/Assets"/>
+    <qresource prefix="/">
+        <file>Assets/Fonts/OpenDyslexic-Bold-Italic.otf</file>
+        <file>Assets/Fonts/OpenDyslexic-Bold-Italic.woff</file>
+        <file>Assets/Fonts/OpenDyslexic-Bold.otf</file>
+        <file>Assets/Fonts/OpenDyslexic-Bold.woff</file>
+        <file>Assets/Fonts/opendyslexic-characters.pdf</file>
+        <file>Assets/Fonts/OpenDyslexic-Italic.otf</file>
+        <file>Assets/Fonts/OpenDyslexic-Italic.woff</file>
+        <file>Assets/Fonts/OpenDyslexic-Regular.otf</file>
+        <file>Assets/Fonts/OpenDyslexic-Regular.woff</file>
+        <file>Assets/Frames/background1.png</file>
+        <file>Assets/Frames/background2.png</file>
+        <file>Assets/Frames/four-frames.png</file>
+        <file>Assets/Frames/single-frame-big.png</file>
+        <file>Assets/Frames/three-frames.png</file>
+        <file>Assets/Frames/two-frames-horizontal.png</file>
+        <file>Assets/Frames/two-frames-vertical.png</file>
+    </qresource>
+</RCC>

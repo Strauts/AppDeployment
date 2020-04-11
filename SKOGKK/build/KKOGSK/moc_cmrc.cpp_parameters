@@ -1,0 +1,7 @@
+-ID:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK
+-ID:/Bachelor/wt-4.2.0/SKOGKK/build/KKOGSK
+-DWIN32
+--compiler-flavor=msvc
+-o
+D:/Bachelor/wt-4.2.0/SKOGKK/build/KKOGSK/moc_cmrc.cpp
+D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/cmrc.h

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\Bachelor\wt-4.2.0\build\CMakeFiles\ad0dc0b67a958fe09316b817fee9eca3\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{9AD2E08B-3FBB-309F-81EA-72E51CD3D154}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,103 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "KKOGSK",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.3"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "KKOGSK",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "SKOGKK"
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "KKOGSK",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "KKOGSK::@426adcf4bb348f9780f5",
+					"jsonFile" : "target-KKOGSK-Debug-0456bdaefce815be7993.json",
+					"name" : "KKOGSK",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "KKOGSK_autogen::@426adcf4bb348f9780f5",
+					"jsonFile" : "target-KKOGSK_autogen-Debug-d4a9d78c4b8ba489ea8c.json",
+					"name" : "KKOGSK_autogen",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "foo-resources::@426adcf4bb348f9780f5",
+					"jsonFile" : "target-foo-resources-Debug-15d273b719d641be1526.json",
+					"name" : "foo-resources",
+					"projectIndex" : 1
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/Bachelor/wt-4.2.0/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK",
+		"source" : "D:/Bachelor/wt-4.2.0/SKOGKK"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 0
+	}
+}

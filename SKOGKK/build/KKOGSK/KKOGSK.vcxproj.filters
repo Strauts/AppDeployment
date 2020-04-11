@@ -1,0 +1,378 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\Bachelor\wt-4.2.0\SKOGKK\build\KKOGSK\KKOGSK_autogen\mocs_compilation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\mainwindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\secondwindowdialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\questiondialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\logindialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\profiledialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\homepagedialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\calenderdialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\resultsdialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\qt5databasedialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\settingsdialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\avatardialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\tasksdialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\rewarddialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\registerdialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\workerprofiledialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\workerresultdialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\changepwdialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\commentdialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\patientdialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\patientinformationdialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\resourcehandlerdialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Bachelor\wt-4.2.0\SKOGKK\build\KKOGSK\moc_mainwindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Bachelor\wt-4.2.0\SKOGKK\build\KKOGSK\moc_secondwindowdialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Bachelor\wt-4.2.0\SKOGKK\build\KKOGSK\moc_questiondialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Bachelor\wt-4.2.0\SKOGKK\build\KKOGSK\moc_logindialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Bachelor\wt-4.2.0\SKOGKK\build\KKOGSK\moc_profiledialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Bachelor\wt-4.2.0\SKOGKK\build\KKOGSK\moc_homepagedialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Bachelor\wt-4.2.0\SKOGKK\build\KKOGSK\moc_calenderdialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Bachelor\wt-4.2.0\SKOGKK\build\KKOGSK\moc_resultsdialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Bachelor\wt-4.2.0\SKOGKK\build\KKOGSK\moc_qt5databasedialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Bachelor\wt-4.2.0\SKOGKK\build\KKOGSK\moc_settingsdialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Bachelor\wt-4.2.0\SKOGKK\build\KKOGSK\moc_avatardialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Bachelor\wt-4.2.0\SKOGKK\build\KKOGSK\moc_tasksdialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Bachelor\wt-4.2.0\SKOGKK\build\KKOGSK\moc_rewarddialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Bachelor\wt-4.2.0\SKOGKK\build\KKOGSK\moc_registerdialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Bachelor\wt-4.2.0\SKOGKK\build\KKOGSK\moc_workerprofiledialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Bachelor\wt-4.2.0\SKOGKK\build\KKOGSK\moc_workerresultdialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Bachelor\wt-4.2.0\SKOGKK\build\KKOGSK\moc_changepwdialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Bachelor\wt-4.2.0\SKOGKK\build\KKOGSK\moc_commentdialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Bachelor\wt-4.2.0\SKOGKK\build\KKOGSK\moc_patientdialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Bachelor\wt-4.2.0\SKOGKK\build\KKOGSK\moc_patientinformationdialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Bachelor\wt-4.2.0\SKOGKK\build\KKOGSK\moc_resourcehandlerdialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Bachelor\wt-4.2.0\SKOGKK\build\KKOGSK\moc_cmrc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\mainwindow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\secondwindowdialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\questiondialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\logindialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\profiledialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\homepagedialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\calenderdialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\resultsdialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\qt5databasedialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\settingsdialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\avatardialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\tasksdialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\rewarddialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\registerdialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\workerprofiledialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\workerresultdialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\changepwdialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\commentdialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\patientdialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\patientinformationdialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\resourcehandlerdialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\cmrc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Bachelor\wt-4.2.0\SKOGKK\build\KKOGSK\ui_mainwindow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Bachelor\wt-4.2.0\SKOGKK\build\KKOGSK\ui_SecondWindowDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Bachelor\wt-4.2.0\SKOGKK\build\KKOGSK\ui_QuestionDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Bachelor\wt-4.2.0\SKOGKK\build\KKOGSK\ui_LoginDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Bachelor\wt-4.2.0\SKOGKK\build\KKOGSK\ui_ProfileDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Bachelor\wt-4.2.0\SKOGKK\build\KKOGSK\ui_homepagedialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Bachelor\wt-4.2.0\SKOGKK\build\KKOGSK\ui_calenderdialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Bachelor\wt-4.2.0\SKOGKK\build\KKOGSK\ui_resultsdialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Bachelor\wt-4.2.0\SKOGKK\build\KKOGSK\ui_qt5databasedialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Bachelor\wt-4.2.0\SKOGKK\build\KKOGSK\ui_settingsdialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Bachelor\wt-4.2.0\SKOGKK\build\KKOGSK\ui_avatardialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Bachelor\wt-4.2.0\SKOGKK\build\KKOGSK\ui_tasksdialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Bachelor\wt-4.2.0\SKOGKK\build\KKOGSK\ui_rewarddialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Bachelor\wt-4.2.0\SKOGKK\build\KKOGSK\ui_registerdialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Bachelor\wt-4.2.0\SKOGKK\build\KKOGSK\ui_workerprofiledialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Bachelor\wt-4.2.0\SKOGKK\build\KKOGSK\ui_workerresultdialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Bachelor\wt-4.2.0\SKOGKK\build\KKOGSK\ui_changepwdialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Bachelor\wt-4.2.0\SKOGKK\build\KKOGSK\ui_commentdialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Bachelor\wt-4.2.0\SKOGKK\build\KKOGSK\ui_patientdialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Bachelor\wt-4.2.0\SKOGKK\build\KKOGSK\ui_patientInformationdialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Bachelor\wt-4.2.0\SKOGKK\build\KKOGSK\ui_resourcehandlerdialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Bachelor\wt-4.2.0\SKOGKK\build\CMakeFiles\fdd9748f6f8e0d2fd136a7be7bf58058\moc_mainwindow.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Bachelor\wt-4.2.0\SKOGKK\build\CMakeFiles\fdd9748f6f8e0d2fd136a7be7bf58058\moc_secondwindowdialog.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Bachelor\wt-4.2.0\SKOGKK\build\CMakeFiles\fdd9748f6f8e0d2fd136a7be7bf58058\moc_questiondialog.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Bachelor\wt-4.2.0\SKOGKK\build\CMakeFiles\fdd9748f6f8e0d2fd136a7be7bf58058\moc_logindialog.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Bachelor\wt-4.2.0\SKOGKK\build\CMakeFiles\fdd9748f6f8e0d2fd136a7be7bf58058\moc_profiledialog.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Bachelor\wt-4.2.0\SKOGKK\build\CMakeFiles\fdd9748f6f8e0d2fd136a7be7bf58058\moc_homepagedialog.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Bachelor\wt-4.2.0\SKOGKK\build\CMakeFiles\fdd9748f6f8e0d2fd136a7be7bf58058\moc_calenderdialog.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Bachelor\wt-4.2.0\SKOGKK\build\CMakeFiles\fdd9748f6f8e0d2fd136a7be7bf58058\moc_resultsdialog.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Bachelor\wt-4.2.0\SKOGKK\build\CMakeFiles\fdd9748f6f8e0d2fd136a7be7bf58058\moc_qt5databasedialog.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Bachelor\wt-4.2.0\SKOGKK\build\CMakeFiles\fdd9748f6f8e0d2fd136a7be7bf58058\moc_settingsdialog.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Bachelor\wt-4.2.0\SKOGKK\build\CMakeFiles\fdd9748f6f8e0d2fd136a7be7bf58058\moc_avatardialog.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Bachelor\wt-4.2.0\SKOGKK\build\CMakeFiles\fdd9748f6f8e0d2fd136a7be7bf58058\moc_tasksdialog.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Bachelor\wt-4.2.0\SKOGKK\build\CMakeFiles\fdd9748f6f8e0d2fd136a7be7bf58058\moc_rewarddialog.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Bachelor\wt-4.2.0\SKOGKK\build\CMakeFiles\fdd9748f6f8e0d2fd136a7be7bf58058\moc_registerdialog.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Bachelor\wt-4.2.0\SKOGKK\build\CMakeFiles\fdd9748f6f8e0d2fd136a7be7bf58058\moc_workerprofiledialog.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Bachelor\wt-4.2.0\SKOGKK\build\CMakeFiles\fdd9748f6f8e0d2fd136a7be7bf58058\moc_workerresultdialog.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Bachelor\wt-4.2.0\SKOGKK\build\CMakeFiles\fdd9748f6f8e0d2fd136a7be7bf58058\moc_changepwdialog.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Bachelor\wt-4.2.0\SKOGKK\build\CMakeFiles\fdd9748f6f8e0d2fd136a7be7bf58058\moc_commentdialog.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Bachelor\wt-4.2.0\SKOGKK\build\CMakeFiles\fdd9748f6f8e0d2fd136a7be7bf58058\moc_patientdialog.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Bachelor\wt-4.2.0\SKOGKK\build\CMakeFiles\fdd9748f6f8e0d2fd136a7be7bf58058\moc_patientinformationdialog.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Bachelor\wt-4.2.0\SKOGKK\build\CMakeFiles\fdd9748f6f8e0d2fd136a7be7bf58058\moc_resourcehandlerdialog.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Bachelor\wt-4.2.0\SKOGKK\build\CMakeFiles\fdd9748f6f8e0d2fd136a7be7bf58058\moc_cmrc.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\mainwindow.ui" />
+    <CustomBuild Include="D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\secondwindowdialog.ui" />
+    <CustomBuild Include="D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\questiondialog.ui" />
+    <CustomBuild Include="D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\logindialog.ui" />
+    <CustomBuild Include="D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\profiledialog.ui" />
+    <CustomBuild Include="D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\homepagedialog.ui" />
+    <CustomBuild Include="D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\calenderdialog.ui" />
+    <CustomBuild Include="D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\resultsdialog.ui" />
+    <CustomBuild Include="D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\qt5databasedialog.ui" />
+    <CustomBuild Include="D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\settingsdialog.ui" />
+    <CustomBuild Include="D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\avatardialog.ui" />
+    <CustomBuild Include="D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\tasksdialog.ui" />
+    <CustomBuild Include="D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\rewarddialog.ui" />
+    <CustomBuild Include="D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\registerdialog.ui" />
+    <CustomBuild Include="D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\workerprofiledialog.ui" />
+    <CustomBuild Include="D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\workerresultdialog.ui" />
+    <CustomBuild Include="D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\changepwdialog.ui" />
+    <CustomBuild Include="D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\commentdialog.ui" />
+    <CustomBuild Include="D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\patientdialog.ui" />
+    <CustomBuild Include="D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\patientinformationdialog.ui" />
+    <CustomBuild Include="D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\resourcehandlerdialog.ui" />
+    <CustomBuild Include="D:\Bachelor\wt-4.2.0\SKOGKK\build\CMakeFiles\4d34ff2923f5fc986b865a255f0b5018\KKOGSK_nb_NO.ts.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\KKOGSK_nb_NO.ts" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{F840A454-CE53-38E7-B9A5-3BE15828C58A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{FA9D191D-B8F9-342A-BBF5-4D1F80FD1C71}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{0FAF936D-9CB9-3EFA-87F0-D99E35B24992}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
