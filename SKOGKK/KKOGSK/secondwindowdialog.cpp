@@ -3398,8 +3398,3 @@ void SecondWindowDialog::setUpGif_4()
         answerCorrect = true;
     }
 }
-
-void SecondWindowDialog::on_pushButton_3_clicked()
-{
-
-}

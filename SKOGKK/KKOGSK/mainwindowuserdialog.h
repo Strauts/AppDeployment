@@ -1,5 +1,5 @@
-#ifndef MAINWINDOW_H
-#define MAINWINDOW_H
+#ifndef MAINWINDOWUSERDIALOG_H
+#define MAINWINDOWUSERDIALOG_H
 
 #include <QMainWindow>
 #include <QFileDialog>
@@ -13,20 +13,19 @@
 #include "homepagedialog.h"
 #include "resultsdialog.h"
 #include "bodyquestiondialog.h"
-#include "mainwindowuserdialog.h"
 
 QT_BEGIN_NAMESPACE
-namespace Ui { class MainWindow; }
+namespace Ui { class MainWindowUserDialog; }
 QT_END_NAMESPACE
 
-class MainWindow : public QMainWindow
+class MainWindowUserDialog : public QDialog
 {
     //Ensures that everything works as expected for qt5 - this macro is declared in the header files
     Q_OBJECT
 
 public:
-    MainWindow(QWidget *parent = nullptr);
-    ~MainWindow();
+    MainWindowUserDialog(QWidget *parent = nullptr);
+    ~MainWindowUserDialog();
     void presetProfileImage_Main();
 
     QuestionDialog openQuestion;
@@ -38,8 +37,6 @@ public:
     tasksDialog openTasks;
     homepageDialog openWorkerHome;
     bodyQuestionDialog startUpBodyTest;
-
-    MainWindowUserDialog openMain;
 
 
     bool dateCheck;
@@ -66,6 +63,7 @@ private slots:
     void on_pushButton_3_clicked();
 
 private:
-    Ui::MainWindow *ui;
+    Ui::MainWindowUserDialog *ui;
 };
-#endif // MAINWINDOW_H
+
+#endif // MAINWINDOWUSERDIALOG_H
