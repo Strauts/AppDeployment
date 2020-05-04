@@ -2,7 +2,7 @@
 #define SECONDWINDOWDIALOG_H
 
 #include <QDialog>
-
+#include <QFileDialog>
 namespace Ui { class SecondWindowDialog; }
 
 class SecondWindowDialog : public QDialog
@@ -26,14 +26,18 @@ public:
 
     int ID;
     int nextQuestion = 0;
+    QString text;
 
     bool answerCorrect = false;
 
 
-private slots:
+public slots:
     void on_pushButton_clicked();
 
     void on_pushButton_2_clicked();
+
+private slots:
+    void on_pushButton_3_clicked();
 
 private:
     Ui::SecondWindowDialog *ui;

@@ -70,6 +70,21 @@
     <ClCompile Include="D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\resourcehandlerdialog.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\readquestiondialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\bodyquestiondialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\secondwindowbodydialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\onepicquestiondialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\textquestiondialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
     <ClCompile Include="D:\Bachelor\wt-4.2.0\SKOGKK\build\KKOGSK\moc_mainwindow.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -133,7 +148,31 @@
     <ClCompile Include="D:\Bachelor\wt-4.2.0\SKOGKK\build\KKOGSK\moc_resourcehandlerdialog.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\Bachelor\wt-4.2.0\SKOGKK\build\KKOGSK\moc_cmrc.cpp">
+    <ClCompile Include="D:\Bachelor\wt-4.2.0\SKOGKK\build\KKOGSK\moc_readquestiondialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Bachelor\wt-4.2.0\SKOGKK\build\KKOGSK\moc_bodyquestiondialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Bachelor\wt-4.2.0\SKOGKK\build\KKOGSK\moc_secondwindowbodydialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Bachelor\wt-4.2.0\SKOGKK\build\KKOGSK\moc_onepicquestiondialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Bachelor\wt-4.2.0\SKOGKK\build\KKOGSK\moc_textquestiondialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Bachelor\wt-4.2.0\SKOGKK\build\KKOGSK\KKOGSK_autogen\EWIEGA46WW\qrc_BGandFontResource.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Bachelor\wt-4.2.0\SKOGKK\build\KKOGSK\KKOGSK_autogen\EWIEGA46WW\qrc_ResourceButton.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Bachelor\wt-4.2.0\SKOGKK\build\KKOGSK\KKOGSK_autogen\EWIEGA46WW\qrc_ResourcePictures1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Bachelor\wt-4.2.0\SKOGKK\build\KKOGSK\KKOGSK_autogen\EWIEGA46WW\qrc_ResourcePictures2.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -201,7 +240,19 @@
     <ClInclude Include="D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\resourcehandlerdialog.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\cmrc.h">
+    <ClInclude Include="D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\readquestiondialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\bodyquestiondialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\secondwindowbodydialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\onepicquestiondialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\textquestiondialog.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="D:\Bachelor\wt-4.2.0\SKOGKK\build\KKOGSK\ui_mainwindow.h">
@@ -265,6 +316,21 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="D:\Bachelor\wt-4.2.0\SKOGKK\build\KKOGSK\ui_resourcehandlerdialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Bachelor\wt-4.2.0\SKOGKK\build\KKOGSK\ui_readquestiondialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Bachelor\wt-4.2.0\SKOGKK\build\KKOGSK\ui_bodyquestiondialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Bachelor\wt-4.2.0\SKOGKK\build\KKOGSK\ui_secondwindowbodydialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Bachelor\wt-4.2.0\SKOGKK\build\KKOGSK\ui_onepicquestiondialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Bachelor\wt-4.2.0\SKOGKK\build\KKOGSK\ui_textquestiondialog.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
@@ -332,7 +398,19 @@
     <CustomBuild Include="D:\Bachelor\wt-4.2.0\SKOGKK\build\CMakeFiles\fdd9748f6f8e0d2fd136a7be7bf58058\moc_resourcehandlerdialog.cpp.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="D:\Bachelor\wt-4.2.0\SKOGKK\build\CMakeFiles\fdd9748f6f8e0d2fd136a7be7bf58058\moc_cmrc.cpp.rule">
+    <CustomBuild Include="D:\Bachelor\wt-4.2.0\SKOGKK\build\CMakeFiles\fdd9748f6f8e0d2fd136a7be7bf58058\moc_readquestiondialog.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Bachelor\wt-4.2.0\SKOGKK\build\CMakeFiles\fdd9748f6f8e0d2fd136a7be7bf58058\moc_bodyquestiondialog.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Bachelor\wt-4.2.0\SKOGKK\build\CMakeFiles\fdd9748f6f8e0d2fd136a7be7bf58058\moc_secondwindowbodydialog.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Bachelor\wt-4.2.0\SKOGKK\build\CMakeFiles\fdd9748f6f8e0d2fd136a7be7bf58058\moc_onepicquestiondialog.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Bachelor\wt-4.2.0\SKOGKK\build\CMakeFiles\fdd9748f6f8e0d2fd136a7be7bf58058\moc_textquestiondialog.cpp.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
     <CustomBuild Include="D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\mainwindow.ui" />
@@ -356,12 +434,33 @@
     <CustomBuild Include="D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\patientdialog.ui" />
     <CustomBuild Include="D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\patientinformationdialog.ui" />
     <CustomBuild Include="D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\resourcehandlerdialog.ui" />
+    <CustomBuild Include="D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\readquestiondialog.ui" />
+    <CustomBuild Include="D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\bodyquestiondialog.ui" />
+    <CustomBuild Include="D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\secondwindowbodydialog.ui" />
+    <CustomBuild Include="D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\onepicquestiondialog.ui" />
+    <CustomBuild Include="D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\textquestiondialog.ui" />
     <CustomBuild Include="D:\Bachelor\wt-4.2.0\SKOGKK\build\CMakeFiles\4d34ff2923f5fc986b865a255f0b5018\KKOGSK_nb_NO.ts.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Bachelor\wt-4.2.0\SKOGKK\build\CMakeFiles\ac6dced79b4611699a5bae076e71b839\qrc_BGandFontResource.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Bachelor\wt-4.2.0\SKOGKK\build\CMakeFiles\ac6dced79b4611699a5bae076e71b839\qrc_ResourceButton.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Bachelor\wt-4.2.0\SKOGKK\build\CMakeFiles\ac6dced79b4611699a5bae076e71b839\qrc_ResourcePictures1.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Bachelor\wt-4.2.0\SKOGKK\build\CMakeFiles\ac6dced79b4611699a5bae076e71b839\qrc_ResourcePictures2.cpp.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
     <CustomBuild Include="D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\BGandFontResource.qrc" />
+    <None Include="D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\ResourceButton.qrc" />
+    <None Include="D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\ResourcePictures1.qrc" />
+    <None Include="D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\ResourcePictures2.qrc" />
     <None Include="D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\KKOGSK_nb_NO.ts" />
   </ItemGroup>
   <ItemGroup>

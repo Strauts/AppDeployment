@@ -25,7 +25,6 @@ public:
     QPushButton *pushButton_Calender_Profile;
     QPushButton *pushButton_Tasks;
     QPushButton *pushButton_Results_Profile;
-    QPushButton *pushButton_Rewards_Profile;
     QPushButton *pushButton_Avatar_Profile;
     QPushButton *pushButton_Settings_Profile;
     QLabel *label_name;
@@ -37,40 +36,35 @@ public:
         if (ProfileDialog->objectName().isEmpty())
             ProfileDialog->setObjectName(QString::fromUtf8("ProfileDialog"));
         ProfileDialog->resize(490, 687);
-        ProfileDialog->setStyleSheet(QString::fromUtf8("background-color: rgb(0, 255, 255);"));
+        ProfileDialog->setStyleSheet(QString::fromUtf8("background-color: rgb(146, 232, 255);"));
         groupBox = new QGroupBox(ProfileDialog);
         groupBox->setObjectName(QString::fromUtf8("groupBox"));
         groupBox->setGeometry(QRect(0, 240, 491, 481));
         pushButton_Calender_Profile = new QPushButton(groupBox);
         pushButton_Calender_Profile->setObjectName(QString::fromUtf8("pushButton_Calender_Profile"));
         pushButton_Calender_Profile->setGeometry(QRect(120, 40, 241, 41));
-        pushButton_Calender_Profile->setStyleSheet(QString::fromUtf8("image: url(:/Assets/Buttons/kalender_active.png);\n"
+        pushButton_Calender_Profile->setStyleSheet(QString::fromUtf8("border-image: url(:/Assets/Buttons/kalender_active.png);\n"
 "border:none;"));
         pushButton_Tasks = new QPushButton(groupBox);
         pushButton_Tasks->setObjectName(QString::fromUtf8("pushButton_Tasks"));
-        pushButton_Tasks->setGeometry(QRect(120, 90, 241, 41));
+        pushButton_Tasks->setGeometry(QRect(120, 190, 241, 41));
         pushButton_Tasks->setStyleSheet(QString::fromUtf8("color: rgb(0, 0, 0);\n"
-"background-color: rgb(85, 255, 0);"));
+"border-image: url(:/Assets/Buttons/oversikt_active.png);"));
         pushButton_Results_Profile = new QPushButton(groupBox);
         pushButton_Results_Profile->setObjectName(QString::fromUtf8("pushButton_Results_Profile"));
         pushButton_Results_Profile->setGeometry(QRect(120, 140, 241, 41));
-        pushButton_Results_Profile->setStyleSheet(QString::fromUtf8("image: url(:/Assets/Buttons/resultater_active.png);\n"
+        pushButton_Results_Profile->setStyleSheet(QString::fromUtf8("border-image: url(:/Assets/Buttons/resultater_active.png);\n"
 "border:none;"));
-        pushButton_Rewards_Profile = new QPushButton(groupBox);
-        pushButton_Rewards_Profile->setObjectName(QString::fromUtf8("pushButton_Rewards_Profile"));
-        pushButton_Rewards_Profile->setGeometry(QRect(120, 190, 241, 41));
-        pushButton_Rewards_Profile->setStyleSheet(QString::fromUtf8("color: rgb(0, 0, 0);\n"
-"background-color: rgb(85, 255, 0);"));
         pushButton_Avatar_Profile = new QPushButton(groupBox);
         pushButton_Avatar_Profile->setObjectName(QString::fromUtf8("pushButton_Avatar_Profile"));
-        pushButton_Avatar_Profile->setGeometry(QRect(120, 240, 241, 41));
-        pushButton_Avatar_Profile->setStyleSheet(QString::fromUtf8("background-color: rgb(85, 255, 0);\n"
+        pushButton_Avatar_Profile->setGeometry(QRect(120, 90, 241, 41));
+        pushButton_Avatar_Profile->setStyleSheet(QString::fromUtf8("background-color: rgb(146, 232, 255);\n"
 "color: rgb(0, 0, 0);"));
         pushButton_Settings_Profile = new QPushButton(groupBox);
         pushButton_Settings_Profile->setObjectName(QString::fromUtf8("pushButton_Settings_Profile"));
-        pushButton_Settings_Profile->setGeometry(QRect(120, 290, 241, 41));
+        pushButton_Settings_Profile->setGeometry(QRect(120, 240, 241, 41));
         pushButton_Settings_Profile->setStyleSheet(QString::fromUtf8("color: rgb(0, 0, 0);\n"
-"background-color: rgb(85, 255, 0);"));
+"background-color: rgb(146, 232, 255);"));
         label_name = new QLabel(ProfileDialog);
         label_name->setObjectName(QString::fromUtf8("label_name"));
         label_name->setGeometry(QRect(190, 30, 131, 41));
@@ -96,9 +90,8 @@ public:
         ProfileDialog->setWindowTitle(QCoreApplication::translate("ProfileDialog", "Dialog", nullptr));
         groupBox->setTitle(QString());
         pushButton_Calender_Profile->setText(QString());
-        pushButton_Tasks->setText(QCoreApplication::translate("ProfileDialog", "Gj\303\270rem\303\245l", nullptr));
+        pushButton_Tasks->setText(QString());
         pushButton_Results_Profile->setText(QString());
-        pushButton_Rewards_Profile->setText(QCoreApplication::translate("ProfileDialog", "Bel\303\270nninger", nullptr));
         pushButton_Avatar_Profile->setText(QCoreApplication::translate("ProfileDialog", "Avatar", nullptr));
         pushButton_Settings_Profile->setText(QCoreApplication::translate("ProfileDialog", "Innstillinger", nullptr));
         label_name->setText(QCoreApplication::translate("ProfileDialog", "Ola Berg", nullptr));

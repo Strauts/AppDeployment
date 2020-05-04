@@ -13,6 +13,7 @@
 #include <QtWidgets/QApplication>
 #include <QtWidgets/QDialog>
 #include <QtWidgets/QLabel>
+#include <QtWidgets/QLineEdit>
 #include <QtWidgets/QPushButton>
 
 QT_BEGIN_NAMESPACE
@@ -23,17 +24,19 @@ public:
     QLabel *label;
     QPushButton *pushButton;
     QPushButton *pushButton_2;
-    QPushButton *pushButton_3;
+    QLabel *label_2;
+    QLabel *label_3;
+    QLineEdit *lineEdit;
 
     void setupUi(QDialog *SecondWindowDialog)
     {
         if (SecondWindowDialog->objectName().isEmpty())
             SecondWindowDialog->setObjectName(QString::fromUtf8("SecondWindowDialog"));
         SecondWindowDialog->resize(490, 687);
-        SecondWindowDialog->setStyleSheet(QString::fromUtf8("background-color: rgb(0, 255, 255);"));
+        SecondWindowDialog->setStyleSheet(QString::fromUtf8("background-color: rgb(146, 232, 255);"));
         label = new QLabel(SecondWindowDialog);
         label->setObjectName(QString::fromUtf8("label"));
-        label->setGeometry(QRect(9, 9, 471, 581));
+        label->setGeometry(QRect(9, 79, 471, 511));
         pushButton = new QPushButton(SecondWindowDialog);
         pushButton->setObjectName(QString::fromUtf8("pushButton"));
         pushButton->setGeometry(QRect(248, 640, 231, 41));
@@ -42,15 +45,21 @@ public:
         pushButton_2->setObjectName(QString::fromUtf8("pushButton_2"));
         pushButton_2->setGeometry(QRect(9, 640, 231, 41));
         pushButton_2->setStyleSheet(QString::fromUtf8("border-image: url(:/Assets/Buttons/nei-tilbake_active.png);"));
-        pushButton_3 = new QPushButton(SecondWindowDialog);
-        pushButton_3->setObjectName(QString::fromUtf8("pushButton_3"));
-        pushButton_3->setGeometry(QRect(20, 600, 451, 31));
+        label_2 = new QLabel(SecondWindowDialog);
+        label_2->setObjectName(QString::fromUtf8("label_2"));
+        label_2->setGeometry(QRect(20, 10, 451, 21));
         QFont font;
         font.setPointSize(12);
-        pushButton_3->setFont(font);
-        pushButton_3->setStyleSheet(QString::fromUtf8("color: rgb(0, 0, 0);\n"
-"background-color: rgb(85, 255, 0);\n"
-"border:none;"));
+        label_2->setFont(font);
+        label_3 = new QLabel(SecondWindowDialog);
+        label_3->setObjectName(QString::fromUtf8("label_3"));
+        label_3->setGeometry(QRect(10, 40, 471, 21));
+        label_3->setFont(font);
+        lineEdit = new QLineEdit(SecondWindowDialog);
+        lineEdit->setObjectName(QString::fromUtf8("lineEdit"));
+        lineEdit->setGeometry(QRect(20, 600, 451, 31));
+        lineEdit->setFont(font);
+        lineEdit->setStyleSheet(QString::fromUtf8("background-color: rgb(255, 255, 255);"));
 
         retranslateUi(SecondWindowDialog);
 
@@ -63,7 +72,8 @@ public:
         label->setText(QCoreApplication::translate("SecondWindowDialog", "TextLabel", nullptr));
         pushButton->setText(QString());
         pushButton_2->setText(QString());
-        pushButton_3->setText(QCoreApplication::translate("SecondWindowDialog", "Tror du dette er riktig svar? ", nullptr));
+        label_2->setText(QString());
+        label_3->setText(QString());
     } // retranslateUi
 
 };

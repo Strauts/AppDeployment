@@ -68,7 +68,7 @@ static const uint qt_meta_data_QuestionDialog[] = {
        4,    0,   46,    2, 0x0a /* Public */,
        5,    0,   47,    2, 0x0a /* Public */,
        6,    0,   48,    2, 0x0a /* Public */,
-       7,    0,   49,    2, 0x08 /* Private */,
+       7,    0,   49,    2, 0x0a /* Public */,
 
  // slots: parameters
     QMetaType::Void,

@@ -123,7 +123,13 @@
 		<Unit filename="D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/KKOGSK_nb_NO.ts.rule">
 			<Option target="KKOGSK"/>
 		</Unit>
-		<Unit filename="D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/MyResource.qrc">
+		<Unit filename="D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/ResourceButton.qrc">
+			<Option target="KKOGSK"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/ResourcePictures1.qrc">
+			<Option target="KKOGSK"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/ResourcePictures2.qrc">
 			<Option target="KKOGSK"/>
 		</Unit>
 		<Unit filename="D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/avatardialog.cpp">
@@ -133,6 +139,15 @@
 			<Option target="KKOGSK"/>
 		</Unit>
 		<Unit filename="D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/avatardialog.ui">
+			<Option target="KKOGSK"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/bodyquestiondialog.cpp">
+			<Option target="KKOGSK"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/bodyquestiondialog.h">
+			<Option target="KKOGSK"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/bodyquestiondialog.ui">
 			<Option target="KKOGSK"/>
 		</Unit>
 		<Unit filename="D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/calenderdialog.cpp">
@@ -192,6 +207,15 @@
 		<Unit filename="D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/mainwindow.ui">
 			<Option target="KKOGSK"/>
 		</Unit>
+		<Unit filename="D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/onepicquestiondialog.cpp">
+			<Option target="KKOGSK"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/onepicquestiondialog.h">
+			<Option target="KKOGSK"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/onepicquestiondialog.ui">
+			<Option target="KKOGSK"/>
+		</Unit>
 		<Unit filename="D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/patientdialog.cpp">
 			<Option target="KKOGSK"/>
 		</Unit>
@@ -237,6 +261,15 @@
 		<Unit filename="D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/questiondialog.ui">
 			<Option target="KKOGSK"/>
 		</Unit>
+		<Unit filename="D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/readquestiondialog.cpp">
+			<Option target="KKOGSK"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/readquestiondialog.h">
+			<Option target="KKOGSK"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/readquestiondialog.ui">
+			<Option target="KKOGSK"/>
+		</Unit>
 		<Unit filename="D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/registerdialog.cpp">
 			<Option target="KKOGSK"/>
 		</Unit>
@@ -273,6 +306,15 @@
 		<Unit filename="D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/rewarddialog.ui">
 			<Option target="KKOGSK"/>
 		</Unit>
+		<Unit filename="D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/secondwindowbodydialog.cpp">
+			<Option target="KKOGSK"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/secondwindowbodydialog.h">
+			<Option target="KKOGSK"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/secondwindowbodydialog.ui">
+			<Option target="KKOGSK"/>
+		</Unit>
 		<Unit filename="D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/secondwindowdialog.cpp">
 			<Option target="KKOGSK"/>
 		</Unit>
@@ -300,6 +342,15 @@
 		<Unit filename="D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/tasksdialog.ui">
 			<Option target="KKOGSK"/>
 		</Unit>
+		<Unit filename="D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/textquestiondialog.cpp">
+			<Option target="KKOGSK"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/textquestiondialog.h">
+			<Option target="KKOGSK"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/textquestiondialog.ui">
+			<Option target="KKOGSK"/>
+		</Unit>
 		<Unit filename="D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/workerprofiledialog.cpp">
 			<Option target="KKOGSK"/>
 		</Unit>
@@ -324,10 +375,22 @@
 		<Unit filename="D:/Bachelor/wt-4.2.0/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK/KKOGSK_autogen/EWIEGA46WW/qrc_BGandFontResource.cpp.rule">
 			<Option target="KKOGSK"/>
 		</Unit>
-		<Unit filename="D:/Bachelor/wt-4.2.0/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK/KKOGSK_autogen/EWIEGA46WW/qrc_MyResource.cpp">
+		<Unit filename="D:/Bachelor/wt-4.2.0/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK/KKOGSK_autogen/EWIEGA46WW/qrc_ResourceButton.cpp">
 			<Option target="KKOGSK"/>
 		</Unit>
-		<Unit filename="D:/Bachelor/wt-4.2.0/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK/KKOGSK_autogen/EWIEGA46WW/qrc_MyResource.cpp.rule">
+		<Unit filename="D:/Bachelor/wt-4.2.0/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK/KKOGSK_autogen/EWIEGA46WW/qrc_ResourceButton.cpp.rule">
+			<Option target="KKOGSK"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/wt-4.2.0/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK/KKOGSK_autogen/EWIEGA46WW/qrc_ResourcePictures1.cpp">
+			<Option target="KKOGSK"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/wt-4.2.0/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK/KKOGSK_autogen/EWIEGA46WW/qrc_ResourcePictures1.cpp.rule">
+			<Option target="KKOGSK"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/wt-4.2.0/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK/KKOGSK_autogen/EWIEGA46WW/qrc_ResourcePictures2.cpp">
+			<Option target="KKOGSK"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/wt-4.2.0/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK/KKOGSK_autogen/EWIEGA46WW/qrc_ResourcePictures2.cpp.rule">
 			<Option target="KKOGSK"/>
 		</Unit>
 		<Unit filename="D:/Bachelor/wt-4.2.0/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK/KKOGSK_autogen/mocs_compilation.cpp">
@@ -337,6 +400,12 @@
 			<Option target="KKOGSK"/>
 		</Unit>
 		<Unit filename="D:/Bachelor/wt-4.2.0/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK/moc_avatardialog.cpp.rule">
+			<Option target="KKOGSK"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/wt-4.2.0/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK/moc_bodyquestiondialog.cpp">
+			<Option target="KKOGSK"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/wt-4.2.0/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK/moc_bodyquestiondialog.cpp.rule">
 			<Option target="KKOGSK"/>
 		</Unit>
 		<Unit filename="D:/Bachelor/wt-4.2.0/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK/moc_calenderdialog.cpp">
@@ -375,6 +444,12 @@
 		<Unit filename="D:/Bachelor/wt-4.2.0/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK/moc_mainwindow.cpp.rule">
 			<Option target="KKOGSK"/>
 		</Unit>
+		<Unit filename="D:/Bachelor/wt-4.2.0/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK/moc_onepicquestiondialog.cpp">
+			<Option target="KKOGSK"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/wt-4.2.0/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK/moc_onepicquestiondialog.cpp.rule">
+			<Option target="KKOGSK"/>
+		</Unit>
 		<Unit filename="D:/Bachelor/wt-4.2.0/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK/moc_patientdialog.cpp">
 			<Option target="KKOGSK"/>
 		</Unit>
@@ -405,6 +480,12 @@
 		<Unit filename="D:/Bachelor/wt-4.2.0/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK/moc_questiondialog.cpp.rule">
 			<Option target="KKOGSK"/>
 		</Unit>
+		<Unit filename="D:/Bachelor/wt-4.2.0/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK/moc_readquestiondialog.cpp">
+			<Option target="KKOGSK"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/wt-4.2.0/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK/moc_readquestiondialog.cpp.rule">
+			<Option target="KKOGSK"/>
+		</Unit>
 		<Unit filename="D:/Bachelor/wt-4.2.0/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK/moc_registerdialog.cpp">
 			<Option target="KKOGSK"/>
 		</Unit>
@@ -429,6 +510,12 @@
 		<Unit filename="D:/Bachelor/wt-4.2.0/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK/moc_rewarddialog.cpp.rule">
 			<Option target="KKOGSK"/>
 		</Unit>
+		<Unit filename="D:/Bachelor/wt-4.2.0/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK/moc_secondwindowbodydialog.cpp">
+			<Option target="KKOGSK"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/wt-4.2.0/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK/moc_secondwindowbodydialog.cpp.rule">
+			<Option target="KKOGSK"/>
+		</Unit>
 		<Unit filename="D:/Bachelor/wt-4.2.0/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK/moc_secondwindowdialog.cpp">
 			<Option target="KKOGSK"/>
 		</Unit>
@@ -445,6 +532,12 @@
 			<Option target="KKOGSK"/>
 		</Unit>
 		<Unit filename="D:/Bachelor/wt-4.2.0/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK/moc_tasksdialog.cpp.rule">
+			<Option target="KKOGSK"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/wt-4.2.0/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK/moc_textquestiondialog.cpp">
+			<Option target="KKOGSK"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/wt-4.2.0/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK/moc_textquestiondialog.cpp.rule">
 			<Option target="KKOGSK"/>
 		</Unit>
 		<Unit filename="D:/Bachelor/wt-4.2.0/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK/moc_workerprofiledialog.cpp">
@@ -474,6 +567,9 @@
 		<Unit filename="D:/Bachelor/wt-4.2.0/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK/ui_avatardialog.h">
 			<Option target="KKOGSK"/>
 		</Unit>
+		<Unit filename="D:/Bachelor/wt-4.2.0/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK/ui_bodyquestiondialog.h">
+			<Option target="KKOGSK"/>
+		</Unit>
 		<Unit filename="D:/Bachelor/wt-4.2.0/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK/ui_calenderdialog.h">
 			<Option target="KKOGSK"/>
 		</Unit>
@@ -489,6 +585,9 @@
 		<Unit filename="D:/Bachelor/wt-4.2.0/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK/ui_mainwindow.h">
 			<Option target="KKOGSK"/>
 		</Unit>
+		<Unit filename="D:/Bachelor/wt-4.2.0/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK/ui_onepicquestiondialog.h">
+			<Option target="KKOGSK"/>
+		</Unit>
 		<Unit filename="D:/Bachelor/wt-4.2.0/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK/ui_patientInformationdialog.h">
 			<Option target="KKOGSK"/>
 		</Unit>
@@ -496,6 +595,9 @@
 			<Option target="KKOGSK"/>
 		</Unit>
 		<Unit filename="D:/Bachelor/wt-4.2.0/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK/ui_qt5databasedialog.h">
+			<Option target="KKOGSK"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/wt-4.2.0/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK/ui_readquestiondialog.h">
 			<Option target="KKOGSK"/>
 		</Unit>
 		<Unit filename="D:/Bachelor/wt-4.2.0/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK/ui_registerdialog.h">
@@ -510,10 +612,16 @@
 		<Unit filename="D:/Bachelor/wt-4.2.0/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK/ui_rewarddialog.h">
 			<Option target="KKOGSK"/>
 		</Unit>
+		<Unit filename="D:/Bachelor/wt-4.2.0/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK/ui_secondwindowbodydialog.h">
+			<Option target="KKOGSK"/>
+		</Unit>
 		<Unit filename="D:/Bachelor/wt-4.2.0/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK/ui_settingsdialog.h">
 			<Option target="KKOGSK"/>
 		</Unit>
 		<Unit filename="D:/Bachelor/wt-4.2.0/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK/ui_tasksdialog.h">
+			<Option target="KKOGSK"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/wt-4.2.0/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK/ui_textquestiondialog.h">
 			<Option target="KKOGSK"/>
 		</Unit>
 		<Unit filename="D:/Bachelor/wt-4.2.0/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK/ui_workerprofiledialog.h">
@@ -531,7 +639,13 @@
 		<Unit filename="D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\KKOGSK\"/>
 		</Unit>
-		<Unit filename="D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/MyResource.qrc">
+		<Unit filename="D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/ResourceButton.qrc">
+			<Option virtualFolder="CMake Files\KKOGSK\"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/ResourcePictures1.qrc">
+			<Option virtualFolder="CMake Files\KKOGSK\"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/ResourcePictures2.qrc">
 			<Option virtualFolder="CMake Files\KKOGSK\"/>
 		</Unit>
 		<Unit filename="D:/Bachelor/wt-4.2.0/SKOGKK/Qt/5.13.0/msvc2017_64/lib/cmake/Qt5/Qt5Config.cmake">

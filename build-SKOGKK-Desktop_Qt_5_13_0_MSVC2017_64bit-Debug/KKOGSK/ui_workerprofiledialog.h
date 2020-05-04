@@ -37,7 +37,7 @@ public:
         if (workerProfileDialog->objectName().isEmpty())
             workerProfileDialog->setObjectName(QString::fromUtf8("workerProfileDialog"));
         workerProfileDialog->resize(490, 687);
-        workerProfileDialog->setStyleSheet(QString::fromUtf8("background-color: rgb(0, 255, 255);"));
+        workerProfileDialog->setStyleSheet(QString::fromUtf8("background-color: rgb(146, 232, 255);"));
         label_name = new QLabel(workerProfileDialog);
         label_name->setObjectName(QString::fromUtf8("label_name"));
         label_name->setGeometry(QRect(190, 20, 131, 41));
@@ -54,34 +54,33 @@ public:
         pushButton_Calender_Profile_2->setStyleSheet(QString::fromUtf8("border-image: url(:/Assets/Buttons/kalender_active.png);"));
         pushButton_Tasks_2 = new QPushButton(groupBox);
         pushButton_Tasks_2->setObjectName(QString::fromUtf8("pushButton_Tasks_2"));
-        pushButton_Tasks_2->setGeometry(QRect(120, 90, 241, 41));
-        pushButton_Tasks_2->setStyleSheet(QString::fromUtf8("color: rgb(0, 0, 0);\n"
-"background-color: rgb(85, 255, 0);"));
+        pushButton_Tasks_2->setGeometry(QRect(120, 240, 241, 41));
+        pushButton_Tasks_2->setStyleSheet(QString::fromUtf8("border-image: url(:/Assets/Buttons/oversikt_active.png);"));
         pushButton_Results_Profile_2 = new QPushButton(groupBox);
         pushButton_Results_Profile_2->setObjectName(QString::fromUtf8("pushButton_Results_Profile_2"));
         pushButton_Results_Profile_2->setGeometry(QRect(120, 190, 241, 41));
         pushButton_Results_Profile_2->setStyleSheet(QString::fromUtf8("border-image: url(:/Assets/Buttons/resultater_active.png);"));
         pushButton_Avatar_Profile_2 = new QPushButton(groupBox);
         pushButton_Avatar_Profile_2->setObjectName(QString::fromUtf8("pushButton_Avatar_Profile_2"));
-        pushButton_Avatar_Profile_2->setGeometry(QRect(120, 240, 241, 41));
+        pushButton_Avatar_Profile_2->setGeometry(QRect(120, 90, 241, 41));
         pushButton_Avatar_Profile_2->setStyleSheet(QString::fromUtf8("color: rgb(0, 0, 0);\n"
-"background-color: rgb(85, 255, 0);"));
+"background-color: rgb(146, 232, 255);"));
         pushButton_Settings_Profile_2 = new QPushButton(groupBox);
         pushButton_Settings_Profile_2->setObjectName(QString::fromUtf8("pushButton_Settings_Profile_2"));
         pushButton_Settings_Profile_2->setGeometry(QRect(120, 290, 241, 41));
         pushButton_Settings_Profile_2->setStyleSheet(QString::fromUtf8("color: rgb(0, 0, 0);\n"
-"background-color: rgb(85, 255, 0);"));
+"background-color: rgb(146, 232, 255);"));
         pushButton_2 = new QPushButton(groupBox);
         pushButton_2->setObjectName(QString::fromUtf8("pushButton_2"));
         pushButton_2->setGeometry(QRect(120, 140, 241, 41));
         pushButton_2->setStyleSheet(QString::fromUtf8("color: rgb(0, 0, 0);\n"
-"background-color: rgb(85, 255, 0);"));
+"background-color: rgb(146, 232, 255);"));
         label_profilePicture = new QLabel(workerProfileDialog);
         label_profilePicture->setObjectName(QString::fromUtf8("label_profilePicture"));
         label_profilePicture->setGeometry(QRect(160, 80, 131, 131));
         pushButton = new QPushButton(workerProfileDialog);
         pushButton->setObjectName(QString::fromUtf8("pushButton"));
-        pushButton->setGeometry(QRect(20, 10, 91, 41));
+        pushButton->setGeometry(QRect(10, 10, 91, 41));
         pushButton->setStyleSheet(QString::fromUtf8("border-image: url(:/Assets/Buttons/gaa-tilbake_active.png);"));
 
         retranslateUi(workerProfileDialog);
@@ -95,7 +94,7 @@ public:
         label_name->setText(QCoreApplication::translate("workerProfileDialog", "Ola Berg", nullptr));
         groupBox->setTitle(QString());
         pushButton_Calender_Profile_2->setText(QString());
-        pushButton_Tasks_2->setText(QCoreApplication::translate("workerProfileDialog", "Gj\303\270rem\303\245l", nullptr));
+        pushButton_Tasks_2->setText(QString());
         pushButton_Results_Profile_2->setText(QString());
         pushButton_Avatar_Profile_2->setText(QCoreApplication::translate("workerProfileDialog", "Avatar", nullptr));
         pushButton_Settings_Profile_2->setText(QCoreApplication::translate("workerProfileDialog", "Innstillinger", nullptr));

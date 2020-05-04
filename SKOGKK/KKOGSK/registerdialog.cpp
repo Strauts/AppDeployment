@@ -6,6 +6,7 @@ registerDialog::registerDialog(QWidget *parent) :
     ui(new Ui::registerDialog)
 {
     ui->setupUi(this);
+    setWindowFlags(Qt::Window | Qt::FramelessWindowHint);
 }
 
 registerDialog::~registerDialog()

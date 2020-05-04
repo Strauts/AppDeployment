@@ -6,6 +6,7 @@ rewardDialog::rewardDialog(QWidget *parent) :
     ui(new Ui::rewardDialog)
 {
     ui->setupUi(this);
+    setWindowFlags(Qt::Window | Qt::FramelessWindowHint);
 }
 
 rewardDialog::~rewardDialog()

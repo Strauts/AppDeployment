@@ -13,6 +13,9 @@
   <property name="windowTitle">
    <string>Dialog</string>
   </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(146, 232, 255);</string>
+  </property>
  </widget>
  <resources/>
  <connections/>

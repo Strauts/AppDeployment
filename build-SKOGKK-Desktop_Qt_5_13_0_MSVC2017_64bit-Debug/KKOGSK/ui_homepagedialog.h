@@ -48,20 +48,22 @@ public:
     QLabel *label_profilePicture_Main;
     QLabel *label_Greeting;
     QLabel *label;
+    QPushButton *pushButton_2;
 
     void setupUi(QDialog *homepageDialog)
     {
         if (homepageDialog->objectName().isEmpty())
             homepageDialog->setObjectName(QString::fromUtf8("homepageDialog"));
         homepageDialog->resize(490, 687);
-        homepageDialog->setStyleSheet(QString::fromUtf8("background-color: rgb(0, 255, 255);"));
+        homepageDialog->setStyleSheet(QString::fromUtf8("background-color: rgb(146, 232, 255);"));
         groupBox = new QGroupBox(homepageDialog);
         groupBox->setObjectName(QString::fromUtf8("groupBox"));
-        groupBox->setGeometry(QRect(10, 30, 471, 651));
+        groupBox->setGeometry(QRect(0, 0, 490, 687));
         groupBox_3 = new QGroupBox(groupBox);
         groupBox_3->setObjectName(QString::fromUtf8("groupBox_3"));
         groupBox_3->setGeometry(QRect(0, 210, 471, 101));
-        groupBox_3->setStyleSheet(QString::fromUtf8("color: rgb(0, 0, 0);"));
+        groupBox_3->setStyleSheet(QString::fromUtf8("color: rgb(0, 0, 0);\n"
+"border:none;"));
         gridLayout = new QGridLayout(groupBox_3);
         gridLayout->setObjectName(QString::fromUtf8("gridLayout"));
         label_Thursday = new QLabel(groupBox_3);
@@ -152,7 +154,8 @@ public:
 
         groupBox_2 = new QGroupBox(groupBox);
         groupBox_2->setObjectName(QString::fromUtf8("groupBox_2"));
-        groupBox_2->setGeometry(QRect(0, 310, 471, 341));
+        groupBox_2->setGeometry(QRect(0, 310, 491, 341));
+        groupBox_2->setStyleSheet(QString::fromUtf8(""));
         pushButton_Profile = new QPushButton(groupBox_2);
         pushButton_Profile->setObjectName(QString::fromUtf8("pushButton_Profile"));
         pushButton_Profile->setGeometry(QRect(102, 37, 231, 41));
@@ -162,7 +165,7 @@ public:
         pushButton_startTest->setObjectName(QString::fromUtf8("pushButton_startTest"));
         pushButton_startTest->setGeometry(QRect(102, 92, 231, 41));
         pushButton_startTest->setStyleSheet(QString::fromUtf8("color: rgb(0, 0, 0);\n"
-"background-color: rgb(85, 255, 0);"));
+"background-color: rgb(146, 232, 255);"));
         pushButton_Results = new QPushButton(groupBox_2);
         pushButton_Results->setObjectName(QString::fromUtf8("pushButton_Results"));
         pushButton_Results->setGeometry(QRect(102, 147, 231, 41));
@@ -171,12 +174,12 @@ public:
         pushButton_Reminders->setObjectName(QString::fromUtf8("pushButton_Reminders"));
         pushButton_Reminders->setGeometry(QRect(102, 202, 231, 41));
         pushButton_Reminders->setStyleSheet(QString::fromUtf8("color: rgb(0, 0, 0);\n"
-"background-color: rgb(85, 255, 0);"));
+"background-color: rgb(146, 232, 255);"));
         pushButton = new QPushButton(groupBox_2);
         pushButton->setObjectName(QString::fromUtf8("pushButton"));
         pushButton->setGeometry(QRect(102, 257, 231, 41));
         pushButton->setStyleSheet(QString::fromUtf8("color: rgb(0, 0, 0);\n"
-"background-color: rgb(85, 255, 0);"));
+"background-color: rgb(146, 232, 255);"));
         label_profilePicture_Main = new QLabel(groupBox);
         label_profilePicture_Main->setObjectName(QString::fromUtf8("label_profilePicture_Main"));
         label_profilePicture_Main->setGeometry(QRect(180, 70, 91, 91));
@@ -192,6 +195,10 @@ public:
         label->setGeometry(QRect(180, 180, 111, 31));
         label->setFont(font);
         label->setStyleSheet(QString::fromUtf8("color: rgb(0, 0, 0);"));
+        pushButton_2 = new QPushButton(groupBox);
+        pushButton_2->setObjectName(QString::fromUtf8("pushButton_2"));
+        pushButton_2->setGeometry(QRect(10, 10, 91, 41));
+        pushButton_2->setStyleSheet(QString::fromUtf8("border-image: url(:/Assets/Buttons/avslutt_active.png);"));
 
         retranslateUi(homepageDialog);
 
@@ -226,6 +233,7 @@ public:
         label_profilePicture_Main->setText(QCoreApplication::translate("homepageDialog", "TextLabel", nullptr));
         label_Greeting->setText(QCoreApplication::translate("homepageDialog", "God Morgen, Ola!", nullptr));
         label->setText(QCoreApplication::translate("homepageDialog", "  Februar", nullptr));
+        pushButton_2->setText(QString());
     } // retranslateUi
 
 };

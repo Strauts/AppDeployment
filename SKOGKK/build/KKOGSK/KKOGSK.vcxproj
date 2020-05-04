@@ -1833,14 +1833,14 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="D:\Bachelor\wt-4.2.0\SKOGKK\build\CMakeFiles\fdd9748f6f8e0d2fd136a7be7bf58058\moc_cmrc.cpp.rule">
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Generating moc_cmrc.cpp</Message>
+    <CustomBuild Include="D:\Bachelor\wt-4.2.0\SKOGKK\build\CMakeFiles\fdd9748f6f8e0d2fd136a7be7bf58058\moc_readquestiondialog.cpp.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Generating moc_readquestiondialog.cpp</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
 cd D:\Bachelor\wt-4.2.0\SKOGKK\build\KKOGSK
 if %errorlevel% neq 0 goto :cmEnd
 D:
 if %errorlevel% neq 0 goto :cmEnd
-C:\Qt\5.13.0\msvc2017_64\bin\moc.exe @D:/Bachelor/wt-4.2.0/SKOGKK/build/KKOGSK/moc_cmrc.cpp_parameters
+C:\Qt\5.13.0\msvc2017_64\bin\moc.exe @D:/Bachelor/wt-4.2.0/SKOGKK/build/KKOGSK/moc_readquestiondialog.cpp_parameters
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -1848,16 +1848,16 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\cmrc.h;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\Bachelor\wt-4.2.0\SKOGKK\build\KKOGSK\moc_cmrc.cpp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\readquestiondialog.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\Bachelor\wt-4.2.0\SKOGKK\build\KKOGSK\moc_readquestiondialog.cpp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Generating moc_cmrc.cpp</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Generating moc_readquestiondialog.cpp</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
 cd D:\Bachelor\wt-4.2.0\SKOGKK\build\KKOGSK
 if %errorlevel% neq 0 goto :cmEnd
 D:
 if %errorlevel% neq 0 goto :cmEnd
-C:\Qt\5.13.0\msvc2017_64\bin\moc.exe @D:/Bachelor/wt-4.2.0/SKOGKK/build/KKOGSK/moc_cmrc.cpp_parameters
+C:\Qt\5.13.0\msvc2017_64\bin\moc.exe @D:/Bachelor/wt-4.2.0/SKOGKK/build/KKOGSK/moc_readquestiondialog.cpp_parameters
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -1865,16 +1865,16 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\cmrc.h;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\Bachelor\wt-4.2.0\SKOGKK\build\KKOGSK\moc_cmrc.cpp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\readquestiondialog.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\Bachelor\wt-4.2.0\SKOGKK\build\KKOGSK\moc_readquestiondialog.cpp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Generating moc_cmrc.cpp</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Generating moc_readquestiondialog.cpp</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
 cd D:\Bachelor\wt-4.2.0\SKOGKK\build\KKOGSK
 if %errorlevel% neq 0 goto :cmEnd
 D:
 if %errorlevel% neq 0 goto :cmEnd
-C:\Qt\5.13.0\msvc2017_64\bin\moc.exe @D:/Bachelor/wt-4.2.0/SKOGKK/build/KKOGSK/moc_cmrc.cpp_parameters
+C:\Qt\5.13.0\msvc2017_64\bin\moc.exe @D:/Bachelor/wt-4.2.0/SKOGKK/build/KKOGSK/moc_readquestiondialog.cpp_parameters
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -1882,16 +1882,16 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\cmrc.h;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\Bachelor\wt-4.2.0\SKOGKK\build\KKOGSK\moc_cmrc.cpp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\readquestiondialog.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\Bachelor\wt-4.2.0\SKOGKK\build\KKOGSK\moc_readquestiondialog.cpp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Generating moc_cmrc.cpp</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Generating moc_readquestiondialog.cpp</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
 cd D:\Bachelor\wt-4.2.0\SKOGKK\build\KKOGSK
 if %errorlevel% neq 0 goto :cmEnd
 D:
 if %errorlevel% neq 0 goto :cmEnd
-C:\Qt\5.13.0\msvc2017_64\bin\moc.exe @D:/Bachelor/wt-4.2.0/SKOGKK/build/KKOGSK/moc_cmrc.cpp_parameters
+C:\Qt\5.13.0\msvc2017_64\bin\moc.exe @D:/Bachelor/wt-4.2.0/SKOGKK/build/KKOGSK/moc_readquestiondialog.cpp_parameters
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -1899,8 +1899,296 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\cmrc.h;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\Bachelor\wt-4.2.0\SKOGKK\build\KKOGSK\moc_cmrc.cpp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\readquestiondialog.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\Bachelor\wt-4.2.0\SKOGKK\build\KKOGSK\moc_readquestiondialog.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Bachelor\wt-4.2.0\SKOGKK\build\CMakeFiles\fdd9748f6f8e0d2fd136a7be7bf58058\moc_bodyquestiondialog.cpp.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Generating moc_bodyquestiondialog.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+cd D:\Bachelor\wt-4.2.0\SKOGKK\build\KKOGSK
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\5.13.0\msvc2017_64\bin\moc.exe @D:/Bachelor/wt-4.2.0/SKOGKK/build/KKOGSK/moc_bodyquestiondialog.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\bodyquestiondialog.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\Bachelor\wt-4.2.0\SKOGKK\build\KKOGSK\moc_bodyquestiondialog.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Generating moc_bodyquestiondialog.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+cd D:\Bachelor\wt-4.2.0\SKOGKK\build\KKOGSK
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\5.13.0\msvc2017_64\bin\moc.exe @D:/Bachelor/wt-4.2.0/SKOGKK/build/KKOGSK/moc_bodyquestiondialog.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\bodyquestiondialog.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\Bachelor\wt-4.2.0\SKOGKK\build\KKOGSK\moc_bodyquestiondialog.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Generating moc_bodyquestiondialog.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+cd D:\Bachelor\wt-4.2.0\SKOGKK\build\KKOGSK
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\5.13.0\msvc2017_64\bin\moc.exe @D:/Bachelor/wt-4.2.0/SKOGKK/build/KKOGSK/moc_bodyquestiondialog.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\bodyquestiondialog.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\Bachelor\wt-4.2.0\SKOGKK\build\KKOGSK\moc_bodyquestiondialog.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Generating moc_bodyquestiondialog.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+cd D:\Bachelor\wt-4.2.0\SKOGKK\build\KKOGSK
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\5.13.0\msvc2017_64\bin\moc.exe @D:/Bachelor/wt-4.2.0/SKOGKK/build/KKOGSK/moc_bodyquestiondialog.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\bodyquestiondialog.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\Bachelor\wt-4.2.0\SKOGKK\build\KKOGSK\moc_bodyquestiondialog.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Bachelor\wt-4.2.0\SKOGKK\build\CMakeFiles\fdd9748f6f8e0d2fd136a7be7bf58058\moc_secondwindowbodydialog.cpp.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Generating moc_secondwindowbodydialog.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+cd D:\Bachelor\wt-4.2.0\SKOGKK\build\KKOGSK
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\5.13.0\msvc2017_64\bin\moc.exe @D:/Bachelor/wt-4.2.0/SKOGKK/build/KKOGSK/moc_secondwindowbodydialog.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\secondwindowbodydialog.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\Bachelor\wt-4.2.0\SKOGKK\build\KKOGSK\moc_secondwindowbodydialog.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Generating moc_secondwindowbodydialog.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+cd D:\Bachelor\wt-4.2.0\SKOGKK\build\KKOGSK
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\5.13.0\msvc2017_64\bin\moc.exe @D:/Bachelor/wt-4.2.0/SKOGKK/build/KKOGSK/moc_secondwindowbodydialog.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\secondwindowbodydialog.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\Bachelor\wt-4.2.0\SKOGKK\build\KKOGSK\moc_secondwindowbodydialog.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Generating moc_secondwindowbodydialog.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+cd D:\Bachelor\wt-4.2.0\SKOGKK\build\KKOGSK
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\5.13.0\msvc2017_64\bin\moc.exe @D:/Bachelor/wt-4.2.0/SKOGKK/build/KKOGSK/moc_secondwindowbodydialog.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\secondwindowbodydialog.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\Bachelor\wt-4.2.0\SKOGKK\build\KKOGSK\moc_secondwindowbodydialog.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Generating moc_secondwindowbodydialog.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+cd D:\Bachelor\wt-4.2.0\SKOGKK\build\KKOGSK
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\5.13.0\msvc2017_64\bin\moc.exe @D:/Bachelor/wt-4.2.0/SKOGKK/build/KKOGSK/moc_secondwindowbodydialog.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\secondwindowbodydialog.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\Bachelor\wt-4.2.0\SKOGKK\build\KKOGSK\moc_secondwindowbodydialog.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Bachelor\wt-4.2.0\SKOGKK\build\CMakeFiles\fdd9748f6f8e0d2fd136a7be7bf58058\moc_onepicquestiondialog.cpp.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Generating moc_onepicquestiondialog.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+cd D:\Bachelor\wt-4.2.0\SKOGKK\build\KKOGSK
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\5.13.0\msvc2017_64\bin\moc.exe @D:/Bachelor/wt-4.2.0/SKOGKK/build/KKOGSK/moc_onepicquestiondialog.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\onepicquestiondialog.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\Bachelor\wt-4.2.0\SKOGKK\build\KKOGSK\moc_onepicquestiondialog.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Generating moc_onepicquestiondialog.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+cd D:\Bachelor\wt-4.2.0\SKOGKK\build\KKOGSK
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\5.13.0\msvc2017_64\bin\moc.exe @D:/Bachelor/wt-4.2.0/SKOGKK/build/KKOGSK/moc_onepicquestiondialog.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\onepicquestiondialog.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\Bachelor\wt-4.2.0\SKOGKK\build\KKOGSK\moc_onepicquestiondialog.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Generating moc_onepicquestiondialog.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+cd D:\Bachelor\wt-4.2.0\SKOGKK\build\KKOGSK
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\5.13.0\msvc2017_64\bin\moc.exe @D:/Bachelor/wt-4.2.0/SKOGKK/build/KKOGSK/moc_onepicquestiondialog.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\onepicquestiondialog.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\Bachelor\wt-4.2.0\SKOGKK\build\KKOGSK\moc_onepicquestiondialog.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Generating moc_onepicquestiondialog.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+cd D:\Bachelor\wt-4.2.0\SKOGKK\build\KKOGSK
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\5.13.0\msvc2017_64\bin\moc.exe @D:/Bachelor/wt-4.2.0/SKOGKK/build/KKOGSK/moc_onepicquestiondialog.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\onepicquestiondialog.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\Bachelor\wt-4.2.0\SKOGKK\build\KKOGSK\moc_onepicquestiondialog.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Bachelor\wt-4.2.0\SKOGKK\build\CMakeFiles\fdd9748f6f8e0d2fd136a7be7bf58058\moc_textquestiondialog.cpp.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Generating moc_textquestiondialog.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+cd D:\Bachelor\wt-4.2.0\SKOGKK\build\KKOGSK
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\5.13.0\msvc2017_64\bin\moc.exe @D:/Bachelor/wt-4.2.0/SKOGKK/build/KKOGSK/moc_textquestiondialog.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\textquestiondialog.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\Bachelor\wt-4.2.0\SKOGKK\build\KKOGSK\moc_textquestiondialog.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Generating moc_textquestiondialog.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+cd D:\Bachelor\wt-4.2.0\SKOGKK\build\KKOGSK
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\5.13.0\msvc2017_64\bin\moc.exe @D:/Bachelor/wt-4.2.0/SKOGKK/build/KKOGSK/moc_textquestiondialog.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\textquestiondialog.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\Bachelor\wt-4.2.0\SKOGKK\build\KKOGSK\moc_textquestiondialog.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Generating moc_textquestiondialog.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+cd D:\Bachelor\wt-4.2.0\SKOGKK\build\KKOGSK
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\5.13.0\msvc2017_64\bin\moc.exe @D:/Bachelor/wt-4.2.0/SKOGKK/build/KKOGSK/moc_textquestiondialog.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\textquestiondialog.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\Bachelor\wt-4.2.0\SKOGKK\build\KKOGSK\moc_textquestiondialog.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Generating moc_textquestiondialog.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+cd D:\Bachelor\wt-4.2.0\SKOGKK\build\KKOGSK
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\5.13.0\msvc2017_64\bin\moc.exe @D:/Bachelor/wt-4.2.0/SKOGKK/build/KKOGSK/moc_textquestiondialog.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\textquestiondialog.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\Bachelor\wt-4.2.0\SKOGKK\build\KKOGSK\moc_textquestiondialog.cpp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
@@ -3081,6 +3369,286 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
+    <CustomBuild Include="D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\readquestiondialog.ui">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Generating ui_readquestiondialog.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+C:\Qt\5.13.0\msvc2017_64\bin\uic.exe -o D:/Bachelor/wt-4.2.0/SKOGKK/build/KKOGSK/ui_readquestiondialog.h D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/readquestiondialog.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\Bachelor\wt-4.2.0\SKOGKK\build\KKOGSK\ui_readquestiondialog.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Generating ui_readquestiondialog.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+C:\Qt\5.13.0\msvc2017_64\bin\uic.exe -o D:/Bachelor/wt-4.2.0/SKOGKK/build/KKOGSK/ui_readquestiondialog.h D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/readquestiondialog.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\Bachelor\wt-4.2.0\SKOGKK\build\KKOGSK\ui_readquestiondialog.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Generating ui_readquestiondialog.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+C:\Qt\5.13.0\msvc2017_64\bin\uic.exe -o D:/Bachelor/wt-4.2.0/SKOGKK/build/KKOGSK/ui_readquestiondialog.h D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/readquestiondialog.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\Bachelor\wt-4.2.0\SKOGKK\build\KKOGSK\ui_readquestiondialog.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Generating ui_readquestiondialog.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+C:\Qt\5.13.0\msvc2017_64\bin\uic.exe -o D:/Bachelor/wt-4.2.0/SKOGKK/build/KKOGSK/ui_readquestiondialog.h D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/readquestiondialog.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\Bachelor\wt-4.2.0\SKOGKK\build\KKOGSK\ui_readquestiondialog.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\bodyquestiondialog.ui">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Generating ui_bodyquestiondialog.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+C:\Qt\5.13.0\msvc2017_64\bin\uic.exe -o D:/Bachelor/wt-4.2.0/SKOGKK/build/KKOGSK/ui_bodyquestiondialog.h D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/bodyquestiondialog.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\Bachelor\wt-4.2.0\SKOGKK\build\KKOGSK\ui_bodyquestiondialog.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Generating ui_bodyquestiondialog.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+C:\Qt\5.13.0\msvc2017_64\bin\uic.exe -o D:/Bachelor/wt-4.2.0/SKOGKK/build/KKOGSK/ui_bodyquestiondialog.h D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/bodyquestiondialog.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\Bachelor\wt-4.2.0\SKOGKK\build\KKOGSK\ui_bodyquestiondialog.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Generating ui_bodyquestiondialog.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+C:\Qt\5.13.0\msvc2017_64\bin\uic.exe -o D:/Bachelor/wt-4.2.0/SKOGKK/build/KKOGSK/ui_bodyquestiondialog.h D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/bodyquestiondialog.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\Bachelor\wt-4.2.0\SKOGKK\build\KKOGSK\ui_bodyquestiondialog.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Generating ui_bodyquestiondialog.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+C:\Qt\5.13.0\msvc2017_64\bin\uic.exe -o D:/Bachelor/wt-4.2.0/SKOGKK/build/KKOGSK/ui_bodyquestiondialog.h D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/bodyquestiondialog.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\Bachelor\wt-4.2.0\SKOGKK\build\KKOGSK\ui_bodyquestiondialog.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\secondwindowbodydialog.ui">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Generating ui_secondwindowbodydialog.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+C:\Qt\5.13.0\msvc2017_64\bin\uic.exe -o D:/Bachelor/wt-4.2.0/SKOGKK/build/KKOGSK/ui_secondwindowbodydialog.h D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/secondwindowbodydialog.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\Bachelor\wt-4.2.0\SKOGKK\build\KKOGSK\ui_secondwindowbodydialog.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Generating ui_secondwindowbodydialog.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+C:\Qt\5.13.0\msvc2017_64\bin\uic.exe -o D:/Bachelor/wt-4.2.0/SKOGKK/build/KKOGSK/ui_secondwindowbodydialog.h D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/secondwindowbodydialog.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\Bachelor\wt-4.2.0\SKOGKK\build\KKOGSK\ui_secondwindowbodydialog.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Generating ui_secondwindowbodydialog.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+C:\Qt\5.13.0\msvc2017_64\bin\uic.exe -o D:/Bachelor/wt-4.2.0/SKOGKK/build/KKOGSK/ui_secondwindowbodydialog.h D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/secondwindowbodydialog.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\Bachelor\wt-4.2.0\SKOGKK\build\KKOGSK\ui_secondwindowbodydialog.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Generating ui_secondwindowbodydialog.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+C:\Qt\5.13.0\msvc2017_64\bin\uic.exe -o D:/Bachelor/wt-4.2.0/SKOGKK/build/KKOGSK/ui_secondwindowbodydialog.h D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/secondwindowbodydialog.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\Bachelor\wt-4.2.0\SKOGKK\build\KKOGSK\ui_secondwindowbodydialog.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\onepicquestiondialog.ui">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Generating ui_onepicquestiondialog.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+C:\Qt\5.13.0\msvc2017_64\bin\uic.exe -o D:/Bachelor/wt-4.2.0/SKOGKK/build/KKOGSK/ui_onepicquestiondialog.h D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/onepicquestiondialog.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\Bachelor\wt-4.2.0\SKOGKK\build\KKOGSK\ui_onepicquestiondialog.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Generating ui_onepicquestiondialog.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+C:\Qt\5.13.0\msvc2017_64\bin\uic.exe -o D:/Bachelor/wt-4.2.0/SKOGKK/build/KKOGSK/ui_onepicquestiondialog.h D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/onepicquestiondialog.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\Bachelor\wt-4.2.0\SKOGKK\build\KKOGSK\ui_onepicquestiondialog.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Generating ui_onepicquestiondialog.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+C:\Qt\5.13.0\msvc2017_64\bin\uic.exe -o D:/Bachelor/wt-4.2.0/SKOGKK/build/KKOGSK/ui_onepicquestiondialog.h D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/onepicquestiondialog.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\Bachelor\wt-4.2.0\SKOGKK\build\KKOGSK\ui_onepicquestiondialog.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Generating ui_onepicquestiondialog.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+C:\Qt\5.13.0\msvc2017_64\bin\uic.exe -o D:/Bachelor/wt-4.2.0/SKOGKK/build/KKOGSK/ui_onepicquestiondialog.h D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/onepicquestiondialog.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\Bachelor\wt-4.2.0\SKOGKK\build\KKOGSK\ui_onepicquestiondialog.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\textquestiondialog.ui">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Generating ui_textquestiondialog.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+C:\Qt\5.13.0\msvc2017_64\bin\uic.exe -o D:/Bachelor/wt-4.2.0/SKOGKK/build/KKOGSK/ui_textquestiondialog.h D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/textquestiondialog.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\Bachelor\wt-4.2.0\SKOGKK\build\KKOGSK\ui_textquestiondialog.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Generating ui_textquestiondialog.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+C:\Qt\5.13.0\msvc2017_64\bin\uic.exe -o D:/Bachelor/wt-4.2.0/SKOGKK/build/KKOGSK/ui_textquestiondialog.h D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/textquestiondialog.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\Bachelor\wt-4.2.0\SKOGKK\build\KKOGSK\ui_textquestiondialog.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Generating ui_textquestiondialog.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+C:\Qt\5.13.0\msvc2017_64\bin\uic.exe -o D:/Bachelor/wt-4.2.0/SKOGKK/build/KKOGSK/ui_textquestiondialog.h D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/textquestiondialog.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\Bachelor\wt-4.2.0\SKOGKK\build\KKOGSK\ui_textquestiondialog.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Generating ui_textquestiondialog.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+C:\Qt\5.13.0\msvc2017_64\bin\uic.exe -o D:/Bachelor/wt-4.2.0/SKOGKK/build/KKOGSK/ui_textquestiondialog.h D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/textquestiondialog.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\Bachelor\wt-4.2.0\SKOGKK\build\KKOGSK\ui_textquestiondialog.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
     <CustomBuild Include="D:\Bachelor\wt-4.2.0\SKOGKK\build\CMakeFiles\4d34ff2923f5fc986b865a255f0b5018\KKOGSK_nb_NO.ts.rule">
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Generating ../../KKOGSK/KKOGSK_nb_NO.ts</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
@@ -3137,6 +3705,390 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
+    <CustomBuild Include="D:\Bachelor\wt-4.2.0\SKOGKK\build\CMakeFiles\ac6dced79b4611699a5bae076e71b839\qrc_BGandFontResource.cpp.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Automatic RCC for BGandFontResource.qrc</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+cd D:\Bachelor\wt-4.2.0\SKOGKK\build\KKOGSK
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+D:\Bachelor\CMake\bin\cmake.exe -E cmake_autorcc D:/Bachelor/wt-4.2.0/SKOGKK/build/KKOGSK/CMakeFiles/KKOGSK_autogen.dir/AutoRcc_BGandFontResource_EWIEGA46WW_Info.json Debug
+if %errorlevel% neq 0 goto :cmEnd
+D:\Bachelor\CMake\bin\cmake.exe -E cmake_autorcc D:/Bachelor/wt-4.2.0/SKOGKK/build/KKOGSK/CMakeFiles/KKOGSK_autogen.dir/AutoRcc_BGandFontResource_EWIEGA46WW_Info.json Release
+if %errorlevel% neq 0 goto :cmEnd
+D:\Bachelor\CMake\bin\cmake.exe -E cmake_autorcc D:/Bachelor/wt-4.2.0/SKOGKK/build/KKOGSK/CMakeFiles/KKOGSK_autogen.dir/AutoRcc_BGandFontResource_EWIEGA46WW_Info.json MinSizeRel
+if %errorlevel% neq 0 goto :cmEnd
+D:\Bachelor\CMake\bin\cmake.exe -E cmake_autorcc D:/Bachelor/wt-4.2.0/SKOGKK/build/KKOGSK/CMakeFiles/KKOGSK_autogen.dir/AutoRcc_BGandFontResource_EWIEGA46WW_Info.json RelWithDebInfo
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\BGandFontResource.qrc;D:\Bachelor\wt-4.2.0\SKOGKK\build\KKOGSK\CMakeFiles\KKOGSK_autogen.dir\AutoRcc_BGandFontResource_EWIEGA46WW_Info.json;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Fonts\opendyslexic-characters.pdf;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Fonts\OpenDyslexic-Bold-Italic.otf;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Fonts\OpenDyslexic-Regular.woff;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Fonts\OpenDyslexic-Bold.otf;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Fonts\OpenDyslexic-Bold.woff;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Fonts\OpenDyslexic-Italic.woff;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Fonts\OpenDyslexic-Bold-Italic.woff;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Fonts\OpenDyslexic-Italic.otf;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Fonts\OpenDyslexic-Regular.otf;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Frames\two-frames-horizontal.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Frames\background2.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Frames\background1.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Frames\three-frames.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Frames\four-frames.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Frames\two-frames-vertical.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Frames\single-frame-big.png;C:\Qt\5.13.0\msvc2017_64\bin\rcc.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\Bachelor\wt-4.2.0\SKOGKK\build\KKOGSK\KKOGSK_autogen\EWIEGA46WW\qrc_BGandFontResource.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Automatic RCC for BGandFontResource.qrc</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+cd D:\Bachelor\wt-4.2.0\SKOGKK\build\KKOGSK
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+D:\Bachelor\CMake\bin\cmake.exe -E cmake_autorcc D:/Bachelor/wt-4.2.0/SKOGKK/build/KKOGSK/CMakeFiles/KKOGSK_autogen.dir/AutoRcc_BGandFontResource_EWIEGA46WW_Info.json Debug
+if %errorlevel% neq 0 goto :cmEnd
+D:\Bachelor\CMake\bin\cmake.exe -E cmake_autorcc D:/Bachelor/wt-4.2.0/SKOGKK/build/KKOGSK/CMakeFiles/KKOGSK_autogen.dir/AutoRcc_BGandFontResource_EWIEGA46WW_Info.json Release
+if %errorlevel% neq 0 goto :cmEnd
+D:\Bachelor\CMake\bin\cmake.exe -E cmake_autorcc D:/Bachelor/wt-4.2.0/SKOGKK/build/KKOGSK/CMakeFiles/KKOGSK_autogen.dir/AutoRcc_BGandFontResource_EWIEGA46WW_Info.json MinSizeRel
+if %errorlevel% neq 0 goto :cmEnd
+D:\Bachelor\CMake\bin\cmake.exe -E cmake_autorcc D:/Bachelor/wt-4.2.0/SKOGKK/build/KKOGSK/CMakeFiles/KKOGSK_autogen.dir/AutoRcc_BGandFontResource_EWIEGA46WW_Info.json RelWithDebInfo
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\BGandFontResource.qrc;D:\Bachelor\wt-4.2.0\SKOGKK\build\KKOGSK\CMakeFiles\KKOGSK_autogen.dir\AutoRcc_BGandFontResource_EWIEGA46WW_Info.json;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Fonts\opendyslexic-characters.pdf;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Fonts\OpenDyslexic-Bold-Italic.otf;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Fonts\OpenDyslexic-Regular.woff;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Fonts\OpenDyslexic-Bold.otf;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Fonts\OpenDyslexic-Bold.woff;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Fonts\OpenDyslexic-Italic.woff;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Fonts\OpenDyslexic-Bold-Italic.woff;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Fonts\OpenDyslexic-Italic.otf;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Fonts\OpenDyslexic-Regular.otf;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Frames\two-frames-horizontal.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Frames\background2.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Frames\background1.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Frames\three-frames.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Frames\four-frames.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Frames\two-frames-vertical.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Frames\single-frame-big.png;C:\Qt\5.13.0\msvc2017_64\bin\rcc.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\Bachelor\wt-4.2.0\SKOGKK\build\KKOGSK\KKOGSK_autogen\EWIEGA46WW\qrc_BGandFontResource.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Automatic RCC for BGandFontResource.qrc</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+cd D:\Bachelor\wt-4.2.0\SKOGKK\build\KKOGSK
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+D:\Bachelor\CMake\bin\cmake.exe -E cmake_autorcc D:/Bachelor/wt-4.2.0/SKOGKK/build/KKOGSK/CMakeFiles/KKOGSK_autogen.dir/AutoRcc_BGandFontResource_EWIEGA46WW_Info.json Debug
+if %errorlevel% neq 0 goto :cmEnd
+D:\Bachelor\CMake\bin\cmake.exe -E cmake_autorcc D:/Bachelor/wt-4.2.0/SKOGKK/build/KKOGSK/CMakeFiles/KKOGSK_autogen.dir/AutoRcc_BGandFontResource_EWIEGA46WW_Info.json Release
+if %errorlevel% neq 0 goto :cmEnd
+D:\Bachelor\CMake\bin\cmake.exe -E cmake_autorcc D:/Bachelor/wt-4.2.0/SKOGKK/build/KKOGSK/CMakeFiles/KKOGSK_autogen.dir/AutoRcc_BGandFontResource_EWIEGA46WW_Info.json MinSizeRel
+if %errorlevel% neq 0 goto :cmEnd
+D:\Bachelor\CMake\bin\cmake.exe -E cmake_autorcc D:/Bachelor/wt-4.2.0/SKOGKK/build/KKOGSK/CMakeFiles/KKOGSK_autogen.dir/AutoRcc_BGandFontResource_EWIEGA46WW_Info.json RelWithDebInfo
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\BGandFontResource.qrc;D:\Bachelor\wt-4.2.0\SKOGKK\build\KKOGSK\CMakeFiles\KKOGSK_autogen.dir\AutoRcc_BGandFontResource_EWIEGA46WW_Info.json;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Fonts\opendyslexic-characters.pdf;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Fonts\OpenDyslexic-Bold-Italic.otf;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Fonts\OpenDyslexic-Regular.woff;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Fonts\OpenDyslexic-Bold.otf;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Fonts\OpenDyslexic-Bold.woff;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Fonts\OpenDyslexic-Italic.woff;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Fonts\OpenDyslexic-Bold-Italic.woff;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Fonts\OpenDyslexic-Italic.otf;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Fonts\OpenDyslexic-Regular.otf;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Frames\two-frames-horizontal.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Frames\background2.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Frames\background1.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Frames\three-frames.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Frames\four-frames.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Frames\two-frames-vertical.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Frames\single-frame-big.png;C:\Qt\5.13.0\msvc2017_64\bin\rcc.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\Bachelor\wt-4.2.0\SKOGKK\build\KKOGSK\KKOGSK_autogen\EWIEGA46WW\qrc_BGandFontResource.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Automatic RCC for BGandFontResource.qrc</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+cd D:\Bachelor\wt-4.2.0\SKOGKK\build\KKOGSK
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+D:\Bachelor\CMake\bin\cmake.exe -E cmake_autorcc D:/Bachelor/wt-4.2.0/SKOGKK/build/KKOGSK/CMakeFiles/KKOGSK_autogen.dir/AutoRcc_BGandFontResource_EWIEGA46WW_Info.json Debug
+if %errorlevel% neq 0 goto :cmEnd
+D:\Bachelor\CMake\bin\cmake.exe -E cmake_autorcc D:/Bachelor/wt-4.2.0/SKOGKK/build/KKOGSK/CMakeFiles/KKOGSK_autogen.dir/AutoRcc_BGandFontResource_EWIEGA46WW_Info.json Release
+if %errorlevel% neq 0 goto :cmEnd
+D:\Bachelor\CMake\bin\cmake.exe -E cmake_autorcc D:/Bachelor/wt-4.2.0/SKOGKK/build/KKOGSK/CMakeFiles/KKOGSK_autogen.dir/AutoRcc_BGandFontResource_EWIEGA46WW_Info.json MinSizeRel
+if %errorlevel% neq 0 goto :cmEnd
+D:\Bachelor\CMake\bin\cmake.exe -E cmake_autorcc D:/Bachelor/wt-4.2.0/SKOGKK/build/KKOGSK/CMakeFiles/KKOGSK_autogen.dir/AutoRcc_BGandFontResource_EWIEGA46WW_Info.json RelWithDebInfo
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\BGandFontResource.qrc;D:\Bachelor\wt-4.2.0\SKOGKK\build\KKOGSK\CMakeFiles\KKOGSK_autogen.dir\AutoRcc_BGandFontResource_EWIEGA46WW_Info.json;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Fonts\opendyslexic-characters.pdf;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Fonts\OpenDyslexic-Bold-Italic.otf;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Fonts\OpenDyslexic-Regular.woff;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Fonts\OpenDyslexic-Bold.otf;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Fonts\OpenDyslexic-Bold.woff;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Fonts\OpenDyslexic-Italic.woff;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Fonts\OpenDyslexic-Bold-Italic.woff;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Fonts\OpenDyslexic-Italic.otf;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Fonts\OpenDyslexic-Regular.otf;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Frames\two-frames-horizontal.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Frames\background2.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Frames\background1.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Frames\three-frames.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Frames\four-frames.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Frames\two-frames-vertical.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Frames\single-frame-big.png;C:\Qt\5.13.0\msvc2017_64\bin\rcc.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\Bachelor\wt-4.2.0\SKOGKK\build\KKOGSK\KKOGSK_autogen\EWIEGA46WW\qrc_BGandFontResource.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Bachelor\wt-4.2.0\SKOGKK\build\CMakeFiles\ac6dced79b4611699a5bae076e71b839\qrc_ResourceButton.cpp.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Automatic RCC for ResourceButton.qrc</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+cd D:\Bachelor\wt-4.2.0\SKOGKK\build\KKOGSK
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+D:\Bachelor\CMake\bin\cmake.exe -E cmake_autorcc D:/Bachelor/wt-4.2.0/SKOGKK/build/KKOGSK/CMakeFiles/KKOGSK_autogen.dir/AutoRcc_ResourceButton_EWIEGA46WW_Info.json Debug
+if %errorlevel% neq 0 goto :cmEnd
+D:\Bachelor\CMake\bin\cmake.exe -E cmake_autorcc D:/Bachelor/wt-4.2.0/SKOGKK/build/KKOGSK/CMakeFiles/KKOGSK_autogen.dir/AutoRcc_ResourceButton_EWIEGA46WW_Info.json Release
+if %errorlevel% neq 0 goto :cmEnd
+D:\Bachelor\CMake\bin\cmake.exe -E cmake_autorcc D:/Bachelor/wt-4.2.0/SKOGKK/build/KKOGSK/CMakeFiles/KKOGSK_autogen.dir/AutoRcc_ResourceButton_EWIEGA46WW_Info.json MinSizeRel
+if %errorlevel% neq 0 goto :cmEnd
+D:\Bachelor\CMake\bin\cmake.exe -E cmake_autorcc D:/Bachelor/wt-4.2.0/SKOGKK/build/KKOGSK/CMakeFiles/KKOGSK_autogen.dir/AutoRcc_ResourceButton_EWIEGA46WW_Info.json RelWithDebInfo
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\ResourceButton.qrc;D:\Bachelor\wt-4.2.0\SKOGKK\build\KKOGSK\CMakeFiles\KKOGSK_autogen.dir\AutoRcc_ResourceButton_EWIEGA46WW_Info.json;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\ResourcePictures2.qrc;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\ResourcePictures1.qrc;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\resultater_default.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\ja_default.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\ja-videre_active.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\angre_active.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\nei-tilbake_default.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\retry_default.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\ok_default.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\x_active.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\kalender_default.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\kommentar_default.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\gaa-videre_default.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\avslutt_active.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\arrow-linesonly.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\registrer_default.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\nytt_notat_active.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\oversikt_active.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\ny-konto_default.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\gaa-videre_active.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\arrow-full.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\nytt_notat_default.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\kroppkunn_default.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\nei_active.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\kommenter_active.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\slett_default.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\start_default.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\ja_active.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\endre-brukernavn_default.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\start_active.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\gaa-ut_default.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\sexkunn_active.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\resultater_active.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\blyant_default.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\retry_active.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\ja-videre_default.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\nei_default.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\lagre_default.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\hopp-over_active.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\nei-tilbake_active.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\tilbake_default.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\min_bruker_active.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\lagre_active.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\hovedside_active.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\profil_active.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\glemt_active.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\my_mld_default.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\glemt_default.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\slett_active.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\x_default.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\kommenter_default.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\blyant_active.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\rapporter-feil_default.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\ny-konto_active.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\aapne_default.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\hopp-over_default.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\skriv-kommentar_active.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\ferdig_default.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\mine-pas_default.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\aapne_active.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\skriv_default.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\hovedside_default.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\konto_default.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\skriv_active.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\registrer_active.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\endre-passord_active.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\check_active.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\oversikt_default.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\min_bruker_default.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\kommentar_active.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\endre-passord_default.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\gaa-tilbake_default.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\tilbake_active.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\logg-inn_default.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\profil_default.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\skrivefelt4bruker-registrering.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\angre_default.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\kalender_active.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\logg-inn_active.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\kroppkunn_active.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\konto_active.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\ferdig_active.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\menu-pause-dots_default.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\check_default.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\gaa-ut_active.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\menu-pause-dots_active.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\gaa-tilbake_active.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\mine-pas_active.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\ok_active.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\endre-brukernavn_active.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\avslutt_default.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\sexkunn_default.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\rapporter-feil_active.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\skriv-kommentar_default.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\my_mld_active.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\placeholder\Bestemor.GIF;C:\Qt\5.13.0\msvc2017_64\bin\rcc.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\Bachelor\wt-4.2.0\SKOGKK\build\KKOGSK\KKOGSK_autogen\EWIEGA46WW\qrc_ResourceButton.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Automatic RCC for ResourceButton.qrc</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+cd D:\Bachelor\wt-4.2.0\SKOGKK\build\KKOGSK
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+D:\Bachelor\CMake\bin\cmake.exe -E cmake_autorcc D:/Bachelor/wt-4.2.0/SKOGKK/build/KKOGSK/CMakeFiles/KKOGSK_autogen.dir/AutoRcc_ResourceButton_EWIEGA46WW_Info.json Debug
+if %errorlevel% neq 0 goto :cmEnd
+D:\Bachelor\CMake\bin\cmake.exe -E cmake_autorcc D:/Bachelor/wt-4.2.0/SKOGKK/build/KKOGSK/CMakeFiles/KKOGSK_autogen.dir/AutoRcc_ResourceButton_EWIEGA46WW_Info.json Release
+if %errorlevel% neq 0 goto :cmEnd
+D:\Bachelor\CMake\bin\cmake.exe -E cmake_autorcc D:/Bachelor/wt-4.2.0/SKOGKK/build/KKOGSK/CMakeFiles/KKOGSK_autogen.dir/AutoRcc_ResourceButton_EWIEGA46WW_Info.json MinSizeRel
+if %errorlevel% neq 0 goto :cmEnd
+D:\Bachelor\CMake\bin\cmake.exe -E cmake_autorcc D:/Bachelor/wt-4.2.0/SKOGKK/build/KKOGSK/CMakeFiles/KKOGSK_autogen.dir/AutoRcc_ResourceButton_EWIEGA46WW_Info.json RelWithDebInfo
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\ResourceButton.qrc;D:\Bachelor\wt-4.2.0\SKOGKK\build\KKOGSK\CMakeFiles\KKOGSK_autogen.dir\AutoRcc_ResourceButton_EWIEGA46WW_Info.json;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\ResourcePictures2.qrc;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\ResourcePictures1.qrc;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\resultater_default.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\ja_default.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\ja-videre_active.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\angre_active.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\nei-tilbake_default.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\retry_default.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\ok_default.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\x_active.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\kalender_default.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\kommentar_default.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\gaa-videre_default.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\avslutt_active.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\arrow-linesonly.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\registrer_default.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\nytt_notat_active.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\oversikt_active.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\ny-konto_default.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\gaa-videre_active.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\arrow-full.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\nytt_notat_default.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\kroppkunn_default.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\nei_active.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\kommenter_active.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\slett_default.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\start_default.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\ja_active.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\endre-brukernavn_default.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\start_active.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\gaa-ut_default.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\sexkunn_active.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\resultater_active.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\blyant_default.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\retry_active.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\ja-videre_default.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\nei_default.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\lagre_default.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\hopp-over_active.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\nei-tilbake_active.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\tilbake_default.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\min_bruker_active.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\lagre_active.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\hovedside_active.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\profil_active.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\glemt_active.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\my_mld_default.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\glemt_default.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\slett_active.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\x_default.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\kommenter_default.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\blyant_active.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\rapporter-feil_default.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\ny-konto_active.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\aapne_default.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\hopp-over_default.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\skriv-kommentar_active.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\ferdig_default.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\mine-pas_default.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\aapne_active.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\skriv_default.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\hovedside_default.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\konto_default.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\skriv_active.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\registrer_active.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\endre-passord_active.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\check_active.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\oversikt_default.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\min_bruker_default.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\kommentar_active.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\endre-passord_default.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\gaa-tilbake_default.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\tilbake_active.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\logg-inn_default.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\profil_default.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\skrivefelt4bruker-registrering.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\angre_default.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\kalender_active.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\logg-inn_active.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\kroppkunn_active.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\konto_active.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\ferdig_active.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\menu-pause-dots_default.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\check_default.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\gaa-ut_active.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\menu-pause-dots_active.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\gaa-tilbake_active.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\mine-pas_active.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\ok_active.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\endre-brukernavn_active.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\avslutt_default.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\sexkunn_default.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\rapporter-feil_active.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\skriv-kommentar_default.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\my_mld_active.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\placeholder\Bestemor.GIF;C:\Qt\5.13.0\msvc2017_64\bin\rcc.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\Bachelor\wt-4.2.0\SKOGKK\build\KKOGSK\KKOGSK_autogen\EWIEGA46WW\qrc_ResourceButton.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Automatic RCC for ResourceButton.qrc</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+cd D:\Bachelor\wt-4.2.0\SKOGKK\build\KKOGSK
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+D:\Bachelor\CMake\bin\cmake.exe -E cmake_autorcc D:/Bachelor/wt-4.2.0/SKOGKK/build/KKOGSK/CMakeFiles/KKOGSK_autogen.dir/AutoRcc_ResourceButton_EWIEGA46WW_Info.json Debug
+if %errorlevel% neq 0 goto :cmEnd
+D:\Bachelor\CMake\bin\cmake.exe -E cmake_autorcc D:/Bachelor/wt-4.2.0/SKOGKK/build/KKOGSK/CMakeFiles/KKOGSK_autogen.dir/AutoRcc_ResourceButton_EWIEGA46WW_Info.json Release
+if %errorlevel% neq 0 goto :cmEnd
+D:\Bachelor\CMake\bin\cmake.exe -E cmake_autorcc D:/Bachelor/wt-4.2.0/SKOGKK/build/KKOGSK/CMakeFiles/KKOGSK_autogen.dir/AutoRcc_ResourceButton_EWIEGA46WW_Info.json MinSizeRel
+if %errorlevel% neq 0 goto :cmEnd
+D:\Bachelor\CMake\bin\cmake.exe -E cmake_autorcc D:/Bachelor/wt-4.2.0/SKOGKK/build/KKOGSK/CMakeFiles/KKOGSK_autogen.dir/AutoRcc_ResourceButton_EWIEGA46WW_Info.json RelWithDebInfo
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\ResourceButton.qrc;D:\Bachelor\wt-4.2.0\SKOGKK\build\KKOGSK\CMakeFiles\KKOGSK_autogen.dir\AutoRcc_ResourceButton_EWIEGA46WW_Info.json;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\ResourcePictures2.qrc;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\ResourcePictures1.qrc;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\resultater_default.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\ja_default.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\ja-videre_active.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\angre_active.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\nei-tilbake_default.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\retry_default.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\ok_default.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\x_active.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\kalender_default.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\kommentar_default.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\gaa-videre_default.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\avslutt_active.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\arrow-linesonly.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\registrer_default.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\nytt_notat_active.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\oversikt_active.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\ny-konto_default.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\gaa-videre_active.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\arrow-full.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\nytt_notat_default.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\kroppkunn_default.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\nei_active.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\kommenter_active.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\slett_default.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\start_default.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\ja_active.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\endre-brukernavn_default.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\start_active.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\gaa-ut_default.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\sexkunn_active.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\resultater_active.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\blyant_default.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\retry_active.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\ja-videre_default.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\nei_default.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\lagre_default.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\hopp-over_active.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\nei-tilbake_active.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\tilbake_default.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\min_bruker_active.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\lagre_active.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\hovedside_active.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\profil_active.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\glemt_active.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\my_mld_default.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\glemt_default.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\slett_active.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\x_default.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\kommenter_default.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\blyant_active.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\rapporter-feil_default.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\ny-konto_active.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\aapne_default.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\hopp-over_default.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\skriv-kommentar_active.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\ferdig_default.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\mine-pas_default.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\aapne_active.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\skriv_default.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\hovedside_default.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\konto_default.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\skriv_active.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\registrer_active.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\endre-passord_active.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\check_active.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\oversikt_default.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\min_bruker_default.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\kommentar_active.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\endre-passord_default.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\gaa-tilbake_default.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\tilbake_active.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\logg-inn_default.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\profil_default.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\skrivefelt4bruker-registrering.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\angre_default.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\kalender_active.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\logg-inn_active.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\kroppkunn_active.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\konto_active.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\ferdig_active.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\menu-pause-dots_default.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\check_default.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\gaa-ut_active.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\menu-pause-dots_active.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\gaa-tilbake_active.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\mine-pas_active.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\ok_active.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\endre-brukernavn_active.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\avslutt_default.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\sexkunn_default.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\rapporter-feil_active.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\skriv-kommentar_default.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\my_mld_active.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\placeholder\Bestemor.GIF;C:\Qt\5.13.0\msvc2017_64\bin\rcc.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\Bachelor\wt-4.2.0\SKOGKK\build\KKOGSK\KKOGSK_autogen\EWIEGA46WW\qrc_ResourceButton.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Automatic RCC for ResourceButton.qrc</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+cd D:\Bachelor\wt-4.2.0\SKOGKK\build\KKOGSK
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+D:\Bachelor\CMake\bin\cmake.exe -E cmake_autorcc D:/Bachelor/wt-4.2.0/SKOGKK/build/KKOGSK/CMakeFiles/KKOGSK_autogen.dir/AutoRcc_ResourceButton_EWIEGA46WW_Info.json Debug
+if %errorlevel% neq 0 goto :cmEnd
+D:\Bachelor\CMake\bin\cmake.exe -E cmake_autorcc D:/Bachelor/wt-4.2.0/SKOGKK/build/KKOGSK/CMakeFiles/KKOGSK_autogen.dir/AutoRcc_ResourceButton_EWIEGA46WW_Info.json Release
+if %errorlevel% neq 0 goto :cmEnd
+D:\Bachelor\CMake\bin\cmake.exe -E cmake_autorcc D:/Bachelor/wt-4.2.0/SKOGKK/build/KKOGSK/CMakeFiles/KKOGSK_autogen.dir/AutoRcc_ResourceButton_EWIEGA46WW_Info.json MinSizeRel
+if %errorlevel% neq 0 goto :cmEnd
+D:\Bachelor\CMake\bin\cmake.exe -E cmake_autorcc D:/Bachelor/wt-4.2.0/SKOGKK/build/KKOGSK/CMakeFiles/KKOGSK_autogen.dir/AutoRcc_ResourceButton_EWIEGA46WW_Info.json RelWithDebInfo
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\ResourceButton.qrc;D:\Bachelor\wt-4.2.0\SKOGKK\build\KKOGSK\CMakeFiles\KKOGSK_autogen.dir\AutoRcc_ResourceButton_EWIEGA46WW_Info.json;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\ResourcePictures2.qrc;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\ResourcePictures1.qrc;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\resultater_default.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\ja_default.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\ja-videre_active.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\angre_active.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\nei-tilbake_default.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\retry_default.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\ok_default.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\x_active.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\kalender_default.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\kommentar_default.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\gaa-videre_default.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\avslutt_active.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\arrow-linesonly.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\registrer_default.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\nytt_notat_active.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\oversikt_active.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\ny-konto_default.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\gaa-videre_active.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\arrow-full.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\nytt_notat_default.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\kroppkunn_default.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\nei_active.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\kommenter_active.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\slett_default.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\start_default.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\ja_active.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\endre-brukernavn_default.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\start_active.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\gaa-ut_default.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\sexkunn_active.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\resultater_active.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\blyant_default.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\retry_active.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\ja-videre_default.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\nei_default.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\lagre_default.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\hopp-over_active.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\nei-tilbake_active.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\tilbake_default.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\min_bruker_active.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\lagre_active.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\hovedside_active.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\profil_active.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\glemt_active.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\my_mld_default.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\glemt_default.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\slett_active.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\x_default.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\kommenter_default.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\blyant_active.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\rapporter-feil_default.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\ny-konto_active.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\aapne_default.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\hopp-over_default.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\skriv-kommentar_active.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\ferdig_default.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\mine-pas_default.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\aapne_active.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\skriv_default.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\hovedside_default.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\konto_default.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\skriv_active.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\registrer_active.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\endre-passord_active.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\check_active.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\oversikt_default.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\min_bruker_default.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\kommentar_active.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\endre-passord_default.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\gaa-tilbake_default.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\tilbake_active.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\logg-inn_default.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\profil_default.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\skrivefelt4bruker-registrering.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\angre_default.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\kalender_active.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\logg-inn_active.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\kroppkunn_active.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\konto_active.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\ferdig_active.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\menu-pause-dots_default.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\check_default.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\gaa-ut_active.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\menu-pause-dots_active.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\gaa-tilbake_active.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\mine-pas_active.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\ok_active.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\endre-brukernavn_active.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\avslutt_default.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\sexkunn_default.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\rapporter-feil_active.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\skriv-kommentar_default.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Buttons\my_mld_active.png;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\placeholder\Bestemor.GIF;C:\Qt\5.13.0\msvc2017_64\bin\rcc.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\Bachelor\wt-4.2.0\SKOGKK\build\KKOGSK\KKOGSK_autogen\EWIEGA46WW\qrc_ResourceButton.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Bachelor\wt-4.2.0\SKOGKK\build\CMakeFiles\ac6dced79b4611699a5bae076e71b839\qrc_ResourcePictures1.cpp.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Automatic RCC for ResourcePictures1.qrc</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+cd D:\Bachelor\wt-4.2.0\SKOGKK\build\KKOGSK
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+D:\Bachelor\CMake\bin\cmake.exe -E cmake_autorcc D:/Bachelor/wt-4.2.0/SKOGKK/build/KKOGSK/CMakeFiles/KKOGSK_autogen.dir/AutoRcc_ResourcePictures1_EWIEGA46WW_Info.json Debug
+if %errorlevel% neq 0 goto :cmEnd
+D:\Bachelor\CMake\bin\cmake.exe -E cmake_autorcc D:/Bachelor/wt-4.2.0/SKOGKK/build/KKOGSK/CMakeFiles/KKOGSK_autogen.dir/AutoRcc_ResourcePictures1_EWIEGA46WW_Info.json Release
+if %errorlevel% neq 0 goto :cmEnd
+D:\Bachelor\CMake\bin\cmake.exe -E cmake_autorcc D:/Bachelor/wt-4.2.0/SKOGKK/build/KKOGSK/CMakeFiles/KKOGSK_autogen.dir/AutoRcc_ResourcePictures1_EWIEGA46WW_Info.json MinSizeRel
+if %errorlevel% neq 0 goto :cmEnd
+D:\Bachelor\CMake\bin\cmake.exe -E cmake_autorcc D:/Bachelor/wt-4.2.0/SKOGKK/build/KKOGSK/CMakeFiles/KKOGSK_autogen.dir/AutoRcc_ResourcePictures1_EWIEGA46WW_Info.json RelWithDebInfo
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\ResourcePictures1.qrc;D:\Bachelor\wt-4.2.0\SKOGKK\build\KKOGSK\CMakeFiles\KKOGSK_autogen.dir\AutoRcc_ResourcePictures1_EWIEGA46WW_Info.json;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\placeholder\Bestemor.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures\IMG_0289.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures\IMG_0380.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures\Masturbering_preview.PNG;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures\SnakkeIRullestol.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures\IMG_0389.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures\IMG_0288.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures\IMG_0331.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures\Tapaarompe.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures\IMG_0388.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures\Sproyte.gif;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures\IMG_0330.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures\Sinna_fjes.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures\Tapaapupper.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures\IMG_0387.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures\IMG_0379.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures\Masturbering.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures\IMG_0386.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures\Spise.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures\Tris_ansikt.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures\IMG_0378.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures\SexKvinner.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures\IMG_0385.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures\Noytral_fjes.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures\IMG_0329.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures\IMG_0377.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures\Naken_kvinne.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures\Naken_bestemor.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures\IMG_0291.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures\IMG_0295.PNG;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures\Naken_jente.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures\IMG_0384.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures\IMG_0391.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures\Glad_fjes_action.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures\IMG_0290.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures\IMG_0294.PNG;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures\IMG_0383.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures\IMG_0302.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures\P-Piller.gif;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures\Glad_fjes.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures\IMG_0390.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures\IMG_0293.PNG;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures\Naken_mann2.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures\Sinna fjes.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures\Bestemor.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures\Tannkrem.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures\IMG_0394.GIF.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures\SepaaTV.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures\Sinna_blunk.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures\SexKvinner.PNG;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures\IMG_0292.PNG;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures\Naken_mann1.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures\Dame.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures\hug_color.mp4;C:\Qt\5.13.0\msvc2017_64\bin\rcc.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\Bachelor\wt-4.2.0\SKOGKK\build\KKOGSK\KKOGSK_autogen\EWIEGA46WW\qrc_ResourcePictures1.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Automatic RCC for ResourcePictures1.qrc</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+cd D:\Bachelor\wt-4.2.0\SKOGKK\build\KKOGSK
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+D:\Bachelor\CMake\bin\cmake.exe -E cmake_autorcc D:/Bachelor/wt-4.2.0/SKOGKK/build/KKOGSK/CMakeFiles/KKOGSK_autogen.dir/AutoRcc_ResourcePictures1_EWIEGA46WW_Info.json Debug
+if %errorlevel% neq 0 goto :cmEnd
+D:\Bachelor\CMake\bin\cmake.exe -E cmake_autorcc D:/Bachelor/wt-4.2.0/SKOGKK/build/KKOGSK/CMakeFiles/KKOGSK_autogen.dir/AutoRcc_ResourcePictures1_EWIEGA46WW_Info.json Release
+if %errorlevel% neq 0 goto :cmEnd
+D:\Bachelor\CMake\bin\cmake.exe -E cmake_autorcc D:/Bachelor/wt-4.2.0/SKOGKK/build/KKOGSK/CMakeFiles/KKOGSK_autogen.dir/AutoRcc_ResourcePictures1_EWIEGA46WW_Info.json MinSizeRel
+if %errorlevel% neq 0 goto :cmEnd
+D:\Bachelor\CMake\bin\cmake.exe -E cmake_autorcc D:/Bachelor/wt-4.2.0/SKOGKK/build/KKOGSK/CMakeFiles/KKOGSK_autogen.dir/AutoRcc_ResourcePictures1_EWIEGA46WW_Info.json RelWithDebInfo
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\ResourcePictures1.qrc;D:\Bachelor\wt-4.2.0\SKOGKK\build\KKOGSK\CMakeFiles\KKOGSK_autogen.dir\AutoRcc_ResourcePictures1_EWIEGA46WW_Info.json;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\placeholder\Bestemor.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures\IMG_0289.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures\IMG_0380.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures\Masturbering_preview.PNG;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures\SnakkeIRullestol.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures\IMG_0389.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures\IMG_0288.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures\IMG_0331.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures\Tapaarompe.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures\IMG_0388.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures\Sproyte.gif;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures\IMG_0330.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures\Sinna_fjes.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures\Tapaapupper.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures\IMG_0387.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures\IMG_0379.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures\Masturbering.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures\IMG_0386.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures\Spise.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures\Tris_ansikt.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures\IMG_0378.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures\SexKvinner.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures\IMG_0385.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures\Noytral_fjes.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures\IMG_0329.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures\IMG_0377.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures\Naken_kvinne.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures\Naken_bestemor.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures\IMG_0291.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures\IMG_0295.PNG;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures\Naken_jente.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures\IMG_0384.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures\IMG_0391.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures\Glad_fjes_action.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures\IMG_0290.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures\IMG_0294.PNG;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures\IMG_0383.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures\IMG_0302.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures\P-Piller.gif;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures\Glad_fjes.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures\IMG_0390.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures\IMG_0293.PNG;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures\Naken_mann2.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures\Sinna fjes.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures\Bestemor.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures\Tannkrem.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures\IMG_0394.GIF.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures\SepaaTV.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures\Sinna_blunk.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures\SexKvinner.PNG;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures\IMG_0292.PNG;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures\Naken_mann1.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures\Dame.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures\hug_color.mp4;C:\Qt\5.13.0\msvc2017_64\bin\rcc.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\Bachelor\wt-4.2.0\SKOGKK\build\KKOGSK\KKOGSK_autogen\EWIEGA46WW\qrc_ResourcePictures1.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Automatic RCC for ResourcePictures1.qrc</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+cd D:\Bachelor\wt-4.2.0\SKOGKK\build\KKOGSK
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+D:\Bachelor\CMake\bin\cmake.exe -E cmake_autorcc D:/Bachelor/wt-4.2.0/SKOGKK/build/KKOGSK/CMakeFiles/KKOGSK_autogen.dir/AutoRcc_ResourcePictures1_EWIEGA46WW_Info.json Debug
+if %errorlevel% neq 0 goto :cmEnd
+D:\Bachelor\CMake\bin\cmake.exe -E cmake_autorcc D:/Bachelor/wt-4.2.0/SKOGKK/build/KKOGSK/CMakeFiles/KKOGSK_autogen.dir/AutoRcc_ResourcePictures1_EWIEGA46WW_Info.json Release
+if %errorlevel% neq 0 goto :cmEnd
+D:\Bachelor\CMake\bin\cmake.exe -E cmake_autorcc D:/Bachelor/wt-4.2.0/SKOGKK/build/KKOGSK/CMakeFiles/KKOGSK_autogen.dir/AutoRcc_ResourcePictures1_EWIEGA46WW_Info.json MinSizeRel
+if %errorlevel% neq 0 goto :cmEnd
+D:\Bachelor\CMake\bin\cmake.exe -E cmake_autorcc D:/Bachelor/wt-4.2.0/SKOGKK/build/KKOGSK/CMakeFiles/KKOGSK_autogen.dir/AutoRcc_ResourcePictures1_EWIEGA46WW_Info.json RelWithDebInfo
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\ResourcePictures1.qrc;D:\Bachelor\wt-4.2.0\SKOGKK\build\KKOGSK\CMakeFiles\KKOGSK_autogen.dir\AutoRcc_ResourcePictures1_EWIEGA46WW_Info.json;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\placeholder\Bestemor.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures\IMG_0289.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures\IMG_0380.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures\Masturbering_preview.PNG;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures\SnakkeIRullestol.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures\IMG_0389.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures\IMG_0288.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures\IMG_0331.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures\Tapaarompe.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures\IMG_0388.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures\Sproyte.gif;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures\IMG_0330.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures\Sinna_fjes.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures\Tapaapupper.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures\IMG_0387.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures\IMG_0379.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures\Masturbering.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures\IMG_0386.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures\Spise.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures\Tris_ansikt.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures\IMG_0378.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures\SexKvinner.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures\IMG_0385.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures\Noytral_fjes.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures\IMG_0329.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures\IMG_0377.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures\Naken_kvinne.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures\Naken_bestemor.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures\IMG_0291.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures\IMG_0295.PNG;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures\Naken_jente.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures\IMG_0384.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures\IMG_0391.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures\Glad_fjes_action.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures\IMG_0290.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures\IMG_0294.PNG;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures\IMG_0383.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures\IMG_0302.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures\P-Piller.gif;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures\Glad_fjes.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures\IMG_0390.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures\IMG_0293.PNG;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures\Naken_mann2.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures\Sinna fjes.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures\Bestemor.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures\Tannkrem.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures\IMG_0394.GIF.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures\SepaaTV.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures\Sinna_blunk.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures\SexKvinner.PNG;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures\IMG_0292.PNG;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures\Naken_mann1.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures\Dame.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures\hug_color.mp4;C:\Qt\5.13.0\msvc2017_64\bin\rcc.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\Bachelor\wt-4.2.0\SKOGKK\build\KKOGSK\KKOGSK_autogen\EWIEGA46WW\qrc_ResourcePictures1.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Automatic RCC for ResourcePictures1.qrc</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+cd D:\Bachelor\wt-4.2.0\SKOGKK\build\KKOGSK
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+D:\Bachelor\CMake\bin\cmake.exe -E cmake_autorcc D:/Bachelor/wt-4.2.0/SKOGKK/build/KKOGSK/CMakeFiles/KKOGSK_autogen.dir/AutoRcc_ResourcePictures1_EWIEGA46WW_Info.json Debug
+if %errorlevel% neq 0 goto :cmEnd
+D:\Bachelor\CMake\bin\cmake.exe -E cmake_autorcc D:/Bachelor/wt-4.2.0/SKOGKK/build/KKOGSK/CMakeFiles/KKOGSK_autogen.dir/AutoRcc_ResourcePictures1_EWIEGA46WW_Info.json Release
+if %errorlevel% neq 0 goto :cmEnd
+D:\Bachelor\CMake\bin\cmake.exe -E cmake_autorcc D:/Bachelor/wt-4.2.0/SKOGKK/build/KKOGSK/CMakeFiles/KKOGSK_autogen.dir/AutoRcc_ResourcePictures1_EWIEGA46WW_Info.json MinSizeRel
+if %errorlevel% neq 0 goto :cmEnd
+D:\Bachelor\CMake\bin\cmake.exe -E cmake_autorcc D:/Bachelor/wt-4.2.0/SKOGKK/build/KKOGSK/CMakeFiles/KKOGSK_autogen.dir/AutoRcc_ResourcePictures1_EWIEGA46WW_Info.json RelWithDebInfo
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\ResourcePictures1.qrc;D:\Bachelor\wt-4.2.0\SKOGKK\build\KKOGSK\CMakeFiles\KKOGSK_autogen.dir\AutoRcc_ResourcePictures1_EWIEGA46WW_Info.json;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\placeholder\Bestemor.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures\IMG_0289.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures\IMG_0380.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures\Masturbering_preview.PNG;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures\SnakkeIRullestol.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures\IMG_0389.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures\IMG_0288.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures\IMG_0331.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures\Tapaarompe.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures\IMG_0388.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures\Sproyte.gif;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures\IMG_0330.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures\Sinna_fjes.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures\Tapaapupper.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures\IMG_0387.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures\IMG_0379.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures\Masturbering.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures\IMG_0386.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures\Spise.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures\Tris_ansikt.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures\IMG_0378.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures\SexKvinner.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures\IMG_0385.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures\Noytral_fjes.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures\IMG_0329.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures\IMG_0377.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures\Naken_kvinne.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures\Naken_bestemor.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures\IMG_0291.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures\IMG_0295.PNG;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures\Naken_jente.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures\IMG_0384.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures\IMG_0391.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures\Glad_fjes_action.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures\IMG_0290.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures\IMG_0294.PNG;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures\IMG_0383.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures\IMG_0302.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures\P-Piller.gif;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures\Glad_fjes.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures\IMG_0390.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures\IMG_0293.PNG;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures\Naken_mann2.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures\Sinna fjes.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures\Bestemor.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures\Tannkrem.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures\IMG_0394.GIF.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures\SepaaTV.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures\Sinna_blunk.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures\SexKvinner.PNG;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures\IMG_0292.PNG;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures\Naken_mann1.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures\Dame.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures\hug_color.mp4;C:\Qt\5.13.0\msvc2017_64\bin\rcc.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\Bachelor\wt-4.2.0\SKOGKK\build\KKOGSK\KKOGSK_autogen\EWIEGA46WW\qrc_ResourcePictures1.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Bachelor\wt-4.2.0\SKOGKK\build\CMakeFiles\ac6dced79b4611699a5bae076e71b839\qrc_ResourcePictures2.cpp.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Automatic RCC for ResourcePictures2.qrc</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+cd D:\Bachelor\wt-4.2.0\SKOGKK\build\KKOGSK
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+D:\Bachelor\CMake\bin\cmake.exe -E cmake_autorcc D:/Bachelor/wt-4.2.0/SKOGKK/build/KKOGSK/CMakeFiles/KKOGSK_autogen.dir/AutoRcc_ResourcePictures2_EWIEGA46WW_Info.json Debug
+if %errorlevel% neq 0 goto :cmEnd
+D:\Bachelor\CMake\bin\cmake.exe -E cmake_autorcc D:/Bachelor/wt-4.2.0/SKOGKK/build/KKOGSK/CMakeFiles/KKOGSK_autogen.dir/AutoRcc_ResourcePictures2_EWIEGA46WW_Info.json Release
+if %errorlevel% neq 0 goto :cmEnd
+D:\Bachelor\CMake\bin\cmake.exe -E cmake_autorcc D:/Bachelor/wt-4.2.0/SKOGKK/build/KKOGSK/CMakeFiles/KKOGSK_autogen.dir/AutoRcc_ResourcePictures2_EWIEGA46WW_Info.json MinSizeRel
+if %errorlevel% neq 0 goto :cmEnd
+D:\Bachelor\CMake\bin\cmake.exe -E cmake_autorcc D:/Bachelor/wt-4.2.0/SKOGKK/build/KKOGSK/CMakeFiles/KKOGSK_autogen.dir/AutoRcc_ResourcePictures2_EWIEGA46WW_Info.json RelWithDebInfo
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\ResourcePictures2.qrc;D:\Bachelor\wt-4.2.0\SKOGKK\build\KKOGSK\CMakeFiles\KKOGSK_autogen.dir\AutoRcc_ResourcePictures2_EWIEGA46WW_Info.json;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\placeholder\Bestemor.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures_2\IMG_f9.gif;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures_2\IMG_f13.gif;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures_2\IMG_0332.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures_2\IMG_0505.PNG;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures_2\IMG_f8.gif;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures_2\IMG_0485.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures_2\IMG_f12.gif;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures_2\Jenter_loper.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures_2\IMG_0477.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures_2\IMG_0469.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures_2\IMG_0492.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures_2\KjoresteKlem.gif;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures_2\IMG_f7.gif;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures_2\IMG_0532.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures_2\IMG_f11.gif;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures_2\IMG_f6.gif;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures_2\IMG_f10.gif;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures_2\IMG_0475.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures_2\IMG_0490.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures_2\IMG_f5.gif;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures_2\IMG_0337.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures_2\IMG_0562.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures_2\IMG_f4.gif;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures_2\LibresseMedHand.gif;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures_2\kyssidel.gif;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures_2\Libresse.gif;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures_2\IMG_0336.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures_2\IMG_0586.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures_2\IMG_f3.gif;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures_2\Jente.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures_2\IMG_0376.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures_2\Jente2.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures_2\IMG_0537.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures_2\IMG_0335.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures_2\IMG_f2.gif;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures_2\Mann.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures_2\IMG_0375.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures_2\IMG_0471.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures_2\IMG_0544.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures_2\IMG_0334.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures_2\Mann2.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures_2\IMG_f1.gif;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures_2\IMG_0382.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures_2\IMG_0374.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures_2\IMG_0543.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures_2\IMG_0535.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures_2\IMG_0333.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures_2\IMG_0381.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures_2\IMG_0479.GIF;C:\Qt\5.13.0\msvc2017_64\bin\rcc.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\Bachelor\wt-4.2.0\SKOGKK\build\KKOGSK\KKOGSK_autogen\EWIEGA46WW\qrc_ResourcePictures2.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Automatic RCC for ResourcePictures2.qrc</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+cd D:\Bachelor\wt-4.2.0\SKOGKK\build\KKOGSK
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+D:\Bachelor\CMake\bin\cmake.exe -E cmake_autorcc D:/Bachelor/wt-4.2.0/SKOGKK/build/KKOGSK/CMakeFiles/KKOGSK_autogen.dir/AutoRcc_ResourcePictures2_EWIEGA46WW_Info.json Debug
+if %errorlevel% neq 0 goto :cmEnd
+D:\Bachelor\CMake\bin\cmake.exe -E cmake_autorcc D:/Bachelor/wt-4.2.0/SKOGKK/build/KKOGSK/CMakeFiles/KKOGSK_autogen.dir/AutoRcc_ResourcePictures2_EWIEGA46WW_Info.json Release
+if %errorlevel% neq 0 goto :cmEnd
+D:\Bachelor\CMake\bin\cmake.exe -E cmake_autorcc D:/Bachelor/wt-4.2.0/SKOGKK/build/KKOGSK/CMakeFiles/KKOGSK_autogen.dir/AutoRcc_ResourcePictures2_EWIEGA46WW_Info.json MinSizeRel
+if %errorlevel% neq 0 goto :cmEnd
+D:\Bachelor\CMake\bin\cmake.exe -E cmake_autorcc D:/Bachelor/wt-4.2.0/SKOGKK/build/KKOGSK/CMakeFiles/KKOGSK_autogen.dir/AutoRcc_ResourcePictures2_EWIEGA46WW_Info.json RelWithDebInfo
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\ResourcePictures2.qrc;D:\Bachelor\wt-4.2.0\SKOGKK\build\KKOGSK\CMakeFiles\KKOGSK_autogen.dir\AutoRcc_ResourcePictures2_EWIEGA46WW_Info.json;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\placeholder\Bestemor.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures_2\IMG_f9.gif;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures_2\IMG_f13.gif;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures_2\IMG_0332.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures_2\IMG_0505.PNG;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures_2\IMG_f8.gif;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures_2\IMG_0485.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures_2\IMG_f12.gif;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures_2\Jenter_loper.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures_2\IMG_0477.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures_2\IMG_0469.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures_2\IMG_0492.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures_2\KjoresteKlem.gif;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures_2\IMG_f7.gif;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures_2\IMG_0532.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures_2\IMG_f11.gif;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures_2\IMG_f6.gif;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures_2\IMG_f10.gif;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures_2\IMG_0475.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures_2\IMG_0490.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures_2\IMG_f5.gif;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures_2\IMG_0337.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures_2\IMG_0562.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures_2\IMG_f4.gif;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures_2\LibresseMedHand.gif;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures_2\kyssidel.gif;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures_2\Libresse.gif;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures_2\IMG_0336.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures_2\IMG_0586.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures_2\IMG_f3.gif;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures_2\Jente.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures_2\IMG_0376.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures_2\Jente2.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures_2\IMG_0537.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures_2\IMG_0335.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures_2\IMG_f2.gif;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures_2\Mann.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures_2\IMG_0375.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures_2\IMG_0471.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures_2\IMG_0544.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures_2\IMG_0334.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures_2\Mann2.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures_2\IMG_f1.gif;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures_2\IMG_0382.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures_2\IMG_0374.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures_2\IMG_0543.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures_2\IMG_0535.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures_2\IMG_0333.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures_2\IMG_0381.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures_2\IMG_0479.GIF;C:\Qt\5.13.0\msvc2017_64\bin\rcc.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\Bachelor\wt-4.2.0\SKOGKK\build\KKOGSK\KKOGSK_autogen\EWIEGA46WW\qrc_ResourcePictures2.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Automatic RCC for ResourcePictures2.qrc</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+cd D:\Bachelor\wt-4.2.0\SKOGKK\build\KKOGSK
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+D:\Bachelor\CMake\bin\cmake.exe -E cmake_autorcc D:/Bachelor/wt-4.2.0/SKOGKK/build/KKOGSK/CMakeFiles/KKOGSK_autogen.dir/AutoRcc_ResourcePictures2_EWIEGA46WW_Info.json Debug
+if %errorlevel% neq 0 goto :cmEnd
+D:\Bachelor\CMake\bin\cmake.exe -E cmake_autorcc D:/Bachelor/wt-4.2.0/SKOGKK/build/KKOGSK/CMakeFiles/KKOGSK_autogen.dir/AutoRcc_ResourcePictures2_EWIEGA46WW_Info.json Release
+if %errorlevel% neq 0 goto :cmEnd
+D:\Bachelor\CMake\bin\cmake.exe -E cmake_autorcc D:/Bachelor/wt-4.2.0/SKOGKK/build/KKOGSK/CMakeFiles/KKOGSK_autogen.dir/AutoRcc_ResourcePictures2_EWIEGA46WW_Info.json MinSizeRel
+if %errorlevel% neq 0 goto :cmEnd
+D:\Bachelor\CMake\bin\cmake.exe -E cmake_autorcc D:/Bachelor/wt-4.2.0/SKOGKK/build/KKOGSK/CMakeFiles/KKOGSK_autogen.dir/AutoRcc_ResourcePictures2_EWIEGA46WW_Info.json RelWithDebInfo
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\ResourcePictures2.qrc;D:\Bachelor\wt-4.2.0\SKOGKK\build\KKOGSK\CMakeFiles\KKOGSK_autogen.dir\AutoRcc_ResourcePictures2_EWIEGA46WW_Info.json;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\placeholder\Bestemor.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures_2\IMG_f9.gif;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures_2\IMG_f13.gif;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures_2\IMG_0332.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures_2\IMG_0505.PNG;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures_2\IMG_f8.gif;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures_2\IMG_0485.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures_2\IMG_f12.gif;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures_2\Jenter_loper.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures_2\IMG_0477.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures_2\IMG_0469.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures_2\IMG_0492.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures_2\KjoresteKlem.gif;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures_2\IMG_f7.gif;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures_2\IMG_0532.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures_2\IMG_f11.gif;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures_2\IMG_f6.gif;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures_2\IMG_f10.gif;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures_2\IMG_0475.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures_2\IMG_0490.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures_2\IMG_f5.gif;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures_2\IMG_0337.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures_2\IMG_0562.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures_2\IMG_f4.gif;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures_2\LibresseMedHand.gif;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures_2\kyssidel.gif;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures_2\Libresse.gif;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures_2\IMG_0336.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures_2\IMG_0586.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures_2\IMG_f3.gif;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures_2\Jente.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures_2\IMG_0376.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures_2\Jente2.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures_2\IMG_0537.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures_2\IMG_0335.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures_2\IMG_f2.gif;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures_2\Mann.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures_2\IMG_0375.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures_2\IMG_0471.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures_2\IMG_0544.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures_2\IMG_0334.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures_2\Mann2.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures_2\IMG_f1.gif;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures_2\IMG_0382.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures_2\IMG_0374.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures_2\IMG_0543.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures_2\IMG_0535.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures_2\IMG_0333.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures_2\IMG_0381.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures_2\IMG_0479.GIF;C:\Qt\5.13.0\msvc2017_64\bin\rcc.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\Bachelor\wt-4.2.0\SKOGKK\build\KKOGSK\KKOGSK_autogen\EWIEGA46WW\qrc_ResourcePictures2.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Automatic RCC for ResourcePictures2.qrc</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+cd D:\Bachelor\wt-4.2.0\SKOGKK\build\KKOGSK
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+D:\Bachelor\CMake\bin\cmake.exe -E cmake_autorcc D:/Bachelor/wt-4.2.0/SKOGKK/build/KKOGSK/CMakeFiles/KKOGSK_autogen.dir/AutoRcc_ResourcePictures2_EWIEGA46WW_Info.json Debug
+if %errorlevel% neq 0 goto :cmEnd
+D:\Bachelor\CMake\bin\cmake.exe -E cmake_autorcc D:/Bachelor/wt-4.2.0/SKOGKK/build/KKOGSK/CMakeFiles/KKOGSK_autogen.dir/AutoRcc_ResourcePictures2_EWIEGA46WW_Info.json Release
+if %errorlevel% neq 0 goto :cmEnd
+D:\Bachelor\CMake\bin\cmake.exe -E cmake_autorcc D:/Bachelor/wt-4.2.0/SKOGKK/build/KKOGSK/CMakeFiles/KKOGSK_autogen.dir/AutoRcc_ResourcePictures2_EWIEGA46WW_Info.json MinSizeRel
+if %errorlevel% neq 0 goto :cmEnd
+D:\Bachelor\CMake\bin\cmake.exe -E cmake_autorcc D:/Bachelor/wt-4.2.0/SKOGKK/build/KKOGSK/CMakeFiles/KKOGSK_autogen.dir/AutoRcc_ResourcePictures2_EWIEGA46WW_Info.json RelWithDebInfo
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\ResourcePictures2.qrc;D:\Bachelor\wt-4.2.0\SKOGKK\build\KKOGSK\CMakeFiles\KKOGSK_autogen.dir\AutoRcc_ResourcePictures2_EWIEGA46WW_Info.json;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\placeholder\Bestemor.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures_2\IMG_f9.gif;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures_2\IMG_f13.gif;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures_2\IMG_0332.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures_2\IMG_0505.PNG;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures_2\IMG_f8.gif;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures_2\IMG_0485.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures_2\IMG_f12.gif;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures_2\Jenter_loper.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures_2\IMG_0477.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures_2\IMG_0469.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures_2\IMG_0492.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures_2\KjoresteKlem.gif;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures_2\IMG_f7.gif;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures_2\IMG_0532.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures_2\IMG_f11.gif;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures_2\IMG_f6.gif;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures_2\IMG_f10.gif;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures_2\IMG_0475.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures_2\IMG_0490.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures_2\IMG_f5.gif;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures_2\IMG_0337.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures_2\IMG_0562.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures_2\IMG_f4.gif;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures_2\LibresseMedHand.gif;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures_2\kyssidel.gif;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures_2\Libresse.gif;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures_2\IMG_0336.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures_2\IMG_0586.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures_2\IMG_f3.gif;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures_2\Jente.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures_2\IMG_0376.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures_2\Jente2.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures_2\IMG_0537.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures_2\IMG_0335.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures_2\IMG_f2.gif;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures_2\Mann.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures_2\IMG_0375.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures_2\IMG_0471.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures_2\IMG_0544.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures_2\IMG_0334.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures_2\Mann2.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures_2\IMG_f1.gif;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures_2\IMG_0382.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures_2\IMG_0374.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures_2\IMG_0543.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures_2\IMG_0535.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures_2\IMG_0333.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures_2\IMG_0381.GIF;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\Assets\Pictures_2\IMG_0479.GIF;C:\Qt\5.13.0\msvc2017_64\bin\rcc.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\Bachelor\wt-4.2.0\SKOGKK\build\KKOGSK\KKOGSK_autogen\EWIEGA46WW\qrc_ResourcePictures2.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
     <CustomBuild Include="D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\CMakeLists.txt">
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
@@ -3148,7 +4100,7 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5\Qt5Config.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5\Qt5ConfigVersion.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5\Qt5ModuleLocation.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfig.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfigExtras.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfigExtrasMkspecDir.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfigVersion.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreMacros.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5GuiConfig.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5GuiConfigExtras.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5GuiConfigVersion.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QGifPlugin.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QICNSPlugin.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QICOPlugin.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QJpegPlugin.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QMinimalIntegrationPlugin.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QOffscreenIntegrationPlugin.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QTgaPlugin.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QTiffPlugin.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QTuioTouchPlugin.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QVirtualKeyboardPlugin.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWbmpPlugin.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWebGLIntegrationPlugin.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWebpPlugin.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWindowsDirect2DIntegrationPlugin.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWindowsIntegrationPlugin.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QXdgDesktopPortalThemePlugin.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5LinguistTools\Qt5LinguistToolsConfig.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5LinguistTools\Qt5LinguistToolsConfigVersion.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5LinguistTools\Qt5LinguistToolsMacros.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Network\Qt5NetworkConfig.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Network\Qt5NetworkConfigVersion.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Network\Qt5Network_QGenericEnginePlugin.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Qml\Qt5QmlConfig.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Qml\Qt5QmlConfigExtras.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Qml\Qt5QmlConfigVersion.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Qml\Qt5Qml_QDebugMessageServiceFactory.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Qml\Qt5Qml_QLocalClientConnectionFactory.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Qml\Qt5Qml_QQmlDebugServerFactory.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Qml\Qt5Qml_QQmlDebuggerServiceFactory.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Qml\Qt5Qml_QQmlInspectorServiceFactory.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Qml\Qt5Qml_QQmlNativeDebugConnectorFactory.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Qml\Qt5Qml_QQmlNativeDebugServiceFactory.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Qml\Qt5Qml_QQmlPreviewServiceFactory.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Qml\Qt5Qml_QQmlProfilerServiceFactory.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Qml\Qt5Qml_QQuickProfilerAdapterFactory.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Qml\Qt5Qml_QTcpServerConnectionFactory.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Quick\Qt5QuickConfig.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Quick\Qt5QuickConfigVersion.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Sql\Qt5SqlConfig.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Sql\Qt5SqlConfigVersion.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Sql\Qt5Sql_QODBCDriverPlugin.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Sql\Qt5Sql_QPSQLDriverPlugin.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Sql\Qt5Sql_QSQLiteDriverPlugin.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfig.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigExtras.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigVersion.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Widgets\Qt5WidgetsMacros.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Widgets\Qt5Widgets_QWindowsVistaStylePlugin.cmake;D:\Bachelor\CMake\share\cmake-3.16\Modules\CMakeParseArguments.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5\Qt5Config.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5\Qt5ConfigVersion.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5\Qt5ModuleLocation.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfig.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfigExtras.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfigExtrasMkspecDir.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfigVersion.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreMacros.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5GuiConfig.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5GuiConfigExtras.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5GuiConfigVersion.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QGifPlugin.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QICNSPlugin.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QICOPlugin.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QJpegPlugin.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QMinimalIntegrationPlugin.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QOffscreenIntegrationPlugin.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QTgaPlugin.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QTiffPlugin.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QTuioTouchPlugin.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QVirtualKeyboardPlugin.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWbmpPlugin.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWebGLIntegrationPlugin.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWebpPlugin.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWindowsDirect2DIntegrationPlugin.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWindowsIntegrationPlugin.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QXdgDesktopPortalThemePlugin.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5LinguistTools\Qt5LinguistToolsConfig.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5LinguistTools\Qt5LinguistToolsConfigVersion.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5LinguistTools\Qt5LinguistToolsMacros.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Network\Qt5NetworkConfig.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Network\Qt5NetworkConfigVersion.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Network\Qt5Network_QGenericEnginePlugin.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Qml\Qt5QmlConfig.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Qml\Qt5QmlConfigExtras.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Qml\Qt5QmlConfigVersion.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Qml\Qt5Qml_QDebugMessageServiceFactory.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Qml\Qt5Qml_QLocalClientConnectionFactory.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Qml\Qt5Qml_QQmlDebugServerFactory.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Qml\Qt5Qml_QQmlDebuggerServiceFactory.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Qml\Qt5Qml_QQmlInspectorServiceFactory.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Qml\Qt5Qml_QQmlNativeDebugConnectorFactory.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Qml\Qt5Qml_QQmlNativeDebugServiceFactory.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Qml\Qt5Qml_QQmlPreviewServiceFactory.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Qml\Qt5Qml_QQmlProfilerServiceFactory.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Qml\Qt5Qml_QQuickProfilerAdapterFactory.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Qml\Qt5Qml_QTcpServerConnectionFactory.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Quick\Qt5QuickConfig.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Quick\Qt5QuickConfigVersion.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Sql\Qt5SqlConfig.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Sql\Qt5SqlConfigVersion.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Sql\Qt5Sql_QODBCDriverPlugin.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Sql\Qt5Sql_QPSQLDriverPlugin.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Sql\Qt5Sql_QSQLiteDriverPlugin.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfig.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigExtras.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigVersion.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Widgets\Qt5WidgetsMacros.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Widgets\Qt5Widgets_QWindowsVistaStylePlugin.cmake;D:\Bachelor\CMake\share\cmake-3.16\Modules\CMakeParseArguments.cmake;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\BGandFontResource.qrc;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\ResourceButton.qrc;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\ResourcePictures1.qrc;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\ResourcePictures2.qrc;%(AdditionalInputs)</AdditionalInputs>
       <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\Bachelor\wt-4.2.0\SKOGKK\build\KKOGSK\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/CMakeLists.txt</Message>
@@ -3161,7 +4113,7 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5\Qt5Config.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5\Qt5ConfigVersion.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5\Qt5ModuleLocation.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfig.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfigExtras.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfigExtrasMkspecDir.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfigVersion.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreMacros.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5GuiConfig.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5GuiConfigExtras.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5GuiConfigVersion.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QGifPlugin.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QICNSPlugin.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QICOPlugin.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QJpegPlugin.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QMinimalIntegrationPlugin.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QOffscreenIntegrationPlugin.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QTgaPlugin.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QTiffPlugin.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QTuioTouchPlugin.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QVirtualKeyboardPlugin.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWbmpPlugin.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWebGLIntegrationPlugin.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWebpPlugin.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWindowsDirect2DIntegrationPlugin.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWindowsIntegrationPlugin.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QXdgDesktopPortalThemePlugin.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5LinguistTools\Qt5LinguistToolsConfig.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5LinguistTools\Qt5LinguistToolsConfigVersion.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5LinguistTools\Qt5LinguistToolsMacros.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Network\Qt5NetworkConfig.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Network\Qt5NetworkConfigVersion.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Network\Qt5Network_QGenericEnginePlugin.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Qml\Qt5QmlConfig.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Qml\Qt5QmlConfigExtras.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Qml\Qt5QmlConfigVersion.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Qml\Qt5Qml_QDebugMessageServiceFactory.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Qml\Qt5Qml_QLocalClientConnectionFactory.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Qml\Qt5Qml_QQmlDebugServerFactory.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Qml\Qt5Qml_QQmlDebuggerServiceFactory.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Qml\Qt5Qml_QQmlInspectorServiceFactory.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Qml\Qt5Qml_QQmlNativeDebugConnectorFactory.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Qml\Qt5Qml_QQmlNativeDebugServiceFactory.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Qml\Qt5Qml_QQmlPreviewServiceFactory.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Qml\Qt5Qml_QQmlProfilerServiceFactory.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Qml\Qt5Qml_QQuickProfilerAdapterFactory.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Qml\Qt5Qml_QTcpServerConnectionFactory.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Quick\Qt5QuickConfig.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Quick\Qt5QuickConfigVersion.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Sql\Qt5SqlConfig.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Sql\Qt5SqlConfigVersion.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Sql\Qt5Sql_QODBCDriverPlugin.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Sql\Qt5Sql_QPSQLDriverPlugin.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Sql\Qt5Sql_QSQLiteDriverPlugin.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfig.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigExtras.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigVersion.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Widgets\Qt5WidgetsMacros.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Widgets\Qt5Widgets_QWindowsVistaStylePlugin.cmake;D:\Bachelor\CMake\share\cmake-3.16\Modules\CMakeParseArguments.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5\Qt5Config.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5\Qt5ConfigVersion.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5\Qt5ModuleLocation.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfig.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfigExtras.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfigExtrasMkspecDir.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfigVersion.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreMacros.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5GuiConfig.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5GuiConfigExtras.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5GuiConfigVersion.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QGifPlugin.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QICNSPlugin.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QICOPlugin.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QJpegPlugin.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QMinimalIntegrationPlugin.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QOffscreenIntegrationPlugin.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QTgaPlugin.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QTiffPlugin.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QTuioTouchPlugin.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QVirtualKeyboardPlugin.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWbmpPlugin.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWebGLIntegrationPlugin.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWebpPlugin.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWindowsDirect2DIntegrationPlugin.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWindowsIntegrationPlugin.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QXdgDesktopPortalThemePlugin.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5LinguistTools\Qt5LinguistToolsConfig.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5LinguistTools\Qt5LinguistToolsConfigVersion.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5LinguistTools\Qt5LinguistToolsMacros.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Network\Qt5NetworkConfig.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Network\Qt5NetworkConfigVersion.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Network\Qt5Network_QGenericEnginePlugin.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Qml\Qt5QmlConfig.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Qml\Qt5QmlConfigExtras.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Qml\Qt5QmlConfigVersion.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Qml\Qt5Qml_QDebugMessageServiceFactory.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Qml\Qt5Qml_QLocalClientConnectionFactory.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Qml\Qt5Qml_QQmlDebugServerFactory.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Qml\Qt5Qml_QQmlDebuggerServiceFactory.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Qml\Qt5Qml_QQmlInspectorServiceFactory.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Qml\Qt5Qml_QQmlNativeDebugConnectorFactory.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Qml\Qt5Qml_QQmlNativeDebugServiceFactory.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Qml\Qt5Qml_QQmlPreviewServiceFactory.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Qml\Qt5Qml_QQmlProfilerServiceFactory.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Qml\Qt5Qml_QQuickProfilerAdapterFactory.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Qml\Qt5Qml_QTcpServerConnectionFactory.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Quick\Qt5QuickConfig.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Quick\Qt5QuickConfigVersion.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Sql\Qt5SqlConfig.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Sql\Qt5SqlConfigVersion.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Sql\Qt5Sql_QODBCDriverPlugin.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Sql\Qt5Sql_QPSQLDriverPlugin.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Sql\Qt5Sql_QSQLiteDriverPlugin.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfig.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigExtras.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigVersion.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Widgets\Qt5WidgetsMacros.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Widgets\Qt5Widgets_QWindowsVistaStylePlugin.cmake;D:\Bachelor\CMake\share\cmake-3.16\Modules\CMakeParseArguments.cmake;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\BGandFontResource.qrc;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\ResourceButton.qrc;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\ResourcePictures1.qrc;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\ResourcePictures2.qrc;%(AdditionalInputs)</AdditionalInputs>
       <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\Bachelor\wt-4.2.0\SKOGKK\build\KKOGSK\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/CMakeLists.txt</Message>
@@ -3174,7 +4126,7 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5\Qt5Config.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5\Qt5ConfigVersion.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5\Qt5ModuleLocation.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfig.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfigExtras.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfigExtrasMkspecDir.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfigVersion.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreMacros.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5GuiConfig.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5GuiConfigExtras.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5GuiConfigVersion.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QGifPlugin.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QICNSPlugin.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QICOPlugin.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QJpegPlugin.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QMinimalIntegrationPlugin.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QOffscreenIntegrationPlugin.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QTgaPlugin.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QTiffPlugin.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QTuioTouchPlugin.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QVirtualKeyboardPlugin.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWbmpPlugin.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWebGLIntegrationPlugin.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWebpPlugin.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWindowsDirect2DIntegrationPlugin.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWindowsIntegrationPlugin.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QXdgDesktopPortalThemePlugin.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5LinguistTools\Qt5LinguistToolsConfig.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5LinguistTools\Qt5LinguistToolsConfigVersion.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5LinguistTools\Qt5LinguistToolsMacros.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Network\Qt5NetworkConfig.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Network\Qt5NetworkConfigVersion.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Network\Qt5Network_QGenericEnginePlugin.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Qml\Qt5QmlConfig.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Qml\Qt5QmlConfigExtras.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Qml\Qt5QmlConfigVersion.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Qml\Qt5Qml_QDebugMessageServiceFactory.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Qml\Qt5Qml_QLocalClientConnectionFactory.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Qml\Qt5Qml_QQmlDebugServerFactory.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Qml\Qt5Qml_QQmlDebuggerServiceFactory.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Qml\Qt5Qml_QQmlInspectorServiceFactory.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Qml\Qt5Qml_QQmlNativeDebugConnectorFactory.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Qml\Qt5Qml_QQmlNativeDebugServiceFactory.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Qml\Qt5Qml_QQmlPreviewServiceFactory.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Qml\Qt5Qml_QQmlProfilerServiceFactory.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Qml\Qt5Qml_QQuickProfilerAdapterFactory.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Qml\Qt5Qml_QTcpServerConnectionFactory.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Quick\Qt5QuickConfig.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Quick\Qt5QuickConfigVersion.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Sql\Qt5SqlConfig.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Sql\Qt5SqlConfigVersion.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Sql\Qt5Sql_QODBCDriverPlugin.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Sql\Qt5Sql_QPSQLDriverPlugin.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Sql\Qt5Sql_QSQLiteDriverPlugin.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfig.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigExtras.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigVersion.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Widgets\Qt5WidgetsMacros.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Widgets\Qt5Widgets_QWindowsVistaStylePlugin.cmake;D:\Bachelor\CMake\share\cmake-3.16\Modules\CMakeParseArguments.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5\Qt5Config.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5\Qt5ConfigVersion.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5\Qt5ModuleLocation.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfig.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfigExtras.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfigExtrasMkspecDir.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfigVersion.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreMacros.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5GuiConfig.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5GuiConfigExtras.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5GuiConfigVersion.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QGifPlugin.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QICNSPlugin.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QICOPlugin.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QJpegPlugin.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QMinimalIntegrationPlugin.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QOffscreenIntegrationPlugin.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QTgaPlugin.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QTiffPlugin.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QTuioTouchPlugin.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QVirtualKeyboardPlugin.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWbmpPlugin.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWebGLIntegrationPlugin.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWebpPlugin.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWindowsDirect2DIntegrationPlugin.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWindowsIntegrationPlugin.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QXdgDesktopPortalThemePlugin.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5LinguistTools\Qt5LinguistToolsConfig.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5LinguistTools\Qt5LinguistToolsConfigVersion.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5LinguistTools\Qt5LinguistToolsMacros.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Network\Qt5NetworkConfig.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Network\Qt5NetworkConfigVersion.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Network\Qt5Network_QGenericEnginePlugin.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Qml\Qt5QmlConfig.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Qml\Qt5QmlConfigExtras.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Qml\Qt5QmlConfigVersion.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Qml\Qt5Qml_QDebugMessageServiceFactory.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Qml\Qt5Qml_QLocalClientConnectionFactory.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Qml\Qt5Qml_QQmlDebugServerFactory.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Qml\Qt5Qml_QQmlDebuggerServiceFactory.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Qml\Qt5Qml_QQmlInspectorServiceFactory.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Qml\Qt5Qml_QQmlNativeDebugConnectorFactory.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Qml\Qt5Qml_QQmlNativeDebugServiceFactory.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Qml\Qt5Qml_QQmlPreviewServiceFactory.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Qml\Qt5Qml_QQmlProfilerServiceFactory.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Qml\Qt5Qml_QQuickProfilerAdapterFactory.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Qml\Qt5Qml_QTcpServerConnectionFactory.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Quick\Qt5QuickConfig.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Quick\Qt5QuickConfigVersion.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Sql\Qt5SqlConfig.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Sql\Qt5SqlConfigVersion.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Sql\Qt5Sql_QODBCDriverPlugin.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Sql\Qt5Sql_QPSQLDriverPlugin.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Sql\Qt5Sql_QSQLiteDriverPlugin.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfig.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigExtras.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigVersion.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Widgets\Qt5WidgetsMacros.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Widgets\Qt5Widgets_QWindowsVistaStylePlugin.cmake;D:\Bachelor\CMake\share\cmake-3.16\Modules\CMakeParseArguments.cmake;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\BGandFontResource.qrc;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\ResourceButton.qrc;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\ResourcePictures1.qrc;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\ResourcePictures2.qrc;%(AdditionalInputs)</AdditionalInputs>
       <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\Bachelor\wt-4.2.0\SKOGKK\build\KKOGSK\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/CMakeLists.txt</Message>
@@ -3187,13 +4139,17 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5\Qt5Config.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5\Qt5ConfigVersion.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5\Qt5ModuleLocation.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfig.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfigExtras.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfigExtrasMkspecDir.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfigVersion.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreMacros.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5GuiConfig.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5GuiConfigExtras.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5GuiConfigVersion.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QGifPlugin.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QICNSPlugin.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QICOPlugin.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QJpegPlugin.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QMinimalIntegrationPlugin.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QOffscreenIntegrationPlugin.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QTgaPlugin.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QTiffPlugin.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QTuioTouchPlugin.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QVirtualKeyboardPlugin.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWbmpPlugin.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWebGLIntegrationPlugin.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWebpPlugin.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWindowsDirect2DIntegrationPlugin.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWindowsIntegrationPlugin.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QXdgDesktopPortalThemePlugin.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5LinguistTools\Qt5LinguistToolsConfig.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5LinguistTools\Qt5LinguistToolsConfigVersion.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5LinguistTools\Qt5LinguistToolsMacros.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Network\Qt5NetworkConfig.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Network\Qt5NetworkConfigVersion.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Network\Qt5Network_QGenericEnginePlugin.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Qml\Qt5QmlConfig.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Qml\Qt5QmlConfigExtras.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Qml\Qt5QmlConfigVersion.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Qml\Qt5Qml_QDebugMessageServiceFactory.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Qml\Qt5Qml_QLocalClientConnectionFactory.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Qml\Qt5Qml_QQmlDebugServerFactory.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Qml\Qt5Qml_QQmlDebuggerServiceFactory.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Qml\Qt5Qml_QQmlInspectorServiceFactory.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Qml\Qt5Qml_QQmlNativeDebugConnectorFactory.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Qml\Qt5Qml_QQmlNativeDebugServiceFactory.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Qml\Qt5Qml_QQmlPreviewServiceFactory.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Qml\Qt5Qml_QQmlProfilerServiceFactory.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Qml\Qt5Qml_QQuickProfilerAdapterFactory.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Qml\Qt5Qml_QTcpServerConnectionFactory.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Quick\Qt5QuickConfig.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Quick\Qt5QuickConfigVersion.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Sql\Qt5SqlConfig.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Sql\Qt5SqlConfigVersion.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Sql\Qt5Sql_QODBCDriverPlugin.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Sql\Qt5Sql_QPSQLDriverPlugin.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Sql\Qt5Sql_QSQLiteDriverPlugin.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfig.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigExtras.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigVersion.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Widgets\Qt5WidgetsMacros.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Widgets\Qt5Widgets_QWindowsVistaStylePlugin.cmake;D:\Bachelor\CMake\share\cmake-3.16\Modules\CMakeParseArguments.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5\Qt5Config.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5\Qt5ConfigVersion.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5\Qt5ModuleLocation.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfig.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfigExtras.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfigExtrasMkspecDir.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfigVersion.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreMacros.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5GuiConfig.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5GuiConfigExtras.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5GuiConfigVersion.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QGifPlugin.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QICNSPlugin.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QICOPlugin.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QJpegPlugin.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QMinimalIntegrationPlugin.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QOffscreenIntegrationPlugin.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QTgaPlugin.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QTiffPlugin.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QTuioTouchPlugin.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QVirtualKeyboardPlugin.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWbmpPlugin.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWebGLIntegrationPlugin.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWebpPlugin.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWindowsDirect2DIntegrationPlugin.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWindowsIntegrationPlugin.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QXdgDesktopPortalThemePlugin.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5LinguistTools\Qt5LinguistToolsConfig.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5LinguistTools\Qt5LinguistToolsConfigVersion.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5LinguistTools\Qt5LinguistToolsMacros.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Network\Qt5NetworkConfig.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Network\Qt5NetworkConfigVersion.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Network\Qt5Network_QGenericEnginePlugin.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Qml\Qt5QmlConfig.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Qml\Qt5QmlConfigExtras.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Qml\Qt5QmlConfigVersion.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Qml\Qt5Qml_QDebugMessageServiceFactory.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Qml\Qt5Qml_QLocalClientConnectionFactory.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Qml\Qt5Qml_QQmlDebugServerFactory.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Qml\Qt5Qml_QQmlDebuggerServiceFactory.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Qml\Qt5Qml_QQmlInspectorServiceFactory.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Qml\Qt5Qml_QQmlNativeDebugConnectorFactory.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Qml\Qt5Qml_QQmlNativeDebugServiceFactory.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Qml\Qt5Qml_QQmlPreviewServiceFactory.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Qml\Qt5Qml_QQmlProfilerServiceFactory.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Qml\Qt5Qml_QQuickProfilerAdapterFactory.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Qml\Qt5Qml_QTcpServerConnectionFactory.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Quick\Qt5QuickConfig.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Quick\Qt5QuickConfigVersion.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Sql\Qt5SqlConfig.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Sql\Qt5SqlConfigVersion.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Sql\Qt5Sql_QODBCDriverPlugin.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Sql\Qt5Sql_QPSQLDriverPlugin.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Sql\Qt5Sql_QSQLiteDriverPlugin.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfig.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigExtras.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigVersion.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Widgets\Qt5WidgetsMacros.cmake;C:\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Widgets\Qt5Widgets_QWindowsVistaStylePlugin.cmake;D:\Bachelor\CMake\share\cmake-3.16\Modules\CMakeParseArguments.cmake;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\BGandFontResource.qrc;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\ResourceButton.qrc;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\ResourcePictures1.qrc;D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\ResourcePictures2.qrc;%(AdditionalInputs)</AdditionalInputs>
       <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\Bachelor\wt-4.2.0\SKOGKK\build\KKOGSK\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="D:\Bachelor\wt-4.2.0\SKOGKK\build\KKOGSK\KKOGSK_autogen\mocs_compilation.cpp" />
+    <None Include="D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\BGandFontResource.qrc" />
+    <None Include="D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\ResourceButton.qrc" />
+    <None Include="D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\ResourcePictures1.qrc" />
+    <None Include="D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\ResourcePictures2.qrc" />
     <ClInclude Include="D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\mainwindow.h" />
     <ClInclude Include="D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\secondwindowdialog.h" />
     <ClInclude Include="D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\questiondialog.h" />
@@ -3215,7 +4171,11 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <ClInclude Include="D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\patientdialog.h" />
     <ClInclude Include="D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\patientinformationdialog.h" />
     <ClInclude Include="D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\resourcehandlerdialog.h" />
-    <ClInclude Include="D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\cmrc.h" />
+    <ClInclude Include="D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\readquestiondialog.h" />
+    <ClInclude Include="D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\bodyquestiondialog.h" />
+    <ClInclude Include="D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\secondwindowbodydialog.h" />
+    <ClInclude Include="D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\onepicquestiondialog.h" />
+    <ClInclude Include="D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\textquestiondialog.h" />
     <ClCompile Include="D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\main.cpp" />
     <ClCompile Include="D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\mainwindow.cpp" />
     <ClCompile Include="D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\secondwindowdialog.cpp" />
@@ -3238,6 +4198,11 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <ClCompile Include="D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\patientdialog.cpp" />
     <ClCompile Include="D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\patientinformationdialog.cpp" />
     <ClCompile Include="D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\resourcehandlerdialog.cpp" />
+    <ClCompile Include="D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\readquestiondialog.cpp" />
+    <ClCompile Include="D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\bodyquestiondialog.cpp" />
+    <ClCompile Include="D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\secondwindowbodydialog.cpp" />
+    <ClCompile Include="D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\onepicquestiondialog.cpp" />
+    <ClCompile Include="D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\textquestiondialog.cpp" />
     <ClCompile Include="D:\Bachelor\wt-4.2.0\SKOGKK\build\KKOGSK\moc_mainwindow.cpp" />
     <ClCompile Include="D:\Bachelor\wt-4.2.0\SKOGKK\build\KKOGSK\moc_secondwindowdialog.cpp" />
     <ClCompile Include="D:\Bachelor\wt-4.2.0\SKOGKK\build\KKOGSK\moc_questiondialog.cpp" />
@@ -3259,7 +4224,11 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <ClCompile Include="D:\Bachelor\wt-4.2.0\SKOGKK\build\KKOGSK\moc_patientdialog.cpp" />
     <ClCompile Include="D:\Bachelor\wt-4.2.0\SKOGKK\build\KKOGSK\moc_patientinformationdialog.cpp" />
     <ClCompile Include="D:\Bachelor\wt-4.2.0\SKOGKK\build\KKOGSK\moc_resourcehandlerdialog.cpp" />
-    <ClCompile Include="D:\Bachelor\wt-4.2.0\SKOGKK\build\KKOGSK\moc_cmrc.cpp" />
+    <ClCompile Include="D:\Bachelor\wt-4.2.0\SKOGKK\build\KKOGSK\moc_readquestiondialog.cpp" />
+    <ClCompile Include="D:\Bachelor\wt-4.2.0\SKOGKK\build\KKOGSK\moc_bodyquestiondialog.cpp" />
+    <ClCompile Include="D:\Bachelor\wt-4.2.0\SKOGKK\build\KKOGSK\moc_secondwindowbodydialog.cpp" />
+    <ClCompile Include="D:\Bachelor\wt-4.2.0\SKOGKK\build\KKOGSK\moc_onepicquestiondialog.cpp" />
+    <ClCompile Include="D:\Bachelor\wt-4.2.0\SKOGKK\build\KKOGSK\moc_textquestiondialog.cpp" />
     <ClInclude Include="D:\Bachelor\wt-4.2.0\SKOGKK\build\KKOGSK\ui_mainwindow.h" />
     <ClInclude Include="D:\Bachelor\wt-4.2.0\SKOGKK\build\KKOGSK\ui_SecondWindowDialog.h" />
     <ClInclude Include="D:\Bachelor\wt-4.2.0\SKOGKK\build\KKOGSK\ui_QuestionDialog.h" />
@@ -3281,7 +4250,16 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <ClInclude Include="D:\Bachelor\wt-4.2.0\SKOGKK\build\KKOGSK\ui_patientdialog.h" />
     <ClInclude Include="D:\Bachelor\wt-4.2.0\SKOGKK\build\KKOGSK\ui_patientInformationdialog.h" />
     <ClInclude Include="D:\Bachelor\wt-4.2.0\SKOGKK\build\KKOGSK\ui_resourcehandlerdialog.h" />
+    <ClInclude Include="D:\Bachelor\wt-4.2.0\SKOGKK\build\KKOGSK\ui_readquestiondialog.h" />
+    <ClInclude Include="D:\Bachelor\wt-4.2.0\SKOGKK\build\KKOGSK\ui_bodyquestiondialog.h" />
+    <ClInclude Include="D:\Bachelor\wt-4.2.0\SKOGKK\build\KKOGSK\ui_secondwindowbodydialog.h" />
+    <ClInclude Include="D:\Bachelor\wt-4.2.0\SKOGKK\build\KKOGSK\ui_onepicquestiondialog.h" />
+    <ClInclude Include="D:\Bachelor\wt-4.2.0\SKOGKK\build\KKOGSK\ui_textquestiondialog.h" />
     <None Include="D:\Bachelor\wt-4.2.0\SKOGKK\KKOGSK\KKOGSK_nb_NO.ts" />
+    <ClCompile Include="D:\Bachelor\wt-4.2.0\SKOGKK\build\KKOGSK\KKOGSK_autogen\EWIEGA46WW\qrc_BGandFontResource.cpp" />
+    <ClCompile Include="D:\Bachelor\wt-4.2.0\SKOGKK\build\KKOGSK\KKOGSK_autogen\EWIEGA46WW\qrc_ResourceButton.cpp" />
+    <ClCompile Include="D:\Bachelor\wt-4.2.0\SKOGKK\build\KKOGSK\KKOGSK_autogen\EWIEGA46WW\qrc_ResourcePictures1.cpp" />
+    <ClCompile Include="D:\Bachelor\wt-4.2.0\SKOGKK\build\KKOGSK\KKOGSK_autogen\EWIEGA46WW\qrc_ResourcePictures2.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="D:\Bachelor\wt-4.2.0\SKOGKK\build\ZERO_CHECK.vcxproj">

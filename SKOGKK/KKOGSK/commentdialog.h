@@ -15,6 +15,9 @@ public:
     explicit commentDialog(QWidget *parent = nullptr);
     ~commentDialog();
 
+    void storeComment();
+    QString commentText;
+
 private slots:
     void on_pushButton_clicked();
 

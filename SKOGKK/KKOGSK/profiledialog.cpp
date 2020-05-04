@@ -6,6 +6,7 @@ ProfileDialog::ProfileDialog(QWidget *parent) :
     ui(new Ui::ProfileDialog)
 {
     ui->setupUi(this);
+    setWindowFlags(Qt::Window | Qt::FramelessWindowHint);
     presetProfilePicture();
 }
 

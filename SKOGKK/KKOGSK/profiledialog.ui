@@ -14,7 +14,7 @@
    <string>Dialog</string>
   </property>
   <property name="styleSheet">
-   <string notr="true">background-color: rgb(0, 255, 255);</string>
+   <string notr="true">background-color: rgb(146, 232, 255);</string>
   </property>
   <widget class="QGroupBox" name="groupBox">
    <property name="geometry">
@@ -38,7 +38,7 @@
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">image: url(:/Assets/Buttons/kalender_active.png);
+     <string notr="true">border-image: url(:/Assets/Buttons/kalender_active.png);
 border:none;</string>
     </property>
     <property name="text">
@@ -49,17 +49,17 @@ border:none;</string>
     <property name="geometry">
      <rect>
       <x>120</x>
-      <y>90</y>
+      <y>190</y>
       <width>241</width>
       <height>41</height>
      </rect>
     </property>
     <property name="styleSheet">
      <string notr="true">color: rgb(0, 0, 0);
-background-color: rgb(85, 255, 0);</string>
+border-image: url(:/Assets/Buttons/oversikt_active.png);</string>
     </property>
     <property name="text">
-     <string>Gjøremål</string>
+     <string/>
     </property>
    </widget>
    <widget class="QPushButton" name="pushButton_Results_Profile">
@@ -72,41 +72,24 @@ background-color: rgb(85, 255, 0);</string>
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">image: url(:/Assets/Buttons/resultater_active.png);
+     <string notr="true">border-image: url(:/Assets/Buttons/resultater_active.png);
 border:none;</string>
     </property>
     <property name="text">
      <string/>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_Rewards_Profile">
-    <property name="geometry">
-     <rect>
-      <x>120</x>
-      <y>190</y>
-      <width>241</width>
-      <height>41</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">color: rgb(0, 0, 0);
-background-color: rgb(85, 255, 0);</string>
-    </property>
-    <property name="text">
-     <string>Belønninger</string>
-    </property>
-   </widget>
    <widget class="QPushButton" name="pushButton_Avatar_Profile">
     <property name="geometry">
      <rect>
       <x>120</x>
-      <y>240</y>
+      <y>90</y>
       <width>241</width>
       <height>41</height>
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: rgb(85, 255, 0);
+     <string notr="true">background-color: rgb(146, 232, 255);
 color: rgb(0, 0, 0);</string>
     </property>
     <property name="text">
@@ -117,14 +100,14 @@ color: rgb(0, 0, 0);</string>
     <property name="geometry">
      <rect>
       <x>120</x>
-      <y>290</y>
+      <y>240</y>
       <width>241</width>
       <height>41</height>
      </rect>
     </property>
     <property name="styleSheet">
      <string notr="true">color: rgb(0, 0, 0);
-background-color: rgb(85, 255, 0);</string>
+background-color: rgb(146, 232, 255);</string>
     </property>
     <property name="text">
      <string>Innstillinger</string>

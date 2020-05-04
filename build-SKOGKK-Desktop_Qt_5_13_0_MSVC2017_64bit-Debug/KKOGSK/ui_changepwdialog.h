@@ -24,6 +24,7 @@ public:
         if (changePWDialog->objectName().isEmpty())
             changePWDialog->setObjectName(QString::fromUtf8("changePWDialog"));
         changePWDialog->resize(490, 687);
+        changePWDialog->setStyleSheet(QString::fromUtf8("background-color: rgb(146, 232, 255);"));
 
         retranslateUi(changePWDialog);
 

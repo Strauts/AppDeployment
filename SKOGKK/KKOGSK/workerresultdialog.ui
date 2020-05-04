@@ -14,7 +14,7 @@
    <string>Dialog</string>
   </property>
   <property name="styleSheet">
-   <string notr="true">background-color: rgb(0, 255, 255);</string>
+   <string notr="true">background-color: rgb(146, 232, 255);</string>
   </property>
   <widget class="QGroupBox" name="groupBox">
    <property name="geometry">
@@ -24,6 +24,9 @@
      <width>481</width>
      <height>81</height>
     </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border:none;</string>
    </property>
    <property name="title">
     <string/>
@@ -112,7 +115,7 @@
     <rect>
      <x>10</x>
      <y>140</y>
-     <width>481</width>
+     <width>351</width>
      <height>551</height>
     </rect>
    </property>
@@ -120,32 +123,6 @@
     <string/>
    </property>
    <layout class="QGridLayout" name="gridLayout_2">
-    <item row="4" column="2">
-     <widget class="QTextEdit" name="textEdit_Fasit_5"/>
-    </item>
-    <item row="4" column="0">
-     <widget class="QTextEdit" name="textEdit_Question_5">
-      <property name="styleSheet">
-       <string notr="true">color: rgb(0, 0, 0);</string>
-      </property>
-      <property name="html">
-       <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
-&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
-p, li { white-space: pre-wrap; }
-&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:8.25pt; font-weight:400; font-style:normal;&quot;&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:20pt;&quot;&gt;     5&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-      </property>
-     </widget>
-    </item>
-    <item row="5" column="1">
-     <widget class="QTextEdit" name="textEdit_Answer_6"/>
-    </item>
-    <item row="7" column="2">
-     <widget class="QTextEdit" name="textEdit_Fasit_8"/>
-    </item>
-    <item row="9" column="2">
-     <widget class="QTextEdit" name="textEdit_Fasit_10"/>
-    </item>
     <item row="0" column="0">
      <widget class="QTextEdit" name="textEdit_Question_1">
       <property name="styleSheet">
@@ -160,14 +137,17 @@ p, li { white-space: pre-wrap; }
       </property>
      </widget>
     </item>
-    <item row="5" column="2">
-     <widget class="QTextEdit" name="textEdit_Fasit_6"/>
+    <item row="8" column="2">
+     <widget class="QTextEdit" name="textEdit_Fasit_9"/>
     </item>
-    <item row="6" column="2">
-     <widget class="QTextEdit" name="textEdit_Fasit_7"/>
+    <item row="6" column="1">
+     <widget class="QTextEdit" name="textEdit_Answer_7"/>
     </item>
-    <item row="2" column="1">
-     <widget class="QTextEdit" name="textEdit_Answer_3"/>
+    <item row="1" column="1">
+     <widget class="QTextEdit" name="textEdit_Answer_2"/>
+    </item>
+    <item row="8" column="1">
+     <widget class="QTextEdit" name="textEdit_Answer_9"/>
     </item>
     <item row="8" column="0">
      <widget class="QTextEdit" name="textEdit_Question_9">
@@ -180,6 +160,63 @@ p, li { white-space: pre-wrap; }
 p, li { white-space: pre-wrap; }
 &lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:8.25pt; font-weight:400; font-style:normal;&quot;&gt;
 &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:20pt;&quot;&gt;     9&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+    </item>
+    <item row="7" column="0">
+     <widget class="QTextEdit" name="textEdit_Question_8">
+      <property name="styleSheet">
+       <string notr="true">color: rgb(0, 0, 0);</string>
+      </property>
+      <property name="html">
+       <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:8.25pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:20pt;&quot;&gt;     8&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="2">
+     <widget class="QTextEdit" name="textEdit_Fasit_6"/>
+    </item>
+    <item row="0" column="1">
+     <widget class="QTextEdit" name="textEdit_Answer_1"/>
+    </item>
+    <item row="7" column="1">
+     <widget class="QTextEdit" name="textEdit_Answer_8"/>
+    </item>
+    <item row="4" column="2">
+     <widget class="QTextEdit" name="textEdit_Fasit_5"/>
+    </item>
+    <item row="6" column="0">
+     <widget class="QTextEdit" name="textEdit_Question_7">
+      <property name="styleSheet">
+       <string notr="true">color: rgb(0, 0, 0);</string>
+      </property>
+      <property name="html">
+       <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:8.25pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:20pt;&quot;&gt;     7&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="2">
+     <widget class="QTextEdit" name="textEdit_Fasit_1"/>
+    </item>
+    <item row="3" column="0">
+     <widget class="QTextEdit" name="textEdit_Question_4">
+      <property name="styleSheet">
+       <string notr="true">color: rgb(0, 0, 0);</string>
+      </property>
+      <property name="html">
+       <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:8.25pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:20pt;&quot;&gt;     4&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
       </property>
      </widget>
     </item>
@@ -197,39 +234,20 @@ p, li { white-space: pre-wrap; }
       </property>
      </widget>
     </item>
-    <item row="9" column="0">
-     <widget class="QTextEdit" name="textEdit_Question_10">
-      <property name="styleSheet">
-       <string notr="true">color: rgb(0, 0, 0);</string>
-      </property>
-      <property name="html">
-       <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
-&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
-p, li { white-space: pre-wrap; }
-&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:8.25pt; font-weight:400; font-style:normal;&quot;&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:20pt;&quot;&gt;    10&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-      </property>
-     </widget>
+    <item row="3" column="2">
+     <widget class="QTextEdit" name="textEdit_Fasit_4"/>
     </item>
-    <item row="7" column="1">
-     <widget class="QTextEdit" name="textEdit_Answer_8"/>
+    <item row="2" column="1">
+     <widget class="QTextEdit" name="textEdit_Answer_3"/>
     </item>
-    <item row="2" column="2">
-     <widget class="QTextEdit" name="textEdit_Fasit_3"/>
+    <item row="3" column="1">
+     <widget class="QTextEdit" name="textEdit_Answer_4"/>
     </item>
-    <item row="6" column="0">
-     <widget class="QTextEdit" name="textEdit_Question_7">
-      <property name="styleSheet">
-       <string notr="true">color: rgb(0, 0, 0);</string>
-      </property>
-      <property name="html">
-       <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
-&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
-p, li { white-space: pre-wrap; }
-&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:8.25pt; font-weight:400; font-style:normal;&quot;&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:20pt;&quot;&gt;     7&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-      </property>
-     </widget>
+    <item row="6" column="2">
+     <widget class="QTextEdit" name="textEdit_Fasit_7"/>
+    </item>
+    <item row="9" column="2">
+     <widget class="QTextEdit" name="textEdit_Fasit_10"/>
     </item>
     <item row="5" column="0">
      <widget class="QTextEdit" name="textEdit_Question_6">
@@ -242,6 +260,23 @@ p, li { white-space: pre-wrap; }
 p, li { white-space: pre-wrap; }
 &lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:8.25pt; font-weight:400; font-style:normal;&quot;&gt;
 &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:20pt;&quot;&gt;     6&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+    </item>
+    <item row="9" column="1">
+     <widget class="QTextEdit" name="textEdit_Answer_10"/>
+    </item>
+    <item row="4" column="0">
+     <widget class="QTextEdit" name="textEdit_Question_5">
+      <property name="styleSheet">
+       <string notr="true">color: rgb(0, 0, 0);</string>
+      </property>
+      <property name="html">
+       <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:8.25pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:20pt;&quot;&gt;     5&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
       </property>
      </widget>
     </item>
@@ -259,11 +294,20 @@ p, li { white-space: pre-wrap; }
       </property>
      </widget>
     </item>
-    <item row="3" column="1">
-     <widget class="QTextEdit" name="textEdit_Answer_4"/>
+    <item row="1" column="2">
+     <widget class="QTextEdit" name="textEdit_Fasit_2"/>
     </item>
-    <item row="7" column="0">
-     <widget class="QTextEdit" name="textEdit_Question_8">
+    <item row="5" column="1">
+     <widget class="QTextEdit" name="textEdit_Answer_6"/>
+    </item>
+    <item row="7" column="2">
+     <widget class="QTextEdit" name="textEdit_Fasit_8"/>
+    </item>
+    <item row="2" column="2">
+     <widget class="QTextEdit" name="textEdit_Fasit_3"/>
+    </item>
+    <item row="9" column="0">
+     <widget class="QTextEdit" name="textEdit_Question_10">
       <property name="styleSheet">
        <string notr="true">color: rgb(0, 0, 0);</string>
       </property>
@@ -272,163 +316,12 @@ p, li { white-space: pre-wrap; }
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
 p, li { white-space: pre-wrap; }
 &lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:8.25pt; font-weight:400; font-style:normal;&quot;&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:20pt;&quot;&gt;     8&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-      </property>
-     </widget>
-    </item>
-    <item row="3" column="2">
-     <widget class="QTextEdit" name="textEdit_Fasit_4"/>
-    </item>
-    <item row="9" column="1">
-     <widget class="QTextEdit" name="textEdit_Answer_10"/>
-    </item>
-    <item row="0" column="2">
-     <widget class="QTextEdit" name="textEdit_Fasit_1"/>
-    </item>
-    <item row="6" column="1">
-     <widget class="QTextEdit" name="textEdit_Answer_7"/>
-    </item>
-    <item row="1" column="1">
-     <widget class="QTextEdit" name="textEdit_Answer_2"/>
-    </item>
-    <item row="3" column="0">
-     <widget class="QTextEdit" name="textEdit_Question_4">
-      <property name="styleSheet">
-       <string notr="true">color: rgb(0, 0, 0);</string>
-      </property>
-      <property name="html">
-       <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
-&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
-p, li { white-space: pre-wrap; }
-&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:8.25pt; font-weight:400; font-style:normal;&quot;&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:20pt;&quot;&gt;     4&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:20pt;&quot;&gt;    10&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
       </property>
      </widget>
     </item>
     <item row="4" column="1">
      <widget class="QTextEdit" name="textEdit_Answer_5"/>
-    </item>
-    <item row="8" column="1">
-     <widget class="QTextEdit" name="textEdit_Answer_9"/>
-    </item>
-    <item row="1" column="2">
-     <widget class="QTextEdit" name="textEdit_Fasit_2"/>
-    </item>
-    <item row="8" column="2">
-     <widget class="QTextEdit" name="textEdit_Fasit_9"/>
-    </item>
-    <item row="0" column="1">
-     <widget class="QTextEdit" name="textEdit_Answer_1"/>
-    </item>
-    <item row="0" column="3">
-     <widget class="QPushButton" name="pushButto_Comment_1">
-      <property name="styleSheet">
-       <string notr="true">color: rgb(0, 0, 0);
-background-color: rgb(85, 255, 0);</string>
-      </property>
-      <property name="text">
-       <string>Legg til</string>
-      </property>
-     </widget>
-    </item>
-    <item row="1" column="3">
-     <widget class="QPushButton" name="pushButton_Comment_2">
-      <property name="styleSheet">
-       <string notr="true">color: rgb(0, 0, 0);
-background-color: rgb(85, 255, 0);</string>
-      </property>
-      <property name="text">
-       <string>Legg til</string>
-      </property>
-     </widget>
-    </item>
-    <item row="2" column="3">
-     <widget class="QPushButton" name="pushButton_Comment_3">
-      <property name="styleSheet">
-       <string notr="true">color: rgb(0, 0, 0);
-background-color: rgb(85, 255, 0);</string>
-      </property>
-      <property name="text">
-       <string>Legg til</string>
-      </property>
-     </widget>
-    </item>
-    <item row="3" column="3">
-     <widget class="QPushButton" name="pushButton_Comment_4">
-      <property name="styleSheet">
-       <string notr="true">color: rgb(0, 0, 0);
-background-color: rgb(85, 255, 0);</string>
-      </property>
-      <property name="text">
-       <string>Legg til</string>
-      </property>
-     </widget>
-    </item>
-    <item row="4" column="3">
-     <widget class="QPushButton" name="pushButton_Comment_5">
-      <property name="styleSheet">
-       <string notr="true">color: rgb(0, 0, 0);
-background-color: rgb(85, 255, 0);</string>
-      </property>
-      <property name="text">
-       <string>Legg til</string>
-      </property>
-     </widget>
-    </item>
-    <item row="5" column="3">
-     <widget class="QPushButton" name="pushButton_Comment_6">
-      <property name="styleSheet">
-       <string notr="true">color: rgb(0, 0, 0);
-background-color: rgb(85, 255, 0);</string>
-      </property>
-      <property name="text">
-       <string>Legg til</string>
-      </property>
-     </widget>
-    </item>
-    <item row="6" column="3">
-     <widget class="QPushButton" name="pushButton_Comment_7">
-      <property name="styleSheet">
-       <string notr="true">color: rgb(0, 0, 0);
-background-color: rgb(85, 255, 0);</string>
-      </property>
-      <property name="text">
-       <string>Legg til</string>
-      </property>
-     </widget>
-    </item>
-    <item row="7" column="3">
-     <widget class="QPushButton" name="pushButton_Comment_8">
-      <property name="styleSheet">
-       <string notr="true">color: rgb(0, 0, 0);
-background-color: rgb(85, 255, 0);</string>
-      </property>
-      <property name="text">
-       <string>Legg til</string>
-      </property>
-     </widget>
-    </item>
-    <item row="8" column="3">
-     <widget class="QPushButton" name="pushButton_Comment_9">
-      <property name="styleSheet">
-       <string notr="true">color: rgb(0, 0, 0);
-background-color: rgb(85, 255, 0);</string>
-      </property>
-      <property name="text">
-       <string>Legg til</string>
-      </property>
-     </widget>
-    </item>
-    <item row="9" column="3">
-     <widget class="QPushButton" name="pushButton_Comment_10">
-      <property name="styleSheet">
-       <string notr="true">color: rgb(0, 0, 0);
-background-color: rgb(85, 255, 0);</string>
-      </property>
-      <property name="text">
-       <string>Legg til</string>
-      </property>
-     </widget>
     </item>
    </layout>
   </widget>
@@ -453,6 +346,183 @@ border-image: url(:/Assets/Buttons/resultater_active.png);</string>
    <property name="text">
     <string/>
    </property>
+  </widget>
+  <widget class="QGroupBox" name="groupBox_3">
+   <property name="geometry">
+    <rect>
+     <x>360</x>
+     <y>140</y>
+     <width>121</width>
+     <height>531</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border:none;
+</string>
+   </property>
+   <property name="title">
+    <string/>
+   </property>
+   <widget class="QPushButton" name="pushButto_Comment_1">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>30</y>
+      <width>91</width>
+      <height>45</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image: url(:/Assets/Buttons/aapne_active.png);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_Comment_2">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>80</y>
+      <width>91</width>
+      <height>45</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image: url(:/Assets/Buttons/aapne_active.png);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_Comment_3">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>130</y>
+      <width>90</width>
+      <height>45</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image: url(:/Assets/Buttons/aapne_active.png);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_Comment_4">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>180</y>
+      <width>91</width>
+      <height>45</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image: url(:/Assets/Buttons/aapne_active.png);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_Comment_5">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>230</y>
+      <width>91</width>
+      <height>45</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image: url(:/Assets/Buttons/aapne_active.png);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_Comment_6">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>280</y>
+      <width>91</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image: url(:/Assets/Buttons/aapne_active.png);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_Comment_7">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>330</y>
+      <width>91</width>
+      <height>45</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image: url(:/Assets/Buttons/aapne_active.png);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_Comment_8">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>380</y>
+      <width>91</width>
+      <height>45</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image: url(:/Assets/Buttons/aapne_active.png);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_Comment_9">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>430</y>
+      <width>91</width>
+      <height>45</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image: url(:/Assets/Buttons/aapne_active.png);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_Comment_10">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>480</y>
+      <width>91</width>
+      <height>45</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image: url(:/Assets/Buttons/aapne_active.png);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
   </widget>
  </widget>
  <resources/>

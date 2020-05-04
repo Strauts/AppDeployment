@@ -25,7 +25,12 @@ set(project_ui
     commentdialog.ui
     patientdialog.ui
     patientInformationdialog.ui
-    resourcehandlerdialog.ui)
+    resourcehandlerdialog.ui
+    readquestiondialog.ui
+    bodyquestiondialog.ui
+    secondwindowbodydialog.ui
+    onepicquestiondialog.ui
+    textquestiondialog.ui)
 
 set(project_headers
     mainwindow.h
@@ -48,7 +53,13 @@ set(project_headers
     commentdialog.h
     patientdialog.h
     patientinformationdialog.h
-    resourcehandlerdialog.h)
+    resourcehandlerdialog.h
+    readquestiondialog.h
+    bodyquestiondialog.h
+    secondwindowbodydialog.h
+    onepicquestiondialog.h
+    textquestiondialog.h
+    )
 
 set(project_sources
     main.cpp
@@ -73,6 +84,11 @@ set(project_sources
     patientdialog.cpp
     patientinformationdialog.cpp
     resourcehandlerdialog.cpp
+    readquestiondialog.cpp
+    bodyquestiondialog.cpp
+    secondwindowbodydialog.cpp
+    onepicquestiondialog.cpp
+    textquestiondialog.cpp
     )
 
 qt5_wrap_ui(project_headers_wrapped ${project_ui})
@@ -87,6 +103,8 @@ set(CMAKE_AUTORCC ON)
 
 set(CMAKE_CXX_STANDARD 11)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
+
+set(CMAKE_INSTALL_UCRT_LIBRARIES TRUE)
 
 # QtCreator supports the following variables for Android, which are identical to qmake Android variables.
 # Check http://doc.qt.io/qt-5/deployment-android.html for more information.
@@ -118,8 +136,10 @@ else()
 #    mainwindow.cpp
 #    mainwindow.h
 #    mainwindow.ui
-    myresource.qrc
     bgandfontresource.qrc
+    ResourceButton.qrc
+    ResourcePictures1.qrc
+    ResourcePictures2.qrc
     ${project_headers}
     ${project_sources}
     ${project_sources_moc}

@@ -14,7 +14,7 @@
    <string>Dialog</string>
   </property>
   <property name="styleSheet">
-   <string notr="true">background-color: rgb(0, 255, 255);</string>
+   <string notr="true">background-color: rgb(146, 232, 255);</string>
   </property>
   <widget class="QGroupBox" name="groupBox">
    <property name="geometry">
@@ -305,18 +305,18 @@
   <widget class="QPushButton" name="pushButton_2">
    <property name="geometry">
     <rect>
-     <x>160</x>
+     <x>120</x>
      <y>630</y>
-     <width>111</width>
-     <height>31</height>
+     <width>211</width>
+     <height>41</height>
     </rect>
    </property>
    <property name="styleSheet">
-    <string notr="true">background-color: rgb(85, 255, 0);
+    <string notr="true">border-image: url(:/Assets/Buttons/nytt_notat_active.png);
 color: rgb(0, 0, 0);</string>
    </property>
    <property name="text">
-    <string>Legg til gjøremål</string>
+    <string/>
    </property>
   </widget>
  </widget>

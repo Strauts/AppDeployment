@@ -14,15 +14,15 @@
    <string>Dialog</string>
   </property>
   <property name="styleSheet">
-   <string notr="true">background-color: rgb(0, 255, 255);</string>
+   <string notr="true">background-color: rgb(146, 232, 255);</string>
   </property>
   <widget class="QLabel" name="label">
    <property name="geometry">
     <rect>
      <x>9</x>
-     <y>9</y>
+     <y>79</y>
      <width>471</width>
-     <height>581</height>
+     <height>511</height>
     </rect>
    </property>
    <property name="text">
@@ -61,7 +61,43 @@
     <string/>
    </property>
   </widget>
-  <widget class="QPushButton" name="pushButton_3">
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>10</y>
+     <width>451</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>40</y>
+     <width>471</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit">
    <property name="geometry">
     <rect>
      <x>20</x>
@@ -76,12 +112,7 @@
     </font>
    </property>
    <property name="styleSheet">
-    <string notr="true">color: rgb(0, 0, 0);
-background-color: rgb(85, 255, 0);
-border:none;</string>
-   </property>
-   <property name="text">
-    <string>Tror du dette er riktig svar? </string>
+    <string notr="true">background-color: rgb(255, 255, 255);</string>
    </property>
   </widget>
  </widget>

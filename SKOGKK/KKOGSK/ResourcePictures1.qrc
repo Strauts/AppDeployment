@@ -1,0 +1,60 @@
+<RCC>
+    <qresource prefix="/Assets"/>
+    <qresource prefix="/">
+        <file>Assets/Pictures/Bestemor.GIF</file>
+        <file>Assets/Pictures/Dame.GIF</file>
+        <file>Assets/Pictures/Glad_fjes.GIF</file>
+        <file>Assets/Pictures/Glad_fjes_action.GIF</file>
+        <file>Assets/Pictures/hug_color.mp4</file>
+        <file>Assets/Pictures/IMG_0288.GIF</file>
+        <file>Assets/Pictures/IMG_0289.GIF</file>
+        <file>Assets/Pictures/IMG_0290.GIF</file>
+        <file>Assets/Pictures/IMG_0291.GIF</file>
+        <file>Assets/Pictures/IMG_0292.PNG</file>
+        <file>Assets/Pictures/IMG_0293.PNG</file>
+        <file>Assets/Pictures/IMG_0294.PNG</file>
+        <file>Assets/Pictures/IMG_0295.PNG</file>
+        <file>Assets/Pictures/IMG_0302.GIF</file>
+        <file>Assets/Pictures/IMG_0329.GIF</file>
+        <file>Assets/Pictures/IMG_0330.GIF</file>
+        <file>Assets/Pictures/IMG_0331.GIF</file>
+        <file>Assets/Pictures/IMG_0377.GIF</file>
+        <file>Assets/Pictures/IMG_0378.GIF</file>
+        <file>Assets/Pictures/IMG_0379.GIF</file>
+        <file>Assets/Pictures/IMG_0380.GIF</file>
+        <file>Assets/Pictures/IMG_0383.GIF</file>
+        <file>Assets/Pictures/IMG_0384.GIF</file>
+        <file>Assets/Pictures/IMG_0385.GIF</file>
+        <file>Assets/Pictures/IMG_0386.GIF</file>
+        <file>Assets/Pictures/IMG_0387.GIF</file>
+        <file>Assets/Pictures/IMG_0388.GIF</file>
+        <file>Assets/Pictures/IMG_0389.GIF</file>
+        <file>Assets/Pictures/IMG_0390.GIF</file>
+        <file>Assets/Pictures/IMG_0391.GIF</file>
+        <file>Assets/Pictures/IMG_0394.GIF.GIF</file>
+        <file>Assets/Pictures/Masturbering.GIF</file>
+        <file>Assets/Pictures/Masturbering_preview.PNG</file>
+        <file>Assets/Pictures/Naken_bestemor.GIF</file>
+        <file>Assets/Pictures/Naken_jente.GIF</file>
+        <file>Assets/Pictures/Naken_kvinne.GIF</file>
+        <file>Assets/Pictures/Naken_mann1.GIF</file>
+        <file>Assets/Pictures/Naken_mann2.GIF</file>
+        <file>Assets/Pictures/Noytral_fjes.GIF</file>
+        <file>Assets/Pictures/P-Piller.gif</file>
+        <file>Assets/Pictures/SepaaTV.GIF</file>
+        <file>Assets/Pictures/SexKvinner.GIF</file>
+        <file>Assets/Pictures/SexKvinner.PNG</file>
+        <file>Assets/Pictures/Sinna fjes.GIF</file>
+        <file>Assets/Pictures/Sinna_blunk.GIF</file>
+        <file>Assets/Pictures/Sinna_fjes.GIF</file>
+        <file>Assets/Pictures/SnakkeIRullestol.GIF</file>
+        <file>Assets/Pictures/Spise.GIF</file>
+        <file>Assets/Pictures/Sproyte.gif</file>
+        <file>Assets/Pictures/Tannkrem.GIF</file>
+        <file>Assets/Pictures/Tapaapupper.GIF</file>
+        <file>Assets/Pictures/Tapaarompe.GIF</file>
+        <file>Assets/Pictures/Tris_ansikt.GIF</file>
+        <file>Assets/placeholder/Bestemor.GIF</file>
+        <file>Assets/Pictures/IMG_0394.GIF</file>
+    </qresource>
+</RCC>

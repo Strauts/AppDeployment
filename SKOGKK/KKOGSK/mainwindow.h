@@ -12,6 +12,7 @@
 #include "tasksdialog.h"
 #include "homepagedialog.h"
 #include "resultsdialog.h"
+#include "bodyquestiondialog.h"
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class MainWindow; }
@@ -35,13 +36,13 @@ public:
     qt5DatabaseDialog openDatabase;
     tasksDialog openTasks;
     homepageDialog openWorkerHome;
+    bodyQuestionDialog startUpBodyTest;
+
 
     bool dateCheck;
 
 
 public slots:
-    void onOpenActionTriggered();
-    inline void initializeImageFileDialog(QFileDialog & dialog);
 
     void on_pushButton_Profile_clicked();
 
@@ -56,6 +57,10 @@ private slots:
 
 
     void on_pushButton_clicked();
+
+    void on_pushButton_2_clicked();
+
+    void on_pushButton_3_clicked();
 
 private:
     Ui::MainWindow *ui;

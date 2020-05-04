@@ -80,7 +80,7 @@ public:
         if (resultsDialog->objectName().isEmpty())
             resultsDialog->setObjectName(QString::fromUtf8("resultsDialog"));
         resultsDialog->resize(490, 687);
-        resultsDialog->setStyleSheet(QString::fromUtf8("background-color: rgb(0, 255, 255);"));
+        resultsDialog->setStyleSheet(QString::fromUtf8("background-color: rgb(146, 232, 255);"));
         label = new QLabel(resultsDialog);
         label->setObjectName(QString::fromUtf8("label"));
         label->setGeometry(QRect(150, 0, 211, 61));
@@ -91,6 +91,7 @@ public:
         groupBox = new QGroupBox(resultsDialog);
         groupBox->setObjectName(QString::fromUtf8("groupBox"));
         groupBox->setGeometry(QRect(10, 60, 481, 81));
+        groupBox->setStyleSheet(QString::fromUtf8("border:none;"));
         gridLayout = new QGridLayout(groupBox);
         gridLayout->setObjectName(QString::fromUtf8("gridLayout"));
         label_Spm_Title = new QLabel(groupBox);
@@ -404,7 +405,7 @@ public:
 "</style></head><body style=\" font-family:'MS Shell Dlg 2'; font-size:8.25pt; font-weight:400; font-style:normal;\">\n"
 "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:20pt;\">    10</span></p></body></html>", nullptr));
         pushButton->setText(QString());
-        groupBox_3->setTitle(QCoreApplication::translate("resultsDialog", "GroupBox", nullptr));
+        groupBox_3->setTitle(QString());
         pushButto_Comment_1->setText(QString());
         pushButton_Comment_2->setText(QString());
         pushButton_Comment_3->setText(QString());

@@ -6,6 +6,7 @@ settingsDialog::settingsDialog(QWidget *parent) :
     ui(new Ui::settingsDialog)
 {
     ui->setupUi(this);
+    setWindowFlags(Qt::Window | Qt::FramelessWindowHint);
 }
 
 settingsDialog::~settingsDialog()

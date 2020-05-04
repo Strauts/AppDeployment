@@ -45,7 +45,7 @@ public:
         if (patientDialog->objectName().isEmpty())
             patientDialog->setObjectName(QString::fromUtf8("patientDialog"));
         patientDialog->resize(490, 687);
-        patientDialog->setStyleSheet(QString::fromUtf8("background-color: rgb(0, 255, 255);"));
+        patientDialog->setStyleSheet(QString::fromUtf8("background-color: rgb(146, 232, 255);"));
         groupBox = new QGroupBox(patientDialog);
         groupBox->setObjectName(QString::fromUtf8("groupBox"));
         groupBox->setGeometry(QRect(10, 70, 371, 611));

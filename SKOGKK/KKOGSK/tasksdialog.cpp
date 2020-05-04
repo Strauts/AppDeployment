@@ -6,6 +6,7 @@ tasksDialog::tasksDialog(QWidget *parent) :
     ui(new Ui::tasksDialog)
 {
     ui->setupUi(this);
+    setWindowFlags(Qt::Window | Qt::FramelessWindowHint);
 }
 
 tasksDialog::~tasksDialog()

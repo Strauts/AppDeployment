@@ -49,7 +49,7 @@ public:
         QFont font;
         font.setPointSize(12);
         groupBox->setFont(font);
-        groupBox->setStyleSheet(QString::fromUtf8("background-color: rgb(0, 255, 255);"));
+        groupBox->setStyleSheet(QString::fromUtf8("background-color: rgb(146, 232, 255);"));
         label = new QLabel(groupBox);
         label->setObjectName(QString::fromUtf8("label"));
         label->setGeometry(QRect(90, 230, 71, 31));
@@ -68,14 +68,12 @@ public:
         lineEdit_username->setObjectName(QString::fromUtf8("lineEdit_username"));
         lineEdit_username->setGeometry(QRect(170, 230, 141, 31));
         lineEdit_username->setAutoFillBackground(false);
-        lineEdit_username->setStyleSheet(QString::fromUtf8("background-color: rgb(255, 255, 255);\n"
-"background-color: rgb(85, 255, 0);"));
+        lineEdit_username->setStyleSheet(QString::fromUtf8("background-color: rgb(255, 255, 255);"));
         lineEdit_2_password = new QLineEdit(groupBox);
         lineEdit_2_password->setObjectName(QString::fromUtf8("lineEdit_2_password"));
         lineEdit_2_password->setGeometry(QRect(170, 280, 141, 31));
         lineEdit_2_password->setAutoFillBackground(false);
-        lineEdit_2_password->setStyleSheet(QString::fromUtf8("background-color: rgb(255, 255, 255);\n"
-"background-color: rgb(85, 255, 0);"));
+        lineEdit_2_password->setStyleSheet(QString::fromUtf8("background-color: rgb(255, 255, 255);"));
         pushButton_login = new QPushButton(groupBox);
         pushButton_login->setObjectName(QString::fromUtf8("pushButton_login"));
         pushButton_login->setGeometry(QRect(170, 330, 141, 41));
@@ -85,7 +83,7 @@ public:
         pushButton->setObjectName(QString::fromUtf8("pushButton"));
         pushButton->setGeometry(QRect(170, 600, 141, 41));
         pushButton->setAutoFillBackground(false);
-        pushButton->setStyleSheet(QString::fromUtf8("background-color: rgb(85, 255, 0);\n"
+        pushButton->setStyleSheet(QString::fromUtf8("border-image: url(:/Assets/Buttons/ny-konto_active.png);\n"
 "color: rgb(0, 0, 0);"));
         label_3 = new QLabel(groupBox);
         label_3->setObjectName(QString::fromUtf8("label_3"));
@@ -113,23 +111,23 @@ public:
         pushButton_2->setObjectName(QString::fromUtf8("pushButton_2"));
         pushButton_2->setGeometry(QRect(170, 470, 141, 41));
         pushButton_2->setAutoFillBackground(false);
-        pushButton_2->setStyleSheet(QString::fromUtf8("background-color: rgb(85, 255, 0);\n"
-"color: rgb(0, 0, 0);"));
+        pushButton_2->setStyleSheet(QString::fromUtf8("color: rgb(0, 0, 0);\n"
+"border-image: url(:/Assets/Buttons/endre-passord_active.png);"));
         pushButton_3 = new QPushButton(groupBox);
         pushButton_3->setObjectName(QString::fromUtf8("pushButton_3"));
-        pushButton_3->setGeometry(QRect(290, 20, 80, 21));
+        pushButton_3->setGeometry(QRect(370, 510, 80, 21));
         pushButton_3->setAutoFillBackground(false);
         pushButton_3->setStyleSheet(QString::fromUtf8("color: rgb(0, 0, 0);\n"
-"background-color: rgb(85, 255, 0);"));
+"background-color: rgb(146, 232, 255);"));
         pushButton_4 = new QPushButton(groupBox);
         pushButton_4->setObjectName(QString::fromUtf8("pushButton_4"));
-        pushButton_4->setGeometry(QRect(380, 20, 80, 21));
+        pushButton_4->setGeometry(QRect(370, 540, 80, 21));
         pushButton_4->setAutoFillBackground(false);
-        pushButton_4->setStyleSheet(QString::fromUtf8("background-color: rgb(85, 255, 0);\n"
+        pushButton_4->setStyleSheet(QString::fromUtf8("background-color: rgb(146, 232, 255);\n"
 "color: rgb(0, 0, 0);"));
         label_7 = new QLabel(groupBox);
         label_7->setObjectName(QString::fromUtf8("label_7"));
-        label_7->setGeometry(QRect(410, 60, 71, 71));
+        label_7->setGeometry(QRect(370, 590, 71, 71));
         label_7->setAutoFillBackground(false);
 
         retranslateUi(LoginDialog);
@@ -144,12 +142,12 @@ public:
         label->setText(QCoreApplication::translate("LoginDialog", "Brukernavn", nullptr));
         label_2->setText(QCoreApplication::translate("LoginDialog", "Passord", nullptr));
         pushButton_login->setText(QString());
-        pushButton->setText(QCoreApplication::translate("LoginDialog", "Lag konto", nullptr));
+        pushButton->setText(QString());
         label_3->setText(QCoreApplication::translate("LoginDialog", "Har du ikke konto?", nullptr));
         label_4->setText(QCoreApplication::translate("LoginDialog", "Registrer deg nedenfor", nullptr));
         label_5->setText(QCoreApplication::translate("LoginDialog", "TextLabel", nullptr));
         label_6->setText(QCoreApplication::translate("LoginDialog", "Glemt passord?", nullptr));
-        pushButton_2->setText(QCoreApplication::translate("LoginDialog", "Endre passord", nullptr));
+        pushButton_2->setText(QString());
         pushButton_3->setText(QCoreApplication::translate("LoginDialog", "Bruker", nullptr));
         pushButton_4->setText(QCoreApplication::translate("LoginDialog", "Ansatt", nullptr));
         label_7->setText(QString());

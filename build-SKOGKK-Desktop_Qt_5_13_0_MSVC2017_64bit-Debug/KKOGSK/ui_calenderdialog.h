@@ -30,13 +30,14 @@ public:
         if (calenderDialog->objectName().isEmpty())
             calenderDialog->setObjectName(QString::fromUtf8("calenderDialog"));
         calenderDialog->resize(490, 687);
-        calenderDialog->setStyleSheet(QString::fromUtf8("background-color: rgb(0, 255, 255);"));
+        calenderDialog->setStyleSheet(QString::fromUtf8("background-color: rgb(146, 232, 255);"));
         calendarWidget = new QCalendarWidget(calenderDialog);
         calendarWidget->setObjectName(QString::fromUtf8("calendarWidget"));
         calendarWidget->setGeometry(QRect(0, 260, 491, 421));
         calendarWidget->setStyleSheet(QString::fromUtf8("color: rgb(0, 0, 0);\n"
-"alternate-background-color: rgb(0, 255, 255);\n"
-"background-color: rgb(85, 255, 0);"));
+"background-color: rgb(146, 232, 255);\n"
+"alternate-background-color: rgb(255, 255, 255);\n"
+""));
         label_Calender_Picture = new QLabel(calenderDialog);
         label_Calender_Picture->setObjectName(QString::fromUtf8("label_Calender_Picture"));
         label_Calender_Picture->setGeometry(QRect(0, 0, 491, 261));

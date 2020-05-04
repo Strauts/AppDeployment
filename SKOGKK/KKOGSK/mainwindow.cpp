@@ -18,14 +18,14 @@
 
 //#include <cmrc/cmrc.hpp>
 
-
-
 //CMRC_DECLARE(foo);
 
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
     , ui(new Ui::MainWindow)
 {
+//    openQuestion.setModal(true);
+//    openQuestion.exec();
     if(startUpTest.loginOK == false)
     {
         startUpTest.setModal(true);
@@ -33,6 +33,7 @@ MainWindow::MainWindow(QWidget *parent)
     }
     if(startUpTest.isWorker == false && startUpTest.loginOK == true)
     {
+
         ui->setupUi(this);
         presetProfileImage_Main();
     }
@@ -44,61 +45,6 @@ MainWindow::MainWindow(QWidget *parent)
     QObject::connect(ui->actionOpen_File, SIGNAL(triggered()), this, SLOT(onOpenActionTriggered()));
 }
 
-inline void MainWindow::initializeImageFileDialog(QFileDialog & dialog)
-{
-    static bool first_dialog = true;
-
-    if(first_dialog)
-    {
-        first_dialog = false;
-        const QStringList pictures_locations = QStandardPaths::standardLocations(QStandardPaths::PicturesLocation);
-        dialog.setDirectory(pictures_locations.isEmpty() ? QDir::currentPath() : pictures_locations.last());
-    }
-
-    auto image_types_array = QImageReader::supportedMimeTypes();
-    QStringList mime_type_filters;
-    for (const auto type : image_types_array)
-    {
-        mime_type_filters.append(type);
-    }
-    mime_type_filters.sort();
-
-    dialog.setMimeTypeFilters(mime_type_filters);
-    dialog.selectMimeTypeFilter("image/jpec/gif/png");
-}
-
-//qt5Qaction - check for what slots and signals are available - example - "triggered()"
-void MainWindow::onOpenActionTriggered()
-{
-    QFileDialog file_dialog(this, tr("Open Image"));
-    initializeImageFileDialog(file_dialog);
-    const auto result = file_dialog.exec();
-    if(result == QDialog::Accepted)
-    {
-        //load the file
-        auto path = file_dialog.selectedFiles().first();
-        QImageReader image_reader(path);
-        const QImage image = image_reader.read();
-
-        if(!image.isNull())
-        {
-            //QMovie *movie = new QMovie("C:/Users/morga/Downloads/IMG_0294.GIF");
-            ui->label_profilePicture_Main->setPixmap(QPixmap::fromImage(image));
-            ui->label_profilePicture_Main->setScaledContents(true);
-            ui->label_profilePicture_Main->setSizePolicy(QSizePolicy::Ignored, QSizePolicy::Ignored);
-            //ui->label->setMovie(movie);
-            // movie->start();
-
-            //ui->label->resize(ui->label->pixmap()->size());
-        }
-    }
-    //Open a file dialog - QFileDialog -- static functions give good functionality
-    //    auto selected_file = QFileDialog::getOpenFileName(this, tr("Open a file"), QApplication::applicationDirPath());
-    //    if(!selected_file.isNull())
-    //    {
-    //        std::cout << selected_file.toStdString() << std::endl;
-    //    }
-}
 
 MainWindow::~MainWindow()
 {
@@ -107,12 +53,12 @@ MainWindow::~MainWindow()
 
 void MainWindow::presetProfileImage_Main()
 {
-//    auto fs = cmrc::foo::get_filesystem();
-//    auto data = fs.open("IMG_0292.PNG");
-//    const auto data_size = std::distance(data.begin(), data.end());
-//    bool f = QResource::registerResource("resources.rcc");
-//    f = QResource::registerResource("resources-small.rcc");
-//    QPixmap test(":/Glad_fjes.GIF");
+    //    auto fs = cmrc::foo::get_filesystem();
+    //    auto data = fs.open("IMG_0292.PNG");
+    //    const auto data_size = std::distance(data.begin(), data.end());
+    //    bool f = QResource::registerResource("resources.rcc");
+    //    f = QResource::registerResource("resources-small.rcc");
+    //    QPixmap test(":/Glad_fjes.GIF");
 
     QPixmap pix(":/Assets/Pictures/Glad_fjes.GIF");
     ui->label_profilePicture_Main->setPixmap(pix);
@@ -146,8 +92,19 @@ void MainWindow::on_pushButton_Reminders_clicked()
 
 void MainWindow::on_pushButton_clicked()
 {
-    close();
-    openWorkerHome.setModal(true);
-    openWorkerHome.exec();
+    QMessageBox::information(this, "Inactive", "KroppKunn er ikke satt opp");
+    //startUpBodyTest.setModal(true);
+    //startUpBodyTest.exec();
 
+}
+
+void MainWindow::on_pushButton_2_clicked()
+{
+    close();
+}
+
+void MainWindow::on_pushButton_3_clicked()
+{
+    openDatabase.setModal(true);
+    openDatabase.exec();
 }

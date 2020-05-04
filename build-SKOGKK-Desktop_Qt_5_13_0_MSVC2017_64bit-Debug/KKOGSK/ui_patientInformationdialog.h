@@ -36,7 +36,7 @@ public:
         if (patientInformationDialog->objectName().isEmpty())
             patientInformationDialog->setObjectName(QString::fromUtf8("patientInformationDialog"));
         patientInformationDialog->resize(490, 687);
-        patientInformationDialog->setStyleSheet(QString::fromUtf8("background-color: rgb(0, 255, 255);"));
+        patientInformationDialog->setStyleSheet(QString::fromUtf8("background-color: rgb(146, 232, 255);"));
         label = new QLabel(patientInformationDialog);
         label->setObjectName(QString::fromUtf8("label"));
         label->setGeometry(QRect(20, 80, 101, 111));

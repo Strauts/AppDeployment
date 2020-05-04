@@ -16,10 +16,7 @@
 #include <QtWidgets/QGroupBox>
 #include <QtWidgets/QLabel>
 #include <QtWidgets/QMainWindow>
-#include <QtWidgets/QMenu>
-#include <QtWidgets/QMenuBar>
 #include <QtWidgets/QPushButton>
-#include <QtWidgets/QStatusBar>
 #include <QtWidgets/QWidget>
 
 QT_BEGIN_NAMESPACE
@@ -55,20 +52,21 @@ public:
     QLabel *label_profilePicture_Main;
     QLabel *label_Greeting;
     QLabel *label;
-    QMenuBar *menubar;
-    QMenu *menuFile;
-    QStatusBar *statusbar;
+    QPushButton *pushButton_2;
 
     void setupUi(QMainWindow *MainWindow)
     {
         if (MainWindow->objectName().isEmpty())
             MainWindow->setObjectName(QString::fromUtf8("MainWindow"));
+        MainWindow->setEnabled(true);
         MainWindow->resize(490, 687);
-        MainWindow->setStyleSheet(QString::fromUtf8("background-color: rgb(0, 255, 255);"));
+        MainWindow->setStyleSheet(QString::fromUtf8("background-color: rgb(146, 232, 255);"));
         actionOpen_File = new QAction(MainWindow);
         actionOpen_File->setObjectName(QString::fromUtf8("actionOpen_File"));
         centralwidget = new QWidget(MainWindow);
         centralwidget->setObjectName(QString::fromUtf8("centralwidget"));
+        centralwidget->setStyleSheet(QString::fromUtf8("background-color: rgb(146, 232, 255);\n"
+"border:none;"));
         groupBox = new QGroupBox(centralwidget);
         groupBox->setObjectName(QString::fromUtf8("groupBox"));
         groupBox->setGeometry(QRect(10, 0, 471, 651));
@@ -178,18 +176,18 @@ public:
         pushButton_startTest->setStyleSheet(QString::fromUtf8("border-image: url(:/Assets/Buttons/sexkunn_active.png);"));
         pushButton_Results = new QPushButton(groupBox_2);
         pushButton_Results->setObjectName(QString::fromUtf8("pushButton_Results"));
-        pushButton_Results->setGeometry(QRect(102, 147, 231, 41));
+        pushButton_Results->setGeometry(QRect(100, 210, 231, 41));
         pushButton_Results->setStyleSheet(QString::fromUtf8("border-image: url(:/Assets/Buttons/resultater_active.png);"));
         pushButton_Reminders = new QPushButton(groupBox_2);
         pushButton_Reminders->setObjectName(QString::fromUtf8("pushButton_Reminders"));
-        pushButton_Reminders->setGeometry(QRect(102, 202, 231, 41));
-        pushButton_Reminders->setStyleSheet(QString::fromUtf8("background-color: rgb(85, 255, 0);\n"
+        pushButton_Reminders->setGeometry(QRect(100, 270, 231, 41));
+        pushButton_Reminders->setStyleSheet(QString::fromUtf8("border-image: url(:/Assets/Buttons/oversikt_active.png);\n"
 "color: rgb(0, 0, 0);"));
         pushButton = new QPushButton(groupBox_2);
         pushButton->setObjectName(QString::fromUtf8("pushButton"));
-        pushButton->setGeometry(QRect(102, 257, 231, 41));
-        pushButton->setStyleSheet(QString::fromUtf8("background-color: rgb(85, 255, 0);\n"
-"color: rgb(0, 0, 0);"));
+        pushButton->setGeometry(QRect(100, 150, 231, 41));
+        pushButton->setStyleSheet(QString::fromUtf8("border-image: url(:/Assets/Buttons/kroppkunn_active.png);\n"
+""));
         label_profilePicture_Main = new QLabel(groupBox);
         label_profilePicture_Main->setObjectName(QString::fromUtf8("label_profilePicture_Main"));
         label_profilePicture_Main->setGeometry(QRect(180, 70, 91, 91));
@@ -205,19 +203,11 @@ public:
         label->setGeometry(QRect(180, 180, 111, 31));
         label->setFont(font);
         label->setStyleSheet(QString::fromUtf8("color: rgb(0, 0, 0);"));
+        pushButton_2 = new QPushButton(groupBox);
+        pushButton_2->setObjectName(QString::fromUtf8("pushButton_2"));
+        pushButton_2->setGeometry(QRect(10, 10, 91, 41));
+        pushButton_2->setStyleSheet(QString::fromUtf8("border-image: url(:/Assets/Buttons/avslutt_active.png);"));
         MainWindow->setCentralWidget(centralwidget);
-        menubar = new QMenuBar(MainWindow);
-        menubar->setObjectName(QString::fromUtf8("menubar"));
-        menubar->setGeometry(QRect(0, 0, 490, 20));
-        menuFile = new QMenu(menubar);
-        menuFile->setObjectName(QString::fromUtf8("menuFile"));
-        MainWindow->setMenuBar(menubar);
-        statusbar = new QStatusBar(MainWindow);
-        statusbar->setObjectName(QString::fromUtf8("statusbar"));
-        MainWindow->setStatusBar(statusbar);
-
-        menubar->addAction(menuFile->menuAction());
-        menuFile->addAction(actionOpen_File);
 
         retranslateUi(MainWindow);
 
@@ -229,7 +219,7 @@ public:
         MainWindow->setWindowTitle(QCoreApplication::translate("MainWindow", "MainWindow", nullptr));
         actionOpen_File->setText(QCoreApplication::translate("MainWindow", "Open File", nullptr));
         groupBox->setTitle(QString());
-        groupBox_3->setTitle(QCoreApplication::translate("MainWindow", "Ukes Kalender", nullptr));
+        groupBox_3->setTitle(QString());
         label_Thursday->setText(QCoreApplication::translate("MainWindow", "Tor", nullptr));
         label_Tuesday->setText(QCoreApplication::translate("MainWindow", " Tir", nullptr));
         label_Saturday->setText(QCoreApplication::translate("MainWindow", "L\303\270r", nullptr));
@@ -248,12 +238,12 @@ public:
         pushButton_Profile->setText(QString());
         pushButton_startTest->setText(QString());
         pushButton_Results->setText(QString());
-        pushButton_Reminders->setText(QCoreApplication::translate("MainWindow", "Gj\303\270rem\303\245l", nullptr));
-        pushButton->setText(QCoreApplication::translate("MainWindow", "Bytt til Arbeider", nullptr));
+        pushButton_Reminders->setText(QString());
+        pushButton->setText(QString());
         label_profilePicture_Main->setText(QCoreApplication::translate("MainWindow", "TextLabel", nullptr));
         label_Greeting->setText(QCoreApplication::translate("MainWindow", "God Morgen, Ola!", nullptr));
         label->setText(QCoreApplication::translate("MainWindow", "  Februar", nullptr));
-        menuFile->setTitle(QCoreApplication::translate("MainWindow", "File", nullptr));
+        pushButton_2->setText(QString());
     } // retranslateUi
 
 };

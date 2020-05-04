@@ -6,6 +6,7 @@ homepageDialog::homepageDialog(QWidget *parent) :
     ui(new Ui::homepageDialog)
 {
     ui->setupUi(this);
+    setWindowFlags(Qt::Window | Qt::FramelessWindowHint);
     presetProfileImage_Main();
 }
 
@@ -50,4 +51,9 @@ void homepageDialog::on_pushButton_clicked()
 {
     openDatabaseWorker.setModal(true);
     openDatabaseWorker.exec();
+}
+
+void homepageDialog::on_pushButton_2_clicked()
+{
+    close();
 }

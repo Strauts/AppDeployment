@@ -6,6 +6,7 @@ resourceHandlerDialog::resourceHandlerDialog(QWidget *parent) :
     ui(new Ui::resourceHandlerDialog)
 {
     ui->setupUi(this);
+    setWindowFlags(Qt::Window | Qt::FramelessWindowHint);
 }
 
 resourceHandlerDialog::~resourceHandlerDialog()

@@ -1,0 +1,56 @@
+<RCC>
+    <qresource prefix="/Assets"/>
+    <qresource prefix="/">
+        <file>Assets/Pictures_2/IMG_0332.GIF</file>
+        <file>Assets/Pictures_2/IMG_0333.GIF</file>
+        <file>Assets/Pictures_2/IMG_0334.GIF</file>
+        <file>Assets/Pictures_2/IMG_0335.GIF</file>
+        <file>Assets/Pictures_2/IMG_0336.GIF</file>
+        <file>Assets/Pictures_2/IMG_0337.GIF</file>
+        <file>Assets/Pictures_2/IMG_0374.GIF</file>
+        <file>Assets/Pictures_2/IMG_0375.GIF</file>
+        <file>Assets/Pictures_2/IMG_0376.GIF</file>
+        <file>Assets/Pictures_2/IMG_0381.GIF</file>
+        <file>Assets/Pictures_2/IMG_0382.GIF</file>
+        <file>Assets/Pictures_2/IMG_0469.GIF</file>
+        <file>Assets/Pictures_2/IMG_0471.GIF</file>
+        <file>Assets/Pictures_2/IMG_0475.GIF</file>
+        <file>Assets/Pictures_2/IMG_0477.GIF</file>
+        <file>Assets/Pictures_2/IMG_0479.GIF</file>
+        <file>Assets/Pictures_2/IMG_0485.GIF</file>
+        <file>Assets/Pictures_2/IMG_0490.GIF</file>
+        <file>Assets/Pictures_2/IMG_0492.GIF</file>
+        <file>Assets/Pictures_2/IMG_0505.PNG</file>
+        <file>Assets/Pictures_2/IMG_0532.GIF</file>
+        <file>Assets/Pictures_2/IMG_0535.GIF</file>
+        <file>Assets/Pictures_2/IMG_0537.GIF</file>
+        <file>Assets/Pictures_2/IMG_0543.GIF</file>
+        <file>Assets/Pictures_2/IMG_0544.GIF</file>
+        <file>Assets/Pictures_2/IMG_0562.GIF</file>
+        <file>Assets/Pictures_2/IMG_0586.GIF</file>
+        <file>Assets/Pictures_2/IMG_f1.gif</file>
+        <file>Assets/Pictures_2/IMG_f10.gif</file>
+        <file>Assets/Pictures_2/IMG_f11.gif</file>
+        <file>Assets/Pictures_2/IMG_f12.gif</file>
+        <file>Assets/Pictures_2/IMG_f13.gif</file>
+        <file>Assets/Pictures_2/IMG_f2.gif</file>
+        <file>Assets/Pictures_2/IMG_f3.gif</file>
+        <file>Assets/Pictures_2/IMG_f4.gif</file>
+        <file>Assets/Pictures_2/IMG_f5.gif</file>
+        <file>Assets/Pictures_2/IMG_f6.gif</file>
+        <file>Assets/Pictures_2/IMG_f7.gif</file>
+        <file>Assets/Pictures_2/IMG_f8.gif</file>
+        <file>Assets/Pictures_2/IMG_f9.gif</file>
+        <file>Assets/Pictures_2/Jente.GIF</file>
+        <file>Assets/Pictures_2/Jente2.GIF</file>
+        <file>Assets/Pictures_2/Jenter_loper.GIF</file>
+        <file>Assets/Pictures_2/KjoresteKlem.gif</file>
+        <file>Assets/Pictures_2/kyssidel.gif</file>
+        <file>Assets/Pictures_2/Libresse.gif</file>
+        <file>Assets/Pictures_2/LibresseMedHand.gif</file>
+        <file>Assets/Pictures_2/Mann.GIF</file>
+        <file>Assets/Pictures_2/Mann2.GIF</file>
+        <file>Assets/placeholder/Bestemor.GIF</file>
+        <file>Assets/Pictures_2/IMG_0459.GIF</file>
+    </qresource>
+</RCC>

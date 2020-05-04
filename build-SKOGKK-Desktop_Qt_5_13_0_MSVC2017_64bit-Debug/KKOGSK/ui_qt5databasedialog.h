@@ -27,12 +27,12 @@ public:
         if (qt5DatabaseDialog->objectName().isEmpty())
             qt5DatabaseDialog->setObjectName(QString::fromUtf8("qt5DatabaseDialog"));
         qt5DatabaseDialog->resize(490, 687);
-        qt5DatabaseDialog->setStyleSheet(QString::fromUtf8("background-color: rgb(0, 255, 255);"));
+        qt5DatabaseDialog->setStyleSheet(QString::fromUtf8("background-color: rgb(146, 232, 255);"));
         pushButton = new QPushButton(qt5DatabaseDialog);
         pushButton->setObjectName(QString::fromUtf8("pushButton"));
         pushButton->setGeometry(QRect(140, 90, 171, 51));
         pushButton->setStyleSheet(QString::fromUtf8("color: rgb(0, 0, 0);\n"
-"background-color: rgb(85, 255, 0);"));
+"background-color: rgb(146, 232, 255);"));
         pushButton_2 = new QPushButton(qt5DatabaseDialog);
         pushButton_2->setObjectName(QString::fromUtf8("pushButton_2"));
         pushButton_2->setGeometry(QRect(10, 10, 91, 41));

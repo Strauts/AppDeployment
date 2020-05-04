@@ -55,7 +55,7 @@ public:
         if (tasksDialog->objectName().isEmpty())
             tasksDialog->setObjectName(QString::fromUtf8("tasksDialog"));
         tasksDialog->resize(490, 687);
-        tasksDialog->setStyleSheet(QString::fromUtf8("background-color: rgb(0, 255, 255);"));
+        tasksDialog->setStyleSheet(QString::fromUtf8("background-color: rgb(146, 232, 255);"));
         groupBox = new QGroupBox(tasksDialog);
         groupBox->setObjectName(QString::fromUtf8("groupBox"));
         groupBox->setGeometry(QRect(30, 100, 421, 131));
@@ -164,8 +164,8 @@ public:
         label_19->setGeometry(QRect(0, 570, 31, 20));
         pushButton_2 = new QPushButton(tasksDialog);
         pushButton_2->setObjectName(QString::fromUtf8("pushButton_2"));
-        pushButton_2->setGeometry(QRect(160, 630, 111, 31));
-        pushButton_2->setStyleSheet(QString::fromUtf8("background-color: rgb(85, 255, 0);\n"
+        pushButton_2->setGeometry(QRect(120, 630, 211, 41));
+        pushButton_2->setStyleSheet(QString::fromUtf8("border-image: url(:/Assets/Buttons/nytt_notat_active.png);\n"
 "color: rgb(0, 0, 0);"));
 
         retranslateUi(tasksDialog);
@@ -199,7 +199,7 @@ public:
         label_17->setText(QCoreApplication::translate("tasksDialog", "TextLabel", nullptr));
         label_18->setText(QCoreApplication::translate("tasksDialog", "TextLabel", nullptr));
         label_19->setText(QCoreApplication::translate("tasksDialog", "TextLabel", nullptr));
-        pushButton_2->setText(QCoreApplication::translate("tasksDialog", "Legg til gj\303\270rem\303\245l", nullptr));
+        pushButton_2->setText(QString());
     } // retranslateUi
 
 };

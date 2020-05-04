@@ -6,6 +6,7 @@ patientInformationDialog::patientInformationDialog(QWidget *parent) :
     ui(new Ui::patientInformationDialog)
 {
     ui->setupUi(this);
+    setWindowFlags(Qt::Window | Qt::FramelessWindowHint);
 }
 
 patientInformationDialog::~patientInformationDialog()

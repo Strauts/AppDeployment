@@ -6,6 +6,7 @@ changePWDialog::changePWDialog(QWidget *parent) :
     ui(new Ui::changePWDialog)
 {
     ui->setupUi(this);
+    setWindowFlags(Qt::Window | Qt::FramelessWindowHint);
 }
 
 changePWDialog::~changePWDialog()

@@ -14,7 +14,7 @@
    <string>Dialog</string>
   </property>
   <property name="styleSheet">
-   <string notr="true">background-color: rgb(0, 255, 255);</string>
+   <string notr="true">background-color: rgb(146, 232, 255);</string>
   </property>
   <widget class="QGroupBox" name="groupBox">
    <property name="geometry">
@@ -149,6 +149,9 @@
       <height>31</height>
      </rect>
     </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);</string>
+    </property>
    </widget>
    <widget class="QLineEdit" name="lineEdit_2">
     <property name="geometry">
@@ -158,6 +161,9 @@
       <width>221</width>
       <height>31</height>
      </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);</string>
     </property>
    </widget>
    <widget class="QLineEdit" name="lineEdit_3">
@@ -169,6 +175,9 @@
       <height>31</height>
      </rect>
     </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);</string>
+    </property>
    </widget>
    <widget class="QLineEdit" name="lineEdit_4">
     <property name="geometry">
@@ -178,6 +187,9 @@
       <width>221</width>
       <height>31</height>
      </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);</string>
     </property>
    </widget>
    <widget class="QLineEdit" name="lineEdit_5">
@@ -189,6 +201,9 @@
       <height>31</height>
      </rect>
     </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);</string>
+    </property>
    </widget>
    <widget class="QLineEdit" name="lineEdit_6">
     <property name="geometry">
@@ -199,6 +214,9 @@
       <height>31</height>
      </rect>
     </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);</string>
+    </property>
    </widget>
    <widget class="QLineEdit" name="lineEdit_7">
     <property name="geometry">
@@ -208,6 +226,9 @@
       <width>221</width>
       <height>31</height>
      </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);</string>
     </property>
    </widget>
    <widget class="QCheckBox" name="checkBox">
@@ -253,10 +274,11 @@
     </property>
     <property name="styleSheet">
      <string notr="true">color: rgb(0, 0, 0);
-background-color: rgb(85, 255, 0);</string>
+border-image: url(:/Assets/Buttons/ny-konto_active.png);
+</string>
     </property>
     <property name="text">
-     <string>Registrer</string>
+     <string/>
     </property>
    </widget>
    <widget class="QLabel" name="label_16">
@@ -283,6 +305,9 @@ background-color: rgb(85, 255, 0);</string>
       <width>221</width>
       <height>31</height>
      </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);</string>
     </property>
    </widget>
   </widget>

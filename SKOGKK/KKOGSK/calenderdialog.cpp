@@ -6,6 +6,7 @@ calenderDialog::calenderDialog(QWidget *parent) :
     ui(new Ui::calenderDialog)
 {
     ui->setupUi(this);
+    setWindowFlags(Qt::Window | Qt::FramelessWindowHint);
     presetCalenderPicture();
 }
 
@@ -16,7 +17,7 @@ calenderDialog::~calenderDialog()
 
 void calenderDialog::presetCalenderPicture()
 {
-    QPixmap pix(":/Assets/Pictures/IMG_0294.PNG");
+    QPixmap pix(":/Assets/Pictures_2/IMG_0337.GIF");
     ui->label_Calender_Picture->setPixmap(pix);
     ui->label_Calender_Picture->setScaledContents(true);
     ui->label_Calender_Picture->setSizePolicy(QSizePolicy::Ignored, QSizePolicy::Ignored);

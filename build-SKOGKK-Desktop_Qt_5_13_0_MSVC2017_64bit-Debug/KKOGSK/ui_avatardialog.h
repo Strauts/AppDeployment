@@ -33,7 +33,7 @@ public:
         if (avatarDialog->objectName().isEmpty())
             avatarDialog->setObjectName(QString::fromUtf8("avatarDialog"));
         avatarDialog->resize(490, 687);
-        avatarDialog->setStyleSheet(QString::fromUtf8("background-color: rgb(0, 255, 255);"));
+        avatarDialog->setStyleSheet(QString::fromUtf8("background-color: rgb(146, 232, 255);"));
         groupBox = new QGroupBox(avatarDialog);
         groupBox->setObjectName(QString::fromUtf8("groupBox"));
         groupBox->setGeometry(QRect(0, 370, 491, 321));

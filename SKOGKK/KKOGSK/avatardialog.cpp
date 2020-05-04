@@ -10,6 +10,7 @@ avatarDialog::avatarDialog(QWidget *parent) :
     ui(new Ui::avatarDialog)
 {
     ui->setupUi(this);
+    setWindowFlags(Qt::Window | Qt::FramelessWindowHint);
     presetAvatar();
 }
 

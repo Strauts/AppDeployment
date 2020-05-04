@@ -32,14 +32,15 @@ public:
         if (commentDialog->objectName().isEmpty())
             commentDialog->setObjectName(QString::fromUtf8("commentDialog"));
         commentDialog->resize(490, 687);
-        commentDialog->setStyleSheet(QString::fromUtf8("background-color: rgb(0, 255, 255);"));
+        commentDialog->setStyleSheet(QString::fromUtf8("background-color: rgb(146, 232, 255);"));
         groupBox = new QGroupBox(commentDialog);
         groupBox->setObjectName(QString::fromUtf8("groupBox"));
         groupBox->setGeometry(QRect(30, 110, 431, 541));
         textEdit = new QTextEdit(groupBox);
         textEdit->setObjectName(QString::fromUtf8("textEdit"));
-        textEdit->setGeometry(QRect(0, 10, 431, 531));
-        textEdit->setStyleSheet(QString::fromUtf8("color: rgb(0, 0, 0);"));
+        textEdit->setGeometry(QRect(0, 0, 431, 541));
+        textEdit->setStyleSheet(QString::fromUtf8("color: rgb(0, 0, 0);\n"
+"background-color: rgb(255, 255, 255);"));
         label = new QLabel(commentDialog);
         label->setObjectName(QString::fromUtf8("label"));
         label->setGeometry(QRect(140, 20, 181, 51));

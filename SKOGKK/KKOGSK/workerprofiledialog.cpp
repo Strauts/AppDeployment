@@ -6,6 +6,7 @@ workerProfileDialog::workerProfileDialog(QWidget *parent) :
     ui(new Ui::workerProfileDialog)
 {
     ui->setupUi(this);
+    setWindowFlags(Qt::Window | Qt::FramelessWindowHint);
     presetProfilePictureWorker();
 }
 
