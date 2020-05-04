@@ -24,8 +24,9 @@ MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
     , ui(new Ui::MainWindow)
 {
-//    openQuestion.setModal(true);
-//    openQuestion.exec();
+    setWindowFlags(Qt::Window | Qt::FramelessWindowHint);
+    //    openQuestion.setModal(true);
+    //    openQuestion.exec();
     if(startUpTest.loginOK == false)
     {
         startUpTest.setModal(true);

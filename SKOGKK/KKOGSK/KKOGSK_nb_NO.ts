@@ -309,107 +309,107 @@ p, li { white-space: pre-wrap; }
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="homepagedialog.ui" line="46"/>
+        <location filename="homepagedialog.ui" line="45"/>
         <source>Ukes Kalender</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="homepagedialog.ui" line="57"/>
+        <location filename="homepagedialog.ui" line="56"/>
         <source>Tor</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="homepagedialog.ui" line="69"/>
+        <location filename="homepagedialog.ui" line="68"/>
         <source> Tir</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="homepagedialog.ui" line="81"/>
+        <location filename="homepagedialog.ui" line="80"/>
         <source>Lør</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="homepagedialog.ui" line="93"/>
+        <location filename="homepagedialog.ui" line="92"/>
         <source>Ons</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="homepagedialog.ui" line="105"/>
+        <location filename="homepagedialog.ui" line="104"/>
         <source>  8</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="homepagedialog.ui" line="117"/>
+        <location filename="homepagedialog.ui" line="116"/>
         <source>10</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="homepagedialog.ui" line="129"/>
+        <location filename="homepagedialog.ui" line="128"/>
         <source> Man</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="homepagedialog.ui" line="141"/>
+        <location filename="homepagedialog.ui" line="140"/>
         <source>  7</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="homepagedialog.ui" line="153"/>
+        <location filename="homepagedialog.ui" line="152"/>
         <source>Fre</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="homepagedialog.ui" line="165"/>
+        <location filename="homepagedialog.ui" line="164"/>
         <source>12</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="homepagedialog.ui" line="177"/>
+        <location filename="homepagedialog.ui" line="176"/>
         <source>  9</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="homepagedialog.ui" line="189"/>
+        <location filename="homepagedialog.ui" line="188"/>
         <source>11</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="homepagedialog.ui" line="201"/>
+        <location filename="homepagedialog.ui" line="200"/>
         <source>Søn</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="homepagedialog.ui" line="213"/>
+        <location filename="homepagedialog.ui" line="212"/>
         <source>13</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="homepagedialog.ui" line="270"/>
+        <location filename="homepagedialog.ui" line="269"/>
         <source>Brukerliste</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="homepagedialog.ui" line="303"/>
+        <location filename="homepagedialog.ui" line="302"/>
         <source>Gjøremål</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="homepagedialog.ui" line="320"/>
+        <location filename="homepagedialog.ui" line="319"/>
         <source>Database Test</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="homepagedialog.ui" line="334"/>
+        <location filename="homepagedialog.ui" line="333"/>
         <source>TextLabel</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="homepagedialog.ui" line="355"/>
+        <location filename="homepagedialog.ui" line="354"/>
         <source>God Morgen, Ola!</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="homepagedialog.ui" line="376"/>
+        <location filename="homepagedialog.ui" line="375"/>
         <source>  Februar</source>
         <translation type="unfinished"></translation>
     </message>
@@ -552,17 +552,12 @@ p, li { white-space: pre-wrap; }
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="registerdialog.ui" line="280"/>
-        <source>Registrer</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="registerdialog.ui" line="296"/>
+        <location filename="registerdialog.ui" line="297"/>
         <source>Brukernavn</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="registerdialog.ui" line="331"/>
+        <location filename="registerdialog.ui" line="332"/>
         <source>Registrer Konto</source>
         <translation type="unfinished"></translation>
     </message>
@@ -819,27 +814,22 @@ p, li { white-space: pre-wrap; }
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="workerprofiledialog.ui" line="82"/>
-        <source>Gjøremål</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="workerprofiledialog.ui" line="115"/>
+        <location filename="workerprofiledialog.ui" line="114"/>
         <source>Avatar</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="workerprofiledialog.ui" line="132"/>
+        <location filename="workerprofiledialog.ui" line="131"/>
         <source>Innstillinger</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="workerprofiledialog.ui" line="149"/>
+        <location filename="workerprofiledialog.ui" line="148"/>
         <source>Brukerliste</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="workerprofiledialog.ui" line="163"/>
+        <location filename="workerprofiledialog.ui" line="162"/>
         <source>TextLabel</source>
         <translation type="unfinished"></translation>
     </message>
@@ -872,7 +862,7 @@ p, li { white-space: pre-wrap; }
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="workerresultdialog.ui" line="135"/>
+        <location filename="workerresultdialog.ui" line="275"/>
         <source>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
 p, li { white-space: pre-wrap; }
@@ -881,7 +871,7 @@ p, li { white-space: pre-wrap; }
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="workerresultdialog.ui" line="158"/>
+        <location filename="workerresultdialog.ui" line="132"/>
         <source>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
 p, li { white-space: pre-wrap; }
@@ -890,7 +880,7 @@ p, li { white-space: pre-wrap; }
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="workerresultdialog.ui" line="181"/>
+        <location filename="workerresultdialog.ui" line="158"/>
         <source>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
 p, li { white-space: pre-wrap; }
@@ -899,7 +889,7 @@ p, li { white-space: pre-wrap; }
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="workerresultdialog.ui" line="195"/>
+        <location filename="workerresultdialog.ui" line="229"/>
         <source>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
 p, li { white-space: pre-wrap; }
@@ -908,7 +898,7 @@ p, li { white-space: pre-wrap; }
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="workerresultdialog.ui" line="209"/>
+        <location filename="workerresultdialog.ui" line="315"/>
         <source>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
 p, li { white-space: pre-wrap; }
@@ -917,7 +907,7 @@ p, li { white-space: pre-wrap; }
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="workerresultdialog.ui" line="229"/>
+        <location filename="workerresultdialog.ui" line="198"/>
         <source>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
 p, li { white-space: pre-wrap; }
@@ -926,7 +916,7 @@ p, li { white-space: pre-wrap; }
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="workerresultdialog.ui" line="243"/>
+        <location filename="workerresultdialog.ui" line="258"/>
         <source>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
 p, li { white-space: pre-wrap; }
@@ -935,7 +925,7 @@ p, li { white-space: pre-wrap; }
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="workerresultdialog.ui" line="257"/>
+        <location filename="workerresultdialog.ui" line="289"/>
         <source>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
 p, li { white-space: pre-wrap; }
@@ -944,7 +934,7 @@ p, li { white-space: pre-wrap; }
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="workerresultdialog.ui" line="274"/>
+        <location filename="workerresultdialog.ui" line="172"/>
         <source>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
 p, li { white-space: pre-wrap; }
@@ -953,26 +943,12 @@ p, li { white-space: pre-wrap; }
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="workerresultdialog.ui" line="303"/>
+        <location filename="workerresultdialog.ui" line="215"/>
         <source>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
 p, li { white-space: pre-wrap; }
 &lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:8.25pt; font-weight:400; font-style:normal;&quot;&gt;
 &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:20pt;&quot;&gt;     4&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="workerresultdialog.ui" line="333"/>
-        <location filename="workerresultdialog.ui" line="344"/>
-        <location filename="workerresultdialog.ui" line="355"/>
-        <location filename="workerresultdialog.ui" line="366"/>
-        <location filename="workerresultdialog.ui" line="377"/>
-        <location filename="workerresultdialog.ui" line="388"/>
-        <location filename="workerresultdialog.ui" line="399"/>
-        <location filename="workerresultdialog.ui" line="410"/>
-        <location filename="workerresultdialog.ui" line="421"/>
-        <location filename="workerresultdialog.ui" line="432"/>
-        <source>Legg til</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
