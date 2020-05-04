@@ -38,7 +38,7 @@ public slots:
 
     void on_pushButton_Results_Profile_clicked();
 
-    void on_pushButton_Rewards_Profile_clicked();
+//    void on_pushButton_Rewards_Profile_clicked();
 
     void on_pushButton_Avatar_Profile_clicked();
 

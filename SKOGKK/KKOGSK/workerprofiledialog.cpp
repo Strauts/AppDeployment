@@ -49,11 +49,11 @@ void workerProfileDialog::on_pushButton_Results_Profile_2_clicked()
     openResultsProfileWorker.exec();
 }
 
-void workerProfileDialog::on_pushButton_Rewards_Profile_2_clicked()
-{
-    openRewardProfileWorker.setModal(true);
-    openRewardProfileWorker.exec();
-}
+//void workerProfileDialog::on_pushButton_Rewards_Profile_2_clicked()
+//{
+//    openRewardProfileWorker.setModal(true);
+//    openRewardProfileWorker.exec();
+//}
 
 void workerProfileDialog::on_pushButton_Avatar_Profile_2_clicked()
 {

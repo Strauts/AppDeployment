@@ -41,11 +41,11 @@ void ProfileDialog::on_pushButton_Results_Profile_clicked()
     openResultsProfile.exec();
 }
 
-void ProfileDialog::on_pushButton_Rewards_Profile_clicked()
-{
-    openRewardProfile.setModal(true);
-    openRewardProfile.exec();
-}
+//void ProfileDialog::on_pushButton_Rewards_Profile_clicked()
+//{
+//    openRewardProfile.setModal(true);
+//    openRewardProfile.exec();
+//}
 
 void ProfileDialog::on_pushButton_Avatar_Profile_clicked()
 {

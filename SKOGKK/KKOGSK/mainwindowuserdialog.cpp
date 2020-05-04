@@ -36,7 +36,7 @@ MainWindowUserDialog::MainWindowUserDialog(QWidget *parent)
     {
 
         ui->setupUi(this);
-        setWindowFlags(Qt::Window | Qt::FramelessWindowHint);
+        //setWindowFlags(Qt::Window | Qt::FramelessWindowHint | Qt::Window);
         presetProfileImage_Main();
     }
     else if(startUpTest.isWorker == true && startUpTest.loginOK == true)

@@ -14,10 +14,7 @@ int main(int argc, char *argv[])
     QApplication a(argc, argv);
     MainWindow w;
 
-   // w.setWindowFlag(Qt::w | Qt::FramelessWindowHint);
-    w.show();
-
-
+    //w.show();
     //w.exec();
     return a.exec();
 }
