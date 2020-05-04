@@ -37,8 +37,11 @@ public:
     patientDialog openPatients;
 
     bool dateCheckWorker;
+    bool exit = false;
 
+public slots:
 
+    void on_pushButton_2_clicked();
 private slots:
     void on_pushButton_Profile_clicked();
 
@@ -49,8 +52,6 @@ private slots:
     void on_pushButton_Reminders_clicked();
 
     void on_pushButton_clicked();
-
-    void on_pushButton_2_clicked();
 
 private:
     Ui::homepageDialog *ui;

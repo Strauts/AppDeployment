@@ -102,6 +102,7 @@ void MainWindowUserDialog::on_pushButton_clicked()
 
 void MainWindowUserDialog::on_pushButton_2_clicked()
 {
+    bool exit = true;
     close();
 }
 

@@ -55,5 +55,6 @@ void homepageDialog::on_pushButton_clicked()
 
 void homepageDialog::on_pushButton_2_clicked()
 {
+    exit = true;
     close();
 }
