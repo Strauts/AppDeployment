@@ -5,7 +5,7 @@
 #include <QFileDialog>
 //#include "secondwindowdialog.h"
 //#include "questiondialog.h"
-//#include "logindialog.h"
+#include "logindialog.h"
 //#include "ui_LoginDialog.h"
 //#include "profiledialog.h"
 //#include "qt5databasedialog.h"
@@ -31,7 +31,7 @@ public:
 
 //    QuestionDialog openQuestion;
 //    SecondWindowDialog secWindow;
-//    LoginDialog startUpTest;
+    LoginDialog startUpTest;
 //    ProfileDialog openProfile;
 //    resultsDialog openResults;
 //    qt5DatabaseDialog openDatabase;

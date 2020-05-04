@@ -16,6 +16,7 @@ public:
 
     bool loginOK = false;
     bool isWorker = false;
+    bool exit = false;
     int iCheck;
 
     void presetPicture();

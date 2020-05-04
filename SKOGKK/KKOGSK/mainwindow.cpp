@@ -42,7 +42,7 @@ MainWindow::MainWindow(QWidget *parent)
     //        openWorkerHome.setModal(true);
     //        openWorkerHome.exec();
     //    }
-    ui->setupUi(this);
+    //ui->setupUi(this);
     setWindowFlags(Qt::Window | Qt::FramelessWindowHint);
     openMain.setModal(true);
     openMain.exec();
