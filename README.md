@@ -5,6 +5,8 @@ From here open the folder: "KKOGSK"
 A little down you can see a file named "KKOGSK", of type "Application" - Run this file.
 KKOGSK.exe / KKOGSK (Application file)
 
+After starting the application, use "test" as username and password to log in.
+
 Hoping the .dll requirements are set properly now, as of now it works on my non-working computer without Visual Studio installed, which was previously a cause for crash at launch.
 
 What is Wt ?
