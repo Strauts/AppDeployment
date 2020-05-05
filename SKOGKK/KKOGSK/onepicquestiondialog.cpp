@@ -177,7 +177,7 @@ void onePicQuestionDialog::chooseImage()
     else if(imageNr == 52)
     {
         text = "Tema: Grenser og overgrep";
-        text2 = "51. Har en voksen lov til å bli kjæreste med et barn på nettet?";
+        text2 = "51. Har voksne lov til å ha sex med barn på film eller på nettet?";
         ui->label_2->setText(text);
         ui->label_3->setText(text2);
         QPixmap pix(":/Assets/Pictures/IMG_0390.GIF");
