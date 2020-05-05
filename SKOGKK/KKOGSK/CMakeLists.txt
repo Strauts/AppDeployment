@@ -4,6 +4,7 @@ project(KKOGSK LANGUAGES CXX)
 
 find_package(Qt5 COMPONENTS Core Widgets LinguistTools Gui REQUIRED Quick Sql)
 
+
 set(project_ui
     mainwindow.ui
     SecondWindowDialog.ui

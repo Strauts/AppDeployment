@@ -322,34 +322,6 @@
         <source>Dialog</source>
         <translation type="unfinished"></translation>
     </message>
-    <message>
-        <location filename="bodyquestiondialog.ui" line="29"/>
-        <location filename="bodyquestiondialog.ui" line="59"/>
-        <location filename="bodyquestiondialog.ui" line="88"/>
-        <location filename="bodyquestiondialog.ui" line="101"/>
-        <source>TextLabel</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="bodyquestiondialog.ui" line="46"/>
-        <source>B</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="bodyquestiondialog.ui" line="118"/>
-        <source>A</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="bodyquestiondialog.ui" line="151"/>
-        <source>C</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="bodyquestiondialog.ui" line="168"/>
-        <source>D</source>
-        <translation type="unfinished"></translation>
-    </message>
 </context>
 <context>
     <name>calenderDialog</name>
