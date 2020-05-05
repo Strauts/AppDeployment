@@ -288,7 +288,7 @@ public:
 
         label = new QLabel(workerResultDialog);
         label->setObjectName(QString::fromUtf8("label"));
-        label->setGeometry(QRect(150, 0, 211, 61));
+        label->setGeometry(QRect(150, 10, 211, 51));
         QFont font1;
         font1.setPointSize(18);
         label->setFont(font1);

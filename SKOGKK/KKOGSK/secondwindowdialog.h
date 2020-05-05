@@ -27,6 +27,7 @@ public:
     int ID;
     int nextQuestion = 0;
     QString text;
+    QString text2;
 
     bool answerCorrect = false;
 

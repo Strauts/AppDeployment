@@ -230,6 +230,8 @@ void onePicQuestionDialog::chooseImage()
         ui->label->setSizePolicy(QSizePolicy::Ignored, QSizePolicy::Ignored);
         movie->start();
     }
+    text = "";
+    text2 = "";
 
 }
 

@@ -83,7 +83,7 @@ public:
         resultsDialog->setStyleSheet(QString::fromUtf8("background-color: rgb(146, 232, 255);"));
         label = new QLabel(resultsDialog);
         label->setObjectName(QString::fromUtf8("label"));
-        label->setGeometry(QRect(150, 0, 211, 61));
+        label->setGeometry(QRect(150, 10, 211, 51));
         QFont font;
         font.setPointSize(18);
         label->setFont(font);

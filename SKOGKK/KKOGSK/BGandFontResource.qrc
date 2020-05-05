@@ -17,5 +17,12 @@
         <file>Assets/Frames/three-frames.png</file>
         <file>Assets/Frames/two-frames-horizontal.png</file>
         <file>Assets/Frames/two-frames-vertical.png</file>
+        <file>Assets/Icons/IMG_0576.PNG</file>
+        <file>Assets/Icons/IMG_0577.PNG</file>
+        <file>Assets/Icons/IMG_0578.PNG</file>
+        <file>Assets/Icons/IMG_0579.PNG</file>
+        <file>Assets/Icons/IMG_0580.PNG</file>
+        <file>Assets/Icons/IMG_0581.PNG</file>
+        <file>Assets/Icons/IMG_0582.PNG</file>
     </qresource>
 </RCC>

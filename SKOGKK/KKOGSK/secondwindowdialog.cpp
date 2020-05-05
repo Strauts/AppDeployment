@@ -110,9 +110,10 @@ void SecondWindowDialog::setUpGif()
     }
     else if(nextQuestion == 3)
     {
-        text = "3. Pek på kroppsdelene: Hår, Øyne, Nese, Munn, Pupper, Hals, Hæl,";
+        text = "3. Pek på kroppsdelene: Hår, Øyne, Nese, Munn, Pupper, Hals,";
+        text2 = "Hæl, Hofte, Knær, Dametiss, Navle, Tær, Fingre";
         ui->label_2->setText(text);
-        ui->label_3->setText("Mannetiss, Hofte, Knær, Dametiss, Navle, Tær, Fingre");
+        ui->label_3->setText(text2);
 
 
         QPixmap pix(":/Assets/Pictures/Naken_kvinne.GIF");
@@ -126,12 +127,13 @@ void SecondWindowDialog::setUpGif()
     }
     else if(nextQuestion == 4)
     {
-        text = "4. Hva brukes de til: Hår, Øyne, Nese, Munn, Pupper, Hals, Hæl,";
+        text = "4. Hva brukes de til: Hår, Øyne, Nese, Munn, Pupper, Hals,";
+        text2 = "Hæl, Hofte, Knær, Dametiss, Navle, Tær, Fingre";
         ui->label_2->setText(text);
+        ui->label_3->setText(text2);
+
         QPixmap pix(":/Assets/Pictures/Naken_kvinne.GIF");
         QMovie *movie = new QMovie(":/Assets/Pictures/Naken_kvinne.GIF");
-
-
         ui->label->setPixmap(pix);
         ui->label->setScaledContents(true);
         ui->label->setSizePolicy(QSizePolicy::Ignored, QSizePolicy::Ignored);
@@ -212,6 +214,8 @@ void SecondWindowDialog::setUpGif()
     else if(nextQuestion == 10)
     {
         text = "8.Hvem er barn?";
+        text2 = "";
+        ui->label_3->setText(text2);
         ui->label_2->setText(text);
         QPixmap pix(":/Assets/Pictures_2/IMG_0562.GIF");
         QMovie *movie = new QMovie(":/Assets/Pictures_2/IMG_0562.GIF");
@@ -241,7 +245,7 @@ void SecondWindowDialog::setUpGif()
         //        ui->label_2->setText(text);
         //        //Annen side
 
-                answerCorrect = true;
+        answerCorrect = true;
     }
     else if(nextQuestion == 13)
     {
@@ -888,7 +892,6 @@ void SecondWindowDialog::setUpGif()
         movie->start();
         answerCorrect = true;
     }
-
 }
 
 void SecondWindowDialog::setUpGif_2()
@@ -921,8 +924,10 @@ void SecondWindowDialog::setUpGif_2()
     }
     else if(nextQuestion == 3)
     {
-        text = "3. Pek på...";
+        text = "3. Pek på kroppsdelene: Hår, Øyne, Nese, Munn, Hals,";
+        text2 = "Hæl, Hofte, Knær, Mannetiss, Navle, Tær, Fingre";
         ui->label_2->setText(text);
+        ui->label_3->setText(text2);
         QPixmap pix(":/Assets/Pictures/Naken_mann2.GIF");
         QMovie *movie = new QMovie(":/Assets/Pictures/Naken_mann2.GIF");
         ui->label->setPixmap(pix);
@@ -934,8 +939,10 @@ void SecondWindowDialog::setUpGif_2()
     }
     else if(nextQuestion == 4)
     {
-        text = "4. Hva brukes den/de til";
+        text = "4. Hva brukes de til: Hår, Øyne, Nese, Munn, Hals,";
+        text2 = "Hæl, Hofte, Knær, Mannetiss, Navle, Tær, Fingre";
         ui->label_2->setText(text);
+        ui->label_3->setText(text2);
         QPixmap pix(":/Assets/Pictures/Naken_mann2.GIF");
         QMovie *movie = new QMovie(":/Assets/Pictures/Naken_mann2.GIF");
         ui->label->setPixmap(pix);
@@ -1012,6 +1019,8 @@ void SecondWindowDialog::setUpGif_2()
     }
     else if(nextQuestion == 10)
     {
+        text2 = "";
+        ui->label_3->setText(text2);
         text = "8.Hvem er barn?";
         ui->label_2->setText(text);
         QPixmap pix(":/Assets/Pictures/Dame.GIF");

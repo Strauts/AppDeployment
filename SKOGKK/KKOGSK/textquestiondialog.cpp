@@ -79,6 +79,8 @@ void textQuestionDialog::chooseNr()
         ui->label->setText(text);
         ui->label_2->setText(text2);
     }
+    text = "";
+    text2 = "";
 }
 
 void textQuestionDialog::on_pushButton_clicked()
