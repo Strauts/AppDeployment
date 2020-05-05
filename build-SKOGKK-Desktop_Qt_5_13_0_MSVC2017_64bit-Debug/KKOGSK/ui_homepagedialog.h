@@ -158,26 +158,27 @@ public:
         groupBox_2->setStyleSheet(QString::fromUtf8(""));
         pushButton_Profile = new QPushButton(groupBox_2);
         pushButton_Profile->setObjectName(QString::fromUtf8("pushButton_Profile"));
-        pushButton_Profile->setGeometry(QRect(102, 37, 231, 41));
+        pushButton_Profile->setGeometry(QRect(122, 37, 231, 41));
         pushButton_Profile->setBaseSize(QSize(0, 0));
         pushButton_Profile->setStyleSheet(QString::fromUtf8("border-image: url(:/Assets/Buttons/profil_active.png);"));
         pushButton_startTest = new QPushButton(groupBox_2);
         pushButton_startTest->setObjectName(QString::fromUtf8("pushButton_startTest"));
-        pushButton_startTest->setGeometry(QRect(102, 92, 231, 41));
+        pushButton_startTest->setGeometry(QRect(122, 92, 231, 41));
         pushButton_startTest->setStyleSheet(QString::fromUtf8("color: rgb(0, 0, 0);\n"
 "background-color: rgb(146, 232, 255);"));
         pushButton_Results = new QPushButton(groupBox_2);
         pushButton_Results->setObjectName(QString::fromUtf8("pushButton_Results"));
-        pushButton_Results->setGeometry(QRect(102, 147, 231, 41));
+        pushButton_Results->setGeometry(QRect(122, 147, 231, 41));
         pushButton_Results->setStyleSheet(QString::fromUtf8("border-image: url(:/Assets/Buttons/resultater_active.png);"));
         pushButton_Reminders = new QPushButton(groupBox_2);
         pushButton_Reminders->setObjectName(QString::fromUtf8("pushButton_Reminders"));
-        pushButton_Reminders->setGeometry(QRect(102, 202, 231, 41));
+        pushButton_Reminders->setGeometry(QRect(122, 202, 231, 41));
         pushButton_Reminders->setStyleSheet(QString::fromUtf8("color: rgb(0, 0, 0);\n"
+"border-image: url(:/Assets/Buttons/oversikt_active.png);\n"
 "background-color: rgb(146, 232, 255);"));
         pushButton = new QPushButton(groupBox_2);
         pushButton->setObjectName(QString::fromUtf8("pushButton"));
-        pushButton->setGeometry(QRect(102, 257, 231, 41));
+        pushButton->setGeometry(QRect(122, 257, 231, 41));
         pushButton->setStyleSheet(QString::fromUtf8("color: rgb(0, 0, 0);\n"
 "background-color: rgb(146, 232, 255);"));
         label_profilePicture_Main = new QLabel(groupBox);
@@ -228,7 +229,7 @@ public:
         pushButton_Profile->setText(QString());
         pushButton_startTest->setText(QCoreApplication::translate("homepageDialog", "Brukerliste", nullptr));
         pushButton_Results->setText(QString());
-        pushButton_Reminders->setText(QCoreApplication::translate("homepageDialog", "Gj\303\270rem\303\245l", nullptr));
+        pushButton_Reminders->setText(QString());
         pushButton->setText(QCoreApplication::translate("homepageDialog", "Database Test", nullptr));
         label_profilePicture_Main->setText(QCoreApplication::translate("homepageDialog", "TextLabel", nullptr));
         label_Greeting->setText(QCoreApplication::translate("homepageDialog", "God Morgen, Ola!", nullptr));

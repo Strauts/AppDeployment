@@ -233,7 +233,7 @@ border:none;</string>
     <widget class="QPushButton" name="pushButton_Profile">
      <property name="geometry">
       <rect>
-       <x>102</x>
+       <x>122</x>
        <y>37</y>
        <width>231</width>
        <height>41</height>
@@ -255,7 +255,7 @@ border:none;</string>
     <widget class="QPushButton" name="pushButton_startTest">
      <property name="geometry">
       <rect>
-       <x>102</x>
+       <x>122</x>
        <y>92</y>
        <width>231</width>
        <height>41</height>
@@ -272,7 +272,7 @@ background-color: rgb(146, 232, 255);</string>
     <widget class="QPushButton" name="pushButton_Results">
      <property name="geometry">
       <rect>
-       <x>102</x>
+       <x>122</x>
        <y>147</y>
        <width>231</width>
        <height>41</height>
@@ -288,7 +288,7 @@ background-color: rgb(146, 232, 255);</string>
     <widget class="QPushButton" name="pushButton_Reminders">
      <property name="geometry">
       <rect>
-       <x>102</x>
+       <x>122</x>
        <y>202</y>
        <width>231</width>
        <height>41</height>
@@ -296,16 +296,17 @@ background-color: rgb(146, 232, 255);</string>
      </property>
      <property name="styleSheet">
       <string notr="true">color: rgb(0, 0, 0);
+border-image: url(:/Assets/Buttons/oversikt_active.png);
 background-color: rgb(146, 232, 255);</string>
      </property>
      <property name="text">
-      <string>Gjøremål</string>
+      <string/>
      </property>
     </widget>
     <widget class="QPushButton" name="pushButton">
      <property name="geometry">
       <rect>
-       <x>102</x>
+       <x>122</x>
        <y>257</y>
        <width>231</width>
        <height>41</height>

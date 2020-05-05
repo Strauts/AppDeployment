@@ -29,7 +29,10 @@
 		"D:/Bachelor/backup/AppDeployment/SKOGKK/KKOGSK/Assets/Frames/three-frames.png",
 		"D:/Bachelor/backup/AppDeployment/SKOGKK/KKOGSK/Assets/Frames/four-frames.png",
 		"D:/Bachelor/backup/AppDeployment/SKOGKK/KKOGSK/Assets/Frames/two-frames-vertical.png",
-		"D:/Bachelor/backup/AppDeployment/SKOGKK/KKOGSK/Assets/Frames/single-frame-big.png"
+		"D:/Bachelor/backup/AppDeployment/SKOGKK/KKOGSK/Assets/Frames/single-frame-big.png",
+		"D:/Bachelor/backup/AppDeployment/SKOGKK/KKOGSK/Assets/Avatar/image0.png",
+		"D:/Bachelor/backup/AppDeployment/SKOGKK/KKOGSK/Assets/Avatar/image2.png",
+		"D:/Bachelor/backup/AppDeployment/SKOGKK/KKOGSK/Assets/Avatar/image1.png"
 	],
 	"LOCK_FILE" : "D:/Bachelor/backup/AppDeployment/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK/CMakeFiles/KKOGSK_autogen.dir/AutoRcc_BGandFontResource_EWIEGA46WW_Lock.lock",
 	"MULTI_CONFIG" : false,

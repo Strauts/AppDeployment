@@ -24,5 +24,8 @@
         <file>Assets/Icons/IMG_0580.PNG</file>
         <file>Assets/Icons/IMG_0581.PNG</file>
         <file>Assets/Icons/IMG_0582.PNG</file>
+        <file>Assets/Avatar/image0.png</file>
+        <file>Assets/Avatar/image1.png</file>
+        <file>Assets/Avatar/image2.png</file>
     </qresource>
 </RCC>

@@ -27,6 +27,9 @@ public:
     QLabel *label;
     QLabel *label_8;
     QPushButton *pushButton;
+    QPushButton *pushButton_2;
+    QPushButton *pushButton_3;
+    QPushButton *pushButton_4;
 
     void setupUi(QDialog *avatarDialog)
     {
@@ -41,7 +44,7 @@ public:
         gridLayout->setObjectName(QString::fromUtf8("gridLayout"));
         label = new QLabel(avatarDialog);
         label->setObjectName(QString::fromUtf8("label"));
-        label->setGeometry(QRect(80, 70, 321, 281));
+        label->setGeometry(QRect(10, 70, 471, 611));
         label_8 = new QLabel(avatarDialog);
         label_8->setObjectName(QString::fromUtf8("label_8"));
         label_8->setGeometry(QRect(200, 10, 71, 51));
@@ -53,6 +56,26 @@ public:
         pushButton->setObjectName(QString::fromUtf8("pushButton"));
         pushButton->setGeometry(QRect(10, 10, 91, 41));
         pushButton->setStyleSheet(QString::fromUtf8("border-image: url(:/Assets/Buttons/gaa-tilbake_active.png);"));
+        pushButton_2 = new QPushButton(avatarDialog);
+        pushButton_2->setObjectName(QString::fromUtf8("pushButton_2"));
+        pushButton_2->setGeometry(QRect(340, 10, 41, 41));
+        QFont font1;
+        font1.setPointSize(12);
+        pushButton_2->setFont(font1);
+        pushButton_2->setStyleSheet(QString::fromUtf8("color: rgb(0, 0, 0);\n"
+"background-color: rgb(146, 232, 255);"));
+        pushButton_3 = new QPushButton(avatarDialog);
+        pushButton_3->setObjectName(QString::fromUtf8("pushButton_3"));
+        pushButton_3->setGeometry(QRect(390, 10, 41, 41));
+        pushButton_3->setFont(font1);
+        pushButton_3->setStyleSheet(QString::fromUtf8("color: rgb(0, 0, 0);\n"
+"background-color: rgb(146, 232, 255);"));
+        pushButton_4 = new QPushButton(avatarDialog);
+        pushButton_4->setObjectName(QString::fromUtf8("pushButton_4"));
+        pushButton_4->setGeometry(QRect(440, 10, 41, 41));
+        pushButton_4->setFont(font1);
+        pushButton_4->setStyleSheet(QString::fromUtf8("color: rgb(0, 0, 0);\n"
+"background-color: rgb(146, 232, 255);"));
 
         retranslateUi(avatarDialog);
 
@@ -66,6 +89,9 @@ public:
         label->setText(QCoreApplication::translate("avatarDialog", "TextLabel", nullptr));
         label_8->setText(QCoreApplication::translate("avatarDialog", "Avatar", nullptr));
         pushButton->setText(QString());
+        pushButton_2->setText(QCoreApplication::translate("avatarDialog", "1", nullptr));
+        pushButton_3->setText(QCoreApplication::translate("avatarDialog", "2", nullptr));
+        pushButton_4->setText(QCoreApplication::translate("avatarDialog", "3", nullptr));
     } // retranslateUi
 
 };
