@@ -59,12 +59,13 @@ public:
         if (MainWindow->objectName().isEmpty())
             MainWindow->setObjectName(QString::fromUtf8("MainWindow"));
         MainWindow->setEnabled(true);
-        MainWindow->resize(490, 687);
+        MainWindow->resize(452, 800);
         MainWindow->setStyleSheet(QString::fromUtf8("background-color: rgb(146, 232, 255);"));
         actionOpen_File = new QAction(MainWindow);
         actionOpen_File->setObjectName(QString::fromUtf8("actionOpen_File"));
         centralwidget = new QWidget(MainWindow);
         centralwidget->setObjectName(QString::fromUtf8("centralwidget"));
+        centralwidget->setEnabled(false);
         centralwidget->setStyleSheet(QString::fromUtf8("background-color: rgb(146, 232, 255);\n"
 "border:none;"));
         groupBox = new QGroupBox(centralwidget);

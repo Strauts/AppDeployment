@@ -1,4 +1,4 @@
-# Install script for directory: D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK
+# Install script for directory: D:/Bachelor/backup/AppDeployment/SKOGKK/KKOGSK
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

@@ -1,24 +1,9 @@
 #include "mainwindow.h"
-#include "./ui_mainwindow.h"
+//#include "./ui_mainwindow.h"
 #include <iostream>
-#include <QAction>
-#include <QFileDialog>
-#include <QStandardPaths>
-#include <QImageReader>
-#include <QDir>
-#include <QLabel>
-#include <QByteArray>
-#include <Qmovie>
-#include "secondwindowdialog.h"
 #include "questiondialog.h"
 #include <ui_mainwindow.h>
-#include <QApplication>
-#include <QTimer>
-#include <QPixmap>
 
-//#include <cmrc/cmrc.hpp>
-
-//CMRC_DECLARE(foo);
 
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
@@ -43,9 +28,9 @@ MainWindow::MainWindow(QWidget *parent)
     //        openWorkerHome.exec();
     //    }
     //ui->setupUi(this);
-    ui->~MainWindow();
-    setWindowFlags(Qt::Window | Qt::FramelessWindowHint);
-    openMain.setWindowFlags(Qt::Window | Qt::FramelessWindowHint);
+    //ui->~MainWindow();
+    //setWindowFlags(Qt::Window | Qt::FramelessWindowHint);
+    //openMain.setWindowFlags(Qt::Window | Qt::FramelessWindowHint);
     openMain.setModal(true);
     openMain.exec();
     for(int i = 1; i <10; i++)
@@ -56,7 +41,6 @@ MainWindow::MainWindow(QWidget *parent)
         }
         i--;
     }
-    QObject::connect(ui->actionOpen_File, SIGNAL(triggered()), this, SLOT(onOpenActionTriggered()));
 }
 
 

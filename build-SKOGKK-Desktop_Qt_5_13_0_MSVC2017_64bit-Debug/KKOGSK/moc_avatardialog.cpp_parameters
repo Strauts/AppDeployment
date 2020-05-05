@@ -1,5 +1,5 @@
 -DWIN32
 --compiler-flavor=msvc
 -o
-D:/Bachelor/wt-4.2.0/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK/moc_avatardialog.cpp
-D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/avatardialog.h
+D:/Bachelor/backup/AppDeployment/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK/moc_avatardialog.cpp
+D:/Bachelor/backup/AppDeployment/SKOGKK/KKOGSK/avatardialog.h

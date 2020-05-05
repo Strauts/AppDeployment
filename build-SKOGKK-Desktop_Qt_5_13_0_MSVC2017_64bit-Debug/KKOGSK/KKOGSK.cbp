@@ -8,7 +8,7 @@
 		<Option virtualFolders="CMake Files\;CMake Files\KKOGSK\;CMake Files\Qt\;CMake Files\Qt\5.13.0\;CMake Files\Qt\5.13.0\msvc2017_64\;CMake Files\Qt\5.13.0\msvc2017_64\lib\;CMake Files\Qt\5.13.0\msvc2017_64\lib\cmake\;CMake Files\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5\;CMake Files\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Core\;CMake Files\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Widgets\;CMake Files\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Gui\;CMake Files\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5LinguistTools\;CMake Files\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Quick\;CMake Files\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Qml\;CMake Files\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Network\;CMake Files\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Sql\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="D:/Bachelor/wt-4.2.0/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK"/>
+				<Option working_dir="D:/Bachelor/backup/AppDeployment/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK"/>
 				<Option type="4"/>
 				<MakeCommands>
 					<Build command="C:/PROGRA~2/MIB055~1/2017/COMMUN~1/Common7/IDE/COMMON~1/MICROS~1/CMake/Ninja/ninja.exe -v all"/>
@@ -18,8 +18,8 @@
 				</MakeCommands>
 			</Target>
 			<Target title="KKOGSK">
-				<Option output="D:/Bachelor/wt-4.2.0/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK/KKOGSK.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/Bachelor/wt-4.2.0/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK"/>
+				<Option output="D:/Bachelor/backup/AppDeployment/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK/KKOGSK.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Bachelor/backup/AppDeployment/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="msvc8"/>
@@ -31,9 +31,9 @@
 					<Add option="-DQT_QML_LIB"/>
 					<Add option="-DQT_NETWORK_LIB"/>
 					<Add option="-DQT_SQL_LIB"/>
-					<Add directory="D:/Bachelor/wt-4.2.0/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK"/>
-					<Add directory="D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK"/>
-					<Add directory="D:/Bachelor/wt-4.2.0/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK/KKOGSK_autogen/include"/>
+					<Add directory="D:/Bachelor/backup/AppDeployment/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK"/>
+					<Add directory="D:/Bachelor/backup/AppDeployment/SKOGKK/KKOGSK"/>
+					<Add directory="D:/Bachelor/backup/AppDeployment/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK/KKOGSK_autogen/include"/>
 					<Add directory="C:/Qt/5.13.0/msvc2017_64/include"/>
 					<Add directory="C:/Qt/5.13.0/msvc2017_64/include/QtWidgets"/>
 					<Add directory="C:/Qt/5.13.0/msvc2017_64/include/QtGui"/>
@@ -61,8 +61,8 @@
 				</MakeCommands>
 			</Target>
 			<Target title="KKOGSK/fast">
-				<Option output="D:/Bachelor/wt-4.2.0/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK/KKOGSK.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/Bachelor/wt-4.2.0/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK"/>
+				<Option output="D:/Bachelor/backup/AppDeployment/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK/KKOGSK.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Bachelor/backup/AppDeployment/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="msvc8"/>
@@ -74,9 +74,9 @@
 					<Add option="-DQT_QML_LIB"/>
 					<Add option="-DQT_NETWORK_LIB"/>
 					<Add option="-DQT_SQL_LIB"/>
-					<Add directory="D:/Bachelor/wt-4.2.0/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK"/>
-					<Add directory="D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK"/>
-					<Add directory="D:/Bachelor/wt-4.2.0/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK/KKOGSK_autogen/include"/>
+					<Add directory="D:/Bachelor/backup/AppDeployment/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK"/>
+					<Add directory="D:/Bachelor/backup/AppDeployment/SKOGKK/KKOGSK"/>
+					<Add directory="D:/Bachelor/backup/AppDeployment/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK/KKOGSK_autogen/include"/>
 					<Add directory="C:/Qt/5.13.0/msvc2017_64/include"/>
 					<Add directory="C:/Qt/5.13.0/msvc2017_64/include/QtWidgets"/>
 					<Add directory="C:/Qt/5.13.0/msvc2017_64/include/QtGui"/>
@@ -104,7 +104,7 @@
 				</MakeCommands>
 			</Target>
 			<Target title="KKOGSK_autogen">
-				<Option working_dir="D:/Bachelor/wt-4.2.0/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK"/>
+				<Option working_dir="D:/Bachelor/backup/AppDeployment/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK"/>
 				<Option type="4"/>
 				<MakeCommands>
 					<Build command="C:/PROGRA~2/MIB055~1/2017/COMMUN~1/Common7/IDE/COMMON~1/MICROS~1/CMake/Ninja/ninja.exe -v KKOGSK_autogen"/>
@@ -114,715 +114,733 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/BGandFontResource.qrc">
+		<Unit filename="D:/Bachelor/backup/AppDeployment/SKOGKK/KKOGSK/BGandFontResource.qrc">
 			<Option target="KKOGSK"/>
 		</Unit>
-		<Unit filename="D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/KKOGSK_nb_NO.ts">
+		<Unit filename="D:/Bachelor/backup/AppDeployment/SKOGKK/KKOGSK/KKOGSK_nb_NO.ts">
 			<Option target="KKOGSK"/>
 		</Unit>
-		<Unit filename="D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/KKOGSK_nb_NO.ts.rule">
+		<Unit filename="D:/Bachelor/backup/AppDeployment/SKOGKK/KKOGSK/KKOGSK_nb_NO.ts.rule">
 			<Option target="KKOGSK"/>
 		</Unit>
-		<Unit filename="D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/ResourceButton.qrc">
+		<Unit filename="D:/Bachelor/backup/AppDeployment/SKOGKK/KKOGSK/ResourceButton.qrc">
 			<Option target="KKOGSK"/>
 		</Unit>
-		<Unit filename="D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/ResourcePictures1.qrc">
+		<Unit filename="D:/Bachelor/backup/AppDeployment/SKOGKK/KKOGSK/ResourcePictures1.qrc">
 			<Option target="KKOGSK"/>
 		</Unit>
-		<Unit filename="D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/ResourcePictures2.qrc">
+		<Unit filename="D:/Bachelor/backup/AppDeployment/SKOGKK/KKOGSK/ResourcePictures2.qrc">
 			<Option target="KKOGSK"/>
 		</Unit>
-		<Unit filename="D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/avatardialog.cpp">
+		<Unit filename="D:/Bachelor/backup/AppDeployment/SKOGKK/KKOGSK/avatardialog.cpp">
 			<Option target="KKOGSK"/>
 		</Unit>
-		<Unit filename="D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/avatardialog.h">
+		<Unit filename="D:/Bachelor/backup/AppDeployment/SKOGKK/KKOGSK/avatardialog.h">
 			<Option target="KKOGSK"/>
 		</Unit>
-		<Unit filename="D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/avatardialog.ui">
+		<Unit filename="D:/Bachelor/backup/AppDeployment/SKOGKK/KKOGSK/avatardialog.ui">
 			<Option target="KKOGSK"/>
 		</Unit>
-		<Unit filename="D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/bodyquestiondialog.cpp">
+		<Unit filename="D:/Bachelor/backup/AppDeployment/SKOGKK/KKOGSK/bodyquestiondialog.cpp">
 			<Option target="KKOGSK"/>
 		</Unit>
-		<Unit filename="D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/bodyquestiondialog.h">
+		<Unit filename="D:/Bachelor/backup/AppDeployment/SKOGKK/KKOGSK/bodyquestiondialog.h">
 			<Option target="KKOGSK"/>
 		</Unit>
-		<Unit filename="D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/bodyquestiondialog.ui">
+		<Unit filename="D:/Bachelor/backup/AppDeployment/SKOGKK/KKOGSK/bodyquestiondialog.ui">
 			<Option target="KKOGSK"/>
 		</Unit>
-		<Unit filename="D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/calenderdialog.cpp">
+		<Unit filename="D:/Bachelor/backup/AppDeployment/SKOGKK/KKOGSK/calenderdialog.cpp">
 			<Option target="KKOGSK"/>
 		</Unit>
-		<Unit filename="D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/calenderdialog.h">
+		<Unit filename="D:/Bachelor/backup/AppDeployment/SKOGKK/KKOGSK/calenderdialog.h">
 			<Option target="KKOGSK"/>
 		</Unit>
-		<Unit filename="D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/calenderdialog.ui">
+		<Unit filename="D:/Bachelor/backup/AppDeployment/SKOGKK/KKOGSK/calenderdialog.ui">
 			<Option target="KKOGSK"/>
 		</Unit>
-		<Unit filename="D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/changepwdialog.cpp">
+		<Unit filename="D:/Bachelor/backup/AppDeployment/SKOGKK/KKOGSK/changepwdialog.cpp">
 			<Option target="KKOGSK"/>
 		</Unit>
-		<Unit filename="D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/changepwdialog.h">
+		<Unit filename="D:/Bachelor/backup/AppDeployment/SKOGKK/KKOGSK/changepwdialog.h">
 			<Option target="KKOGSK"/>
 		</Unit>
-		<Unit filename="D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/changepwdialog.ui">
+		<Unit filename="D:/Bachelor/backup/AppDeployment/SKOGKK/KKOGSK/changepwdialog.ui">
 			<Option target="KKOGSK"/>
 		</Unit>
-		<Unit filename="D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/commentdialog.cpp">
+		<Unit filename="D:/Bachelor/backup/AppDeployment/SKOGKK/KKOGSK/commentdialog.cpp">
 			<Option target="KKOGSK"/>
 		</Unit>
-		<Unit filename="D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/commentdialog.h">
+		<Unit filename="D:/Bachelor/backup/AppDeployment/SKOGKK/KKOGSK/commentdialog.h">
 			<Option target="KKOGSK"/>
 		</Unit>
-		<Unit filename="D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/commentdialog.ui">
+		<Unit filename="D:/Bachelor/backup/AppDeployment/SKOGKK/KKOGSK/commentdialog.ui">
 			<Option target="KKOGSK"/>
 		</Unit>
-		<Unit filename="D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/homepagedialog.cpp">
+		<Unit filename="D:/Bachelor/backup/AppDeployment/SKOGKK/KKOGSK/homepagedialog.cpp">
 			<Option target="KKOGSK"/>
 		</Unit>
-		<Unit filename="D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/homepagedialog.h">
+		<Unit filename="D:/Bachelor/backup/AppDeployment/SKOGKK/KKOGSK/homepagedialog.h">
 			<Option target="KKOGSK"/>
 		</Unit>
-		<Unit filename="D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/homepagedialog.ui">
+		<Unit filename="D:/Bachelor/backup/AppDeployment/SKOGKK/KKOGSK/homepagedialog.ui">
 			<Option target="KKOGSK"/>
 		</Unit>
-		<Unit filename="D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/logindialog.cpp">
+		<Unit filename="D:/Bachelor/backup/AppDeployment/SKOGKK/KKOGSK/logindialog.cpp">
 			<Option target="KKOGSK"/>
 		</Unit>
-		<Unit filename="D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/logindialog.h">
+		<Unit filename="D:/Bachelor/backup/AppDeployment/SKOGKK/KKOGSK/logindialog.h">
 			<Option target="KKOGSK"/>
 		</Unit>
-		<Unit filename="D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/logindialog.ui">
+		<Unit filename="D:/Bachelor/backup/AppDeployment/SKOGKK/KKOGSK/logindialog.ui">
 			<Option target="KKOGSK"/>
 		</Unit>
-		<Unit filename="D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/main.cpp">
+		<Unit filename="D:/Bachelor/backup/AppDeployment/SKOGKK/KKOGSK/main.cpp">
 			<Option target="KKOGSK"/>
 		</Unit>
-		<Unit filename="D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/mainwindow.cpp">
+		<Unit filename="D:/Bachelor/backup/AppDeployment/SKOGKK/KKOGSK/mainwindow.cpp">
 			<Option target="KKOGSK"/>
 		</Unit>
-		<Unit filename="D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/mainwindow.h">
+		<Unit filename="D:/Bachelor/backup/AppDeployment/SKOGKK/KKOGSK/mainwindow.h">
 			<Option target="KKOGSK"/>
 		</Unit>
-		<Unit filename="D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/mainwindow.ui">
+		<Unit filename="D:/Bachelor/backup/AppDeployment/SKOGKK/KKOGSK/mainwindow.ui">
 			<Option target="KKOGSK"/>
 		</Unit>
-		<Unit filename="D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/onepicquestiondialog.cpp">
+		<Unit filename="D:/Bachelor/backup/AppDeployment/SKOGKK/KKOGSK/mainwindowuserdialog.cpp">
 			<Option target="KKOGSK"/>
 		</Unit>
-		<Unit filename="D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/onepicquestiondialog.h">
+		<Unit filename="D:/Bachelor/backup/AppDeployment/SKOGKK/KKOGSK/mainwindowuserdialog.h">
 			<Option target="KKOGSK"/>
 		</Unit>
-		<Unit filename="D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/onepicquestiondialog.ui">
+		<Unit filename="D:/Bachelor/backup/AppDeployment/SKOGKK/KKOGSK/mainwindowuserdialog.ui">
 			<Option target="KKOGSK"/>
 		</Unit>
-		<Unit filename="D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/patientdialog.cpp">
+		<Unit filename="D:/Bachelor/backup/AppDeployment/SKOGKK/KKOGSK/onepicquestiondialog.cpp">
 			<Option target="KKOGSK"/>
 		</Unit>
-		<Unit filename="D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/patientdialog.h">
+		<Unit filename="D:/Bachelor/backup/AppDeployment/SKOGKK/KKOGSK/onepicquestiondialog.h">
 			<Option target="KKOGSK"/>
 		</Unit>
-		<Unit filename="D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/patientdialog.ui">
+		<Unit filename="D:/Bachelor/backup/AppDeployment/SKOGKK/KKOGSK/onepicquestiondialog.ui">
 			<Option target="KKOGSK"/>
 		</Unit>
-		<Unit filename="D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/patientinformationdialog.cpp">
+		<Unit filename="D:/Bachelor/backup/AppDeployment/SKOGKK/KKOGSK/patientdialog.cpp">
 			<Option target="KKOGSK"/>
 		</Unit>
-		<Unit filename="D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/patientinformationdialog.h">
+		<Unit filename="D:/Bachelor/backup/AppDeployment/SKOGKK/KKOGSK/patientdialog.h">
 			<Option target="KKOGSK"/>
 		</Unit>
-		<Unit filename="D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/patientinformationdialog.ui">
+		<Unit filename="D:/Bachelor/backup/AppDeployment/SKOGKK/KKOGSK/patientdialog.ui">
 			<Option target="KKOGSK"/>
 		</Unit>
-		<Unit filename="D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/profiledialog.cpp">
+		<Unit filename="D:/Bachelor/backup/AppDeployment/SKOGKK/KKOGSK/patientinformationdialog.cpp">
 			<Option target="KKOGSK"/>
 		</Unit>
-		<Unit filename="D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/profiledialog.h">
+		<Unit filename="D:/Bachelor/backup/AppDeployment/SKOGKK/KKOGSK/patientinformationdialog.h">
 			<Option target="KKOGSK"/>
 		</Unit>
-		<Unit filename="D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/profiledialog.ui">
+		<Unit filename="D:/Bachelor/backup/AppDeployment/SKOGKK/KKOGSK/patientinformationdialog.ui">
 			<Option target="KKOGSK"/>
 		</Unit>
-		<Unit filename="D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/qt5databasedialog.cpp">
+		<Unit filename="D:/Bachelor/backup/AppDeployment/SKOGKK/KKOGSK/profiledialog.cpp">
 			<Option target="KKOGSK"/>
 		</Unit>
-		<Unit filename="D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/qt5databasedialog.h">
+		<Unit filename="D:/Bachelor/backup/AppDeployment/SKOGKK/KKOGSK/profiledialog.h">
 			<Option target="KKOGSK"/>
 		</Unit>
-		<Unit filename="D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/qt5databasedialog.ui">
+		<Unit filename="D:/Bachelor/backup/AppDeployment/SKOGKK/KKOGSK/profiledialog.ui">
 			<Option target="KKOGSK"/>
 		</Unit>
-		<Unit filename="D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/questiondialog.cpp">
+		<Unit filename="D:/Bachelor/backup/AppDeployment/SKOGKK/KKOGSK/qt5databasedialog.cpp">
 			<Option target="KKOGSK"/>
 		</Unit>
-		<Unit filename="D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/questiondialog.h">
+		<Unit filename="D:/Bachelor/backup/AppDeployment/SKOGKK/KKOGSK/qt5databasedialog.h">
 			<Option target="KKOGSK"/>
 		</Unit>
-		<Unit filename="D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/questiondialog.ui">
+		<Unit filename="D:/Bachelor/backup/AppDeployment/SKOGKK/KKOGSK/qt5databasedialog.ui">
 			<Option target="KKOGSK"/>
 		</Unit>
-		<Unit filename="D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/readquestiondialog.cpp">
+		<Unit filename="D:/Bachelor/backup/AppDeployment/SKOGKK/KKOGSK/questiondialog.cpp">
 			<Option target="KKOGSK"/>
 		</Unit>
-		<Unit filename="D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/readquestiondialog.h">
+		<Unit filename="D:/Bachelor/backup/AppDeployment/SKOGKK/KKOGSK/questiondialog.h">
 			<Option target="KKOGSK"/>
 		</Unit>
-		<Unit filename="D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/readquestiondialog.ui">
+		<Unit filename="D:/Bachelor/backup/AppDeployment/SKOGKK/KKOGSK/questiondialog.ui">
 			<Option target="KKOGSK"/>
 		</Unit>
-		<Unit filename="D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/registerdialog.cpp">
+		<Unit filename="D:/Bachelor/backup/AppDeployment/SKOGKK/KKOGSK/readquestiondialog.cpp">
 			<Option target="KKOGSK"/>
 		</Unit>
-		<Unit filename="D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/registerdialog.h">
+		<Unit filename="D:/Bachelor/backup/AppDeployment/SKOGKK/KKOGSK/readquestiondialog.h">
 			<Option target="KKOGSK"/>
 		</Unit>
-		<Unit filename="D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/registerdialog.ui">
+		<Unit filename="D:/Bachelor/backup/AppDeployment/SKOGKK/KKOGSK/readquestiondialog.ui">
 			<Option target="KKOGSK"/>
 		</Unit>
-		<Unit filename="D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/resourcehandlerdialog.cpp">
+		<Unit filename="D:/Bachelor/backup/AppDeployment/SKOGKK/KKOGSK/registerdialog.cpp">
 			<Option target="KKOGSK"/>
 		</Unit>
-		<Unit filename="D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/resourcehandlerdialog.h">
+		<Unit filename="D:/Bachelor/backup/AppDeployment/SKOGKK/KKOGSK/registerdialog.h">
 			<Option target="KKOGSK"/>
 		</Unit>
-		<Unit filename="D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/resourcehandlerdialog.ui">
+		<Unit filename="D:/Bachelor/backup/AppDeployment/SKOGKK/KKOGSK/registerdialog.ui">
 			<Option target="KKOGSK"/>
 		</Unit>
-		<Unit filename="D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/resultsdialog.cpp">
+		<Unit filename="D:/Bachelor/backup/AppDeployment/SKOGKK/KKOGSK/resourcehandlerdialog.cpp">
 			<Option target="KKOGSK"/>
 		</Unit>
-		<Unit filename="D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/resultsdialog.h">
+		<Unit filename="D:/Bachelor/backup/AppDeployment/SKOGKK/KKOGSK/resourcehandlerdialog.h">
 			<Option target="KKOGSK"/>
 		</Unit>
-		<Unit filename="D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/resultsdialog.ui">
+		<Unit filename="D:/Bachelor/backup/AppDeployment/SKOGKK/KKOGSK/resourcehandlerdialog.ui">
 			<Option target="KKOGSK"/>
 		</Unit>
-		<Unit filename="D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/rewarddialog.cpp">
+		<Unit filename="D:/Bachelor/backup/AppDeployment/SKOGKK/KKOGSK/resultsdialog.cpp">
 			<Option target="KKOGSK"/>
 		</Unit>
-		<Unit filename="D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/rewarddialog.h">
+		<Unit filename="D:/Bachelor/backup/AppDeployment/SKOGKK/KKOGSK/resultsdialog.h">
 			<Option target="KKOGSK"/>
 		</Unit>
-		<Unit filename="D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/rewarddialog.ui">
+		<Unit filename="D:/Bachelor/backup/AppDeployment/SKOGKK/KKOGSK/resultsdialog.ui">
 			<Option target="KKOGSK"/>
 		</Unit>
-		<Unit filename="D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/secondwindowbodydialog.cpp">
+		<Unit filename="D:/Bachelor/backup/AppDeployment/SKOGKK/KKOGSK/rewarddialog.cpp">
 			<Option target="KKOGSK"/>
 		</Unit>
-		<Unit filename="D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/secondwindowbodydialog.h">
+		<Unit filename="D:/Bachelor/backup/AppDeployment/SKOGKK/KKOGSK/rewarddialog.h">
 			<Option target="KKOGSK"/>
 		</Unit>
-		<Unit filename="D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/secondwindowbodydialog.ui">
+		<Unit filename="D:/Bachelor/backup/AppDeployment/SKOGKK/KKOGSK/rewarddialog.ui">
 			<Option target="KKOGSK"/>
 		</Unit>
-		<Unit filename="D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/secondwindowdialog.cpp">
+		<Unit filename="D:/Bachelor/backup/AppDeployment/SKOGKK/KKOGSK/secondwindowbodydialog.cpp">
 			<Option target="KKOGSK"/>
 		</Unit>
-		<Unit filename="D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/secondwindowdialog.h">
+		<Unit filename="D:/Bachelor/backup/AppDeployment/SKOGKK/KKOGSK/secondwindowbodydialog.h">
 			<Option target="KKOGSK"/>
 		</Unit>
-		<Unit filename="D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/secondwindowdialog.ui">
+		<Unit filename="D:/Bachelor/backup/AppDeployment/SKOGKK/KKOGSK/secondwindowbodydialog.ui">
 			<Option target="KKOGSK"/>
 		</Unit>
-		<Unit filename="D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/settingsdialog.cpp">
+		<Unit filename="D:/Bachelor/backup/AppDeployment/SKOGKK/KKOGSK/secondwindowdialog.cpp">
 			<Option target="KKOGSK"/>
 		</Unit>
-		<Unit filename="D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/settingsdialog.h">
+		<Unit filename="D:/Bachelor/backup/AppDeployment/SKOGKK/KKOGSK/secondwindowdialog.h">
 			<Option target="KKOGSK"/>
 		</Unit>
-		<Unit filename="D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/settingsdialog.ui">
+		<Unit filename="D:/Bachelor/backup/AppDeployment/SKOGKK/KKOGSK/secondwindowdialog.ui">
 			<Option target="KKOGSK"/>
 		</Unit>
-		<Unit filename="D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/tasksdialog.cpp">
+		<Unit filename="D:/Bachelor/backup/AppDeployment/SKOGKK/KKOGSK/settingsdialog.cpp">
 			<Option target="KKOGSK"/>
 		</Unit>
-		<Unit filename="D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/tasksdialog.h">
+		<Unit filename="D:/Bachelor/backup/AppDeployment/SKOGKK/KKOGSK/settingsdialog.h">
 			<Option target="KKOGSK"/>
 		</Unit>
-		<Unit filename="D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/tasksdialog.ui">
+		<Unit filename="D:/Bachelor/backup/AppDeployment/SKOGKK/KKOGSK/settingsdialog.ui">
 			<Option target="KKOGSK"/>
 		</Unit>
-		<Unit filename="D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/textquestiondialog.cpp">
+		<Unit filename="D:/Bachelor/backup/AppDeployment/SKOGKK/KKOGSK/tasksdialog.cpp">
 			<Option target="KKOGSK"/>
 		</Unit>
-		<Unit filename="D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/textquestiondialog.h">
+		<Unit filename="D:/Bachelor/backup/AppDeployment/SKOGKK/KKOGSK/tasksdialog.h">
 			<Option target="KKOGSK"/>
 		</Unit>
-		<Unit filename="D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/textquestiondialog.ui">
+		<Unit filename="D:/Bachelor/backup/AppDeployment/SKOGKK/KKOGSK/tasksdialog.ui">
 			<Option target="KKOGSK"/>
 		</Unit>
-		<Unit filename="D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/workerprofiledialog.cpp">
+		<Unit filename="D:/Bachelor/backup/AppDeployment/SKOGKK/KKOGSK/textquestiondialog.cpp">
 			<Option target="KKOGSK"/>
 		</Unit>
-		<Unit filename="D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/workerprofiledialog.h">
+		<Unit filename="D:/Bachelor/backup/AppDeployment/SKOGKK/KKOGSK/textquestiondialog.h">
 			<Option target="KKOGSK"/>
 		</Unit>
-		<Unit filename="D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/workerprofiledialog.ui">
+		<Unit filename="D:/Bachelor/backup/AppDeployment/SKOGKK/KKOGSK/textquestiondialog.ui">
 			<Option target="KKOGSK"/>
 		</Unit>
-		<Unit filename="D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/workerresultdialog.cpp">
+		<Unit filename="D:/Bachelor/backup/AppDeployment/SKOGKK/KKOGSK/workerprofiledialog.cpp">
 			<Option target="KKOGSK"/>
 		</Unit>
-		<Unit filename="D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/workerresultdialog.h">
+		<Unit filename="D:/Bachelor/backup/AppDeployment/SKOGKK/KKOGSK/workerprofiledialog.h">
 			<Option target="KKOGSK"/>
 		</Unit>
-		<Unit filename="D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/workerresultdialog.ui">
+		<Unit filename="D:/Bachelor/backup/AppDeployment/SKOGKK/KKOGSK/workerprofiledialog.ui">
 			<Option target="KKOGSK"/>
 		</Unit>
-		<Unit filename="D:/Bachelor/wt-4.2.0/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK/KKOGSK_autogen/EWIEGA46WW/qrc_BGandFontResource.cpp">
+		<Unit filename="D:/Bachelor/backup/AppDeployment/SKOGKK/KKOGSK/workerresultdialog.cpp">
 			<Option target="KKOGSK"/>
 		</Unit>
-		<Unit filename="D:/Bachelor/wt-4.2.0/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK/KKOGSK_autogen/EWIEGA46WW/qrc_BGandFontResource.cpp.rule">
+		<Unit filename="D:/Bachelor/backup/AppDeployment/SKOGKK/KKOGSK/workerresultdialog.h">
 			<Option target="KKOGSK"/>
 		</Unit>
-		<Unit filename="D:/Bachelor/wt-4.2.0/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK/KKOGSK_autogen/EWIEGA46WW/qrc_ResourceButton.cpp">
+		<Unit filename="D:/Bachelor/backup/AppDeployment/SKOGKK/KKOGSK/workerresultdialog.ui">
 			<Option target="KKOGSK"/>
 		</Unit>
-		<Unit filename="D:/Bachelor/wt-4.2.0/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK/KKOGSK_autogen/EWIEGA46WW/qrc_ResourceButton.cpp.rule">
+		<Unit filename="D:/Bachelor/backup/AppDeployment/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK/KKOGSK_autogen/EWIEGA46WW/qrc_BGandFontResource.cpp">
 			<Option target="KKOGSK"/>
 		</Unit>
-		<Unit filename="D:/Bachelor/wt-4.2.0/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK/KKOGSK_autogen/EWIEGA46WW/qrc_ResourcePictures1.cpp">
+		<Unit filename="D:/Bachelor/backup/AppDeployment/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK/KKOGSK_autogen/EWIEGA46WW/qrc_BGandFontResource.cpp.rule">
 			<Option target="KKOGSK"/>
 		</Unit>
-		<Unit filename="D:/Bachelor/wt-4.2.0/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK/KKOGSK_autogen/EWIEGA46WW/qrc_ResourcePictures1.cpp.rule">
+		<Unit filename="D:/Bachelor/backup/AppDeployment/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK/KKOGSK_autogen/EWIEGA46WW/qrc_ResourceButton.cpp">
 			<Option target="KKOGSK"/>
 		</Unit>
-		<Unit filename="D:/Bachelor/wt-4.2.0/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK/KKOGSK_autogen/EWIEGA46WW/qrc_ResourcePictures2.cpp">
+		<Unit filename="D:/Bachelor/backup/AppDeployment/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK/KKOGSK_autogen/EWIEGA46WW/qrc_ResourceButton.cpp.rule">
 			<Option target="KKOGSK"/>
 		</Unit>
-		<Unit filename="D:/Bachelor/wt-4.2.0/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK/KKOGSK_autogen/EWIEGA46WW/qrc_ResourcePictures2.cpp.rule">
+		<Unit filename="D:/Bachelor/backup/AppDeployment/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK/KKOGSK_autogen/EWIEGA46WW/qrc_ResourcePictures1.cpp">
 			<Option target="KKOGSK"/>
 		</Unit>
-		<Unit filename="D:/Bachelor/wt-4.2.0/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK/KKOGSK_autogen/mocs_compilation.cpp">
+		<Unit filename="D:/Bachelor/backup/AppDeployment/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK/KKOGSK_autogen/EWIEGA46WW/qrc_ResourcePictures1.cpp.rule">
 			<Option target="KKOGSK"/>
 		</Unit>
-		<Unit filename="D:/Bachelor/wt-4.2.0/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK/moc_avatardialog.cpp">
+		<Unit filename="D:/Bachelor/backup/AppDeployment/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK/KKOGSK_autogen/EWIEGA46WW/qrc_ResourcePictures2.cpp">
 			<Option target="KKOGSK"/>
 		</Unit>
-		<Unit filename="D:/Bachelor/wt-4.2.0/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK/moc_avatardialog.cpp.rule">
+		<Unit filename="D:/Bachelor/backup/AppDeployment/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK/KKOGSK_autogen/EWIEGA46WW/qrc_ResourcePictures2.cpp.rule">
 			<Option target="KKOGSK"/>
 		</Unit>
-		<Unit filename="D:/Bachelor/wt-4.2.0/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK/moc_bodyquestiondialog.cpp">
+		<Unit filename="D:/Bachelor/backup/AppDeployment/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK/KKOGSK_autogen/mocs_compilation.cpp">
 			<Option target="KKOGSK"/>
 		</Unit>
-		<Unit filename="D:/Bachelor/wt-4.2.0/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK/moc_bodyquestiondialog.cpp.rule">
+		<Unit filename="D:/Bachelor/backup/AppDeployment/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK/moc_avatardialog.cpp">
 			<Option target="KKOGSK"/>
 		</Unit>
-		<Unit filename="D:/Bachelor/wt-4.2.0/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK/moc_calenderdialog.cpp">
+		<Unit filename="D:/Bachelor/backup/AppDeployment/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK/moc_avatardialog.cpp.rule">
 			<Option target="KKOGSK"/>
 		</Unit>
-		<Unit filename="D:/Bachelor/wt-4.2.0/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK/moc_calenderdialog.cpp.rule">
+		<Unit filename="D:/Bachelor/backup/AppDeployment/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK/moc_bodyquestiondialog.cpp">
 			<Option target="KKOGSK"/>
 		</Unit>
-		<Unit filename="D:/Bachelor/wt-4.2.0/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK/moc_changepwdialog.cpp">
+		<Unit filename="D:/Bachelor/backup/AppDeployment/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK/moc_bodyquestiondialog.cpp.rule">
 			<Option target="KKOGSK"/>
 		</Unit>
-		<Unit filename="D:/Bachelor/wt-4.2.0/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK/moc_changepwdialog.cpp.rule">
+		<Unit filename="D:/Bachelor/backup/AppDeployment/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK/moc_calenderdialog.cpp">
 			<Option target="KKOGSK"/>
 		</Unit>
-		<Unit filename="D:/Bachelor/wt-4.2.0/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK/moc_commentdialog.cpp">
+		<Unit filename="D:/Bachelor/backup/AppDeployment/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK/moc_calenderdialog.cpp.rule">
 			<Option target="KKOGSK"/>
 		</Unit>
-		<Unit filename="D:/Bachelor/wt-4.2.0/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK/moc_commentdialog.cpp.rule">
+		<Unit filename="D:/Bachelor/backup/AppDeployment/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK/moc_changepwdialog.cpp">
 			<Option target="KKOGSK"/>
 		</Unit>
-		<Unit filename="D:/Bachelor/wt-4.2.0/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK/moc_homepagedialog.cpp">
+		<Unit filename="D:/Bachelor/backup/AppDeployment/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK/moc_changepwdialog.cpp.rule">
 			<Option target="KKOGSK"/>
 		</Unit>
-		<Unit filename="D:/Bachelor/wt-4.2.0/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK/moc_homepagedialog.cpp.rule">
+		<Unit filename="D:/Bachelor/backup/AppDeployment/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK/moc_commentdialog.cpp">
 			<Option target="KKOGSK"/>
 		</Unit>
-		<Unit filename="D:/Bachelor/wt-4.2.0/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK/moc_logindialog.cpp">
+		<Unit filename="D:/Bachelor/backup/AppDeployment/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK/moc_commentdialog.cpp.rule">
 			<Option target="KKOGSK"/>
 		</Unit>
-		<Unit filename="D:/Bachelor/wt-4.2.0/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK/moc_logindialog.cpp.rule">
+		<Unit filename="D:/Bachelor/backup/AppDeployment/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK/moc_homepagedialog.cpp">
 			<Option target="KKOGSK"/>
 		</Unit>
-		<Unit filename="D:/Bachelor/wt-4.2.0/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK/moc_mainwindow.cpp">
+		<Unit filename="D:/Bachelor/backup/AppDeployment/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK/moc_homepagedialog.cpp.rule">
 			<Option target="KKOGSK"/>
 		</Unit>
-		<Unit filename="D:/Bachelor/wt-4.2.0/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK/moc_mainwindow.cpp.rule">
+		<Unit filename="D:/Bachelor/backup/AppDeployment/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK/moc_logindialog.cpp">
 			<Option target="KKOGSK"/>
 		</Unit>
-		<Unit filename="D:/Bachelor/wt-4.2.0/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK/moc_onepicquestiondialog.cpp">
+		<Unit filename="D:/Bachelor/backup/AppDeployment/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK/moc_logindialog.cpp.rule">
 			<Option target="KKOGSK"/>
 		</Unit>
-		<Unit filename="D:/Bachelor/wt-4.2.0/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK/moc_onepicquestiondialog.cpp.rule">
+		<Unit filename="D:/Bachelor/backup/AppDeployment/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK/moc_mainwindow.cpp">
 			<Option target="KKOGSK"/>
 		</Unit>
-		<Unit filename="D:/Bachelor/wt-4.2.0/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK/moc_patientdialog.cpp">
+		<Unit filename="D:/Bachelor/backup/AppDeployment/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK/moc_mainwindow.cpp.rule">
 			<Option target="KKOGSK"/>
 		</Unit>
-		<Unit filename="D:/Bachelor/wt-4.2.0/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK/moc_patientdialog.cpp.rule">
+		<Unit filename="D:/Bachelor/backup/AppDeployment/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK/moc_mainwindowuserdialog.cpp">
 			<Option target="KKOGSK"/>
 		</Unit>
-		<Unit filename="D:/Bachelor/wt-4.2.0/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK/moc_patientinformationdialog.cpp">
+		<Unit filename="D:/Bachelor/backup/AppDeployment/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK/moc_mainwindowuserdialog.cpp.rule">
 			<Option target="KKOGSK"/>
 		</Unit>
-		<Unit filename="D:/Bachelor/wt-4.2.0/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK/moc_patientinformationdialog.cpp.rule">
+		<Unit filename="D:/Bachelor/backup/AppDeployment/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK/moc_onepicquestiondialog.cpp">
 			<Option target="KKOGSK"/>
 		</Unit>
-		<Unit filename="D:/Bachelor/wt-4.2.0/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK/moc_profiledialog.cpp">
+		<Unit filename="D:/Bachelor/backup/AppDeployment/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK/moc_onepicquestiondialog.cpp.rule">
 			<Option target="KKOGSK"/>
 		</Unit>
-		<Unit filename="D:/Bachelor/wt-4.2.0/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK/moc_profiledialog.cpp.rule">
+		<Unit filename="D:/Bachelor/backup/AppDeployment/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK/moc_patientdialog.cpp">
 			<Option target="KKOGSK"/>
 		</Unit>
-		<Unit filename="D:/Bachelor/wt-4.2.0/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK/moc_qt5databasedialog.cpp">
+		<Unit filename="D:/Bachelor/backup/AppDeployment/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK/moc_patientdialog.cpp.rule">
 			<Option target="KKOGSK"/>
 		</Unit>
-		<Unit filename="D:/Bachelor/wt-4.2.0/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK/moc_qt5databasedialog.cpp.rule">
+		<Unit filename="D:/Bachelor/backup/AppDeployment/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK/moc_patientinformationdialog.cpp">
 			<Option target="KKOGSK"/>
 		</Unit>
-		<Unit filename="D:/Bachelor/wt-4.2.0/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK/moc_questiondialog.cpp">
+		<Unit filename="D:/Bachelor/backup/AppDeployment/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK/moc_patientinformationdialog.cpp.rule">
 			<Option target="KKOGSK"/>
 		</Unit>
-		<Unit filename="D:/Bachelor/wt-4.2.0/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK/moc_questiondialog.cpp.rule">
+		<Unit filename="D:/Bachelor/backup/AppDeployment/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK/moc_profiledialog.cpp">
 			<Option target="KKOGSK"/>
 		</Unit>
-		<Unit filename="D:/Bachelor/wt-4.2.0/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK/moc_readquestiondialog.cpp">
+		<Unit filename="D:/Bachelor/backup/AppDeployment/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK/moc_profiledialog.cpp.rule">
 			<Option target="KKOGSK"/>
 		</Unit>
-		<Unit filename="D:/Bachelor/wt-4.2.0/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK/moc_readquestiondialog.cpp.rule">
+		<Unit filename="D:/Bachelor/backup/AppDeployment/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK/moc_qt5databasedialog.cpp">
 			<Option target="KKOGSK"/>
 		</Unit>
-		<Unit filename="D:/Bachelor/wt-4.2.0/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK/moc_registerdialog.cpp">
+		<Unit filename="D:/Bachelor/backup/AppDeployment/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK/moc_qt5databasedialog.cpp.rule">
 			<Option target="KKOGSK"/>
 		</Unit>
-		<Unit filename="D:/Bachelor/wt-4.2.0/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK/moc_registerdialog.cpp.rule">
+		<Unit filename="D:/Bachelor/backup/AppDeployment/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK/moc_questiondialog.cpp">
 			<Option target="KKOGSK"/>
 		</Unit>
-		<Unit filename="D:/Bachelor/wt-4.2.0/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK/moc_resourcehandlerdialog.cpp">
+		<Unit filename="D:/Bachelor/backup/AppDeployment/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK/moc_questiondialog.cpp.rule">
 			<Option target="KKOGSK"/>
 		</Unit>
-		<Unit filename="D:/Bachelor/wt-4.2.0/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK/moc_resourcehandlerdialog.cpp.rule">
+		<Unit filename="D:/Bachelor/backup/AppDeployment/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK/moc_readquestiondialog.cpp">
 			<Option target="KKOGSK"/>
 		</Unit>
-		<Unit filename="D:/Bachelor/wt-4.2.0/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK/moc_resultsdialog.cpp">
+		<Unit filename="D:/Bachelor/backup/AppDeployment/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK/moc_readquestiondialog.cpp.rule">
 			<Option target="KKOGSK"/>
 		</Unit>
-		<Unit filename="D:/Bachelor/wt-4.2.0/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK/moc_resultsdialog.cpp.rule">
+		<Unit filename="D:/Bachelor/backup/AppDeployment/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK/moc_registerdialog.cpp">
 			<Option target="KKOGSK"/>
 		</Unit>
-		<Unit filename="D:/Bachelor/wt-4.2.0/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK/moc_rewarddialog.cpp">
+		<Unit filename="D:/Bachelor/backup/AppDeployment/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK/moc_registerdialog.cpp.rule">
 			<Option target="KKOGSK"/>
 		</Unit>
-		<Unit filename="D:/Bachelor/wt-4.2.0/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK/moc_rewarddialog.cpp.rule">
+		<Unit filename="D:/Bachelor/backup/AppDeployment/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK/moc_resourcehandlerdialog.cpp">
 			<Option target="KKOGSK"/>
 		</Unit>
-		<Unit filename="D:/Bachelor/wt-4.2.0/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK/moc_secondwindowbodydialog.cpp">
+		<Unit filename="D:/Bachelor/backup/AppDeployment/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK/moc_resourcehandlerdialog.cpp.rule">
 			<Option target="KKOGSK"/>
 		</Unit>
-		<Unit filename="D:/Bachelor/wt-4.2.0/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK/moc_secondwindowbodydialog.cpp.rule">
+		<Unit filename="D:/Bachelor/backup/AppDeployment/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK/moc_resultsdialog.cpp">
 			<Option target="KKOGSK"/>
 		</Unit>
-		<Unit filename="D:/Bachelor/wt-4.2.0/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK/moc_secondwindowdialog.cpp">
+		<Unit filename="D:/Bachelor/backup/AppDeployment/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK/moc_resultsdialog.cpp.rule">
 			<Option target="KKOGSK"/>
 		</Unit>
-		<Unit filename="D:/Bachelor/wt-4.2.0/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK/moc_secondwindowdialog.cpp.rule">
+		<Unit filename="D:/Bachelor/backup/AppDeployment/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK/moc_rewarddialog.cpp">
 			<Option target="KKOGSK"/>
 		</Unit>
-		<Unit filename="D:/Bachelor/wt-4.2.0/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK/moc_settingsdialog.cpp">
+		<Unit filename="D:/Bachelor/backup/AppDeployment/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK/moc_rewarddialog.cpp.rule">
 			<Option target="KKOGSK"/>
 		</Unit>
-		<Unit filename="D:/Bachelor/wt-4.2.0/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK/moc_settingsdialog.cpp.rule">
+		<Unit filename="D:/Bachelor/backup/AppDeployment/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK/moc_secondwindowbodydialog.cpp">
 			<Option target="KKOGSK"/>
 		</Unit>
-		<Unit filename="D:/Bachelor/wt-4.2.0/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK/moc_tasksdialog.cpp">
+		<Unit filename="D:/Bachelor/backup/AppDeployment/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK/moc_secondwindowbodydialog.cpp.rule">
 			<Option target="KKOGSK"/>
 		</Unit>
-		<Unit filename="D:/Bachelor/wt-4.2.0/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK/moc_tasksdialog.cpp.rule">
+		<Unit filename="D:/Bachelor/backup/AppDeployment/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK/moc_secondwindowdialog.cpp">
 			<Option target="KKOGSK"/>
 		</Unit>
-		<Unit filename="D:/Bachelor/wt-4.2.0/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK/moc_textquestiondialog.cpp">
+		<Unit filename="D:/Bachelor/backup/AppDeployment/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK/moc_secondwindowdialog.cpp.rule">
 			<Option target="KKOGSK"/>
 		</Unit>
-		<Unit filename="D:/Bachelor/wt-4.2.0/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK/moc_textquestiondialog.cpp.rule">
+		<Unit filename="D:/Bachelor/backup/AppDeployment/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK/moc_settingsdialog.cpp">
 			<Option target="KKOGSK"/>
 		</Unit>
-		<Unit filename="D:/Bachelor/wt-4.2.0/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK/moc_workerprofiledialog.cpp">
+		<Unit filename="D:/Bachelor/backup/AppDeployment/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK/moc_settingsdialog.cpp.rule">
 			<Option target="KKOGSK"/>
 		</Unit>
-		<Unit filename="D:/Bachelor/wt-4.2.0/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK/moc_workerprofiledialog.cpp.rule">
+		<Unit filename="D:/Bachelor/backup/AppDeployment/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK/moc_tasksdialog.cpp">
 			<Option target="KKOGSK"/>
 		</Unit>
-		<Unit filename="D:/Bachelor/wt-4.2.0/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK/moc_workerresultdialog.cpp">
+		<Unit filename="D:/Bachelor/backup/AppDeployment/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK/moc_tasksdialog.cpp.rule">
 			<Option target="KKOGSK"/>
 		</Unit>
-		<Unit filename="D:/Bachelor/wt-4.2.0/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK/moc_workerresultdialog.cpp.rule">
+		<Unit filename="D:/Bachelor/backup/AppDeployment/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK/moc_textquestiondialog.cpp">
 			<Option target="KKOGSK"/>
 		</Unit>
-		<Unit filename="D:/Bachelor/wt-4.2.0/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK/ui_LoginDialog.h">
+		<Unit filename="D:/Bachelor/backup/AppDeployment/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK/moc_textquestiondialog.cpp.rule">
 			<Option target="KKOGSK"/>
 		</Unit>
-		<Unit filename="D:/Bachelor/wt-4.2.0/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK/ui_ProfileDialog.h">
+		<Unit filename="D:/Bachelor/backup/AppDeployment/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK/moc_workerprofiledialog.cpp">
 			<Option target="KKOGSK"/>
 		</Unit>
-		<Unit filename="D:/Bachelor/wt-4.2.0/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK/ui_QuestionDialog.h">
+		<Unit filename="D:/Bachelor/backup/AppDeployment/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK/moc_workerprofiledialog.cpp.rule">
 			<Option target="KKOGSK"/>
 		</Unit>
-		<Unit filename="D:/Bachelor/wt-4.2.0/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK/ui_SecondWindowDialog.h">
+		<Unit filename="D:/Bachelor/backup/AppDeployment/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK/moc_workerresultdialog.cpp">
 			<Option target="KKOGSK"/>
 		</Unit>
-		<Unit filename="D:/Bachelor/wt-4.2.0/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK/ui_avatardialog.h">
+		<Unit filename="D:/Bachelor/backup/AppDeployment/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK/moc_workerresultdialog.cpp.rule">
 			<Option target="KKOGSK"/>
 		</Unit>
-		<Unit filename="D:/Bachelor/wt-4.2.0/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK/ui_bodyquestiondialog.h">
+		<Unit filename="D:/Bachelor/backup/AppDeployment/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK/ui_LoginDialog.h">
 			<Option target="KKOGSK"/>
 		</Unit>
-		<Unit filename="D:/Bachelor/wt-4.2.0/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK/ui_calenderdialog.h">
+		<Unit filename="D:/Bachelor/backup/AppDeployment/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK/ui_ProfileDialog.h">
 			<Option target="KKOGSK"/>
 		</Unit>
-		<Unit filename="D:/Bachelor/wt-4.2.0/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK/ui_changepwdialog.h">
+		<Unit filename="D:/Bachelor/backup/AppDeployment/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK/ui_QuestionDialog.h">
 			<Option target="KKOGSK"/>
 		</Unit>
-		<Unit filename="D:/Bachelor/wt-4.2.0/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK/ui_commentdialog.h">
+		<Unit filename="D:/Bachelor/backup/AppDeployment/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK/ui_SecondWindowDialog.h">
 			<Option target="KKOGSK"/>
 		</Unit>
-		<Unit filename="D:/Bachelor/wt-4.2.0/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK/ui_homepagedialog.h">
+		<Unit filename="D:/Bachelor/backup/AppDeployment/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK/ui_avatardialog.h">
 			<Option target="KKOGSK"/>
 		</Unit>
-		<Unit filename="D:/Bachelor/wt-4.2.0/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK/ui_mainwindow.h">
+		<Unit filename="D:/Bachelor/backup/AppDeployment/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK/ui_bodyquestiondialog.h">
 			<Option target="KKOGSK"/>
 		</Unit>
-		<Unit filename="D:/Bachelor/wt-4.2.0/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK/ui_onepicquestiondialog.h">
+		<Unit filename="D:/Bachelor/backup/AppDeployment/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK/ui_calenderdialog.h">
 			<Option target="KKOGSK"/>
 		</Unit>
-		<Unit filename="D:/Bachelor/wt-4.2.0/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK/ui_patientInformationdialog.h">
+		<Unit filename="D:/Bachelor/backup/AppDeployment/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK/ui_changepwdialog.h">
 			<Option target="KKOGSK"/>
 		</Unit>
-		<Unit filename="D:/Bachelor/wt-4.2.0/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK/ui_patientdialog.h">
+		<Unit filename="D:/Bachelor/backup/AppDeployment/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK/ui_commentdialog.h">
 			<Option target="KKOGSK"/>
 		</Unit>
-		<Unit filename="D:/Bachelor/wt-4.2.0/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK/ui_qt5databasedialog.h">
+		<Unit filename="D:/Bachelor/backup/AppDeployment/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK/ui_homepagedialog.h">
 			<Option target="KKOGSK"/>
 		</Unit>
-		<Unit filename="D:/Bachelor/wt-4.2.0/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK/ui_readquestiondialog.h">
+		<Unit filename="D:/Bachelor/backup/AppDeployment/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK/ui_mainwindow.h">
 			<Option target="KKOGSK"/>
 		</Unit>
-		<Unit filename="D:/Bachelor/wt-4.2.0/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK/ui_registerdialog.h">
+		<Unit filename="D:/Bachelor/backup/AppDeployment/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK/ui_mainwindowuserdialog.h">
 			<Option target="KKOGSK"/>
 		</Unit>
-		<Unit filename="D:/Bachelor/wt-4.2.0/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK/ui_resourcehandlerdialog.h">
+		<Unit filename="D:/Bachelor/backup/AppDeployment/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK/ui_onepicquestiondialog.h">
 			<Option target="KKOGSK"/>
 		</Unit>
-		<Unit filename="D:/Bachelor/wt-4.2.0/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK/ui_resultsdialog.h">
+		<Unit filename="D:/Bachelor/backup/AppDeployment/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK/ui_patientInformationdialog.h">
 			<Option target="KKOGSK"/>
 		</Unit>
-		<Unit filename="D:/Bachelor/wt-4.2.0/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK/ui_rewarddialog.h">
+		<Unit filename="D:/Bachelor/backup/AppDeployment/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK/ui_patientdialog.h">
 			<Option target="KKOGSK"/>
 		</Unit>
-		<Unit filename="D:/Bachelor/wt-4.2.0/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK/ui_secondwindowbodydialog.h">
+		<Unit filename="D:/Bachelor/backup/AppDeployment/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK/ui_qt5databasedialog.h">
 			<Option target="KKOGSK"/>
 		</Unit>
-		<Unit filename="D:/Bachelor/wt-4.2.0/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK/ui_settingsdialog.h">
+		<Unit filename="D:/Bachelor/backup/AppDeployment/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK/ui_readquestiondialog.h">
 			<Option target="KKOGSK"/>
 		</Unit>
-		<Unit filename="D:/Bachelor/wt-4.2.0/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK/ui_tasksdialog.h">
+		<Unit filename="D:/Bachelor/backup/AppDeployment/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK/ui_registerdialog.h">
 			<Option target="KKOGSK"/>
 		</Unit>
-		<Unit filename="D:/Bachelor/wt-4.2.0/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK/ui_textquestiondialog.h">
+		<Unit filename="D:/Bachelor/backup/AppDeployment/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK/ui_resourcehandlerdialog.h">
 			<Option target="KKOGSK"/>
 		</Unit>
-		<Unit filename="D:/Bachelor/wt-4.2.0/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK/ui_workerprofiledialog.h">
+		<Unit filename="D:/Bachelor/backup/AppDeployment/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK/ui_resultsdialog.h">
 			<Option target="KKOGSK"/>
 		</Unit>
-		<Unit filename="D:/Bachelor/wt-4.2.0/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK/ui_workerresultdialog.h">
+		<Unit filename="D:/Bachelor/backup/AppDeployment/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK/ui_rewarddialog.h">
 			<Option target="KKOGSK"/>
 		</Unit>
-		<Unit filename="D:/Bachelor/wt-4.2.0/SKOGKK/CMakeLists.txt">
+		<Unit filename="D:/Bachelor/backup/AppDeployment/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK/ui_secondwindowbodydialog.h">
+			<Option target="KKOGSK"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/backup/AppDeployment/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK/ui_settingsdialog.h">
+			<Option target="KKOGSK"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/backup/AppDeployment/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK/ui_tasksdialog.h">
+			<Option target="KKOGSK"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/backup/AppDeployment/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK/ui_textquestiondialog.h">
+			<Option target="KKOGSK"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/backup/AppDeployment/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK/ui_workerprofiledialog.h">
+			<Option target="KKOGSK"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/backup/AppDeployment/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK/ui_workerresultdialog.h">
+			<Option target="KKOGSK"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/backup/AppDeployment/SKOGKK/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
-		<Unit filename="D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/BGandFontResource.qrc">
+		<Unit filename="D:/Bachelor/backup/AppDeployment/SKOGKK/KKOGSK/BGandFontResource.qrc">
 			<Option virtualFolder="CMake Files\KKOGSK\"/>
 		</Unit>
-		<Unit filename="D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/CMakeLists.txt">
+		<Unit filename="D:/Bachelor/backup/AppDeployment/SKOGKK/KKOGSK/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\KKOGSK\"/>
 		</Unit>
-		<Unit filename="D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/ResourceButton.qrc">
+		<Unit filename="D:/Bachelor/backup/AppDeployment/SKOGKK/KKOGSK/ResourceButton.qrc">
 			<Option virtualFolder="CMake Files\KKOGSK\"/>
 		</Unit>
-		<Unit filename="D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/ResourcePictures1.qrc">
+		<Unit filename="D:/Bachelor/backup/AppDeployment/SKOGKK/KKOGSK/ResourcePictures1.qrc">
 			<Option virtualFolder="CMake Files\KKOGSK\"/>
 		</Unit>
-		<Unit filename="D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/ResourcePictures2.qrc">
+		<Unit filename="D:/Bachelor/backup/AppDeployment/SKOGKK/KKOGSK/ResourcePictures2.qrc">
 			<Option virtualFolder="CMake Files\KKOGSK\"/>
 		</Unit>
-		<Unit filename="D:/Bachelor/wt-4.2.0/SKOGKK/Qt/5.13.0/msvc2017_64/lib/cmake/Qt5/Qt5Config.cmake">
+		<Unit filename="D:/Bachelor/backup/AppDeployment/SKOGKK/Qt/5.13.0/msvc2017_64/lib/cmake/Qt5/Qt5Config.cmake">
 			<Option virtualFolder="CMake Files\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5\"/>
 		</Unit>
-		<Unit filename="D:/Bachelor/wt-4.2.0/SKOGKK/Qt/5.13.0/msvc2017_64/lib/cmake/Qt5/Qt5ConfigVersion.cmake">
+		<Unit filename="D:/Bachelor/backup/AppDeployment/SKOGKK/Qt/5.13.0/msvc2017_64/lib/cmake/Qt5/Qt5ConfigVersion.cmake">
 			<Option virtualFolder="CMake Files\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5\"/>
 		</Unit>
-		<Unit filename="D:/Bachelor/wt-4.2.0/SKOGKK/Qt/5.13.0/msvc2017_64/lib/cmake/Qt5/Qt5ModuleLocation.cmake">
+		<Unit filename="D:/Bachelor/backup/AppDeployment/SKOGKK/Qt/5.13.0/msvc2017_64/lib/cmake/Qt5/Qt5ModuleLocation.cmake">
 			<Option virtualFolder="CMake Files\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5\"/>
 		</Unit>
-		<Unit filename="D:/Bachelor/wt-4.2.0/SKOGKK/Qt/5.13.0/msvc2017_64/lib/cmake/Qt5Core/Qt5CoreConfig.cmake">
+		<Unit filename="D:/Bachelor/backup/AppDeployment/SKOGKK/Qt/5.13.0/msvc2017_64/lib/cmake/Qt5Core/Qt5CoreConfig.cmake">
 			<Option virtualFolder="CMake Files\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Core\"/>
 		</Unit>
-		<Unit filename="D:/Bachelor/wt-4.2.0/SKOGKK/Qt/5.13.0/msvc2017_64/lib/cmake/Qt5Core/Qt5CoreConfigExtras.cmake">
+		<Unit filename="D:/Bachelor/backup/AppDeployment/SKOGKK/Qt/5.13.0/msvc2017_64/lib/cmake/Qt5Core/Qt5CoreConfigExtras.cmake">
 			<Option virtualFolder="CMake Files\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Core\"/>
 		</Unit>
-		<Unit filename="D:/Bachelor/wt-4.2.0/SKOGKK/Qt/5.13.0/msvc2017_64/lib/cmake/Qt5Core/Qt5CoreConfigExtrasMkspecDir.cmake">
+		<Unit filename="D:/Bachelor/backup/AppDeployment/SKOGKK/Qt/5.13.0/msvc2017_64/lib/cmake/Qt5Core/Qt5CoreConfigExtrasMkspecDir.cmake">
 			<Option virtualFolder="CMake Files\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Core\"/>
 		</Unit>
-		<Unit filename="D:/Bachelor/wt-4.2.0/SKOGKK/Qt/5.13.0/msvc2017_64/lib/cmake/Qt5Core/Qt5CoreConfigVersion.cmake">
+		<Unit filename="D:/Bachelor/backup/AppDeployment/SKOGKK/Qt/5.13.0/msvc2017_64/lib/cmake/Qt5Core/Qt5CoreConfigVersion.cmake">
 			<Option virtualFolder="CMake Files\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Core\"/>
 		</Unit>
-		<Unit filename="D:/Bachelor/wt-4.2.0/SKOGKK/Qt/5.13.0/msvc2017_64/lib/cmake/Qt5Core/Qt5CoreMacros.cmake">
+		<Unit filename="D:/Bachelor/backup/AppDeployment/SKOGKK/Qt/5.13.0/msvc2017_64/lib/cmake/Qt5Core/Qt5CoreMacros.cmake">
 			<Option virtualFolder="CMake Files\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Core\"/>
 		</Unit>
-		<Unit filename="D:/Bachelor/wt-4.2.0/SKOGKK/Qt/5.13.0/msvc2017_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake">
+		<Unit filename="D:/Bachelor/backup/AppDeployment/SKOGKK/Qt/5.13.0/msvc2017_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake">
 			<Option virtualFolder="CMake Files\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Widgets\"/>
 		</Unit>
-		<Unit filename="D:/Bachelor/wt-4.2.0/SKOGKK/Qt/5.13.0/msvc2017_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake">
+		<Unit filename="D:/Bachelor/backup/AppDeployment/SKOGKK/Qt/5.13.0/msvc2017_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake">
 			<Option virtualFolder="CMake Files\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Widgets\"/>
 		</Unit>
-		<Unit filename="D:/Bachelor/wt-4.2.0/SKOGKK/Qt/5.13.0/msvc2017_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake">
+		<Unit filename="D:/Bachelor/backup/AppDeployment/SKOGKK/Qt/5.13.0/msvc2017_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake">
 			<Option virtualFolder="CMake Files\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Widgets\"/>
 		</Unit>
-		<Unit filename="D:/Bachelor/wt-4.2.0/SKOGKK/Qt/5.13.0/msvc2017_64/lib/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake">
+		<Unit filename="D:/Bachelor/backup/AppDeployment/SKOGKK/Qt/5.13.0/msvc2017_64/lib/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake">
 			<Option virtualFolder="CMake Files\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Widgets\"/>
 		</Unit>
-		<Unit filename="D:/Bachelor/wt-4.2.0/SKOGKK/Qt/5.13.0/msvc2017_64/lib/cmake/Qt5Widgets/Qt5Widgets_QWindowsVistaStylePlugin.cmake">
+		<Unit filename="D:/Bachelor/backup/AppDeployment/SKOGKK/Qt/5.13.0/msvc2017_64/lib/cmake/Qt5Widgets/Qt5Widgets_QWindowsVistaStylePlugin.cmake">
 			<Option virtualFolder="CMake Files\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Widgets\"/>
 		</Unit>
-		<Unit filename="D:/Bachelor/wt-4.2.0/SKOGKK/Qt/5.13.0/msvc2017_64/lib/cmake/Qt5Gui/Qt5GuiConfig.cmake">
+		<Unit filename="D:/Bachelor/backup/AppDeployment/SKOGKK/Qt/5.13.0/msvc2017_64/lib/cmake/Qt5Gui/Qt5GuiConfig.cmake">
 			<Option virtualFolder="CMake Files\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="D:/Bachelor/wt-4.2.0/SKOGKK/Qt/5.13.0/msvc2017_64/lib/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake">
+		<Unit filename="D:/Bachelor/backup/AppDeployment/SKOGKK/Qt/5.13.0/msvc2017_64/lib/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake">
 			<Option virtualFolder="CMake Files\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="D:/Bachelor/wt-4.2.0/SKOGKK/Qt/5.13.0/msvc2017_64/lib/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake">
+		<Unit filename="D:/Bachelor/backup/AppDeployment/SKOGKK/Qt/5.13.0/msvc2017_64/lib/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake">
 			<Option virtualFolder="CMake Files\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="D:/Bachelor/wt-4.2.0/SKOGKK/Qt/5.13.0/msvc2017_64/lib/cmake/Qt5Gui/Qt5Gui_QGifPlugin.cmake">
+		<Unit filename="D:/Bachelor/backup/AppDeployment/SKOGKK/Qt/5.13.0/msvc2017_64/lib/cmake/Qt5Gui/Qt5Gui_QGifPlugin.cmake">
 			<Option virtualFolder="CMake Files\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="D:/Bachelor/wt-4.2.0/SKOGKK/Qt/5.13.0/msvc2017_64/lib/cmake/Qt5Gui/Qt5Gui_QICNSPlugin.cmake">
+		<Unit filename="D:/Bachelor/backup/AppDeployment/SKOGKK/Qt/5.13.0/msvc2017_64/lib/cmake/Qt5Gui/Qt5Gui_QICNSPlugin.cmake">
 			<Option virtualFolder="CMake Files\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="D:/Bachelor/wt-4.2.0/SKOGKK/Qt/5.13.0/msvc2017_64/lib/cmake/Qt5Gui/Qt5Gui_QICOPlugin.cmake">
+		<Unit filename="D:/Bachelor/backup/AppDeployment/SKOGKK/Qt/5.13.0/msvc2017_64/lib/cmake/Qt5Gui/Qt5Gui_QICOPlugin.cmake">
 			<Option virtualFolder="CMake Files\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="D:/Bachelor/wt-4.2.0/SKOGKK/Qt/5.13.0/msvc2017_64/lib/cmake/Qt5Gui/Qt5Gui_QJpegPlugin.cmake">
+		<Unit filename="D:/Bachelor/backup/AppDeployment/SKOGKK/Qt/5.13.0/msvc2017_64/lib/cmake/Qt5Gui/Qt5Gui_QJpegPlugin.cmake">
 			<Option virtualFolder="CMake Files\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="D:/Bachelor/wt-4.2.0/SKOGKK/Qt/5.13.0/msvc2017_64/lib/cmake/Qt5Gui/Qt5Gui_QMinimalIntegrationPlugin.cmake">
+		<Unit filename="D:/Bachelor/backup/AppDeployment/SKOGKK/Qt/5.13.0/msvc2017_64/lib/cmake/Qt5Gui/Qt5Gui_QMinimalIntegrationPlugin.cmake">
 			<Option virtualFolder="CMake Files\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="D:/Bachelor/wt-4.2.0/SKOGKK/Qt/5.13.0/msvc2017_64/lib/cmake/Qt5Gui/Qt5Gui_QOffscreenIntegrationPlugin.cmake">
+		<Unit filename="D:/Bachelor/backup/AppDeployment/SKOGKK/Qt/5.13.0/msvc2017_64/lib/cmake/Qt5Gui/Qt5Gui_QOffscreenIntegrationPlugin.cmake">
 			<Option virtualFolder="CMake Files\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="D:/Bachelor/wt-4.2.0/SKOGKK/Qt/5.13.0/msvc2017_64/lib/cmake/Qt5Gui/Qt5Gui_QTgaPlugin.cmake">
+		<Unit filename="D:/Bachelor/backup/AppDeployment/SKOGKK/Qt/5.13.0/msvc2017_64/lib/cmake/Qt5Gui/Qt5Gui_QTgaPlugin.cmake">
 			<Option virtualFolder="CMake Files\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="D:/Bachelor/wt-4.2.0/SKOGKK/Qt/5.13.0/msvc2017_64/lib/cmake/Qt5Gui/Qt5Gui_QTiffPlugin.cmake">
+		<Unit filename="D:/Bachelor/backup/AppDeployment/SKOGKK/Qt/5.13.0/msvc2017_64/lib/cmake/Qt5Gui/Qt5Gui_QTiffPlugin.cmake">
 			<Option virtualFolder="CMake Files\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="D:/Bachelor/wt-4.2.0/SKOGKK/Qt/5.13.0/msvc2017_64/lib/cmake/Qt5Gui/Qt5Gui_QTuioTouchPlugin.cmake">
+		<Unit filename="D:/Bachelor/backup/AppDeployment/SKOGKK/Qt/5.13.0/msvc2017_64/lib/cmake/Qt5Gui/Qt5Gui_QTuioTouchPlugin.cmake">
 			<Option virtualFolder="CMake Files\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="D:/Bachelor/wt-4.2.0/SKOGKK/Qt/5.13.0/msvc2017_64/lib/cmake/Qt5Gui/Qt5Gui_QVirtualKeyboardPlugin.cmake">
+		<Unit filename="D:/Bachelor/backup/AppDeployment/SKOGKK/Qt/5.13.0/msvc2017_64/lib/cmake/Qt5Gui/Qt5Gui_QVirtualKeyboardPlugin.cmake">
 			<Option virtualFolder="CMake Files\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="D:/Bachelor/wt-4.2.0/SKOGKK/Qt/5.13.0/msvc2017_64/lib/cmake/Qt5Gui/Qt5Gui_QWbmpPlugin.cmake">
+		<Unit filename="D:/Bachelor/backup/AppDeployment/SKOGKK/Qt/5.13.0/msvc2017_64/lib/cmake/Qt5Gui/Qt5Gui_QWbmpPlugin.cmake">
 			<Option virtualFolder="CMake Files\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="D:/Bachelor/wt-4.2.0/SKOGKK/Qt/5.13.0/msvc2017_64/lib/cmake/Qt5Gui/Qt5Gui_QWebGLIntegrationPlugin.cmake">
+		<Unit filename="D:/Bachelor/backup/AppDeployment/SKOGKK/Qt/5.13.0/msvc2017_64/lib/cmake/Qt5Gui/Qt5Gui_QWebGLIntegrationPlugin.cmake">
 			<Option virtualFolder="CMake Files\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="D:/Bachelor/wt-4.2.0/SKOGKK/Qt/5.13.0/msvc2017_64/lib/cmake/Qt5Gui/Qt5Gui_QWebpPlugin.cmake">
+		<Unit filename="D:/Bachelor/backup/AppDeployment/SKOGKK/Qt/5.13.0/msvc2017_64/lib/cmake/Qt5Gui/Qt5Gui_QWebpPlugin.cmake">
 			<Option virtualFolder="CMake Files\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="D:/Bachelor/wt-4.2.0/SKOGKK/Qt/5.13.0/msvc2017_64/lib/cmake/Qt5Gui/Qt5Gui_QWindowsDirect2DIntegrationPlugin.cmake">
+		<Unit filename="D:/Bachelor/backup/AppDeployment/SKOGKK/Qt/5.13.0/msvc2017_64/lib/cmake/Qt5Gui/Qt5Gui_QWindowsDirect2DIntegrationPlugin.cmake">
 			<Option virtualFolder="CMake Files\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="D:/Bachelor/wt-4.2.0/SKOGKK/Qt/5.13.0/msvc2017_64/lib/cmake/Qt5Gui/Qt5Gui_QWindowsIntegrationPlugin.cmake">
+		<Unit filename="D:/Bachelor/backup/AppDeployment/SKOGKK/Qt/5.13.0/msvc2017_64/lib/cmake/Qt5Gui/Qt5Gui_QWindowsIntegrationPlugin.cmake">
 			<Option virtualFolder="CMake Files\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="D:/Bachelor/wt-4.2.0/SKOGKK/Qt/5.13.0/msvc2017_64/lib/cmake/Qt5Gui/Qt5Gui_QXdgDesktopPortalThemePlugin.cmake">
+		<Unit filename="D:/Bachelor/backup/AppDeployment/SKOGKK/Qt/5.13.0/msvc2017_64/lib/cmake/Qt5Gui/Qt5Gui_QXdgDesktopPortalThemePlugin.cmake">
 			<Option virtualFolder="CMake Files\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="D:/Bachelor/wt-4.2.0/SKOGKK/Qt/5.13.0/msvc2017_64/lib/cmake/Qt5LinguistTools/Qt5LinguistToolsConfig.cmake">
+		<Unit filename="D:/Bachelor/backup/AppDeployment/SKOGKK/Qt/5.13.0/msvc2017_64/lib/cmake/Qt5LinguistTools/Qt5LinguistToolsConfig.cmake">
 			<Option virtualFolder="CMake Files\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5LinguistTools\"/>
 		</Unit>
-		<Unit filename="D:/Bachelor/wt-4.2.0/SKOGKK/Qt/5.13.0/msvc2017_64/lib/cmake/Qt5LinguistTools/Qt5LinguistToolsConfigVersion.cmake">
+		<Unit filename="D:/Bachelor/backup/AppDeployment/SKOGKK/Qt/5.13.0/msvc2017_64/lib/cmake/Qt5LinguistTools/Qt5LinguistToolsConfigVersion.cmake">
 			<Option virtualFolder="CMake Files\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5LinguistTools\"/>
 		</Unit>
-		<Unit filename="D:/Bachelor/wt-4.2.0/SKOGKK/Qt/5.13.0/msvc2017_64/lib/cmake/Qt5LinguistTools/Qt5LinguistToolsMacros.cmake">
+		<Unit filename="D:/Bachelor/backup/AppDeployment/SKOGKK/Qt/5.13.0/msvc2017_64/lib/cmake/Qt5LinguistTools/Qt5LinguistToolsMacros.cmake">
 			<Option virtualFolder="CMake Files\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5LinguistTools\"/>
 		</Unit>
-		<Unit filename="D:/Bachelor/wt-4.2.0/SKOGKK/Qt/5.13.0/msvc2017_64/lib/cmake/Qt5Quick/Qt5QuickConfig.cmake">
+		<Unit filename="D:/Bachelor/backup/AppDeployment/SKOGKK/Qt/5.13.0/msvc2017_64/lib/cmake/Qt5Quick/Qt5QuickConfig.cmake">
 			<Option virtualFolder="CMake Files\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Quick\"/>
 		</Unit>
-		<Unit filename="D:/Bachelor/wt-4.2.0/SKOGKK/Qt/5.13.0/msvc2017_64/lib/cmake/Qt5Quick/Qt5QuickConfigVersion.cmake">
+		<Unit filename="D:/Bachelor/backup/AppDeployment/SKOGKK/Qt/5.13.0/msvc2017_64/lib/cmake/Qt5Quick/Qt5QuickConfigVersion.cmake">
 			<Option virtualFolder="CMake Files\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Quick\"/>
 		</Unit>
-		<Unit filename="D:/Bachelor/wt-4.2.0/SKOGKK/Qt/5.13.0/msvc2017_64/lib/cmake/Qt5Qml/Qt5QmlConfig.cmake">
+		<Unit filename="D:/Bachelor/backup/AppDeployment/SKOGKK/Qt/5.13.0/msvc2017_64/lib/cmake/Qt5Qml/Qt5QmlConfig.cmake">
 			<Option virtualFolder="CMake Files\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Qml\"/>
 		</Unit>
-		<Unit filename="D:/Bachelor/wt-4.2.0/SKOGKK/Qt/5.13.0/msvc2017_64/lib/cmake/Qt5Qml/Qt5QmlConfigExtras.cmake">
+		<Unit filename="D:/Bachelor/backup/AppDeployment/SKOGKK/Qt/5.13.0/msvc2017_64/lib/cmake/Qt5Qml/Qt5QmlConfigExtras.cmake">
 			<Option virtualFolder="CMake Files\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Qml\"/>
 		</Unit>
-		<Unit filename="D:/Bachelor/wt-4.2.0/SKOGKK/Qt/5.13.0/msvc2017_64/lib/cmake/Qt5Qml/Qt5QmlConfigVersion.cmake">
+		<Unit filename="D:/Bachelor/backup/AppDeployment/SKOGKK/Qt/5.13.0/msvc2017_64/lib/cmake/Qt5Qml/Qt5QmlConfigVersion.cmake">
 			<Option virtualFolder="CMake Files\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Qml\"/>
 		</Unit>
-		<Unit filename="D:/Bachelor/wt-4.2.0/SKOGKK/Qt/5.13.0/msvc2017_64/lib/cmake/Qt5Qml/Qt5Qml_QDebugMessageServiceFactory.cmake">
+		<Unit filename="D:/Bachelor/backup/AppDeployment/SKOGKK/Qt/5.13.0/msvc2017_64/lib/cmake/Qt5Qml/Qt5Qml_QDebugMessageServiceFactory.cmake">
 			<Option virtualFolder="CMake Files\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Qml\"/>
 		</Unit>
-		<Unit filename="D:/Bachelor/wt-4.2.0/SKOGKK/Qt/5.13.0/msvc2017_64/lib/cmake/Qt5Qml/Qt5Qml_QLocalClientConnectionFactory.cmake">
+		<Unit filename="D:/Bachelor/backup/AppDeployment/SKOGKK/Qt/5.13.0/msvc2017_64/lib/cmake/Qt5Qml/Qt5Qml_QLocalClientConnectionFactory.cmake">
 			<Option virtualFolder="CMake Files\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Qml\"/>
 		</Unit>
-		<Unit filename="D:/Bachelor/wt-4.2.0/SKOGKK/Qt/5.13.0/msvc2017_64/lib/cmake/Qt5Qml/Qt5Qml_QQmlDebugServerFactory.cmake">
+		<Unit filename="D:/Bachelor/backup/AppDeployment/SKOGKK/Qt/5.13.0/msvc2017_64/lib/cmake/Qt5Qml/Qt5Qml_QQmlDebugServerFactory.cmake">
 			<Option virtualFolder="CMake Files\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Qml\"/>
 		</Unit>
-		<Unit filename="D:/Bachelor/wt-4.2.0/SKOGKK/Qt/5.13.0/msvc2017_64/lib/cmake/Qt5Qml/Qt5Qml_QQmlDebuggerServiceFactory.cmake">
+		<Unit filename="D:/Bachelor/backup/AppDeployment/SKOGKK/Qt/5.13.0/msvc2017_64/lib/cmake/Qt5Qml/Qt5Qml_QQmlDebuggerServiceFactory.cmake">
 			<Option virtualFolder="CMake Files\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Qml\"/>
 		</Unit>
-		<Unit filename="D:/Bachelor/wt-4.2.0/SKOGKK/Qt/5.13.0/msvc2017_64/lib/cmake/Qt5Qml/Qt5Qml_QQmlInspectorServiceFactory.cmake">
+		<Unit filename="D:/Bachelor/backup/AppDeployment/SKOGKK/Qt/5.13.0/msvc2017_64/lib/cmake/Qt5Qml/Qt5Qml_QQmlInspectorServiceFactory.cmake">
 			<Option virtualFolder="CMake Files\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Qml\"/>
 		</Unit>
-		<Unit filename="D:/Bachelor/wt-4.2.0/SKOGKK/Qt/5.13.0/msvc2017_64/lib/cmake/Qt5Qml/Qt5Qml_QQmlNativeDebugConnectorFactory.cmake">
+		<Unit filename="D:/Bachelor/backup/AppDeployment/SKOGKK/Qt/5.13.0/msvc2017_64/lib/cmake/Qt5Qml/Qt5Qml_QQmlNativeDebugConnectorFactory.cmake">
 			<Option virtualFolder="CMake Files\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Qml\"/>
 		</Unit>
-		<Unit filename="D:/Bachelor/wt-4.2.0/SKOGKK/Qt/5.13.0/msvc2017_64/lib/cmake/Qt5Qml/Qt5Qml_QQmlNativeDebugServiceFactory.cmake">
+		<Unit filename="D:/Bachelor/backup/AppDeployment/SKOGKK/Qt/5.13.0/msvc2017_64/lib/cmake/Qt5Qml/Qt5Qml_QQmlNativeDebugServiceFactory.cmake">
 			<Option virtualFolder="CMake Files\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Qml\"/>
 		</Unit>
-		<Unit filename="D:/Bachelor/wt-4.2.0/SKOGKK/Qt/5.13.0/msvc2017_64/lib/cmake/Qt5Qml/Qt5Qml_QQmlPreviewServiceFactory.cmake">
+		<Unit filename="D:/Bachelor/backup/AppDeployment/SKOGKK/Qt/5.13.0/msvc2017_64/lib/cmake/Qt5Qml/Qt5Qml_QQmlPreviewServiceFactory.cmake">
 			<Option virtualFolder="CMake Files\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Qml\"/>
 		</Unit>
-		<Unit filename="D:/Bachelor/wt-4.2.0/SKOGKK/Qt/5.13.0/msvc2017_64/lib/cmake/Qt5Qml/Qt5Qml_QQmlProfilerServiceFactory.cmake">
+		<Unit filename="D:/Bachelor/backup/AppDeployment/SKOGKK/Qt/5.13.0/msvc2017_64/lib/cmake/Qt5Qml/Qt5Qml_QQmlProfilerServiceFactory.cmake">
 			<Option virtualFolder="CMake Files\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Qml\"/>
 		</Unit>
-		<Unit filename="D:/Bachelor/wt-4.2.0/SKOGKK/Qt/5.13.0/msvc2017_64/lib/cmake/Qt5Qml/Qt5Qml_QQuickProfilerAdapterFactory.cmake">
+		<Unit filename="D:/Bachelor/backup/AppDeployment/SKOGKK/Qt/5.13.0/msvc2017_64/lib/cmake/Qt5Qml/Qt5Qml_QQuickProfilerAdapterFactory.cmake">
 			<Option virtualFolder="CMake Files\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Qml\"/>
 		</Unit>
-		<Unit filename="D:/Bachelor/wt-4.2.0/SKOGKK/Qt/5.13.0/msvc2017_64/lib/cmake/Qt5Qml/Qt5Qml_QTcpServerConnectionFactory.cmake">
+		<Unit filename="D:/Bachelor/backup/AppDeployment/SKOGKK/Qt/5.13.0/msvc2017_64/lib/cmake/Qt5Qml/Qt5Qml_QTcpServerConnectionFactory.cmake">
 			<Option virtualFolder="CMake Files\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Qml\"/>
 		</Unit>
-		<Unit filename="D:/Bachelor/wt-4.2.0/SKOGKK/Qt/5.13.0/msvc2017_64/lib/cmake/Qt5Network/Qt5NetworkConfig.cmake">
+		<Unit filename="D:/Bachelor/backup/AppDeployment/SKOGKK/Qt/5.13.0/msvc2017_64/lib/cmake/Qt5Network/Qt5NetworkConfig.cmake">
 			<Option virtualFolder="CMake Files\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Network\"/>
 		</Unit>
-		<Unit filename="D:/Bachelor/wt-4.2.0/SKOGKK/Qt/5.13.0/msvc2017_64/lib/cmake/Qt5Network/Qt5NetworkConfigVersion.cmake">
+		<Unit filename="D:/Bachelor/backup/AppDeployment/SKOGKK/Qt/5.13.0/msvc2017_64/lib/cmake/Qt5Network/Qt5NetworkConfigVersion.cmake">
 			<Option virtualFolder="CMake Files\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Network\"/>
 		</Unit>
-		<Unit filename="D:/Bachelor/wt-4.2.0/SKOGKK/Qt/5.13.0/msvc2017_64/lib/cmake/Qt5Network/Qt5Network_QGenericEnginePlugin.cmake">
+		<Unit filename="D:/Bachelor/backup/AppDeployment/SKOGKK/Qt/5.13.0/msvc2017_64/lib/cmake/Qt5Network/Qt5Network_QGenericEnginePlugin.cmake">
 			<Option virtualFolder="CMake Files\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Network\"/>
 		</Unit>
-		<Unit filename="D:/Bachelor/wt-4.2.0/SKOGKK/Qt/5.13.0/msvc2017_64/lib/cmake/Qt5Sql/Qt5SqlConfig.cmake">
+		<Unit filename="D:/Bachelor/backup/AppDeployment/SKOGKK/Qt/5.13.0/msvc2017_64/lib/cmake/Qt5Sql/Qt5SqlConfig.cmake">
 			<Option virtualFolder="CMake Files\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Sql\"/>
 		</Unit>
-		<Unit filename="D:/Bachelor/wt-4.2.0/SKOGKK/Qt/5.13.0/msvc2017_64/lib/cmake/Qt5Sql/Qt5SqlConfigVersion.cmake">
+		<Unit filename="D:/Bachelor/backup/AppDeployment/SKOGKK/Qt/5.13.0/msvc2017_64/lib/cmake/Qt5Sql/Qt5SqlConfigVersion.cmake">
 			<Option virtualFolder="CMake Files\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Sql\"/>
 		</Unit>
-		<Unit filename="D:/Bachelor/wt-4.2.0/SKOGKK/Qt/5.13.0/msvc2017_64/lib/cmake/Qt5Sql/Qt5Sql_QODBCDriverPlugin.cmake">
+		<Unit filename="D:/Bachelor/backup/AppDeployment/SKOGKK/Qt/5.13.0/msvc2017_64/lib/cmake/Qt5Sql/Qt5Sql_QODBCDriverPlugin.cmake">
 			<Option virtualFolder="CMake Files\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Sql\"/>
 		</Unit>
-		<Unit filename="D:/Bachelor/wt-4.2.0/SKOGKK/Qt/5.13.0/msvc2017_64/lib/cmake/Qt5Sql/Qt5Sql_QPSQLDriverPlugin.cmake">
+		<Unit filename="D:/Bachelor/backup/AppDeployment/SKOGKK/Qt/5.13.0/msvc2017_64/lib/cmake/Qt5Sql/Qt5Sql_QPSQLDriverPlugin.cmake">
 			<Option virtualFolder="CMake Files\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Sql\"/>
 		</Unit>
-		<Unit filename="D:/Bachelor/wt-4.2.0/SKOGKK/Qt/5.13.0/msvc2017_64/lib/cmake/Qt5Sql/Qt5Sql_QSQLiteDriverPlugin.cmake">
+		<Unit filename="D:/Bachelor/backup/AppDeployment/SKOGKK/Qt/5.13.0/msvc2017_64/lib/cmake/Qt5Sql/Qt5Sql_QSQLiteDriverPlugin.cmake">
 			<Option virtualFolder="CMake Files\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Sql\"/>
 		</Unit>
 	</Project>

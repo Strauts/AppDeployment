@@ -34,9 +34,8 @@ MainWindowUserDialog::MainWindowUserDialog(QWidget *parent)
     }
     if(startUpTest.isWorker == false && startUpTest.loginOK == true)
     {
-
+        setWindowFlags(Qt::Window | Qt::FramelessWindowHint | Qt::Window);
         ui->setupUi(this);
-        //setWindowFlags(Qt::Window | Qt::FramelessWindowHint | Qt::Window);
         presetProfileImage_Main();
     }
     else if(startUpTest.isWorker == true && startUpTest.loginOK == true)
@@ -44,7 +43,6 @@ MainWindowUserDialog::MainWindowUserDialog(QWidget *parent)
         openWorkerHome.setModal(true);
         openWorkerHome.exec();
     }
-    // QObject::connect(ui->actionOpen_File, SIGNAL(triggered()), this, SLOT(onOpenActionTriggered()));
 }
 
 

@@ -33,20 +33,21 @@ struct qt_meta_stringdata_homepageDialog_t {
 static const qt_meta_stringdata_homepageDialog_t qt_meta_stringdata_homepageDialog = {
     {
 QT_MOC_LITERAL(0, 0, 14), // "homepageDialog"
-QT_MOC_LITERAL(1, 15, 29), // "on_pushButton_Profile_clicked"
-QT_MOC_LITERAL(2, 45, 0), // ""
-QT_MOC_LITERAL(3, 46, 31), // "on_pushButton_startTest_clicked"
-QT_MOC_LITERAL(4, 78, 29), // "on_pushButton_Results_clicked"
-QT_MOC_LITERAL(5, 108, 31), // "on_pushButton_Reminders_clicked"
-QT_MOC_LITERAL(6, 140, 21), // "on_pushButton_clicked"
-QT_MOC_LITERAL(7, 162, 23) // "on_pushButton_2_clicked"
+QT_MOC_LITERAL(1, 15, 23), // "on_pushButton_2_clicked"
+QT_MOC_LITERAL(2, 39, 0), // ""
+QT_MOC_LITERAL(3, 40, 29), // "on_pushButton_Profile_clicked"
+QT_MOC_LITERAL(4, 70, 31), // "on_pushButton_startTest_clicked"
+QT_MOC_LITERAL(5, 102, 29), // "on_pushButton_Results_clicked"
+QT_MOC_LITERAL(6, 132, 31), // "on_pushButton_Reminders_clicked"
+QT_MOC_LITERAL(7, 164, 21) // "on_pushButton_clicked"
 
     },
-    "homepageDialog\0on_pushButton_Profile_clicked\0"
-    "\0on_pushButton_startTest_clicked\0"
+    "homepageDialog\0on_pushButton_2_clicked\0"
+    "\0on_pushButton_Profile_clicked\0"
+    "on_pushButton_startTest_clicked\0"
     "on_pushButton_Results_clicked\0"
     "on_pushButton_Reminders_clicked\0"
-    "on_pushButton_clicked\0on_pushButton_2_clicked"
+    "on_pushButton_clicked"
 };
 #undef QT_MOC_LITERAL
 
@@ -64,7 +65,7 @@ static const uint qt_meta_data_homepageDialog[] = {
        0,       // signalCount
 
  // slots: name, argc, parameters, tag, flags
-       1,    0,   44,    2, 0x08 /* Private */,
+       1,    0,   44,    2, 0x0a /* Public */,
        3,    0,   45,    2, 0x08 /* Private */,
        4,    0,   46,    2, 0x08 /* Private */,
        5,    0,   47,    2, 0x08 /* Private */,
@@ -88,12 +89,12 @@ void homepageDialog::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _
         auto *_t = static_cast<homepageDialog *>(_o);
         Q_UNUSED(_t)
         switch (_id) {
-        case 0: _t->on_pushButton_Profile_clicked(); break;
-        case 1: _t->on_pushButton_startTest_clicked(); break;
-        case 2: _t->on_pushButton_Results_clicked(); break;
-        case 3: _t->on_pushButton_Reminders_clicked(); break;
-        case 4: _t->on_pushButton_clicked(); break;
-        case 5: _t->on_pushButton_2_clicked(); break;
+        case 0: _t->on_pushButton_2_clicked(); break;
+        case 1: _t->on_pushButton_Profile_clicked(); break;
+        case 2: _t->on_pushButton_startTest_clicked(); break;
+        case 3: _t->on_pushButton_Results_clicked(); break;
+        case 4: _t->on_pushButton_Reminders_clicked(); break;
+        case 5: _t->on_pushButton_clicked(); break;
         default: ;
         }
     }

@@ -1,54 +1,151 @@
 {
-	"BUILD_DIR" : "D:/Bachelor/wt-4.2.0/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK/KKOGSK_autogen",
-	"CMAKE_BINARY_DIR" : "D:/Bachelor/wt-4.2.0/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug",
-	"CMAKE_CURRENT_BINARY_DIR" : "D:/Bachelor/wt-4.2.0/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK",
-	"CMAKE_CURRENT_SOURCE_DIR" : "D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK",
+	"BUILD_DIR" : "D:/Bachelor/backup/AppDeployment/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK/KKOGSK_autogen",
+	"CMAKE_BINARY_DIR" : "D:/Bachelor/backup/AppDeployment/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug",
+	"CMAKE_CURRENT_BINARY_DIR" : "D:/Bachelor/backup/AppDeployment/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK",
+	"CMAKE_CURRENT_SOURCE_DIR" : "D:/Bachelor/backup/AppDeployment/SKOGKK/KKOGSK",
 	"CMAKE_EXECUTABLE" : "D:/Bachelor/CMake/bin/cmake.exe",
-	"CMAKE_SOURCE_DIR" : "D:/Bachelor/wt-4.2.0/SKOGKK",
+	"CMAKE_SOURCE_DIR" : "D:/Bachelor/backup/AppDeployment/SKOGKK",
 	"HEADERS" : 
 	[
-		[ "D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/avatardialog.h", "mU", "" ],
-		[ "D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/bodyquestiondialog.h", "mU", "" ],
-		[ "D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/calenderdialog.h", "mU", "" ],
-		[ "D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/changepwdialog.h", "mU", "" ],
-		[ "D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/commentdialog.h", "mU", "" ],
-		[ "D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/homepagedialog.h", "mU", "" ],
-		[ "D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/logindialog.h", "mU", "" ],
-		[ "D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/mainwindow.h", "mU", "" ],
-		[ "D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/onepicquestiondialog.h", "mU", "" ],
-		[ "D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/patientdialog.h", "mU", "" ],
 		[
-			"D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/patientinformationdialog.h",
+			"D:/Bachelor/backup/AppDeployment/SKOGKK/KKOGSK/avatardialog.h",
 			"mU",
 			""
 		],
-		[ "D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/profiledialog.h", "mU", "" ],
-		[ "D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/qt5databasedialog.h", "mU", "" ],
-		[ "D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/questiondialog.h", "mU", "" ],
-		[ "D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/readquestiondialog.h", "mU", "" ],
-		[ "D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/registerdialog.h", "mU", "" ],
 		[
-			"D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/resourcehandlerdialog.h",
+			"D:/Bachelor/backup/AppDeployment/SKOGKK/KKOGSK/bodyquestiondialog.h",
 			"mU",
 			""
 		],
-		[ "D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/resultsdialog.h", "mU", "" ],
-		[ "D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/rewarddialog.h", "mU", "" ],
 		[
-			"D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/secondwindowbodydialog.h",
+			"D:/Bachelor/backup/AppDeployment/SKOGKK/KKOGSK/calenderdialog.h",
 			"mU",
 			""
 		],
-		[ "D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/secondwindowdialog.h", "mU", "" ],
-		[ "D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/settingsdialog.h", "mU", "" ],
-		[ "D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/tasksdialog.h", "mU", "" ],
-		[ "D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/textquestiondialog.h", "mU", "" ],
-		[ "D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/workerprofiledialog.h", "mU", "" ],
-		[ "D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/workerresultdialog.h", "mU", "" ]
+		[
+			"D:/Bachelor/backup/AppDeployment/SKOGKK/KKOGSK/changepwdialog.h",
+			"mU",
+			""
+		],
+		[
+			"D:/Bachelor/backup/AppDeployment/SKOGKK/KKOGSK/commentdialog.h",
+			"mU",
+			""
+		],
+		[
+			"D:/Bachelor/backup/AppDeployment/SKOGKK/KKOGSK/homepagedialog.h",
+			"mU",
+			""
+		],
+		[
+			"D:/Bachelor/backup/AppDeployment/SKOGKK/KKOGSK/logindialog.h",
+			"mU",
+			""
+		],
+		[
+			"D:/Bachelor/backup/AppDeployment/SKOGKK/KKOGSK/mainwindow.h",
+			"mU",
+			""
+		],
+		[
+			"D:/Bachelor/backup/AppDeployment/SKOGKK/KKOGSK/mainwindowuserdialog.h",
+			"mU",
+			""
+		],
+		[
+			"D:/Bachelor/backup/AppDeployment/SKOGKK/KKOGSK/onepicquestiondialog.h",
+			"mU",
+			""
+		],
+		[
+			"D:/Bachelor/backup/AppDeployment/SKOGKK/KKOGSK/patientdialog.h",
+			"mU",
+			""
+		],
+		[
+			"D:/Bachelor/backup/AppDeployment/SKOGKK/KKOGSK/patientinformationdialog.h",
+			"mU",
+			""
+		],
+		[
+			"D:/Bachelor/backup/AppDeployment/SKOGKK/KKOGSK/profiledialog.h",
+			"mU",
+			""
+		],
+		[
+			"D:/Bachelor/backup/AppDeployment/SKOGKK/KKOGSK/qt5databasedialog.h",
+			"mU",
+			""
+		],
+		[
+			"D:/Bachelor/backup/AppDeployment/SKOGKK/KKOGSK/questiondialog.h",
+			"mU",
+			""
+		],
+		[
+			"D:/Bachelor/backup/AppDeployment/SKOGKK/KKOGSK/readquestiondialog.h",
+			"mU",
+			""
+		],
+		[
+			"D:/Bachelor/backup/AppDeployment/SKOGKK/KKOGSK/registerdialog.h",
+			"mU",
+			""
+		],
+		[
+			"D:/Bachelor/backup/AppDeployment/SKOGKK/KKOGSK/resourcehandlerdialog.h",
+			"mU",
+			""
+		],
+		[
+			"D:/Bachelor/backup/AppDeployment/SKOGKK/KKOGSK/resultsdialog.h",
+			"mU",
+			""
+		],
+		[
+			"D:/Bachelor/backup/AppDeployment/SKOGKK/KKOGSK/rewarddialog.h",
+			"mU",
+			""
+		],
+		[
+			"D:/Bachelor/backup/AppDeployment/SKOGKK/KKOGSK/secondwindowbodydialog.h",
+			"mU",
+			""
+		],
+		[
+			"D:/Bachelor/backup/AppDeployment/SKOGKK/KKOGSK/secondwindowdialog.h",
+			"mU",
+			""
+		],
+		[
+			"D:/Bachelor/backup/AppDeployment/SKOGKK/KKOGSK/settingsdialog.h",
+			"mU",
+			""
+		],
+		[
+			"D:/Bachelor/backup/AppDeployment/SKOGKK/KKOGSK/tasksdialog.h",
+			"mU",
+			""
+		],
+		[
+			"D:/Bachelor/backup/AppDeployment/SKOGKK/KKOGSK/textquestiondialog.h",
+			"mU",
+			""
+		],
+		[
+			"D:/Bachelor/backup/AppDeployment/SKOGKK/KKOGSK/workerprofiledialog.h",
+			"mU",
+			""
+		],
+		[
+			"D:/Bachelor/backup/AppDeployment/SKOGKK/KKOGSK/workerresultdialog.h",
+			"mU",
+			""
+		]
 	],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
-	"INCLUDE_DIR" : "D:/Bachelor/wt-4.2.0/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK/KKOGSK_autogen/include",
-	"MOC_COMPILATION_FILE" : "D:/Bachelor/wt-4.2.0/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK/KKOGSK_autogen/mocs_compilation.cpp",
+	"INCLUDE_DIR" : "D:/Bachelor/backup/AppDeployment/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK/KKOGSK_autogen/include",
+	"MOC_COMPILATION_FILE" : "D:/Bachelor/backup/AppDeployment/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK/KKOGSK_autogen/mocs_compilation.cpp",
 	"MOC_DEFINITIONS" : 
 	[
 		"QT_CORE_LIB",
@@ -69,8 +166,8 @@
 	],
 	"MOC_INCLUDES" : 
 	[
-		"D:/Bachelor/wt-4.2.0/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK",
-		"D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK",
+		"D:/Bachelor/backup/AppDeployment/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK",
+		"D:/Bachelor/backup/AppDeployment/SKOGKK/KKOGSK",
 		"C:/Qt/5.13.0/msvc2017_64/include",
 		"C:/Qt/5.13.0/msvc2017_64/include/QtWidgets",
 		"C:/Qt/5.13.0/msvc2017_64/include/QtGui",
@@ -90,103 +187,181 @@
 	"MOC_RELAXED_MODE" : false,
 	"MOC_SKIP" : 
 	[
-		"D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/avatardialog.h",
-		"D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/bodyquestiondialog.h",
-		"D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/calenderdialog.h",
-		"D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/changepwdialog.h",
-		"D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/commentdialog.h",
-		"D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/homepagedialog.h",
-		"D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/logindialog.h",
-		"D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/mainwindow.h",
-		"D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/onepicquestiondialog.h",
-		"D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/patientdialog.h",
-		"D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/patientinformationdialog.h",
-		"D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/profiledialog.h",
-		"D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/qt5databasedialog.h",
-		"D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/questiondialog.h",
-		"D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/readquestiondialog.h",
-		"D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/registerdialog.h",
-		"D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/resourcehandlerdialog.h",
-		"D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/resultsdialog.h",
-		"D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/rewarddialog.h",
-		"D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/secondwindowbodydialog.h",
-		"D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/secondwindowdialog.h",
-		"D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/settingsdialog.h",
-		"D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/tasksdialog.h",
-		"D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/textquestiondialog.h",
-		"D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/workerprofiledialog.h",
-		"D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/workerresultdialog.h"
+		"D:/Bachelor/backup/AppDeployment/SKOGKK/KKOGSK/avatardialog.h",
+		"D:/Bachelor/backup/AppDeployment/SKOGKK/KKOGSK/bodyquestiondialog.h",
+		"D:/Bachelor/backup/AppDeployment/SKOGKK/KKOGSK/calenderdialog.h",
+		"D:/Bachelor/backup/AppDeployment/SKOGKK/KKOGSK/changepwdialog.h",
+		"D:/Bachelor/backup/AppDeployment/SKOGKK/KKOGSK/commentdialog.h",
+		"D:/Bachelor/backup/AppDeployment/SKOGKK/KKOGSK/homepagedialog.h",
+		"D:/Bachelor/backup/AppDeployment/SKOGKK/KKOGSK/logindialog.h",
+		"D:/Bachelor/backup/AppDeployment/SKOGKK/KKOGSK/mainwindow.h",
+		"D:/Bachelor/backup/AppDeployment/SKOGKK/KKOGSK/mainwindowuserdialog.h",
+		"D:/Bachelor/backup/AppDeployment/SKOGKK/KKOGSK/onepicquestiondialog.h",
+		"D:/Bachelor/backup/AppDeployment/SKOGKK/KKOGSK/patientdialog.h",
+		"D:/Bachelor/backup/AppDeployment/SKOGKK/KKOGSK/patientinformationdialog.h",
+		"D:/Bachelor/backup/AppDeployment/SKOGKK/KKOGSK/profiledialog.h",
+		"D:/Bachelor/backup/AppDeployment/SKOGKK/KKOGSK/qt5databasedialog.h",
+		"D:/Bachelor/backup/AppDeployment/SKOGKK/KKOGSK/questiondialog.h",
+		"D:/Bachelor/backup/AppDeployment/SKOGKK/KKOGSK/readquestiondialog.h",
+		"D:/Bachelor/backup/AppDeployment/SKOGKK/KKOGSK/registerdialog.h",
+		"D:/Bachelor/backup/AppDeployment/SKOGKK/KKOGSK/resourcehandlerdialog.h",
+		"D:/Bachelor/backup/AppDeployment/SKOGKK/KKOGSK/resultsdialog.h",
+		"D:/Bachelor/backup/AppDeployment/SKOGKK/KKOGSK/rewarddialog.h",
+		"D:/Bachelor/backup/AppDeployment/SKOGKK/KKOGSK/secondwindowbodydialog.h",
+		"D:/Bachelor/backup/AppDeployment/SKOGKK/KKOGSK/secondwindowdialog.h",
+		"D:/Bachelor/backup/AppDeployment/SKOGKK/KKOGSK/settingsdialog.h",
+		"D:/Bachelor/backup/AppDeployment/SKOGKK/KKOGSK/tasksdialog.h",
+		"D:/Bachelor/backup/AppDeployment/SKOGKK/KKOGSK/textquestiondialog.h",
+		"D:/Bachelor/backup/AppDeployment/SKOGKK/KKOGSK/workerprofiledialog.h",
+		"D:/Bachelor/backup/AppDeployment/SKOGKK/KKOGSK/workerresultdialog.h"
 	],
 	"MULTI_CONFIG" : false,
 	"PARALLEL" : 4,
-	"PARSE_CACHE_FILE" : "D:/Bachelor/wt-4.2.0/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK/CMakeFiles/KKOGSK_autogen.dir/ParseCache.txt",
+	"PARSE_CACHE_FILE" : "D:/Bachelor/backup/AppDeployment/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK/CMakeFiles/KKOGSK_autogen.dir/ParseCache.txt",
 	"QT_MOC_EXECUTABLE" : "C:/Qt/5.13.0/msvc2017_64/bin/moc.exe",
 	"QT_UIC_EXECUTABLE" : "C:/Qt/5.13.0/msvc2017_64/bin/uic.exe",
 	"QT_VERSION_MAJOR" : 5,
-	"SETTINGS_FILE" : "D:/Bachelor/wt-4.2.0/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK/CMakeFiles/KKOGSK_autogen.dir/AutogenUsed.txt",
+	"SETTINGS_FILE" : "D:/Bachelor/backup/AppDeployment/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK/CMakeFiles/KKOGSK_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
-		[ "D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/avatardialog.cpp", "MU" ],
-		[ "D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/bodyquestiondialog.cpp", "MU" ],
-		[ "D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/calenderdialog.cpp", "MU" ],
-		[ "D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/changepwdialog.cpp", "MU" ],
-		[ "D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/commentdialog.cpp", "MU" ],
-		[ "D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/homepagedialog.cpp", "MU" ],
-		[ "D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/logindialog.cpp", "MU" ],
-		[ "D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/main.cpp", "MU" ],
-		[ "D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/mainwindow.cpp", "MU" ],
-		[ "D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/onepicquestiondialog.cpp", "MU" ],
-		[ "D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/patientdialog.cpp", "MU" ],
 		[
-			"D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/patientinformationdialog.cpp",
+			"D:/Bachelor/backup/AppDeployment/SKOGKK/KKOGSK/avatardialog.cpp",
 			"MU"
 		],
-		[ "D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/profiledialog.cpp", "MU" ],
-		[ "D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/qt5databasedialog.cpp", "MU" ],
-		[ "D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/questiondialog.cpp", "MU" ],
-		[ "D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/readquestiondialog.cpp", "MU" ],
-		[ "D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/registerdialog.cpp", "MU" ],
-		[ "D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/resourcehandlerdialog.cpp", "MU" ],
-		[ "D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/resultsdialog.cpp", "MU" ],
-		[ "D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/rewarddialog.cpp", "MU" ],
-		[ "D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/secondwindowbodydialog.cpp", "MU" ],
-		[ "D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/secondwindowdialog.cpp", "MU" ],
-		[ "D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/settingsdialog.cpp", "MU" ],
-		[ "D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/tasksdialog.cpp", "MU" ],
-		[ "D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/textquestiondialog.cpp", "MU" ],
-		[ "D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/workerprofiledialog.cpp", "MU" ],
-		[ "D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/workerresultdialog.cpp", "MU" ]
+		[
+			"D:/Bachelor/backup/AppDeployment/SKOGKK/KKOGSK/bodyquestiondialog.cpp",
+			"MU"
+		],
+		[
+			"D:/Bachelor/backup/AppDeployment/SKOGKK/KKOGSK/calenderdialog.cpp",
+			"MU"
+		],
+		[
+			"D:/Bachelor/backup/AppDeployment/SKOGKK/KKOGSK/changepwdialog.cpp",
+			"MU"
+		],
+		[
+			"D:/Bachelor/backup/AppDeployment/SKOGKK/KKOGSK/commentdialog.cpp",
+			"MU"
+		],
+		[
+			"D:/Bachelor/backup/AppDeployment/SKOGKK/KKOGSK/homepagedialog.cpp",
+			"MU"
+		],
+		[
+			"D:/Bachelor/backup/AppDeployment/SKOGKK/KKOGSK/logindialog.cpp",
+			"MU"
+		],
+		[ "D:/Bachelor/backup/AppDeployment/SKOGKK/KKOGSK/main.cpp", "MU" ],
+		[ "D:/Bachelor/backup/AppDeployment/SKOGKK/KKOGSK/mainwindow.cpp", "MU" ],
+		[
+			"D:/Bachelor/backup/AppDeployment/SKOGKK/KKOGSK/mainwindowuserdialog.cpp",
+			"MU"
+		],
+		[
+			"D:/Bachelor/backup/AppDeployment/SKOGKK/KKOGSK/onepicquestiondialog.cpp",
+			"MU"
+		],
+		[
+			"D:/Bachelor/backup/AppDeployment/SKOGKK/KKOGSK/patientdialog.cpp",
+			"MU"
+		],
+		[
+			"D:/Bachelor/backup/AppDeployment/SKOGKK/KKOGSK/patientinformationdialog.cpp",
+			"MU"
+		],
+		[
+			"D:/Bachelor/backup/AppDeployment/SKOGKK/KKOGSK/profiledialog.cpp",
+			"MU"
+		],
+		[
+			"D:/Bachelor/backup/AppDeployment/SKOGKK/KKOGSK/qt5databasedialog.cpp",
+			"MU"
+		],
+		[
+			"D:/Bachelor/backup/AppDeployment/SKOGKK/KKOGSK/questiondialog.cpp",
+			"MU"
+		],
+		[
+			"D:/Bachelor/backup/AppDeployment/SKOGKK/KKOGSK/readquestiondialog.cpp",
+			"MU"
+		],
+		[
+			"D:/Bachelor/backup/AppDeployment/SKOGKK/KKOGSK/registerdialog.cpp",
+			"MU"
+		],
+		[
+			"D:/Bachelor/backup/AppDeployment/SKOGKK/KKOGSK/resourcehandlerdialog.cpp",
+			"MU"
+		],
+		[
+			"D:/Bachelor/backup/AppDeployment/SKOGKK/KKOGSK/resultsdialog.cpp",
+			"MU"
+		],
+		[
+			"D:/Bachelor/backup/AppDeployment/SKOGKK/KKOGSK/rewarddialog.cpp",
+			"MU"
+		],
+		[
+			"D:/Bachelor/backup/AppDeployment/SKOGKK/KKOGSK/secondwindowbodydialog.cpp",
+			"MU"
+		],
+		[
+			"D:/Bachelor/backup/AppDeployment/SKOGKK/KKOGSK/secondwindowdialog.cpp",
+			"MU"
+		],
+		[
+			"D:/Bachelor/backup/AppDeployment/SKOGKK/KKOGSK/settingsdialog.cpp",
+			"MU"
+		],
+		[
+			"D:/Bachelor/backup/AppDeployment/SKOGKK/KKOGSK/tasksdialog.cpp",
+			"MU"
+		],
+		[
+			"D:/Bachelor/backup/AppDeployment/SKOGKK/KKOGSK/textquestiondialog.cpp",
+			"MU"
+		],
+		[
+			"D:/Bachelor/backup/AppDeployment/SKOGKK/KKOGSK/workerprofiledialog.cpp",
+			"MU"
+		],
+		[
+			"D:/Bachelor/backup/AppDeployment/SKOGKK/KKOGSK/workerresultdialog.cpp",
+			"MU"
+		]
 	],
 	"UIC_OPTIONS" : [],
 	"UIC_SEARCH_PATHS" : [],
 	"UIC_SKIP" : 
 	[
-		"D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/avatardialog.ui",
-		"D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/bodyquestiondialog.ui",
-		"D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/calenderdialog.ui",
-		"D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/changepwdialog.ui",
-		"D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/commentdialog.ui",
-		"D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/homepagedialog.ui",
-		"D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/logindialog.ui",
-		"D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/mainwindow.ui",
-		"D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/onepicquestiondialog.ui",
-		"D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/patientdialog.ui",
-		"D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/patientinformationdialog.ui",
-		"D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/profiledialog.ui",
-		"D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/qt5databasedialog.ui",
-		"D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/questiondialog.ui",
-		"D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/readquestiondialog.ui",
-		"D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/registerdialog.ui",
-		"D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/resourcehandlerdialog.ui",
-		"D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/resultsdialog.ui",
-		"D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/rewarddialog.ui",
-		"D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/secondwindowbodydialog.ui",
-		"D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/secondwindowdialog.ui",
-		"D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/settingsdialog.ui",
-		"D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/tasksdialog.ui",
-		"D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/textquestiondialog.ui",
-		"D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/workerprofiledialog.ui",
-		"D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/workerresultdialog.ui"
+		"D:/Bachelor/backup/AppDeployment/SKOGKK/KKOGSK/avatardialog.ui",
+		"D:/Bachelor/backup/AppDeployment/SKOGKK/KKOGSK/bodyquestiondialog.ui",
+		"D:/Bachelor/backup/AppDeployment/SKOGKK/KKOGSK/calenderdialog.ui",
+		"D:/Bachelor/backup/AppDeployment/SKOGKK/KKOGSK/changepwdialog.ui",
+		"D:/Bachelor/backup/AppDeployment/SKOGKK/KKOGSK/commentdialog.ui",
+		"D:/Bachelor/backup/AppDeployment/SKOGKK/KKOGSK/homepagedialog.ui",
+		"D:/Bachelor/backup/AppDeployment/SKOGKK/KKOGSK/logindialog.ui",
+		"D:/Bachelor/backup/AppDeployment/SKOGKK/KKOGSK/mainwindow.ui",
+		"D:/Bachelor/backup/AppDeployment/SKOGKK/KKOGSK/mainwindowuserdialog.ui",
+		"D:/Bachelor/backup/AppDeployment/SKOGKK/KKOGSK/onepicquestiondialog.ui",
+		"D:/Bachelor/backup/AppDeployment/SKOGKK/KKOGSK/patientdialog.ui",
+		"D:/Bachelor/backup/AppDeployment/SKOGKK/KKOGSK/patientinformationdialog.ui",
+		"D:/Bachelor/backup/AppDeployment/SKOGKK/KKOGSK/profiledialog.ui",
+		"D:/Bachelor/backup/AppDeployment/SKOGKK/KKOGSK/qt5databasedialog.ui",
+		"D:/Bachelor/backup/AppDeployment/SKOGKK/KKOGSK/questiondialog.ui",
+		"D:/Bachelor/backup/AppDeployment/SKOGKK/KKOGSK/readquestiondialog.ui",
+		"D:/Bachelor/backup/AppDeployment/SKOGKK/KKOGSK/registerdialog.ui",
+		"D:/Bachelor/backup/AppDeployment/SKOGKK/KKOGSK/resourcehandlerdialog.ui",
+		"D:/Bachelor/backup/AppDeployment/SKOGKK/KKOGSK/resultsdialog.ui",
+		"D:/Bachelor/backup/AppDeployment/SKOGKK/KKOGSK/rewarddialog.ui",
+		"D:/Bachelor/backup/AppDeployment/SKOGKK/KKOGSK/secondwindowbodydialog.ui",
+		"D:/Bachelor/backup/AppDeployment/SKOGKK/KKOGSK/secondwindowdialog.ui",
+		"D:/Bachelor/backup/AppDeployment/SKOGKK/KKOGSK/settingsdialog.ui",
+		"D:/Bachelor/backup/AppDeployment/SKOGKK/KKOGSK/tasksdialog.ui",
+		"D:/Bachelor/backup/AppDeployment/SKOGKK/KKOGSK/textquestiondialog.ui",
+		"D:/Bachelor/backup/AppDeployment/SKOGKK/KKOGSK/workerprofiledialog.ui",
+		"D:/Bachelor/backup/AppDeployment/SKOGKK/KKOGSK/workerresultdialog.ui"
 	],
 	"UIC_UI_FILES" : [],
 	"VERBOSITY" : 0

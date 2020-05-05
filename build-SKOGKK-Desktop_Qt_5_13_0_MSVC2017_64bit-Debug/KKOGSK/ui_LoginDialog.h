@@ -81,19 +81,19 @@ public:
         pushButton_login->setStyleSheet(QString::fromUtf8("border-image: url(:/Assets/Buttons/logg-inn_active.png);"));
         pushButton = new QPushButton(groupBox);
         pushButton->setObjectName(QString::fromUtf8("pushButton"));
-        pushButton->setGeometry(QRect(170, 600, 141, 41));
+        pushButton->setGeometry(QRect(170, 560, 141, 41));
         pushButton->setAutoFillBackground(false);
         pushButton->setStyleSheet(QString::fromUtf8("border-image: url(:/Assets/Buttons/ny-konto_active.png);\n"
 "color: rgb(0, 0, 0);"));
         label_3 = new QLabel(groupBox);
         label_3->setObjectName(QString::fromUtf8("label_3"));
-        label_3->setGeometry(QRect(170, 540, 131, 21));
+        label_3->setGeometry(QRect(170, 500, 131, 21));
         label_3->setFont(font1);
         label_3->setAutoFillBackground(false);
         label_3->setStyleSheet(QString::fromUtf8("color: rgb(0, 0, 0);"));
         label_4 = new QLabel(groupBox);
         label_4->setObjectName(QString::fromUtf8("label_4"));
-        label_4->setGeometry(QRect(170, 570, 161, 16));
+        label_4->setGeometry(QRect(170, 530, 161, 16));
         label_4->setFont(font1);
         label_4->setAutoFillBackground(false);
         label_4->setStyleSheet(QString::fromUtf8("color: rgb(0, 0, 0);"));
@@ -103,13 +103,13 @@ public:
         label_5->setAutoFillBackground(false);
         label_6 = new QLabel(groupBox);
         label_6->setObjectName(QString::fromUtf8("label_6"));
-        label_6->setGeometry(QRect(170, 430, 181, 21));
+        label_6->setGeometry(QRect(170, 410, 181, 21));
         label_6->setFont(font1);
         label_6->setAutoFillBackground(false);
         label_6->setStyleSheet(QString::fromUtf8("color: rgb(0, 0, 0);"));
         pushButton_2 = new QPushButton(groupBox);
         pushButton_2->setObjectName(QString::fromUtf8("pushButton_2"));
-        pushButton_2->setGeometry(QRect(170, 470, 141, 41));
+        pushButton_2->setGeometry(QRect(170, 440, 141, 41));
         pushButton_2->setAutoFillBackground(false);
         pushButton_2->setStyleSheet(QString::fromUtf8("color: rgb(0, 0, 0);\n"
 "border-image: url(:/Assets/Buttons/endre-passord_active.png);"));

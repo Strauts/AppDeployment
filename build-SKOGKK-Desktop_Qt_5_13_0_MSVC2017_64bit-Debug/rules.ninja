@@ -47,7 +47,7 @@ rule CXX_EXECUTABLE_LINKER__KKOGSK
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-  command = D:\Bachelor\CMake\bin\cmake.exe -SD:\Bachelor\wt-4.2.0\SKOGKK -BD:\Bachelor\wt-4.2.0\build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug
+  command = D:\Bachelor\CMake\bin\cmake.exe -SD:\Bachelor\backup\AppDeployment\SKOGKK -BD:\Bachelor\backup\AppDeployment\build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug
   description = Re-running CMake...
   generator = 1
 

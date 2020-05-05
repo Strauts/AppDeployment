@@ -9,8 +9,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>200</width>
-    <height>200</height>
+    <width>452</width>
+    <height>800</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -20,6 +20,9 @@
    <string notr="true">background-color: rgb(146, 232, 255);</string>
   </property>
   <widget class="QWidget" name="centralwidget">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
    <property name="styleSheet">
     <string notr="true">background-color: rgb(146, 232, 255);
 border:none;</string>

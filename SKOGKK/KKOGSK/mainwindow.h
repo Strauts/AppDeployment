@@ -2,7 +2,6 @@
 #define MAINWINDOW_H
 
 #include <QMainWindow>
-#include <QFileDialog>
 //#include "secondwindowdialog.h"
 //#include "questiondialog.h"
 #include "logindialog.h"
