@@ -1,7 +1,6 @@
-To run application go to:
-AppDeployment-AppTest\build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug\KKOGSK
+To run application open the folder with the long name: build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug
 
-Run the file:
+A little down you can see a file named "KKOGSK", of type "Application" - Run this file.
 KKOGSK.exe / KKOGSK (Application file)
 
 Hoping the .dll requirements are set properly now, as of now it works on my non-working computer without Visual Studio installed, which was previously a cause for crash at launch.
