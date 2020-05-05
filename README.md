@@ -1,4 +1,6 @@
-To run application open the folder with the long name: build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug
+To run application open the folder with the long name: "build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug"
+
+From here open the folder: "KKOGSK"
 
 A little down you can see a file named "KKOGSK", of type "Application" - Run this file.
 KKOGSK.exe / KKOGSK (Application file)
