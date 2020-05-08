@@ -26,18 +26,9 @@ class MainWindow : public QMainWindow
 public:
     MainWindow(QWidget *parent = nullptr);
     ~MainWindow();
-//    void presetProfileImage_Main();
 
-//    QuestionDialog openQuestion;
-//    SecondWindowDialog secWindow;
     LoginDialog startUpTest;
-//    ProfileDialog openProfile;
-//    resultsDialog openResults;
-//    qt5DatabaseDialog openDatabase;
-//    tasksDialog openTasks;
     homepageDialog openWorkerHome;
-//    bodyQuestionDialog startUpBodyTest;
-
     MainWindowUserDialog openMain;
 
 
@@ -46,23 +37,8 @@ public:
 
 public slots:
 
-//    void on_pushButton_Profile_clicked();
-
-//    void on_pushButton_startTest_clicked();
-
-//    void on_pushButton_Results_clicked();
-
-//    void on_pushButton_Reminders_clicked();
-
 
 private slots:
-
-
-//    void on_pushButton_clicked();
-
-//    void on_pushButton_2_clicked();
-
-//    void on_pushButton_3_clicked();
 
 private:
     Ui::MainWindow *ui;
