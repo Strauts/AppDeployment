@@ -1,13 +1,13 @@
-To run application go to:
-wt-4.2.0-master\build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug\KKOGSK 
+To run application open the folder with the long name: "build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug"
 
-Run the file:
+From here open the folder: "KKOGSK"
+
+A little down you can see a file named "KKOGSK", of type "Application" - Run this file.
 KKOGSK.exe / KKOGSK (Application file)
 
-Until I build a workaround, Visual Studio 2017 or later needs to be installed on the computer to run the application.
+After starting the application, use "test" as username and password to log in.
 
-Working on the script CMakeRC.cmake to integrate images files as resource files with CMake project - Image files are loaded with local path until script is running on the program so you won't get up the image files while running the application. I hope to achive this within the coming days, sorry for the inconvenience.
-
+Hoping the .dll requirements are set properly now, as of now it works on my non-working computer without Visual Studio installed, which was previously a cause for crash at launch.
 
 What is Wt ?
 ------------
