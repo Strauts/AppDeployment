@@ -93,11 +93,6 @@
 			""
 		],
 		[
-			"D:/Bachelor/backup/AppDeployment/SKOGKK/KKOGSK/resourcehandlerdialog.h",
-			"mU",
-			""
-		],
-		[
 			"D:/Bachelor/backup/AppDeployment/SKOGKK/KKOGSK/resultsdialog.h",
 			"mU",
 			""
@@ -204,7 +199,6 @@
 		"D:/Bachelor/backup/AppDeployment/SKOGKK/KKOGSK/questiondialog.h",
 		"D:/Bachelor/backup/AppDeployment/SKOGKK/KKOGSK/readquestiondialog.h",
 		"D:/Bachelor/backup/AppDeployment/SKOGKK/KKOGSK/registerdialog.h",
-		"D:/Bachelor/backup/AppDeployment/SKOGKK/KKOGSK/resourcehandlerdialog.h",
 		"D:/Bachelor/backup/AppDeployment/SKOGKK/KKOGSK/resultsdialog.h",
 		"D:/Bachelor/backup/AppDeployment/SKOGKK/KKOGSK/rewarddialog.h",
 		"D:/Bachelor/backup/AppDeployment/SKOGKK/KKOGSK/secondwindowbodydialog.h",
@@ -291,10 +285,6 @@
 			"MU"
 		],
 		[
-			"D:/Bachelor/backup/AppDeployment/SKOGKK/KKOGSK/resourcehandlerdialog.cpp",
-			"MU"
-		],
-		[
 			"D:/Bachelor/backup/AppDeployment/SKOGKK/KKOGSK/resultsdialog.cpp",
 			"MU"
 		],
@@ -352,7 +342,6 @@
 		"D:/Bachelor/backup/AppDeployment/SKOGKK/KKOGSK/questiondialog.ui",
 		"D:/Bachelor/backup/AppDeployment/SKOGKK/KKOGSK/readquestiondialog.ui",
 		"D:/Bachelor/backup/AppDeployment/SKOGKK/KKOGSK/registerdialog.ui",
-		"D:/Bachelor/backup/AppDeployment/SKOGKK/KKOGSK/resourcehandlerdialog.ui",
 		"D:/Bachelor/backup/AppDeployment/SKOGKK/KKOGSK/resultsdialog.ui",
 		"D:/Bachelor/backup/AppDeployment/SKOGKK/KKOGSK/rewarddialog.ui",
 		"D:/Bachelor/backup/AppDeployment/SKOGKK/KKOGSK/secondwindowbodydialog.ui",

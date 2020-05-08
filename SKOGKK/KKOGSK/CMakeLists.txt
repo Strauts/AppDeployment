@@ -26,7 +26,6 @@ set(project_ui
     commentdialog.ui
     patientdialog.ui
     patientInformationdialog.ui
-    resourcehandlerdialog.ui
     readquestiondialog.ui
     bodyquestiondialog.ui
     secondwindowbodydialog.ui
@@ -55,7 +54,6 @@ set(project_headers
     commentdialog.h
     patientdialog.h
     patientinformationdialog.h
-    resourcehandlerdialog.h
     readquestiondialog.h
     bodyquestiondialog.h
     secondwindowbodydialog.h
@@ -85,7 +83,6 @@ set(project_sources
     commentdialog.cpp
     patientdialog.cpp
     patientinformationdialog.cpp
-    resourcehandlerdialog.cpp
     readquestiondialog.cpp
     bodyquestiondialog.cpp
     secondwindowbodydialog.cpp

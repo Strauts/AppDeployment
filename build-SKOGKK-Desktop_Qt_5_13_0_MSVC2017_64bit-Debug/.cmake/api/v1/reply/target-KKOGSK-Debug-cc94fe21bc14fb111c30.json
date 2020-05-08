@@ -28,13 +28,13 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 135,
+				"line" : 132,
 				"parent" : 0
 			},
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 153,
+				"line" : 150,
 				"parent" : 0
 			}
 		]
@@ -146,6 +146,7 @@
 			"sourceIndexes" : 
 			[
 				0,
+				31,
 				32,
 				33,
 				34,
@@ -198,13 +199,10 @@
 				81,
 				82,
 				83,
-				84,
-				85,
-				86,
-				115,
-				116,
-				117,
-				118
+				111,
+				112,
+				113,
+				114
 			]
 		}
 	],
@@ -277,6 +275,7 @@
 			"sourceIndexes" : 
 			[
 				0,
+				31,
 				32,
 				33,
 				34,
@@ -329,13 +328,10 @@
 				81,
 				82,
 				83,
-				84,
-				85,
-				86,
-				115,
-				116,
-				117,
-				118
+				111,
+				112,
+				113,
+				114
 			]
 		},
 		{
@@ -346,7 +342,12 @@
 				2,
 				3,
 				4,
-				114,
+				110,
+				141,
+				142,
+				143,
+				144,
+				145,
 				146,
 				147,
 				148,
@@ -367,13 +368,7 @@
 				163,
 				164,
 				165,
-				166,
-				167,
-				168,
-				169,
-				170,
-				171,
-				172
+				166
 			]
 		},
 		{
@@ -406,7 +401,9 @@
 				28,
 				29,
 				30,
-				31,
+				84,
+				85,
+				86,
 				87,
 				88,
 				89,
@@ -429,17 +426,17 @@
 				106,
 				107,
 				108,
-				109,
-				110,
-				111,
-				112,
-				113
+				109
 			]
 		},
 		{
 			"name" : "CMake Rules",
 			"sourceIndexes" : 
 			[
+				115,
+				116,
+				117,
+				118,
 				119,
 				120,
 				121,
@@ -462,16 +459,11 @@
 				138,
 				139,
 				140,
-				141,
-				142,
-				143,
-				144,
-				145,
-				173,
-				174,
-				175,
-				176,
-				177
+				167,
+				168,
+				169,
+				170,
+				171
 			]
 		}
 	],
@@ -602,11 +594,6 @@
 		{
 			"backtrace" : 1,
 			"path" : "KKOGSK/patientinformationdialog.h",
-			"sourceGroupIndex" : 2
-		},
-		{
-			"backtrace" : 1,
-			"path" : "KKOGSK/resourcehandlerdialog.h",
 			"sourceGroupIndex" : 2
 		},
 		{
@@ -763,12 +750,6 @@
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
 			"path" : "KKOGSK/patientinformationdialog.cpp",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 1,
-			"compileGroupIndex" : 0,
-			"path" : "KKOGSK/resourcehandlerdialog.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
@@ -951,13 +932,6 @@
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
 			"isGenerated" : true,
-			"path" : "D:/Bachelor/backup/AppDeployment/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK/moc_resourcehandlerdialog.cpp",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 1,
-			"compileGroupIndex" : 0,
-			"isGenerated" : true,
 			"path" : "D:/Bachelor/backup/AppDeployment/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK/moc_readquestiondialog.cpp",
 			"sourceGroupIndex" : 0
 		},
@@ -1114,12 +1088,6 @@
 			"backtrace" : 1,
 			"isGenerated" : true,
 			"path" : "D:/Bachelor/backup/AppDeployment/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK/ui_patientInformationdialog.h",
-			"sourceGroupIndex" : 2
-		},
-		{
-			"backtrace" : 1,
-			"isGenerated" : true,
-			"path" : "D:/Bachelor/backup/AppDeployment/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK/ui_resourcehandlerdialog.h",
 			"sourceGroupIndex" : 2
 		},
 		{
@@ -1315,12 +1283,6 @@
 		{
 			"backtrace" : 0,
 			"isGenerated" : true,
-			"path" : "D:/Bachelor/backup/AppDeployment/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK/moc_resourcehandlerdialog.cpp.rule",
-			"sourceGroupIndex" : 3
-		},
-		{
-			"backtrace" : 0,
-			"isGenerated" : true,
 			"path" : "D:/Bachelor/backup/AppDeployment/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK/moc_readquestiondialog.cpp.rule",
 			"sourceGroupIndex" : 3
 		},
@@ -1452,11 +1414,6 @@
 		{
 			"backtrace" : 0,
 			"path" : "KKOGSK/patientinformationdialog.ui",
-			"sourceGroupIndex" : 1
-		},
-		{
-			"backtrace" : 0,
-			"path" : "KKOGSK/resourcehandlerdialog.ui",
 			"sourceGroupIndex" : 1
 		},
 		{
