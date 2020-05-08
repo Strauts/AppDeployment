@@ -238,3 +238,12 @@
 81	3301	610641615	KKOGSK/CMakeFiles/KKOGSK.dir/questiondialog.cpp.obj	ce92019e95854d33
 85	3427	610641615	KKOGSK/CMakeFiles/KKOGSK.dir/secondwindowdialog.cpp.obj	99423a2e98d30171
 3427	3918	610641616	KKOGSK/KKOGSK.exe	584df524d3f4ea6e
+5	40	0	KKOGSK/CMakeFiles/KKOGSK_autogen	d7b5a6fbafbe403b
+5	40	0	KKOGSK/KKOGSK_autogen/mocs_compilation.cpp	d7b5a6fbafbe403b
+40	71	610641671	KKOGSK/moc_mainwindow.cpp	6cff122a16155cd1
+79	3189	610641674	KKOGSK/CMakeFiles/KKOGSK.dir/main.cpp.obj	4e0a1b77b1b6d650
+73	3208	610641674	KKOGSK/CMakeFiles/KKOGSK.dir/mainwindow.cpp.obj	a9794f69320da1c9
+77	3212	610641674	KKOGSK/CMakeFiles/KKOGSK.dir/moc_mainwindow.cpp.obj	6981072f43f67b9a
+75	3257	610641674	KKOGSK/CMakeFiles/KKOGSK.dir/questiondialog.cpp.obj	ce92019e95854d33
+71	3343	610641674	KKOGSK/CMakeFiles/KKOGSK.dir/secondwindowdialog.cpp.obj	99423a2e98d30171
+3343	3759	610641675	KKOGSK/KKOGSK.exe	584df524d3f4ea6e
