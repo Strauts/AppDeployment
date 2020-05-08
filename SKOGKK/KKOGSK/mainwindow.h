@@ -30,6 +30,7 @@ public:
     LoginDialog startUpTest;
     homepageDialog openWorkerHome;
     MainWindowUserDialog openMain;
+    bool test;
 
 
     bool dateCheck;
