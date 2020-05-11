@@ -283,3 +283,5 @@
 74	4478	610931071	KKOGSK/CMakeFiles/KKOGSK.dir/secondwindowdialog.cpp.obj	99423a2e98d30171
 81	4751	610931071	KKOGSK/CMakeFiles/KKOGSK.dir/mainwindowuserdialog.cpp.obj	f752189736fa84cf
 4751	5256	610931071	KKOGSK/KKOGSK.exe	c8f9aed64f1fb51c
+5	36	0	KKOGSK/CMakeFiles/KKOGSK_autogen	d7b5a6fbafbe403b
+5	36	0	KKOGSK/KKOGSK_autogen/mocs_compilation.cpp	d7b5a6fbafbe403b
