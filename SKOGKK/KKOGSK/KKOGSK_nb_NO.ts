@@ -314,6 +314,21 @@
         <source>Avatar</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <location filename="avatardialog.ui" line="102"/>
+        <source>1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="avatardialog.ui" line="124"/>
+        <source>2</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="avatardialog.ui" line="146"/>
+        <source>3</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>bodyQuestionDialog</name>
@@ -454,27 +469,22 @@ p, li { white-space: pre-wrap; }
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="homepagedialog.ui" line="302"/>
-        <source>Gjøremål</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="homepagedialog.ui" line="319"/>
+        <location filename="homepagedialog.ui" line="320"/>
         <source>Database Test</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="homepagedialog.ui" line="333"/>
+        <location filename="homepagedialog.ui" line="334"/>
         <source>TextLabel</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="homepagedialog.ui" line="354"/>
+        <location filename="homepagedialog.ui" line="355"/>
         <source>God Morgen, Ola!</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="homepagedialog.ui" line="375"/>
+        <location filename="homepagedialog.ui" line="376"/>
         <source>  Februar</source>
         <translation type="unfinished"></translation>
     </message>
