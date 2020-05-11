@@ -12,7 +12,7 @@
 #include "tasksdialog.h"
 #include "patientdialog.h"
 #include "workerresultdialog.h"
-//hei
+
 namespace Ui {
 class homepageDialog;
 }
