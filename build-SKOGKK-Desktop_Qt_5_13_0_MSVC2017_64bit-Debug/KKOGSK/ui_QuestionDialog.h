@@ -53,7 +53,7 @@ public:
         label_1->setGeometry(QRect(10, 80, 221, 251));
         pushButton_5 = new QPushButton(QuestionDialog);
         pushButton_5->setObjectName(QString::fromUtf8("pushButton_5"));
-        pushButton_5->setGeometry(QRect(259, 630, 211, 41));
+        pushButton_5->setGeometry(QRect(249, 630, 221, 41));
         pushButton_5->setStyleSheet(QString::fromUtf8("border-image: url(:/Assets/Buttons/gaa-videre_active.png);"));
         pushButton_6 = new QPushButton(QuestionDialog);
         pushButton_6->setObjectName(QString::fromUtf8("pushButton_6"));

@@ -44,7 +44,6 @@ public:
     QPushButton *pushButton_startTest;
     QPushButton *pushButton_Results;
     QPushButton *pushButton_Reminders;
-    QPushButton *pushButton;
     QLabel *label_profilePicture_Main;
     QLabel *label_Greeting;
     QLabel *label;
@@ -161,31 +160,30 @@ public:
         pushButton_Profile->setStyleSheet(QString::fromUtf8("border-image: url(:/Assets/Buttons/profil_active.png);"));
         pushButton_startTest = new QPushButton(groupBox_2);
         pushButton_startTest->setObjectName(QString::fromUtf8("pushButton_startTest"));
-        pushButton_startTest->setGeometry(QRect(102, 92, 241, 41));
-        pushButton_startTest->setStyleSheet(QString::fromUtf8("border-image: url(:/Assets/Buttons/sexkunn_active.png);"));
+        pushButton_startTest->setGeometry(QRect(100, 90, 241, 41));
+        QFont font1;
+        font1.setPointSize(12);
+        pushButton_startTest->setFont(font1);
+        pushButton_startTest->setStyleSheet(QString::fromUtf8("background-color: rgb(146, 232, 255);\n"
+"color: rgb(0, 0, 0);"));
         pushButton_Results = new QPushButton(groupBox_2);
         pushButton_Results->setObjectName(QString::fromUtf8("pushButton_Results"));
-        pushButton_Results->setGeometry(QRect(100, 210, 241, 41));
+        pushButton_Results->setGeometry(QRect(100, 140, 241, 41));
         pushButton_Results->setStyleSheet(QString::fromUtf8("border-image: url(:/Assets/Buttons/resultater_active.png);"));
         pushButton_Reminders = new QPushButton(groupBox_2);
         pushButton_Reminders->setObjectName(QString::fromUtf8("pushButton_Reminders"));
-        pushButton_Reminders->setGeometry(QRect(100, 270, 241, 41));
+        pushButton_Reminders->setGeometry(QRect(100, 190, 241, 41));
         pushButton_Reminders->setStyleSheet(QString::fromUtf8("border-image: url(:/Assets/Buttons/oversikt_active.png);\n"
 "color: rgb(0, 0, 0);"));
-        pushButton = new QPushButton(groupBox_2);
-        pushButton->setObjectName(QString::fromUtf8("pushButton"));
-        pushButton->setGeometry(QRect(100, 150, 241, 41));
-        pushButton->setStyleSheet(QString::fromUtf8("border-image: url(:/Assets/Buttons/kroppkunn_active.png);\n"
-""));
         label_profilePicture_Main = new QLabel(groupBox);
         label_profilePicture_Main->setObjectName(QString::fromUtf8("label_profilePicture_Main"));
-        label_profilePicture_Main->setGeometry(QRect(180, 70, 91, 91));
+        label_profilePicture_Main->setGeometry(QRect(160, 50, 151, 131));
         label_Greeting = new QLabel(groupBox);
         label_Greeting->setObjectName(QString::fromUtf8("label_Greeting"));
         label_Greeting->setGeometry(QRect(160, 10, 171, 41));
-        QFont font1;
-        font1.setPointSize(16);
-        label_Greeting->setFont(font1);
+        QFont font2;
+        font2.setPointSize(16);
+        label_Greeting->setFont(font2);
         label_Greeting->setStyleSheet(QString::fromUtf8("color: rgb(0, 0, 0);"));
         label = new QLabel(groupBox);
         label->setObjectName(QString::fromUtf8("label"));
@@ -223,10 +221,9 @@ public:
         label_Sunday_NR->setText(QCoreApplication::translate("MainWindowUserDialog", "13", nullptr));
         groupBox_2->setTitle(QString());
         pushButton_Profile->setText(QString());
-        pushButton_startTest->setText(QString());
+        pushButton_startTest->setText(QCoreApplication::translate("MainWindowUserDialog", "Ta test", nullptr));
         pushButton_Results->setText(QString());
         pushButton_Reminders->setText(QString());
-        pushButton->setText(QString());
         label_profilePicture_Main->setText(QCoreApplication::translate("MainWindowUserDialog", "TextLabel", nullptr));
         label_Greeting->setText(QCoreApplication::translate("MainWindowUserDialog", "God Morgen, Ola!", nullptr));
         label->setText(QCoreApplication::translate("MainWindowUserDialog", "  Februar", nullptr));

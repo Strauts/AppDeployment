@@ -28,6 +28,11 @@
 			""
 		],
 		[
+			"D:/Bachelor/backup/AppDeployment/SKOGKK/KKOGSK/choosetestdialog.h",
+			"mU",
+			""
+		],
+		[
 			"D:/Bachelor/backup/AppDeployment/SKOGKK/KKOGSK/commentdialog.h",
 			"mU",
 			""
@@ -186,6 +191,7 @@
 		"D:/Bachelor/backup/AppDeployment/SKOGKK/KKOGSK/bodyquestiondialog.h",
 		"D:/Bachelor/backup/AppDeployment/SKOGKK/KKOGSK/calenderdialog.h",
 		"D:/Bachelor/backup/AppDeployment/SKOGKK/KKOGSK/changepwdialog.h",
+		"D:/Bachelor/backup/AppDeployment/SKOGKK/KKOGSK/choosetestdialog.h",
 		"D:/Bachelor/backup/AppDeployment/SKOGKK/KKOGSK/commentdialog.h",
 		"D:/Bachelor/backup/AppDeployment/SKOGKK/KKOGSK/homepagedialog.h",
 		"D:/Bachelor/backup/AppDeployment/SKOGKK/KKOGSK/logindialog.h",
@@ -232,6 +238,10 @@
 		],
 		[
 			"D:/Bachelor/backup/AppDeployment/SKOGKK/KKOGSK/changepwdialog.cpp",
+			"MU"
+		],
+		[
+			"D:/Bachelor/backup/AppDeployment/SKOGKK/KKOGSK/choosetestdialog.cpp",
 			"MU"
 		],
 		[
@@ -329,6 +339,7 @@
 		"D:/Bachelor/backup/AppDeployment/SKOGKK/KKOGSK/bodyquestiondialog.ui",
 		"D:/Bachelor/backup/AppDeployment/SKOGKK/KKOGSK/calenderdialog.ui",
 		"D:/Bachelor/backup/AppDeployment/SKOGKK/KKOGSK/changepwdialog.ui",
+		"D:/Bachelor/backup/AppDeployment/SKOGKK/KKOGSK/choosetestdialog.ui",
 		"D:/Bachelor/backup/AppDeployment/SKOGKK/KKOGSK/commentdialog.ui",
 		"D:/Bachelor/backup/AppDeployment/SKOGKK/KKOGSK/homepagedialog.ui",
 		"D:/Bachelor/backup/AppDeployment/SKOGKK/KKOGSK/logindialog.ui",

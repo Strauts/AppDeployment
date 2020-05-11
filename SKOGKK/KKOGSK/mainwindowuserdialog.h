@@ -12,8 +12,7 @@
 #include "tasksdialog.h"
 #include "homepagedialog.h"
 #include "resultsdialog.h"
-#include "bodyquestiondialog.h"
-
+#include "choosetestdialog.h"
 QT_BEGIN_NAMESPACE
 namespace Ui { class MainWindowUserDialog; }
 QT_END_NAMESPACE
@@ -36,7 +35,7 @@ public:
     qt5DatabaseDialog openDatabase;
     tasksDialog openTasks;
     homepageDialog openWorkerHome;
-    bodyQuestionDialog startUpBodyTest;
+    chooseTestDialog chooseTest;
 
 
     bool dateCheck;
@@ -58,9 +57,6 @@ public slots:
 
 
 private slots:
-
-
-    void on_pushButton_clicked();
 
     void on_pushButton_3_clicked();
 

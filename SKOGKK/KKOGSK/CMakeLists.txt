@@ -31,7 +31,8 @@ set(project_ui
     secondwindowbodydialog.ui
     onepicquestiondialog.ui
     textquestiondialog.ui
-    mainwindowuserdialog.ui)
+    mainwindowuserdialog.ui
+    choosetestdialog.ui)
 
 set(project_headers
     mainwindow.h
@@ -59,7 +60,8 @@ set(project_headers
     secondwindowbodydialog.h
     onepicquestiondialog.h
     textquestiondialog.h
-    mainwindowuserdialog.h)
+    mainwindowuserdialog.h
+    choosetestdialog.h)
 
 set(project_sources
     main.cpp
@@ -88,7 +90,8 @@ set(project_sources
     secondwindowbodydialog.cpp
     onepicquestiondialog.cpp
     textquestiondialog.cpp
-    mainwindowuserdialog.cpp)
+    mainwindowuserdialog.cpp
+    choosetestdialog.cpp)
 
 qt5_wrap_ui(project_headers_wrapped ${project_ui})
 qt5_wrap_cpp(project_sources_moc ${project_headers})

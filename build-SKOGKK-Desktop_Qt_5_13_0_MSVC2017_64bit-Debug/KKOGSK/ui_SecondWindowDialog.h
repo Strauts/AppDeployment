@@ -40,7 +40,7 @@ public:
         pushButton = new QPushButton(SecondWindowDialog);
         pushButton->setObjectName(QString::fromUtf8("pushButton"));
         pushButton->setGeometry(QRect(248, 640, 231, 41));
-        pushButton->setStyleSheet(QString::fromUtf8("border-image: url(:/Assets/Buttons/ja-videre_active.png);"));
+        pushButton->setStyleSheet(QString::fromUtf8("border-image: url(:/Assets/Buttons/gaa-videre_active.png);"));
         pushButton_2 = new QPushButton(SecondWindowDialog);
         pushButton_2->setObjectName(QString::fromUtf8("pushButton_2"));
         pushButton_2->setGeometry(QRect(9, 640, 231, 41));

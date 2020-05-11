@@ -39,7 +39,7 @@
     </rect>
    </property>
    <property name="styleSheet">
-    <string notr="true">border-image: url(:/Assets/Buttons/ja-videre_active.png);</string>
+    <string notr="true">border-image: url(:/Assets/Buttons/gaa-videre_active.png);</string>
    </property>
    <property name="text">
     <string/>

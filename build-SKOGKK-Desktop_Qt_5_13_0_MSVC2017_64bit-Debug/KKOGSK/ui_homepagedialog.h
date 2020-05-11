@@ -183,7 +183,7 @@ public:
 "background-color: rgb(146, 232, 255);"));
         label_profilePicture_Main = new QLabel(groupBox);
         label_profilePicture_Main->setObjectName(QString::fromUtf8("label_profilePicture_Main"));
-        label_profilePicture_Main->setGeometry(QRect(180, 70, 91, 91));
+        label_profilePicture_Main->setGeometry(QRect(160, 50, 151, 131));
         label_Greeting = new QLabel(groupBox);
         label_Greeting->setObjectName(QString::fromUtf8("label_Greeting"));
         label_Greeting->setGeometry(QRect(160, 10, 171, 41));

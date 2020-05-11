@@ -17,7 +17,7 @@ homepageDialog::~homepageDialog()
 
 void homepageDialog::presetProfileImage_Main()
 {
-    QPixmap pix(":/Assets/Pictures/Glad_fjes.GIF");
+    QPixmap pix(":/Assets/Pictures_2/Mann.GIF");
     ui->label_profilePicture_Main->setPixmap(pix);
     ui->label_profilePicture_Main->setScaledContents(true);
     ui->label_profilePicture_Main->setSizePolicy(QSizePolicy::Ignored, QSizePolicy::Ignored);

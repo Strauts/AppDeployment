@@ -17,7 +17,7 @@ ProfileDialog::~ProfileDialog()
 
 void ProfileDialog::presetProfilePicture()
 {
-    QPixmap pix(":/Assets/Pictures/Glad_fjes.GIF");
+    QPixmap pix(":/Assets/Pictures_2/IMG_0562.GIF");
     ui->label_profilePicture->setPixmap(pix);
     ui->label_profilePicture->setScaledContents(true);
     ui->label_profilePicture->setSizePolicy(QSizePolicy::Ignored, QSizePolicy::Ignored);

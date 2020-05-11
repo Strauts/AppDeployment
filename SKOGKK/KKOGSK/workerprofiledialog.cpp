@@ -17,7 +17,7 @@ workerProfileDialog::~workerProfileDialog()
 
 void workerProfileDialog::presetProfilePictureWorker()
 {
-    QPixmap pix(":/Assets/Pictures/Glad_fjes.GIF");
+    QPixmap pix(":/Assets/Pictures_2/Mann.GIF");
     ui->label_profilePicture->setPixmap(pix);
     ui->label_profilePicture->setScaledContents(true);
     ui->label_profilePicture->setSizePolicy(QSizePolicy::Ignored, QSizePolicy::Ignored);

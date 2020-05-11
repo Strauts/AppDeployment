@@ -51,6 +51,7 @@ public:
         pushButton_2 = new QPushButton(onePicQuestionDialog);
         pushButton_2->setObjectName(QString::fromUtf8("pushButton_2"));
         pushButton_2->setGeometry(QRect(20, 631, 211, 41));
+        pushButton_2->setAutoFillBackground(false);
         pushButton_2->setStyleSheet(QString::fromUtf8("border-image: url(:/Assets/Buttons/gaa-tilbake_active.png);"));
         pushButton = new QPushButton(onePicQuestionDialog);
         pushButton->setObjectName(QString::fromUtf8("pushButton"));

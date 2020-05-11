@@ -74,7 +74,7 @@ public:
         label_name->setStyleSheet(QString::fromUtf8("color: rgb(0, 0, 0);"));
         label_profilePicture = new QLabel(ProfileDialog);
         label_profilePicture->setObjectName(QString::fromUtf8("label_profilePicture"));
-        label_profilePicture->setGeometry(QRect(160, 90, 131, 131));
+        label_profilePicture->setGeometry(QRect(160, 90, 151, 131));
         pushButton = new QPushButton(ProfileDialog);
         pushButton->setObjectName(QString::fromUtf8("pushButton"));
         pushButton->setGeometry(QRect(10, 10, 91, 41));

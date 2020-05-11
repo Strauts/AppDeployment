@@ -373,7 +373,7 @@ border-image: url(:/Assets/Buttons/resultater_active.png);</string>
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">border-image: url(:/Assets/Buttons/aapne_active.png);</string>
+     <string notr="true">border-image: url(:/Assets/Buttons/skriv_active.png);</string>
     </property>
     <property name="text">
      <string/>
@@ -389,7 +389,7 @@ border-image: url(:/Assets/Buttons/resultater_active.png);</string>
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">border-image: url(:/Assets/Buttons/aapne_active.png);</string>
+     <string notr="true">border-image: url(:/Assets/Buttons/skriv_active.png);</string>
     </property>
     <property name="text">
      <string/>
@@ -405,7 +405,7 @@ border-image: url(:/Assets/Buttons/resultater_active.png);</string>
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">border-image: url(:/Assets/Buttons/aapne_active.png);</string>
+     <string notr="true">border-image: url(:/Assets/Buttons/skriv_active.png);</string>
     </property>
     <property name="text">
      <string/>
@@ -421,7 +421,7 @@ border-image: url(:/Assets/Buttons/resultater_active.png);</string>
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">border-image: url(:/Assets/Buttons/aapne_active.png);</string>
+     <string notr="true">border-image: url(:/Assets/Buttons/skriv_active.png);</string>
     </property>
     <property name="text">
      <string/>
@@ -437,7 +437,7 @@ border-image: url(:/Assets/Buttons/resultater_active.png);</string>
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">border-image: url(:/Assets/Buttons/aapne_active.png);</string>
+     <string notr="true">border-image: url(:/Assets/Buttons/skriv_active.png);</string>
     </property>
     <property name="text">
      <string/>
@@ -453,7 +453,7 @@ border-image: url(:/Assets/Buttons/resultater_active.png);</string>
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">border-image: url(:/Assets/Buttons/aapne_active.png);</string>
+     <string notr="true">border-image: url(:/Assets/Buttons/skriv_active.png);</string>
     </property>
     <property name="text">
      <string/>
@@ -469,7 +469,7 @@ border-image: url(:/Assets/Buttons/resultater_active.png);</string>
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">border-image: url(:/Assets/Buttons/aapne_active.png);</string>
+     <string notr="true">border-image: url(:/Assets/Buttons/skriv_active.png);</string>
     </property>
     <property name="text">
      <string/>
@@ -485,7 +485,7 @@ border-image: url(:/Assets/Buttons/resultater_active.png);</string>
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">border-image: url(:/Assets/Buttons/aapne_active.png);</string>
+     <string notr="true">border-image: url(:/Assets/Buttons/skriv_active.png);</string>
     </property>
     <property name="text">
      <string/>
@@ -501,7 +501,7 @@ border-image: url(:/Assets/Buttons/resultater_active.png);</string>
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">border-image: url(:/Assets/Buttons/aapne_active.png);</string>
+     <string notr="true">border-image: url(:/Assets/Buttons/skriv_active.png);</string>
     </property>
     <property name="text">
      <string/>
@@ -517,7 +517,7 @@ border-image: url(:/Assets/Buttons/resultater_active.png);</string>
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">border-image: url(:/Assets/Buttons/aapne_active.png);</string>
+     <string notr="true">border-image: url(:/Assets/Buttons/skriv_active.png);</string>
     </property>
     <property name="text">
      <string/>

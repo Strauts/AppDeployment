@@ -74,6 +74,9 @@
      <height>41</height>
     </rect>
    </property>
+   <property name="autoFillBackground">
+    <bool>false</bool>
+   </property>
    <property name="styleSheet">
     <string notr="true">border-image: url(:/Assets/Buttons/gaa-tilbake_active.png);</string>
    </property>

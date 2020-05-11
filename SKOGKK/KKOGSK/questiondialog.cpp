@@ -694,6 +694,7 @@ void QuestionDialog::on_pushButton_6_clicked()
     test = 0;
     chooseImage();
     close();
+
 }
 
 void QuestionDialog::setupImage()

@@ -251,24 +251,30 @@
     <widget class="QPushButton" name="pushButton_startTest">
      <property name="geometry">
       <rect>
-       <x>102</x>
-       <y>92</y>
+       <x>100</x>
+       <y>90</y>
        <width>241</width>
        <height>41</height>
       </rect>
      </property>
+     <property name="font">
+      <font>
+       <pointsize>12</pointsize>
+      </font>
+     </property>
      <property name="styleSheet">
-      <string notr="true">border-image: url(:/Assets/Buttons/sexkunn_active.png);</string>
+      <string notr="true">background-color: rgb(146, 232, 255);
+color: rgb(0, 0, 0);</string>
      </property>
      <property name="text">
-      <string/>
+      <string>Ta test</string>
      </property>
     </widget>
     <widget class="QPushButton" name="pushButton_Results">
      <property name="geometry">
       <rect>
        <x>100</x>
-       <y>210</y>
+       <y>140</y>
        <width>241</width>
        <height>41</height>
       </rect>
@@ -284,7 +290,7 @@
      <property name="geometry">
       <rect>
        <x>100</x>
-       <y>270</y>
+       <y>190</y>
        <width>241</width>
        <height>41</height>
       </rect>
@@ -297,31 +303,14 @@ color: rgb(0, 0, 0);</string>
       <string/>
      </property>
     </widget>
-    <widget class="QPushButton" name="pushButton">
-     <property name="geometry">
-      <rect>
-       <x>100</x>
-       <y>150</y>
-       <width>241</width>
-       <height>41</height>
-      </rect>
-     </property>
-     <property name="styleSheet">
-      <string notr="true">border-image: url(:/Assets/Buttons/kroppkunn_active.png);
-</string>
-     </property>
-     <property name="text">
-      <string/>
-     </property>
-    </widget>
    </widget>
    <widget class="QLabel" name="label_profilePicture_Main">
     <property name="geometry">
      <rect>
-      <x>180</x>
-      <y>70</y>
-      <width>91</width>
-      <height>91</height>
+      <x>160</x>
+      <y>50</y>
+      <width>151</width>
+      <height>131</height>
      </rect>
     </property>
     <property name="text">

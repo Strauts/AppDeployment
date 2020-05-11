@@ -19,7 +19,7 @@ LoginDialog::~LoginDialog()
 
 void LoginDialog::presetPicture()
 {
-    QPixmap pix(":/Assets/Buttons/sexkunn_active.png");
+    QPixmap pix(":/Assets/Temaer/LOGO.png");
     ui->label_5->setPixmap(pix);
     ui->label_5->setScaledContents(true);
     ui->label_5->setSizePolicy(QSizePolicy::Ignored, QSizePolicy::Ignored);

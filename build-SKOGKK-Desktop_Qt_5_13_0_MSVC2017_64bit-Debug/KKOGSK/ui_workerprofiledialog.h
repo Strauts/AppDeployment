@@ -77,7 +77,7 @@ public:
 "background-color: rgb(146, 232, 255);"));
         label_profilePicture = new QLabel(workerProfileDialog);
         label_profilePicture->setObjectName(QString::fromUtf8("label_profilePicture"));
-        label_profilePicture->setGeometry(QRect(160, 80, 131, 131));
+        label_profilePicture->setGeometry(QRect(160, 80, 151, 131));
         pushButton = new QPushButton(workerProfileDialog);
         pushButton->setObjectName(QString::fromUtf8("pushButton"));
         pushButton->setGeometry(QRect(10, 10, 91, 41));

@@ -28,13 +28,13 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 132,
+				"line" : 135,
 				"parent" : 0
 			},
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 150,
+				"line" : 153,
 				"parent" : 0
 			}
 		]
@@ -146,7 +146,6 @@
 			"sourceIndexes" : 
 			[
 				0,
-				31,
 				32,
 				33,
 				34,
@@ -199,10 +198,13 @@
 				81,
 				82,
 				83,
-				111,
-				112,
-				113,
-				114
+				84,
+				85,
+				86,
+				115,
+				116,
+				117,
+				118
 			]
 		}
 	],
@@ -275,7 +277,6 @@
 			"sourceIndexes" : 
 			[
 				0,
-				31,
 				32,
 				33,
 				34,
@@ -328,10 +329,13 @@
 				81,
 				82,
 				83,
-				111,
-				112,
-				113,
-				114
+				84,
+				85,
+				86,
+				115,
+				116,
+				117,
+				118
 			]
 		},
 		{
@@ -342,12 +346,7 @@
 				2,
 				3,
 				4,
-				110,
-				141,
-				142,
-				143,
-				144,
-				145,
+				114,
 				146,
 				147,
 				148,
@@ -368,7 +367,13 @@
 				163,
 				164,
 				165,
-				166
+				166,
+				167,
+				168,
+				169,
+				170,
+				171,
+				172
 			]
 		},
 		{
@@ -401,9 +406,7 @@
 				28,
 				29,
 				30,
-				84,
-				85,
-				86,
+				31,
 				87,
 				88,
 				89,
@@ -426,17 +429,17 @@
 				106,
 				107,
 				108,
-				109
+				109,
+				110,
+				111,
+				112,
+				113
 			]
 		},
 		{
 			"name" : "CMake Rules",
 			"sourceIndexes" : 
 			[
-				115,
-				116,
-				117,
-				118,
 				119,
 				120,
 				121,
@@ -459,11 +462,16 @@
 				138,
 				139,
 				140,
-				167,
-				168,
-				169,
-				170,
-				171
+				141,
+				142,
+				143,
+				144,
+				145,
+				173,
+				174,
+				175,
+				176,
+				177
 			]
 		}
 	],
@@ -628,6 +636,11 @@
 		},
 		{
 			"backtrace" : 1,
+			"path" : "KKOGSK/choosetestdialog.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
 			"compileGroupIndex" : 0,
 			"path" : "KKOGSK/main.cpp",
 			"sourceGroupIndex" : 0
@@ -786,6 +799,12 @@
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
 			"path" : "KKOGSK/mainwindowuserdialog.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "KKOGSK/choosetestdialog.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
@@ -972,6 +991,13 @@
 		},
 		{
 			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "D:/Bachelor/backup/AppDeployment/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK/moc_choosetestdialog.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
 			"isGenerated" : true,
 			"path" : "D:/Bachelor/backup/AppDeployment/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK/ui_mainwindow.h",
 			"sourceGroupIndex" : 2
@@ -1124,6 +1150,12 @@
 			"backtrace" : 1,
 			"isGenerated" : true,
 			"path" : "D:/Bachelor/backup/AppDeployment/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK/ui_mainwindowuserdialog.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "D:/Bachelor/backup/AppDeployment/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK/ui_choosetestdialog.h",
 			"sourceGroupIndex" : 2
 		},
 		{
@@ -1318,6 +1350,12 @@
 		},
 		{
 			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "D:/Bachelor/backup/AppDeployment/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK/moc_choosetestdialog.cpp.rule",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 0,
 			"path" : "KKOGSK/mainwindow.ui",
 			"sourceGroupIndex" : 1
 		},
@@ -1444,6 +1482,11 @@
 		{
 			"backtrace" : 0,
 			"path" : "KKOGSK/mainwindowuserdialog.ui",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"path" : "KKOGSK/choosetestdialog.ui",
 			"sourceGroupIndex" : 1
 		},
 		{

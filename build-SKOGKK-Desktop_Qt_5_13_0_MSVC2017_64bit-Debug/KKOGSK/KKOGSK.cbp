@@ -168,6 +168,15 @@
 		<Unit filename="D:/Bachelor/backup/AppDeployment/SKOGKK/KKOGSK/changepwdialog.ui">
 			<Option target="KKOGSK"/>
 		</Unit>
+		<Unit filename="D:/Bachelor/backup/AppDeployment/SKOGKK/KKOGSK/choosetestdialog.cpp">
+			<Option target="KKOGSK"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/backup/AppDeployment/SKOGKK/KKOGSK/choosetestdialog.h">
+			<Option target="KKOGSK"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/backup/AppDeployment/SKOGKK/KKOGSK/choosetestdialog.ui">
+			<Option target="KKOGSK"/>
+		</Unit>
 		<Unit filename="D:/Bachelor/backup/AppDeployment/SKOGKK/KKOGSK/commentdialog.cpp">
 			<Option target="KKOGSK"/>
 		</Unit>
@@ -420,6 +429,12 @@
 		<Unit filename="D:/Bachelor/backup/AppDeployment/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK/moc_changepwdialog.cpp.rule">
 			<Option target="KKOGSK"/>
 		</Unit>
+		<Unit filename="D:/Bachelor/backup/AppDeployment/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK/moc_choosetestdialog.cpp">
+			<Option target="KKOGSK"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/backup/AppDeployment/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK/moc_choosetestdialog.cpp.rule">
+			<Option target="KKOGSK"/>
+		</Unit>
 		<Unit filename="D:/Bachelor/backup/AppDeployment/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK/moc_commentdialog.cpp">
 			<Option target="KKOGSK"/>
 		</Unit>
@@ -574,6 +589,9 @@
 			<Option target="KKOGSK"/>
 		</Unit>
 		<Unit filename="D:/Bachelor/backup/AppDeployment/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK/ui_changepwdialog.h">
+			<Option target="KKOGSK"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/backup/AppDeployment/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK/ui_choosetestdialog.h">
 			<Option target="KKOGSK"/>
 		</Unit>
 		<Unit filename="D:/Bachelor/backup/AppDeployment/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK/ui_commentdialog.h">

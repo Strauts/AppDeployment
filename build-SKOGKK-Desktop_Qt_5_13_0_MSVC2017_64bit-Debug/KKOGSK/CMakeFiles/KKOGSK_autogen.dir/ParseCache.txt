@@ -46,6 +46,7 @@ D:/Bachelor/backup/AppDeployment/SKOGKK/KKOGSK/bodyquestiondialog.cpp
  uic:ui_bodyquestiondialog.h
 D:/Bachelor/backup/AppDeployment/SKOGKK/KKOGSK/homepagedialog.cpp
  uic:ui_homepagedialog.h
+D:/Bachelor/backup/AppDeployment/SKOGKK/KKOGSK/choosetestdialog.h
 D:/Bachelor/backup/AppDeployment/SKOGKK/KKOGSK/changepwdialog.cpp
  uic:ui_changepwdialog.h
 D:/Bachelor/backup/AppDeployment/SKOGKK/KKOGSK/commentdialog.cpp
@@ -85,3 +86,5 @@ D:/Bachelor/backup/AppDeployment/SKOGKK/KKOGSK/rewarddialog.cpp
  uic:ui_rewarddialog.h
 D:/Bachelor/backup/AppDeployment/SKOGKK/KKOGSK/workerprofiledialog.cpp
  uic:ui_workerprofiledialog.h
+D:/Bachelor/backup/AppDeployment/SKOGKK/KKOGSK/choosetestdialog.cpp
+ uic:ui_choosetestdialog.h

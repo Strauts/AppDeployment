@@ -60,7 +60,7 @@ void MainWindowUserDialog::presetProfileImage_Main()
     //    f = QResource::registerResource("resources-small.rcc");
     //    QPixmap test(":/Glad_fjes.GIF");
 
-    QPixmap pix(":/Assets/Pictures/Glad_fjes.GIF");
+    QPixmap pix(":/Assets/Pictures_2/IMG_0562.GIF");
     ui->label_profilePicture_Main->setPixmap(pix);
     ui->label_profilePicture_Main->setScaledContents(true);
     ui->label_profilePicture_Main->setSizePolicy(QSizePolicy::Ignored, QSizePolicy::Ignored);
@@ -74,8 +74,8 @@ void MainWindowUserDialog::on_pushButton_Profile_clicked()
 
 void MainWindowUserDialog::on_pushButton_startTest_clicked()
 {
-    openQuestion.setModal(true);
-    openQuestion.exec();
+    chooseTest.setModal(true);
+    chooseTest.exec();
 }
 
 void MainWindowUserDialog::on_pushButton_Results_clicked()
@@ -88,14 +88,6 @@ void MainWindowUserDialog::on_pushButton_Reminders_clicked()
 {
     openTasks.setModal(true);
     openTasks.exec();
-}
-
-void MainWindowUserDialog::on_pushButton_clicked()
-{
-    QMessageBox::information(this, "Inactive", "KroppKunn er ikke satt opp");
-    //startUpBodyTest.setModal(true);
-    //startUpBodyTest.exec();
-
 }
 
 void MainWindowUserDialog::on_pushButton_2_clicked()
