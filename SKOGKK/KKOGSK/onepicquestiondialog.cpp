@@ -96,8 +96,8 @@ void onePicQuestionDialog::chooseImage()
         text2 = "27. Hvordan kan du se det?";
         ui->label_2->setText(text);
         ui->label_3->setText(text2);
-        QPixmap pix(":/Assets/Pictures/Tris_ansikt.GIF");
-        QMovie *movie = new QMovie(":/Assets/Pictures/Tris_ansikt.GIF");
+        QPixmap pix(":/Assets/JPGS/IMG_0689.PNG");
+        QMovie *movie = new QMovie(":/Assets/JPGS/IMG_0689.PNG");
         ui->label->setPixmap(pix);
         ui->label->setMovie(movie);
         ui->label->setScaledContents(true);

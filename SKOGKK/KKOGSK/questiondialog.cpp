@@ -760,7 +760,7 @@ void QuestionDialog::setupImage_3()
     ui->label_1->setScaledContents(true);
     ui->label_1->setSizePolicy(QSizePolicy::Ignored, QSizePolicy::Ignored);
 
-    QPixmap pix2(":/Assets/Pictures/Naken_mann2.GIF");
+    QPixmap pix2(":/Assets/Pictures/Naken_mann3.GIF");
     ui->label_2->setPixmap(pix2);
     ui->label_2->setScaledContents(true);
     ui->label_2->setSizePolicy(QSizePolicy::Ignored, QSizePolicy::Ignored);
@@ -789,12 +789,12 @@ void QuestionDialog::setupImage_4()
     ui->label_1->setScaledContents(true);
     ui->label_1->setSizePolicy(QSizePolicy::Ignored, QSizePolicy::Ignored);
 
-    QPixmap pix2(":/Assets/Pictures/Naken_mann2.GIF");
+    QPixmap pix2(":/Assets/Pictures/Naken_mann3.GIF");
     ui->label_2->setPixmap(pix2);
     ui->label_2->setScaledContents(true);
     ui->label_2->setSizePolicy(QSizePolicy::Ignored, QSizePolicy::Ignored);
 
-    QPixmap pix3("");
+    QPixmap pix3(":/Assets/Pictures/Naken_mann4.GIF");
     ui->label_3->setPixmap(pix3);
     ui->label_3->setScaledContents(true);
     ui->label_3->setSizePolicy(QSizePolicy::Ignored, QSizePolicy::Ignored);
@@ -966,7 +966,7 @@ void QuestionDialog::setupImage_11()
 {
     text = "9. Hvem er voksen?";
     ui->questionLabel->setText(text);
-    QPixmap pix(":/Assets/Pictures/Naken_mann2.GIF");
+    QPixmap pix(":/Assets/Pictures/Naken_mann3.GIF");
     ui->label_1->setPixmap(pix);
     ui->label_1->setScaledContents(true);
     ui->label_1->setSizePolicy(QSizePolicy::Ignored, QSizePolicy::Ignored);
@@ -976,7 +976,7 @@ void QuestionDialog::setupImage_11()
     ui->label_2->setScaledContents(true);
     ui->label_2->setSizePolicy(QSizePolicy::Ignored, QSizePolicy::Ignored);
 
-    QPixmap pix3(":/Assets/Pictures/Naken_jente.GIF");
+    QPixmap pix3(":/Assets/Pictures/Naken_jente2.GIF");
     ui->label_3->setPixmap(pix3);
     ui->label_3->setScaledContents(true);
     ui->label_3->setSizePolicy(QSizePolicy::Ignored, QSizePolicy::Ignored);
@@ -1044,7 +1044,7 @@ void QuestionDialog::setupImage_14()
     text = "12. Hva skjer med kroppen til en gutt når han blir voksen?";
     ui->questionLabel->setText(text);
     //bilde av hvit mann?
-    QPixmap pix(":/Assets/Pictures/Naken_mann2.GIF");
+    QPixmap pix(":/Assets/Pictures/Naken_mann3.GIF");
     ui->label_1->setPixmap(pix);
     ui->label_1->setScaledContents(true);
     ui->label_1->setSizePolicy(QSizePolicy::Ignored, QSizePolicy::Ignored);
@@ -1054,7 +1054,7 @@ void QuestionDialog::setupImage_14()
     ui->label_2->setScaledContents(true);
     ui->label_2->setSizePolicy(QSizePolicy::Ignored, QSizePolicy::Ignored);
 
-    QPixmap pix3(":/Assets/Pictures/Naken_jente.GIF");
+    QPixmap pix3(":/Assets/Pictures/Naken_jente2.GIF");
     ui->label_3->setPixmap(pix3);
     ui->label_3->setScaledContents(true);
     ui->label_3->setSizePolicy(QSizePolicy::Ignored, QSizePolicy::Ignored);
@@ -1069,7 +1069,7 @@ void QuestionDialog::setupImage_15()
 {
     text = "13. Hva skjer med kroppen til ei jente når hun blir voksen?";
     ui->questionLabel->setText(text);
-    QPixmap pix(":/Assets/Pictures/Naken_mann2.GIF");
+    QPixmap pix(":/Assets/Pictures/Naken_mann3.GIF");
     ui->label_1->setPixmap(pix);
     ui->label_1->setScaledContents(true);
     ui->label_1->setSizePolicy(QSizePolicy::Ignored, QSizePolicy::Ignored);
@@ -1079,7 +1079,7 @@ void QuestionDialog::setupImage_15()
     ui->label_2->setScaledContents(true);
     ui->label_2->setSizePolicy(QSizePolicy::Ignored, QSizePolicy::Ignored);
 
-    QPixmap pix3(":/Assets/Pictures/Naken_jente.GIF");
+    QPixmap pix3(":/Assets/Pictures/Naken_jente2.GIF");
     ui->label_3->setPixmap(pix3);
     ui->label_3->setScaledContents(true);
     ui->label_3->setSizePolicy(QSizePolicy::Ignored, QSizePolicy::Ignored);
@@ -1099,7 +1099,7 @@ void QuestionDialog::setupImage_16()
     ui->label_1->setScaledContents(true);
     ui->label_1->setSizePolicy(QSizePolicy::Ignored, QSizePolicy::Ignored);
 
-    QPixmap pix2(":/Assets/Pictures/Naken_mann2.GIF");
+    QPixmap pix2(":/Assets/Pictures/Naken_mann3.GIF");
     ui->label_2->setPixmap(pix2);
     ui->label_2->setScaledContents(true);
     ui->label_2->setSizePolicy(QSizePolicy::Ignored, QSizePolicy::Ignored);
@@ -1124,7 +1124,7 @@ void QuestionDialog::setupImage_17()
     ui->label_1->setScaledContents(true);
     ui->label_1->setSizePolicy(QSizePolicy::Ignored, QSizePolicy::Ignored);
 
-    QPixmap pix2(":/Assets/Pictures/Naken_mann2.GIF");
+    QPixmap pix2(":/Assets/Pictures/Naken_mann3.GIF");
     ui->label_2->setPixmap(pix2);
     ui->label_2->setScaledContents(true);
     ui->label_2->setSizePolicy(QSizePolicy::Ignored, QSizePolicy::Ignored);
@@ -1177,7 +1177,7 @@ void QuestionDialog::setupImage_19()
     ui->label_1->setScaledContents(true);
     ui->label_1->setSizePolicy(QSizePolicy::Ignored, QSizePolicy::Ignored);
 
-    QPixmap pix2(":/Assets/Pictures/Naken_mann2.GIF");
+    QPixmap pix2(":/Assets/Pictures/Naken_mann3.GIF");
     ui->label_2->setPixmap(pix2);
     ui->label_2->setScaledContents(true);
     ui->label_2->setSizePolicy(QSizePolicy::Ignored, QSizePolicy::Ignored);
@@ -1329,22 +1329,22 @@ void QuestionDialog::setupImage_25()
     theme = "Følelser og relasjoner";
     ui->questionLabel->setText(text);
     ui->labelTheme->setText(theme);
-    QPixmap pix(":/Assets/Pictures/Noytral_fjes.GIF");
+    QPixmap pix(":/Assets/JPGS/IMG_0692.PNG");
     ui->label_1->setPixmap(pix);
     ui->label_1->setScaledContents(true);
     ui->label_1->setSizePolicy(QSizePolicy::Ignored, QSizePolicy::Ignored);
 
-    QPixmap pix2(":/Assets/Pictures/Sinna_fjes.GIF");
+    QPixmap pix2(":/Assets/JPGS/IMG_0691.PNG");
     ui->label_2->setPixmap(pix2);
     ui->label_2->setScaledContents(true);
     ui->label_2->setSizePolicy(QSizePolicy::Ignored, QSizePolicy::Ignored);
 
-    QPixmap pix3(":/Assets/Pictures/Glad_fjes.GIF");
+    QPixmap pix3(":/Assets/JPGS/IMG_0690.PNG");
     ui->label_3->setPixmap(pix3);
     ui->label_3->setScaledContents(true);
     ui->label_3->setSizePolicy(QSizePolicy::Ignored, QSizePolicy::Ignored);
 
-    QPixmap pix4(":/Assets/Pictures/Tris_ansikt.GIF");
+    QPixmap pix4(":/Assets/JPGS/IMG_0689.PNG");
     ui->label_4->setPixmap(pix4);
     ui->label_4->setScaledContents(true);
     ui->label_4->setSizePolicy(QSizePolicy::Ignored, QSizePolicy::Ignored);
@@ -1354,22 +1354,22 @@ void QuestionDialog::setupImage_26()
 {
     text = "24. Hvem er sint?";
     ui->questionLabel->setText(text);
-    QPixmap pix(":/Assets/Pictures/Noytral_fjes.GIF");
+    QPixmap pix(":/Assets/JPGS/IMG_0692.PNG");
     ui->label_1->setPixmap(pix);
     ui->label_1->setScaledContents(true);
     ui->label_1->setSizePolicy(QSizePolicy::Ignored, QSizePolicy::Ignored);
 
-    QPixmap pix2(":/Assets/Pictures/Sinna_fjes.GIF");
+    QPixmap pix2(":/Assets/JPGS/IMG_0691.PNG");
     ui->label_2->setPixmap(pix2);
     ui->label_2->setScaledContents(true);
     ui->label_2->setSizePolicy(QSizePolicy::Ignored, QSizePolicy::Ignored);
 
-    QPixmap pix3(":/Assets/Pictures/Glad_fjes.GIF");
+    QPixmap pix3(":/Assets/JPGS/IMG_0690.PNG");
     ui->label_3->setPixmap(pix3);
     ui->label_3->setScaledContents(true);
     ui->label_3->setSizePolicy(QSizePolicy::Ignored, QSizePolicy::Ignored);
 
-    QPixmap pix4(":/Assets/Pictures/Tris_ansikt.GIF");
+    QPixmap pix4(":/Assets/JPGS/IMG_0689.PNG");
     ui->label_4->setPixmap(pix4);
     ui->label_4->setScaledContents(true);
     ui->label_4->setSizePolicy(QSizePolicy::Ignored, QSizePolicy::Ignored);
@@ -1379,22 +1379,22 @@ void QuestionDialog::setupImage_27()
 {
     text = "25. Hvem er lei seg?";
     ui->questionLabel->setText(text);
-    QPixmap pix(":/Assets/Pictures/Noytral_fjes.GIF");
+    QPixmap pix(":/Assets/JPGS/IMG_0692.PNG");
     ui->label_1->setPixmap(pix);
     ui->label_1->setScaledContents(true);
     ui->label_1->setSizePolicy(QSizePolicy::Ignored, QSizePolicy::Ignored);
 
-    QPixmap pix2(":/Assets/Pictures/Sinna_fjes.GIF");
+    QPixmap pix2(":/Assets/JPGS/IMG_0691.PNG");
     ui->label_2->setPixmap(pix2);
     ui->label_2->setScaledContents(true);
     ui->label_2->setSizePolicy(QSizePolicy::Ignored, QSizePolicy::Ignored);
 
-    QPixmap pix3(":/Assets/Pictures/Glad_fjes.GIF");
+    QPixmap pix3(":/Assets/JPGS/IMG_0690.PNG");
     ui->label_3->setPixmap(pix3);
     ui->label_3->setScaledContents(true);
     ui->label_3->setSizePolicy(QSizePolicy::Ignored, QSizePolicy::Ignored);
 
-    QPixmap pix4(":/Assets/Pictures/Tris_ansikt.GIF");
+    QPixmap pix4(":/Assets/JPGS/IMG_0689.PNG");
     ui->label_4->setPixmap(pix4);
     ui->label_4->setScaledContents(true);
     ui->label_4->setSizePolicy(QSizePolicy::Ignored, QSizePolicy::Ignored);
@@ -1404,7 +1404,7 @@ void QuestionDialog::setupImage_28()
 {
     text = "26. Er noen av disse lei seg?";
     ui->questionLabel->setText(text);
-    QPixmap pix(":/Assets/Pictures/Tris_ansikt.GIF");
+    QPixmap pix(":/Assets/JPGS/IMG_0688.PNG");
     ui->label_1->setPixmap(pix);
     ui->label_1->setScaledContents(true);
     ui->label_1->setSizePolicy(QSizePolicy::Ignored, QSizePolicy::Ignored);
@@ -1460,17 +1460,17 @@ void QuestionDialog::setupImage_30()
     ui->label_1->setScaledContents(true);
     ui->label_1->setSizePolicy(QSizePolicy::Ignored, QSizePolicy::Ignored);
 
-    QPixmap pix2("");
+    QPixmap pix2(":/Assets/JPGS/IMG_0695.PNG");
     ui->label_2->setPixmap(pix2);
     ui->label_2->setScaledContents(true);
     ui->label_2->setSizePolicy(QSizePolicy::Ignored, QSizePolicy::Ignored);
 
-    QPixmap pix3("");
+    QPixmap pix3(":/Assets/JPGS/IMG_0694.PNG");
     ui->label_3->setPixmap(pix3);
     ui->label_3->setScaledContents(true);
     ui->label_3->setSizePolicy(QSizePolicy::Ignored, QSizePolicy::Ignored);
 
-    QPixmap pix4("");
+    QPixmap pix4(":/Assets/JPGS/IMG_0693.PNG");
     ui->label_4->setPixmap(pix4);
     ui->label_4->setScaledContents(true);
     ui->label_4->setSizePolicy(QSizePolicy::Ignored, QSizePolicy::Ignored);
@@ -1720,7 +1720,7 @@ void QuestionDialog::setupImage_40()
     ui->label_2->setScaledContents(true);
     ui->label_2->setSizePolicy(QSizePolicy::Ignored, QSizePolicy::Ignored);
 
-    QPixmap pix3(":/Assets/Pictures/SexKvinner.GIF");
+    QPixmap pix3(":/Assets/Pictures/IMG_0289.GIF");
     ui->label_3->setPixmap(pix3);
     ui->label_3->setScaledContents(true);
     ui->label_3->setSizePolicy(QSizePolicy::Ignored, QSizePolicy::Ignored);

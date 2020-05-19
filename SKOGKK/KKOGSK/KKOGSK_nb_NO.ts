@@ -225,17 +225,22 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="mainwindowuserdialog.ui" line="328"/>
+        <location filename="mainwindowuserdialog.ui" line="270"/>
+        <source>Ta test</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="mainwindowuserdialog.ui" line="317"/>
         <source>TextLabel</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="mainwindowuserdialog.ui" line="349"/>
+        <location filename="mainwindowuserdialog.ui" line="338"/>
         <source>God Morgen, Ola!</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="mainwindowuserdialog.ui" line="370"/>
+        <location filename="mainwindowuserdialog.ui" line="359"/>
         <source>  Februar</source>
         <translation type="unfinished"></translation>
     </message>
@@ -293,6 +298,7 @@
     </message>
     <message>
         <location filename="secondwindowdialog.ui" line="29"/>
+        <location filename="secondwindowdialog.ui" line="128"/>
         <source>TextLabel</source>
         <translation type="unfinished"></translation>
     </message>
@@ -355,6 +361,14 @@
     <name>changePWDialog</name>
     <message>
         <location filename="changepwdialog.ui" line="14"/>
+        <source>Dialog</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>chooseTestDialog</name>
+    <message>
+        <location filename="choosetestdialog.ui" line="14"/>
         <source>Dialog</source>
         <translation type="unfinished"></translation>
     </message>

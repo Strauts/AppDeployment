@@ -7,6 +7,8 @@
 #include <QMessageBox>
 #include "mainwindow.h"
 
+class QuestionDialog;
+
 SecondWindowDialog::SecondWindowDialog(QWidget *parent) :
     QDialog(parent)
   ,ui(new Ui::SecondWindowDialog)
@@ -44,13 +46,36 @@ void SecondWindowDialog::on_pushButton_clicked()
 {
     if(answerCorrect == true)
     {
-        QMessageBox::information(this, "Feedback", "Riktig svar!");
+        QPixmap pix(":/Assets/Buttons/check_active.png");
+        ui->label_4->setPixmap(pix);
+        ui->label_4->setScaledContents(true);
+        ui->label_4->setSizePolicy(QSizePolicy::Ignored, QSizePolicy::Ignored);
         //nextQuestion++;
+        QTime closeTime = QTime::currentTime().addSecs(2);
+        while(QTime::currentTime() < closeTime)
+            QCoreApplication::processEvents(QEventLoop::AllEvents, 100);
+
+        QPixmap pix2("");
+        ui->label_4->setPixmap(pix2);
+        ui->label_4->setScaledContents(true);
+        ui->label_4->setSizePolicy(QSizePolicy::Ignored, QSizePolicy::Ignored);
+
         close();
     }
     else
     {
-        QMessageBox::information(this, "Feedback", "Feil Svar!");
+        QPixmap pix(":/Assets/Buttons/x_active.png");
+        ui->label_4->setPixmap(pix);
+        ui->label_4->setScaledContents(true);
+        ui->label_4->setSizePolicy(QSizePolicy::Ignored, QSizePolicy::Ignored);
+        QTime closeTime = QTime::currentTime().addSecs(2);
+        while(QTime::currentTime() < closeTime)
+            QCoreApplication::processEvents(QEventLoop::AllEvents, 100);
+
+        QPixmap pix2("");
+        ui->label_4->setPixmap(pix2);
+        ui->label_4->setScaledContents(true);
+        ui->label_4->setSizePolicy(QSizePolicy::Ignored, QSizePolicy::Ignored);
         close();
     }
 }
@@ -230,8 +255,8 @@ void SecondWindowDialog::setUpGif()
     {
         text = "9. Hvem er voksen?";
         ui->label_2->setText(text);
-        QPixmap pix(":/Assets/Pictures/Naken_mann2.GIF");
-        QMovie *movie = new QMovie(":/Assets/Pictures/Naken_mann2.GIF");
+        QPixmap pix(":/Assets/Pictures/Naken_mann3.GIF");
+        QMovie *movie = new QMovie(":/Assets/Pictures/Naken_mann3.GIF");
         ui->label->setPixmap(pix);
         ui->label->setScaledContents(true);
         ui->label->setSizePolicy(QSizePolicy::Ignored, QSizePolicy::Ignored);
@@ -393,8 +418,8 @@ void SecondWindowDialog::setUpGif()
     {
         text = "23. Hvem er glad?";
         ui->label_2->setText(text);
-        QPixmap pix(":/Assets/Pictures/Noytral_fjes.GIF");
-        QMovie *movie = new QMovie(":/Assets/Pictures/Noytral_fjes.GIF");
+        QPixmap pix(":/Assets/JPGS/IMG_0692.PNG");
+        QMovie *movie = new QMovie(":/Assets/JPGS/IMG_0692.PNG");
         ui->label->setPixmap(pix);
         ui->label->setScaledContents(true);
         ui->label->setSizePolicy(QSizePolicy::Ignored, QSizePolicy::Ignored);
@@ -406,8 +431,8 @@ void SecondWindowDialog::setUpGif()
     {
         text = "24. Hvem er sint?";
         ui->label_2->setText(text);
-        QPixmap pix(":/Assets/Pictures/Noytral_fjes.GIF");
-        QMovie *movie = new QMovie(":/Assets/Pictures/Noytral_fjes.GIF");
+        QPixmap pix(":/Assets/JPGS/IMG_0692.PNG");
+        QMovie *movie = new QMovie(":/Assets/JPGS/IMG_0692.PNG");
         ui->label->setPixmap(pix);
         ui->label->setScaledContents(true);
         ui->label->setSizePolicy(QSizePolicy::Ignored, QSizePolicy::Ignored);
@@ -419,8 +444,8 @@ void SecondWindowDialog::setUpGif()
     {
         text = "25. Hvem er lei seg?";
         ui->label_2->setText(text);
-        QPixmap pix(":/Assets/Pictures/Noytral_fjes.GIF");
-        QMovie *movie = new QMovie(":/Assets/Pictures/Noytral_fjes.GIF");
+        QPixmap pix(":/Assets/JPGS/IMG_0692.PNG");
+        QMovie *movie = new QMovie(":/Assets/JPGS/IMG_0692.PNG");
         ui->label->setPixmap(pix);
         ui->label->setScaledContents(true);
         ui->label->setSizePolicy(QSizePolicy::Ignored, QSizePolicy::Ignored);
@@ -432,8 +457,8 @@ void SecondWindowDialog::setUpGif()
     {
         text = "26. Er noen av disse lei seg?";
         ui->label_2->setText(text);
-        QPixmap pix(":/Assets/Pictures/Tris_ansikt.GIF");
-        QMovie *movie = new QMovie(":/Assets/Pictures/Tris_ansikt.GIF");
+        QPixmap pix(":/Assets/JPGS/IMG_0688.PNG");
+        QMovie *movie = new QMovie(":/Assets/JPGS/IMG_0688.PNG");
         ui->label->setPixmap(pix);
         ui->label->setScaledContents(true);
         ui->label->setSizePolicy(QSizePolicy::Ignored, QSizePolicy::Ignored);
@@ -928,8 +953,8 @@ void SecondWindowDialog::setUpGif_2()
         text2 = "Hæl, Hofte, Knær, Mannetiss, Navle, Tær, Fingre";
         ui->label_2->setText(text);
         ui->label_3->setText(text2);
-        QPixmap pix(":/Assets/Pictures/Naken_mann2.GIF");
-        QMovie *movie = new QMovie(":/Assets/Pictures/Naken_mann2.GIF");
+        QPixmap pix(":/Assets/Pictures/Naken_mann3.GIF");
+        QMovie *movie = new QMovie(":/Assets/Pictures/Naken_mann3.GIF");
         ui->label->setPixmap(pix);
         ui->label->setScaledContents(true);
         ui->label->setSizePolicy(QSizePolicy::Ignored, QSizePolicy::Ignored);
@@ -943,8 +968,8 @@ void SecondWindowDialog::setUpGif_2()
         text2 = "Hæl, Hofte, Knær, Mannetiss, Navle, Tær, Fingre";
         ui->label_2->setText(text);
         ui->label_3->setText(text2);
-        QPixmap pix(":/Assets/Pictures/Naken_mann2.GIF");
-        QMovie *movie = new QMovie(":/Assets/Pictures/Naken_mann2.GIF");
+        QPixmap pix(":/Assets/Pictures/Naken_mann3.GIF");
+        QMovie *movie = new QMovie(":/Assets/Pictures/Naken_mann3.GIF");
         ui->label->setPixmap(pix);
         ui->label->setScaledContents(true);
         ui->label->setSizePolicy(QSizePolicy::Ignored, QSizePolicy::Ignored);
@@ -1101,8 +1126,8 @@ void SecondWindowDialog::setUpGif_2()
     {
         text = "14. Hvem er gammel?";
         ui->label_2->setText(text);
-        QPixmap pix(":/Assets/Pictures/Naken_mann2.GIF");
-        QMovie *movie = new QMovie(":/Assets/Pictures/Naken_mann2.GIF");
+        QPixmap pix(":/Assets/Pictures/Naken_mann3.GIF");
+        QMovie *movie = new QMovie(":/Assets/Pictures/Naken_mann3.GIF");
         ui->label->setPixmap(pix);
         ui->label->setScaledContents(true);
         ui->label->setSizePolicy(QSizePolicy::Ignored, QSizePolicy::Ignored);
@@ -1114,8 +1139,8 @@ void SecondWindowDialog::setUpGif_2()
     {
         text = "15. Hva skjer med kroppen når man blir gammel?";
         ui->label_2->setText(text);
-        QPixmap pix(":/Assets/Pictures/Naken_mann2.GIF");
-        QMovie *movie = new QMovie(":/Assets/Pictures/Naken_mann2.GIF");
+        QPixmap pix(":/Assets/Pictures/Naken_mann3.GIF");
+        QMovie *movie = new QMovie(":/Assets/Pictures/Naken_mann3.GIF");
         ui->label->setPixmap(pix);
         ui->label->setScaledContents(true);
         ui->label->setSizePolicy(QSizePolicy::Ignored, QSizePolicy::Ignored);
@@ -1140,8 +1165,8 @@ void SecondWindowDialog::setUpGif_2()
     {
         text = "17. Hvilke steder på kroppen må du vaske hver dag?";
         ui->label_2->setText(text);
-        QPixmap pix(":/Assets/Pictures/Naken_mann2.GIF");
-        QMovie *movie = new QMovie(":/Assets/Pictures/Naken_mann2.GIF");
+        QPixmap pix(":/Assets/Pictures/Naken_mann3.GIF");
+        QMovie *movie = new QMovie(":/Assets/Pictures/Naken_mann3.GIF");
         ui->label->setPixmap(pix);
         ui->label->setScaledContents(true);
         ui->label->setSizePolicy(QSizePolicy::Ignored, QSizePolicy::Ignored);
@@ -1218,8 +1243,8 @@ void SecondWindowDialog::setUpGif_2()
     {
         text = "23. Hvem er glad?";
         ui->label_2->setText(text);
-        QPixmap pix(":/Assets/Pictures/Sinna_fjes.GIF");
-        QMovie *movie = new QMovie(":/Assets/Pictures/Sinna_fjes.GIF");
+        QPixmap pix(":/Assets/JPGS/IMG_0691.PNG");
+        QMovie *movie = new QMovie(":/Assets/JPGS/IMG_0691.PNG");
         ui->label->setPixmap(pix);
         ui->label->setScaledContents(true);
         ui->label->setSizePolicy(QSizePolicy::Ignored, QSizePolicy::Ignored);
@@ -1231,8 +1256,8 @@ void SecondWindowDialog::setUpGif_2()
     {
         text = "24. Hvem er sint?";
         ui->label_2->setText(text);
-        QPixmap pix(":/Assets/Pictures/Sinna_fjes.GIF");
-        QMovie *movie = new QMovie(":/Assets/Pictures/Sinna_fjes.GIF");
+        QPixmap pix(":/Assets/JPGS/IMG_0691.PNG");
+        QMovie *movie = new QMovie(":/Assets/JPGS/IMG_0691.PNG");
         ui->label->setPixmap(pix);
         ui->label->setScaledContents(true);
         ui->label->setSizePolicy(QSizePolicy::Ignored, QSizePolicy::Ignored);
@@ -1244,8 +1269,8 @@ void SecondWindowDialog::setUpGif_2()
     {
         text = "25. Hvem er lei seg?";
         ui->label_2->setText(text);
-        QPixmap pix(":/Assets/Pictures/Sinna_fjes.GIF");
-        QMovie *movie = new QMovie(":/Assets/Pictures/Sinna_fjes.GIF");
+        QPixmap pix(":/Assets/JPGS/IMG_0691.PNG");
+        QMovie *movie = new QMovie(":/Assets/JPGS/IMG_0691.PNG");
         ui->label->setPixmap(pix);
         ui->label->setScaledContents(true);
         ui->label->setSizePolicy(QSizePolicy::Ignored, QSizePolicy::Ignored);
@@ -1283,8 +1308,8 @@ void SecondWindowDialog::setUpGif_2()
     {
         text = "28. Hva kan du gjøre når noen er lei seg?";
         ui->label_2->setText(text);
-        QPixmap pix("");
-        QMovie *movie = new QMovie("");
+        QPixmap pix(":/Assets/JPGS/IMG_0695.PNG");
+        QMovie *movie = new QMovie(":/Assets/JPGS/IMG_0695.PNG");
         ui->label->setPixmap(pix);
         ui->label->setScaledContents(true);
         ui->label->setSizePolicy(QSizePolicy::Ignored, QSizePolicy::Ignored);
@@ -1768,8 +1793,8 @@ void SecondWindowDialog::setUpGif_3()
     {
         text = "3. Pek på...";
         ui->label_2->setText(text);
-        QPixmap pix("");
-        QMovie *movie = new QMovie("");
+        QPixmap pix(":/Assets/Pictures/Naken_mann4.GIF");
+        QMovie *movie = new QMovie(":/Assets/Pictures/Naken_mann4.GIF");
         ui->label->setPixmap(pix);
         ui->label->setScaledContents(true);
         ui->label->setSizePolicy(QSizePolicy::Ignored, QSizePolicy::Ignored);
@@ -1872,8 +1897,8 @@ void SecondWindowDialog::setUpGif_3()
     {
         text = "9. Hvem er voksen?";
         ui->label_2->setText(text);
-        QPixmap pix(":/Assets/Pictures/Naken_jente.GIF");
-        QMovie *movie = new QMovie(":/Assets/Pictures/Naken_jente.GIF");
+        QPixmap pix(":/Assets/Pictures/Naken_jente2.GIF");
+        QMovie *movie = new QMovie(":/Assets/Pictures/Naken_jente2.GIF");
         ui->label->setPixmap(pix);
         ui->label->setScaledContents(true);
         ui->label->setSizePolicy(QSizePolicy::Ignored, QSizePolicy::Ignored);
@@ -1911,8 +1936,8 @@ void SecondWindowDialog::setUpGif_3()
     {
         text = "12. Hva skjer med kroppen til en gutt når han blir voksen?";
         ui->label_2->setText(text);
-        QPixmap pix(":/Assets/Pictures/Naken_jente.GIF");
-        QMovie *movie = new QMovie(":/Assets/Pictures/Naken_jente.GIF");
+        QPixmap pix(":/Assets/Pictures/Naken_jente2.GIF");
+        QMovie *movie = new QMovie(":/Assets/Pictures/Naken_jente2.GIF");
         ui->label->setPixmap(pix);
         ui->label->setScaledContents(true);
         ui->label->setSizePolicy(QSizePolicy::Ignored, QSizePolicy::Ignored);
@@ -1924,8 +1949,8 @@ void SecondWindowDialog::setUpGif_3()
     {
         text = "13. Hva skjer med kroppen til en jente når hun blir voksen?";
         ui->label_2->setText(text);
-        QPixmap pix(":/Assets/Pictures/Naken_jente.GIF");
-        QMovie *movie = new QMovie(":/Assets/Pictures/Naken_jente.GIF");
+        QPixmap pix(":/Assets/Pictures/Naken_jente2.GIF");
+        QMovie *movie = new QMovie(":/Assets/Pictures/Naken_jente2.GIF");
         ui->label->setPixmap(pix);
         ui->label->setScaledContents(true);
         ui->label->setSizePolicy(QSizePolicy::Ignored, QSizePolicy::Ignored);
@@ -2054,8 +2079,8 @@ void SecondWindowDialog::setUpGif_3()
     {
         text = "23. Hvem er glad?";
         ui->label_2->setText(text);
-        QPixmap pix(":/Assets/Pictures/Glad_fjes.GIF");
-        QMovie *movie = new QMovie(":/Assets/Pictures/Glad_fjes.GIF");
+        QPixmap pix(":/Assets/JPGS/IMG_0690.PNG");
+        QMovie *movie = new QMovie(":/Assets/JPGS/IMG_0690.PNG");
         ui->label->setPixmap(pix);
         ui->label->setScaledContents(true);
         ui->label->setSizePolicy(QSizePolicy::Ignored, QSizePolicy::Ignored);
@@ -2067,8 +2092,8 @@ void SecondWindowDialog::setUpGif_3()
     {
         text = "24. Hvem er sint?";
         ui->label_2->setText(text);
-        QPixmap pix(":/Assets/Pictures/Glad_fjes.GIF");
-        QMovie *movie = new QMovie(":/Assets/Pictures/Glad_fjes.GIF");
+        QPixmap pix(":/Assets/JPGS/IMG_0690.PNG");
+        QMovie *movie = new QMovie(":/Assets/JPGS/IMG_0690.PNG");
         ui->label->setPixmap(pix);
         ui->label->setScaledContents(true);
         ui->label->setSizePolicy(QSizePolicy::Ignored, QSizePolicy::Ignored);
@@ -2080,8 +2105,8 @@ void SecondWindowDialog::setUpGif_3()
     {
         text = "25. Hvem er lei seg?";
         ui->label_2->setText(text);
-        QPixmap pix(":/Assets/Pictures/Glad_fjes.GIF");
-        QMovie *movie = new QMovie(":/Assets/Pictures/Glad_fjes.GIF");
+        QPixmap pix(":/Assets/JPGS/IMG_0690.PNG");
+        QMovie *movie = new QMovie(":/Assets/JPGS/IMG_0690.PNG");
         ui->label->setPixmap(pix);
         ui->label->setScaledContents(true);
         ui->label->setSizePolicy(QSizePolicy::Ignored, QSizePolicy::Ignored);
@@ -2119,8 +2144,8 @@ void SecondWindowDialog::setUpGif_3()
     {
         text = "28. Hva kan du gjøre når noen er lei seg?";
         ui->label_2->setText(text);
-        QPixmap pix("");
-        QMovie *movie = new QMovie("");
+        QPixmap pix(":/Assets/JPGS/IMG_0694.PNG");
+        QMovie *movie = new QMovie(":/Assets/JPGS/IMG_0694.PNG");
         ui->label->setPixmap(pix);
         ui->label->setScaledContents(true);
         ui->label->setSizePolicy(QSizePolicy::Ignored, QSizePolicy::Ignored);
@@ -2890,8 +2915,8 @@ void SecondWindowDialog::setUpGif_4()
     {
         text = "23. Hvem er glad?";
         ui->label_2->setText(text);
-        QPixmap pix(":/Assets/Pictures/Tris_ansikt.GIF");
-        QMovie *movie = new QMovie(":/Assets/Pictures/Tris_ansikt.GIF");
+        QPixmap pix(":/Assets/JPGS/IMG_0689.PNG");
+        QMovie *movie = new QMovie(":/Assets/JPGS/IMG_0689.PNG");
         ui->label->setPixmap(pix);
         ui->label->setScaledContents(true);
         ui->label->setSizePolicy(QSizePolicy::Ignored, QSizePolicy::Ignored);
@@ -2903,8 +2928,8 @@ void SecondWindowDialog::setUpGif_4()
     {
         text = "24. Hvem er sint?";
         ui->label_2->setText(text);
-        QPixmap pix(":/Assets/Pictures/Tris_ansikt.GIF");
-        QMovie *movie = new QMovie(":/Assets/Pictures/Tris_ansikt.GIF");
+        QPixmap pix(":/Assets/JPGS/IMG_0689.PNG");
+        QMovie *movie = new QMovie(":/Assets/JPGS/IMG_0689.PNG");
         ui->label->setPixmap(pix);
         ui->label->setScaledContents(true);
         ui->label->setSizePolicy(QSizePolicy::Ignored, QSizePolicy::Ignored);
@@ -2916,8 +2941,8 @@ void SecondWindowDialog::setUpGif_4()
     {
         text = "25. Hvem er lei seg?";
         ui->label_2->setText(text);
-        QPixmap pix(":/Assets/Pictures/Tris_ansikt.GIF");
-        QMovie *movie = new QMovie(":/Assets/Pictures/Tris_ansikt.GIF");
+        QPixmap pix(":/Assets/JPGS/IMG_0689.PNG");
+        QMovie *movie = new QMovie(":/Assets/JPGS/IMG_0689.PNG");
         ui->label->setPixmap(pix);
         ui->label->setScaledContents(true);
         ui->label->setSizePolicy(QSizePolicy::Ignored, QSizePolicy::Ignored);
@@ -2955,8 +2980,8 @@ void SecondWindowDialog::setUpGif_4()
     {
         text = "28. Hva kan du gjøre når noen er lei seg?";
         ui->label_2->setText(text);
-        QPixmap pix("");
-        QMovie *movie = new QMovie("");
+        QPixmap pix(":/Assets/JPGS/IMG_0693.PNG");
+        QMovie *movie = new QMovie(":/Assets/JPGS/IMG_0693.PNG");
         ui->label->setPixmap(pix);
         ui->label->setScaledContents(true);
         ui->label->setSizePolicy(QSizePolicy::Ignored, QSizePolicy::Ignored);

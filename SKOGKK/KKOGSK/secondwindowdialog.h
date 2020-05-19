@@ -5,6 +5,8 @@
 #include <QFileDialog>
 namespace Ui { class SecondWindowDialog; }
 
+class QuestionDialog;
+
 class SecondWindowDialog : public QDialog
 {
     Q_OBJECT
@@ -41,6 +43,7 @@ private slots:
 
 private:
     Ui::SecondWindowDialog *ui;
+
 };
 
 #endif // SECONDWINDOWDIALOG_H

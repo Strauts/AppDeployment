@@ -27,6 +27,7 @@ public:
     QLabel *label_2;
     QLabel *label_3;
     QLineEdit *lineEdit;
+    QLabel *label_4;
 
     void setupUi(QDialog *SecondWindowDialog)
     {
@@ -57,9 +58,12 @@ public:
         label_3->setFont(font);
         lineEdit = new QLineEdit(SecondWindowDialog);
         lineEdit->setObjectName(QString::fromUtf8("lineEdit"));
-        lineEdit->setGeometry(QRect(20, 600, 451, 31));
+        lineEdit->setGeometry(QRect(20, 600, 421, 31));
         lineEdit->setFont(font);
         lineEdit->setStyleSheet(QString::fromUtf8("background-color: rgb(255, 255, 255);"));
+        label_4 = new QLabel(SecondWindowDialog);
+        label_4->setObjectName(QString::fromUtf8("label_4"));
+        label_4->setGeometry(QRect(436, 600, 71, 31));
 
         retranslateUi(SecondWindowDialog);
 
@@ -74,6 +78,7 @@ public:
         pushButton_2->setText(QString());
         label_2->setText(QString());
         label_3->setText(QString());
+        label_4->setText(QString());
     } // retranslateUi
 
 };
