@@ -32,7 +32,9 @@ set(project_ui
     onepicquestiondialog.ui
     textquestiondialog.ui
     mainwindowuserdialog.ui
-    choosetestdialog.ui)
+    choosetestdialog.ui
+    nextquestion.ui
+    jumpqdialog.ui)
 
 set(project_headers
     mainwindow.h
@@ -61,7 +63,9 @@ set(project_headers
     onepicquestiondialog.h
     textquestiondialog.h
     mainwindowuserdialog.h
-    choosetestdialog.h)
+    choosetestdialog.h
+    nextquestion.h
+    jumpqdialog.h)
 
 set(project_sources
     main.cpp
@@ -91,7 +95,9 @@ set(project_sources
     onepicquestiondialog.cpp
     textquestiondialog.cpp
     mainwindowuserdialog.cpp
-    choosetestdialog.cpp)
+    choosetestdialog.cpp
+    nextquestion.cpp
+    jumpqdialog.cpp)
 
 qt5_wrap_ui(project_headers_wrapped ${project_ui})
 qt5_wrap_cpp(project_sources_moc ${project_headers})
@@ -112,23 +118,31 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 # Check http://doc.qt.io/qt-5/deployment-android.html for more information.
 # They need to be set before the find_package(Qt5 ...) call.
 
-#if(ANDROID)
-#    set(ANDROID_PACKAGE_SOURCE_DIR "${CMAKE_CURRENT_SOURCE_DIR}/android")
-#    if (ANDROID_ABI STREQUAL "armeabi-v7a")
-#        set(ANDROID_EXTRA_LIBS
-#            ${CMAKE_CURRENT_SOURCE_DIR}/path/to/libcrypto.so
-#            ${CMAKE_CURRENT_SOURCE_DIR}/path/to/libssl.so)
-#    endif()
-#endif()
+if(ANDROID)
+    set(ANDROID_PACKAGE_SOURCE_DIR "${CMAKE_CURRENT_SOURCE_DIR}/android")
+    if (ANDROID_ABI STREQUAL "armeabi-v7a")
+        set(ANDROID_EXTRA_LIBS
+            ${CMAKE_CURRENT_SOURCE_DIR}/path/to/libcrypto.so
+            ${CMAKE_CURRENT_SOURCE_DIR}/path/to/libssl.so)
+    endif()
+endif()
 
 set(TS_FILES KKOGSK_nb_NO.ts)
 
 if(ANDROID)
-  add_library(KKOGSK SHARED
+  add_library(${PROJECT_NAME}
     main.cpp
     mainwindow.cpp
     mainwindow.h
     mainwindow.ui
+    bgandfontresource.qrc
+    ResourceButton.qrc
+    ResourcePictures1.qrc
+    ResourcePictures2.qrc
+    ${project_headers}
+    ${project_sources}
+    ${project_sources_moc}
+    ${project_headers_wrapped}
     ${TS_FILES}
   )
 else()

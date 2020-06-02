@@ -82,8 +82,8 @@ void onePicQuestionDialog::chooseImage()
         text2 = "21. Når må du pusse tennene?";
         ui->label_2->setText(text);
         ui->label_3->setText(text2);
-        QPixmap pix(":/Assets/Pictures/Tannkrem.GIF");
-        QMovie *movie = new QMovie(":/Assets/Pictures/Tannkrem.GIF");
+        QPixmap pix(":/Assets/JPGS/IMG_0679.PNG");
+        QMovie *movie = new QMovie(":/Assets/JPGS/IMG_0679.PNG");
         ui->label->setPixmap(pix);
         ui->label->setMovie(movie);
         ui->label->setScaledContents(true);
@@ -96,8 +96,8 @@ void onePicQuestionDialog::chooseImage()
         text2 = "27. Hvordan kan du se det?";
         ui->label_2->setText(text);
         ui->label_3->setText(text2);
-        QPixmap pix(":/Assets/JPGS/IMG_0689.PNG");
-        QMovie *movie = new QMovie(":/Assets/JPGS/IMG_0689.PNG");
+        QPixmap pix(":/Assets/JPGS/IMG_0688.PNG");
+        QMovie *movie = new QMovie(":/Assets/JPGS/IMG_0688.PNG");
         ui->label->setPixmap(pix);
         ui->label->setMovie(movie);
         ui->label->setScaledContents(true);

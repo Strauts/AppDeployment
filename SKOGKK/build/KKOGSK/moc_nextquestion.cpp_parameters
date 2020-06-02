@@ -1,0 +1,5 @@
+-DWIN32
+--compiler-flavor=msvc
+-o
+D:/Bachelor/SKOGKK APP/AppDeployment/SKOGKK/build/KKOGSK/moc_nextquestion.cpp
+D:/Bachelor/SKOGKK APP/AppDeployment/SKOGKK/KKOGSK/nextquestion.h

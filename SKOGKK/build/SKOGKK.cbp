@@ -1,0 +1,900 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="SKOGKK"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="msvc8"/>
+		<Option virtualFolders="CMake Files\;CMake Files\KKOGSK\;CMake Files\Qt\;CMake Files\Qt\5.13.0\;CMake Files\Qt\5.13.0\msvc2017_64\;CMake Files\Qt\5.13.0\msvc2017_64\lib\;CMake Files\Qt\5.13.0\msvc2017_64\lib\cmake\;CMake Files\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5\;CMake Files\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Core\;CMake Files\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Widgets\;CMake Files\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Gui\;CMake Files\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5LinguistTools\;CMake Files\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Quick\;CMake Files\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Qml\;CMake Files\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Network\;CMake Files\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Sql\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="D:/Bachelor/SKOGKK APP/AppDeployment/SKOGKK/build"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MIB055~1/2017/COMMUN~1/Common7/IDE/COMMON~1/MICROS~1/CMake/Ninja/ninja.exe -v all"/>
+					<CompileFile command="C:/PROGRA~2/MIB055~1/2017/COMMUN~1/Common7/IDE/COMMON~1/MICROS~1/CMake/Ninja/ninja.exe -v &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MIB055~1/2017/COMMUN~1/Common7/IDE/COMMON~1/MICROS~1/CMake/Ninja/ninja.exe -v clean"/>
+					<DistClean command="C:/PROGRA~2/MIB055~1/2017/COMMUN~1/Common7/IDE/COMMON~1/MICROS~1/CMake/Ninja/ninja.exe -v clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="D:/Bachelor/SKOGKK APP/AppDeployment/SKOGKK/build"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MIB055~1/2017/COMMUN~1/Common7/IDE/COMMON~1/MICROS~1/CMake/Ninja/ninja.exe -v edit_cache"/>
+					<CompileFile command="C:/PROGRA~2/MIB055~1/2017/COMMUN~1/Common7/IDE/COMMON~1/MICROS~1/CMake/Ninja/ninja.exe -v &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MIB055~1/2017/COMMUN~1/Common7/IDE/COMMON~1/MICROS~1/CMake/Ninja/ninja.exe -v clean"/>
+					<DistClean command="C:/PROGRA~2/MIB055~1/2017/COMMUN~1/Common7/IDE/COMMON~1/MICROS~1/CMake/Ninja/ninja.exe -v clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="D:/Bachelor/SKOGKK APP/AppDeployment/SKOGKK/build"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MIB055~1/2017/COMMUN~1/Common7/IDE/COMMON~1/MICROS~1/CMake/Ninja/ninja.exe -v rebuild_cache"/>
+					<CompileFile command="C:/PROGRA~2/MIB055~1/2017/COMMUN~1/Common7/IDE/COMMON~1/MICROS~1/CMake/Ninja/ninja.exe -v &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MIB055~1/2017/COMMUN~1/Common7/IDE/COMMON~1/MICROS~1/CMake/Ninja/ninja.exe -v clean"/>
+					<DistClean command="C:/PROGRA~2/MIB055~1/2017/COMMUN~1/Common7/IDE/COMMON~1/MICROS~1/CMake/Ninja/ninja.exe -v clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="KKOGSK">
+				<Option output="D:/Bachelor/SKOGKK APP/AppDeployment/SKOGKK/build/KKOGSK/KKOGSK.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Bachelor/SKOGKK APP/AppDeployment/SKOGKK/build/KKOGSK"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_QUICK_LIB"/>
+					<Add option="-DQT_QML_LIB"/>
+					<Add option="-DQT_NETWORK_LIB"/>
+					<Add option="-DQT_SQL_LIB"/>
+					<Add directory="D:/Bachelor/SKOGKK APP/AppDeployment/SKOGKK/build/KKOGSK"/>
+					<Add directory="D:/Bachelor/SKOGKK APP/AppDeployment/SKOGKK/KKOGSK"/>
+					<Add directory="D:/Bachelor/SKOGKK APP/AppDeployment/SKOGKK/build/KKOGSK/KKOGSK_autogen/include"/>
+					<Add directory="C:/Qt/5.13.0/msvc2017_64/include"/>
+					<Add directory="C:/Qt/5.13.0/msvc2017_64/include/QtWidgets"/>
+					<Add directory="C:/Qt/5.13.0/msvc2017_64/include/QtGui"/>
+					<Add directory="C:/Qt/5.13.0/msvc2017_64/include/QtANGLE"/>
+					<Add directory="C:/Qt/5.13.0/msvc2017_64/include/QtCore"/>
+					<Add directory="C:/Qt/5.13.0/msvc2017_64/./mkspecs/win32-msvc"/>
+					<Add directory="C:/Qt/5.13.0/msvc2017_64/include/QtQuick"/>
+					<Add directory="C:/Qt/5.13.0/msvc2017_64/include/QtQml"/>
+					<Add directory="C:/Qt/5.13.0/msvc2017_64/include/QtNetwork"/>
+					<Add directory="C:/Qt/5.13.0/msvc2017_64/include/QtSql"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MIB055~1/2017/COMMUN~1/Common7/IDE/COMMON~1/MICROS~1/CMake/Ninja/ninja.exe -v KKOGSK"/>
+					<CompileFile command="C:/PROGRA~2/MIB055~1/2017/COMMUN~1/Common7/IDE/COMMON~1/MICROS~1/CMake/Ninja/ninja.exe -v &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MIB055~1/2017/COMMUN~1/Common7/IDE/COMMON~1/MICROS~1/CMake/Ninja/ninja.exe -v clean"/>
+					<DistClean command="C:/PROGRA~2/MIB055~1/2017/COMMUN~1/Common7/IDE/COMMON~1/MICROS~1/CMake/Ninja/ninja.exe -v clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="KKOGSK/fast">
+				<Option output="D:/Bachelor/SKOGKK APP/AppDeployment/SKOGKK/build/KKOGSK/KKOGSK.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Bachelor/SKOGKK APP/AppDeployment/SKOGKK/build/KKOGSK"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_QUICK_LIB"/>
+					<Add option="-DQT_QML_LIB"/>
+					<Add option="-DQT_NETWORK_LIB"/>
+					<Add option="-DQT_SQL_LIB"/>
+					<Add directory="D:/Bachelor/SKOGKK APP/AppDeployment/SKOGKK/build/KKOGSK"/>
+					<Add directory="D:/Bachelor/SKOGKK APP/AppDeployment/SKOGKK/KKOGSK"/>
+					<Add directory="D:/Bachelor/SKOGKK APP/AppDeployment/SKOGKK/build/KKOGSK/KKOGSK_autogen/include"/>
+					<Add directory="C:/Qt/5.13.0/msvc2017_64/include"/>
+					<Add directory="C:/Qt/5.13.0/msvc2017_64/include/QtWidgets"/>
+					<Add directory="C:/Qt/5.13.0/msvc2017_64/include/QtGui"/>
+					<Add directory="C:/Qt/5.13.0/msvc2017_64/include/QtANGLE"/>
+					<Add directory="C:/Qt/5.13.0/msvc2017_64/include/QtCore"/>
+					<Add directory="C:/Qt/5.13.0/msvc2017_64/./mkspecs/win32-msvc"/>
+					<Add directory="C:/Qt/5.13.0/msvc2017_64/include/QtQuick"/>
+					<Add directory="C:/Qt/5.13.0/msvc2017_64/include/QtQml"/>
+					<Add directory="C:/Qt/5.13.0/msvc2017_64/include/QtNetwork"/>
+					<Add directory="C:/Qt/5.13.0/msvc2017_64/include/QtSql"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MIB055~1/2017/COMMUN~1/Common7/IDE/COMMON~1/MICROS~1/CMake/Ninja/ninja.exe -v KKOGSK/fast"/>
+					<CompileFile command="C:/PROGRA~2/MIB055~1/2017/COMMUN~1/Common7/IDE/COMMON~1/MICROS~1/CMake/Ninja/ninja.exe -v &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MIB055~1/2017/COMMUN~1/Common7/IDE/COMMON~1/MICROS~1/CMake/Ninja/ninja.exe -v clean"/>
+					<DistClean command="C:/PROGRA~2/MIB055~1/2017/COMMUN~1/Common7/IDE/COMMON~1/MICROS~1/CMake/Ninja/ninja.exe -v clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="KKOGSK_autogen">
+				<Option working_dir="D:/Bachelor/SKOGKK APP/AppDeployment/SKOGKK/build/KKOGSK"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MIB055~1/2017/COMMUN~1/Common7/IDE/COMMON~1/MICROS~1/CMake/Ninja/ninja.exe -v KKOGSK_autogen"/>
+					<CompileFile command="C:/PROGRA~2/MIB055~1/2017/COMMUN~1/Common7/IDE/COMMON~1/MICROS~1/CMake/Ninja/ninja.exe -v &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MIB055~1/2017/COMMUN~1/Common7/IDE/COMMON~1/MICROS~1/CMake/Ninja/ninja.exe -v clean"/>
+					<DistClean command="C:/PROGRA~2/MIB055~1/2017/COMMUN~1/Common7/IDE/COMMON~1/MICROS~1/CMake/Ninja/ninja.exe -v clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="D:/Bachelor/SKOGKK APP/AppDeployment/SKOGKK/KKOGSK/BGandFontResource.qrc">
+			<Option target="KKOGSK"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/SKOGKK APP/AppDeployment/SKOGKK/KKOGSK/KKOGSK_nb_NO.ts">
+			<Option target="KKOGSK"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/SKOGKK APP/AppDeployment/SKOGKK/KKOGSK/KKOGSK_nb_NO.ts.rule">
+			<Option target="KKOGSK"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/SKOGKK APP/AppDeployment/SKOGKK/KKOGSK/ResourceButton.qrc">
+			<Option target="KKOGSK"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/SKOGKK APP/AppDeployment/SKOGKK/KKOGSK/ResourcePictures1.qrc">
+			<Option target="KKOGSK"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/SKOGKK APP/AppDeployment/SKOGKK/KKOGSK/ResourcePictures2.qrc">
+			<Option target="KKOGSK"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/SKOGKK APP/AppDeployment/SKOGKK/KKOGSK/avatardialog.cpp">
+			<Option target="KKOGSK"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/SKOGKK APP/AppDeployment/SKOGKK/KKOGSK/avatardialog.h">
+			<Option target="KKOGSK"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/SKOGKK APP/AppDeployment/SKOGKK/KKOGSK/avatardialog.ui">
+			<Option target="KKOGSK"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/SKOGKK APP/AppDeployment/SKOGKK/KKOGSK/bodyquestiondialog.cpp">
+			<Option target="KKOGSK"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/SKOGKK APP/AppDeployment/SKOGKK/KKOGSK/bodyquestiondialog.h">
+			<Option target="KKOGSK"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/SKOGKK APP/AppDeployment/SKOGKK/KKOGSK/bodyquestiondialog.ui">
+			<Option target="KKOGSK"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/SKOGKK APP/AppDeployment/SKOGKK/KKOGSK/calenderdialog.cpp">
+			<Option target="KKOGSK"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/SKOGKK APP/AppDeployment/SKOGKK/KKOGSK/calenderdialog.h">
+			<Option target="KKOGSK"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/SKOGKK APP/AppDeployment/SKOGKK/KKOGSK/calenderdialog.ui">
+			<Option target="KKOGSK"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/SKOGKK APP/AppDeployment/SKOGKK/KKOGSK/changepwdialog.cpp">
+			<Option target="KKOGSK"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/SKOGKK APP/AppDeployment/SKOGKK/KKOGSK/changepwdialog.h">
+			<Option target="KKOGSK"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/SKOGKK APP/AppDeployment/SKOGKK/KKOGSK/changepwdialog.ui">
+			<Option target="KKOGSK"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/SKOGKK APP/AppDeployment/SKOGKK/KKOGSK/choosetestdialog.cpp">
+			<Option target="KKOGSK"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/SKOGKK APP/AppDeployment/SKOGKK/KKOGSK/choosetestdialog.h">
+			<Option target="KKOGSK"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/SKOGKK APP/AppDeployment/SKOGKK/KKOGSK/choosetestdialog.ui">
+			<Option target="KKOGSK"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/SKOGKK APP/AppDeployment/SKOGKK/KKOGSK/commentdialog.cpp">
+			<Option target="KKOGSK"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/SKOGKK APP/AppDeployment/SKOGKK/KKOGSK/commentdialog.h">
+			<Option target="KKOGSK"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/SKOGKK APP/AppDeployment/SKOGKK/KKOGSK/commentdialog.ui">
+			<Option target="KKOGSK"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/SKOGKK APP/AppDeployment/SKOGKK/KKOGSK/homepagedialog.cpp">
+			<Option target="KKOGSK"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/SKOGKK APP/AppDeployment/SKOGKK/KKOGSK/homepagedialog.h">
+			<Option target="KKOGSK"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/SKOGKK APP/AppDeployment/SKOGKK/KKOGSK/homepagedialog.ui">
+			<Option target="KKOGSK"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/SKOGKK APP/AppDeployment/SKOGKK/KKOGSK/jumpqdialog.cpp">
+			<Option target="KKOGSK"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/SKOGKK APP/AppDeployment/SKOGKK/KKOGSK/jumpqdialog.h">
+			<Option target="KKOGSK"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/SKOGKK APP/AppDeployment/SKOGKK/KKOGSK/jumpqdialog.ui">
+			<Option target="KKOGSK"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/SKOGKK APP/AppDeployment/SKOGKK/KKOGSK/logindialog.cpp">
+			<Option target="KKOGSK"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/SKOGKK APP/AppDeployment/SKOGKK/KKOGSK/logindialog.h">
+			<Option target="KKOGSK"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/SKOGKK APP/AppDeployment/SKOGKK/KKOGSK/logindialog.ui">
+			<Option target="KKOGSK"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/SKOGKK APP/AppDeployment/SKOGKK/KKOGSK/main.cpp">
+			<Option target="KKOGSK"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/SKOGKK APP/AppDeployment/SKOGKK/KKOGSK/mainwindow.cpp">
+			<Option target="KKOGSK"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/SKOGKK APP/AppDeployment/SKOGKK/KKOGSK/mainwindow.h">
+			<Option target="KKOGSK"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/SKOGKK APP/AppDeployment/SKOGKK/KKOGSK/mainwindow.ui">
+			<Option target="KKOGSK"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/SKOGKK APP/AppDeployment/SKOGKK/KKOGSK/mainwindowuserdialog.cpp">
+			<Option target="KKOGSK"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/SKOGKK APP/AppDeployment/SKOGKK/KKOGSK/mainwindowuserdialog.h">
+			<Option target="KKOGSK"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/SKOGKK APP/AppDeployment/SKOGKK/KKOGSK/mainwindowuserdialog.ui">
+			<Option target="KKOGSK"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/SKOGKK APP/AppDeployment/SKOGKK/KKOGSK/nextquestion.cpp">
+			<Option target="KKOGSK"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/SKOGKK APP/AppDeployment/SKOGKK/KKOGSK/nextquestion.h">
+			<Option target="KKOGSK"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/SKOGKK APP/AppDeployment/SKOGKK/KKOGSK/onepicquestiondialog.cpp">
+			<Option target="KKOGSK"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/SKOGKK APP/AppDeployment/SKOGKK/KKOGSK/onepicquestiondialog.h">
+			<Option target="KKOGSK"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/SKOGKK APP/AppDeployment/SKOGKK/KKOGSK/onepicquestiondialog.ui">
+			<Option target="KKOGSK"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/SKOGKK APP/AppDeployment/SKOGKK/KKOGSK/patientdialog.cpp">
+			<Option target="KKOGSK"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/SKOGKK APP/AppDeployment/SKOGKK/KKOGSK/patientdialog.h">
+			<Option target="KKOGSK"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/SKOGKK APP/AppDeployment/SKOGKK/KKOGSK/patientdialog.ui">
+			<Option target="KKOGSK"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/SKOGKK APP/AppDeployment/SKOGKK/KKOGSK/patientinformationdialog.cpp">
+			<Option target="KKOGSK"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/SKOGKK APP/AppDeployment/SKOGKK/KKOGSK/patientinformationdialog.h">
+			<Option target="KKOGSK"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/SKOGKK APP/AppDeployment/SKOGKK/KKOGSK/patientinformationdialog.ui">
+			<Option target="KKOGSK"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/SKOGKK APP/AppDeployment/SKOGKK/KKOGSK/profiledialog.cpp">
+			<Option target="KKOGSK"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/SKOGKK APP/AppDeployment/SKOGKK/KKOGSK/profiledialog.h">
+			<Option target="KKOGSK"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/SKOGKK APP/AppDeployment/SKOGKK/KKOGSK/profiledialog.ui">
+			<Option target="KKOGSK"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/SKOGKK APP/AppDeployment/SKOGKK/KKOGSK/qt5databasedialog.cpp">
+			<Option target="KKOGSK"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/SKOGKK APP/AppDeployment/SKOGKK/KKOGSK/qt5databasedialog.h">
+			<Option target="KKOGSK"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/SKOGKK APP/AppDeployment/SKOGKK/KKOGSK/qt5databasedialog.ui">
+			<Option target="KKOGSK"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/SKOGKK APP/AppDeployment/SKOGKK/KKOGSK/questiondialog.cpp">
+			<Option target="KKOGSK"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/SKOGKK APP/AppDeployment/SKOGKK/KKOGSK/questiondialog.h">
+			<Option target="KKOGSK"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/SKOGKK APP/AppDeployment/SKOGKK/KKOGSK/questiondialog.ui">
+			<Option target="KKOGSK"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/SKOGKK APP/AppDeployment/SKOGKK/KKOGSK/readquestiondialog.cpp">
+			<Option target="KKOGSK"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/SKOGKK APP/AppDeployment/SKOGKK/KKOGSK/readquestiondialog.h">
+			<Option target="KKOGSK"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/SKOGKK APP/AppDeployment/SKOGKK/KKOGSK/readquestiondialog.ui">
+			<Option target="KKOGSK"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/SKOGKK APP/AppDeployment/SKOGKK/KKOGSK/registerdialog.cpp">
+			<Option target="KKOGSK"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/SKOGKK APP/AppDeployment/SKOGKK/KKOGSK/registerdialog.h">
+			<Option target="KKOGSK"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/SKOGKK APP/AppDeployment/SKOGKK/KKOGSK/registerdialog.ui">
+			<Option target="KKOGSK"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/SKOGKK APP/AppDeployment/SKOGKK/KKOGSK/resultsdialog.cpp">
+			<Option target="KKOGSK"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/SKOGKK APP/AppDeployment/SKOGKK/KKOGSK/resultsdialog.h">
+			<Option target="KKOGSK"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/SKOGKK APP/AppDeployment/SKOGKK/KKOGSK/resultsdialog.ui">
+			<Option target="KKOGSK"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/SKOGKK APP/AppDeployment/SKOGKK/KKOGSK/rewarddialog.cpp">
+			<Option target="KKOGSK"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/SKOGKK APP/AppDeployment/SKOGKK/KKOGSK/rewarddialog.h">
+			<Option target="KKOGSK"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/SKOGKK APP/AppDeployment/SKOGKK/KKOGSK/rewarddialog.ui">
+			<Option target="KKOGSK"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/SKOGKK APP/AppDeployment/SKOGKK/KKOGSK/secondwindowbodydialog.cpp">
+			<Option target="KKOGSK"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/SKOGKK APP/AppDeployment/SKOGKK/KKOGSK/secondwindowbodydialog.h">
+			<Option target="KKOGSK"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/SKOGKK APP/AppDeployment/SKOGKK/KKOGSK/secondwindowbodydialog.ui">
+			<Option target="KKOGSK"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/SKOGKK APP/AppDeployment/SKOGKK/KKOGSK/secondwindowdialog.cpp">
+			<Option target="KKOGSK"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/SKOGKK APP/AppDeployment/SKOGKK/KKOGSK/secondwindowdialog.h">
+			<Option target="KKOGSK"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/SKOGKK APP/AppDeployment/SKOGKK/KKOGSK/secondwindowdialog.ui">
+			<Option target="KKOGSK"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/SKOGKK APP/AppDeployment/SKOGKK/KKOGSK/settingsdialog.cpp">
+			<Option target="KKOGSK"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/SKOGKK APP/AppDeployment/SKOGKK/KKOGSK/settingsdialog.h">
+			<Option target="KKOGSK"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/SKOGKK APP/AppDeployment/SKOGKK/KKOGSK/settingsdialog.ui">
+			<Option target="KKOGSK"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/SKOGKK APP/AppDeployment/SKOGKK/KKOGSK/tasksdialog.cpp">
+			<Option target="KKOGSK"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/SKOGKK APP/AppDeployment/SKOGKK/KKOGSK/tasksdialog.h">
+			<Option target="KKOGSK"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/SKOGKK APP/AppDeployment/SKOGKK/KKOGSK/tasksdialog.ui">
+			<Option target="KKOGSK"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/SKOGKK APP/AppDeployment/SKOGKK/KKOGSK/textquestiondialog.cpp">
+			<Option target="KKOGSK"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/SKOGKK APP/AppDeployment/SKOGKK/KKOGSK/textquestiondialog.h">
+			<Option target="KKOGSK"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/SKOGKK APP/AppDeployment/SKOGKK/KKOGSK/textquestiondialog.ui">
+			<Option target="KKOGSK"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/SKOGKK APP/AppDeployment/SKOGKK/KKOGSK/workerprofiledialog.cpp">
+			<Option target="KKOGSK"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/SKOGKK APP/AppDeployment/SKOGKK/KKOGSK/workerprofiledialog.h">
+			<Option target="KKOGSK"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/SKOGKK APP/AppDeployment/SKOGKK/KKOGSK/workerprofiledialog.ui">
+			<Option target="KKOGSK"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/SKOGKK APP/AppDeployment/SKOGKK/KKOGSK/workerresultdialog.cpp">
+			<Option target="KKOGSK"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/SKOGKK APP/AppDeployment/SKOGKK/KKOGSK/workerresultdialog.h">
+			<Option target="KKOGSK"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/SKOGKK APP/AppDeployment/SKOGKK/KKOGSK/workerresultdialog.ui">
+			<Option target="KKOGSK"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/SKOGKK APP/AppDeployment/SKOGKK/build/KKOGSK/KKOGSK_autogen/EWIEGA46WW/qrc_BGandFontResource.cpp">
+			<Option target="KKOGSK"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/SKOGKK APP/AppDeployment/SKOGKK/build/KKOGSK/KKOGSK_autogen/EWIEGA46WW/qrc_BGandFontResource.cpp.rule">
+			<Option target="KKOGSK"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/SKOGKK APP/AppDeployment/SKOGKK/build/KKOGSK/KKOGSK_autogen/EWIEGA46WW/qrc_ResourceButton.cpp">
+			<Option target="KKOGSK"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/SKOGKK APP/AppDeployment/SKOGKK/build/KKOGSK/KKOGSK_autogen/EWIEGA46WW/qrc_ResourceButton.cpp.rule">
+			<Option target="KKOGSK"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/SKOGKK APP/AppDeployment/SKOGKK/build/KKOGSK/KKOGSK_autogen/EWIEGA46WW/qrc_ResourcePictures1.cpp">
+			<Option target="KKOGSK"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/SKOGKK APP/AppDeployment/SKOGKK/build/KKOGSK/KKOGSK_autogen/EWIEGA46WW/qrc_ResourcePictures1.cpp.rule">
+			<Option target="KKOGSK"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/SKOGKK APP/AppDeployment/SKOGKK/build/KKOGSK/KKOGSK_autogen/EWIEGA46WW/qrc_ResourcePictures2.cpp">
+			<Option target="KKOGSK"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/SKOGKK APP/AppDeployment/SKOGKK/build/KKOGSK/KKOGSK_autogen/EWIEGA46WW/qrc_ResourcePictures2.cpp.rule">
+			<Option target="KKOGSK"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/SKOGKK APP/AppDeployment/SKOGKK/build/KKOGSK/KKOGSK_autogen/mocs_compilation.cpp">
+			<Option target="KKOGSK"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/SKOGKK APP/AppDeployment/SKOGKK/build/KKOGSK/moc_avatardialog.cpp">
+			<Option target="KKOGSK"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/SKOGKK APP/AppDeployment/SKOGKK/build/KKOGSK/moc_avatardialog.cpp.rule">
+			<Option target="KKOGSK"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/SKOGKK APP/AppDeployment/SKOGKK/build/KKOGSK/moc_bodyquestiondialog.cpp">
+			<Option target="KKOGSK"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/SKOGKK APP/AppDeployment/SKOGKK/build/KKOGSK/moc_bodyquestiondialog.cpp.rule">
+			<Option target="KKOGSK"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/SKOGKK APP/AppDeployment/SKOGKK/build/KKOGSK/moc_calenderdialog.cpp">
+			<Option target="KKOGSK"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/SKOGKK APP/AppDeployment/SKOGKK/build/KKOGSK/moc_calenderdialog.cpp.rule">
+			<Option target="KKOGSK"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/SKOGKK APP/AppDeployment/SKOGKK/build/KKOGSK/moc_changepwdialog.cpp">
+			<Option target="KKOGSK"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/SKOGKK APP/AppDeployment/SKOGKK/build/KKOGSK/moc_changepwdialog.cpp.rule">
+			<Option target="KKOGSK"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/SKOGKK APP/AppDeployment/SKOGKK/build/KKOGSK/moc_choosetestdialog.cpp">
+			<Option target="KKOGSK"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/SKOGKK APP/AppDeployment/SKOGKK/build/KKOGSK/moc_choosetestdialog.cpp.rule">
+			<Option target="KKOGSK"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/SKOGKK APP/AppDeployment/SKOGKK/build/KKOGSK/moc_commentdialog.cpp">
+			<Option target="KKOGSK"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/SKOGKK APP/AppDeployment/SKOGKK/build/KKOGSK/moc_commentdialog.cpp.rule">
+			<Option target="KKOGSK"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/SKOGKK APP/AppDeployment/SKOGKK/build/KKOGSK/moc_homepagedialog.cpp">
+			<Option target="KKOGSK"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/SKOGKK APP/AppDeployment/SKOGKK/build/KKOGSK/moc_homepagedialog.cpp.rule">
+			<Option target="KKOGSK"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/SKOGKK APP/AppDeployment/SKOGKK/build/KKOGSK/moc_jumpqdialog.cpp">
+			<Option target="KKOGSK"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/SKOGKK APP/AppDeployment/SKOGKK/build/KKOGSK/moc_jumpqdialog.cpp.rule">
+			<Option target="KKOGSK"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/SKOGKK APP/AppDeployment/SKOGKK/build/KKOGSK/moc_logindialog.cpp">
+			<Option target="KKOGSK"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/SKOGKK APP/AppDeployment/SKOGKK/build/KKOGSK/moc_logindialog.cpp.rule">
+			<Option target="KKOGSK"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/SKOGKK APP/AppDeployment/SKOGKK/build/KKOGSK/moc_mainwindow.cpp">
+			<Option target="KKOGSK"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/SKOGKK APP/AppDeployment/SKOGKK/build/KKOGSK/moc_mainwindow.cpp.rule">
+			<Option target="KKOGSK"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/SKOGKK APP/AppDeployment/SKOGKK/build/KKOGSK/moc_mainwindowuserdialog.cpp">
+			<Option target="KKOGSK"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/SKOGKK APP/AppDeployment/SKOGKK/build/KKOGSK/moc_mainwindowuserdialog.cpp.rule">
+			<Option target="KKOGSK"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/SKOGKK APP/AppDeployment/SKOGKK/build/KKOGSK/moc_nextquestion.cpp">
+			<Option target="KKOGSK"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/SKOGKK APP/AppDeployment/SKOGKK/build/KKOGSK/moc_nextquestion.cpp.rule">
+			<Option target="KKOGSK"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/SKOGKK APP/AppDeployment/SKOGKK/build/KKOGSK/moc_onepicquestiondialog.cpp">
+			<Option target="KKOGSK"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/SKOGKK APP/AppDeployment/SKOGKK/build/KKOGSK/moc_onepicquestiondialog.cpp.rule">
+			<Option target="KKOGSK"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/SKOGKK APP/AppDeployment/SKOGKK/build/KKOGSK/moc_patientdialog.cpp">
+			<Option target="KKOGSK"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/SKOGKK APP/AppDeployment/SKOGKK/build/KKOGSK/moc_patientdialog.cpp.rule">
+			<Option target="KKOGSK"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/SKOGKK APP/AppDeployment/SKOGKK/build/KKOGSK/moc_patientinformationdialog.cpp">
+			<Option target="KKOGSK"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/SKOGKK APP/AppDeployment/SKOGKK/build/KKOGSK/moc_patientinformationdialog.cpp.rule">
+			<Option target="KKOGSK"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/SKOGKK APP/AppDeployment/SKOGKK/build/KKOGSK/moc_profiledialog.cpp">
+			<Option target="KKOGSK"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/SKOGKK APP/AppDeployment/SKOGKK/build/KKOGSK/moc_profiledialog.cpp.rule">
+			<Option target="KKOGSK"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/SKOGKK APP/AppDeployment/SKOGKK/build/KKOGSK/moc_qt5databasedialog.cpp">
+			<Option target="KKOGSK"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/SKOGKK APP/AppDeployment/SKOGKK/build/KKOGSK/moc_qt5databasedialog.cpp.rule">
+			<Option target="KKOGSK"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/SKOGKK APP/AppDeployment/SKOGKK/build/KKOGSK/moc_questiondialog.cpp">
+			<Option target="KKOGSK"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/SKOGKK APP/AppDeployment/SKOGKK/build/KKOGSK/moc_questiondialog.cpp.rule">
+			<Option target="KKOGSK"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/SKOGKK APP/AppDeployment/SKOGKK/build/KKOGSK/moc_readquestiondialog.cpp">
+			<Option target="KKOGSK"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/SKOGKK APP/AppDeployment/SKOGKK/build/KKOGSK/moc_readquestiondialog.cpp.rule">
+			<Option target="KKOGSK"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/SKOGKK APP/AppDeployment/SKOGKK/build/KKOGSK/moc_registerdialog.cpp">
+			<Option target="KKOGSK"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/SKOGKK APP/AppDeployment/SKOGKK/build/KKOGSK/moc_registerdialog.cpp.rule">
+			<Option target="KKOGSK"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/SKOGKK APP/AppDeployment/SKOGKK/build/KKOGSK/moc_resultsdialog.cpp">
+			<Option target="KKOGSK"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/SKOGKK APP/AppDeployment/SKOGKK/build/KKOGSK/moc_resultsdialog.cpp.rule">
+			<Option target="KKOGSK"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/SKOGKK APP/AppDeployment/SKOGKK/build/KKOGSK/moc_rewarddialog.cpp">
+			<Option target="KKOGSK"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/SKOGKK APP/AppDeployment/SKOGKK/build/KKOGSK/moc_rewarddialog.cpp.rule">
+			<Option target="KKOGSK"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/SKOGKK APP/AppDeployment/SKOGKK/build/KKOGSK/moc_secondwindowbodydialog.cpp">
+			<Option target="KKOGSK"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/SKOGKK APP/AppDeployment/SKOGKK/build/KKOGSK/moc_secondwindowbodydialog.cpp.rule">
+			<Option target="KKOGSK"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/SKOGKK APP/AppDeployment/SKOGKK/build/KKOGSK/moc_secondwindowdialog.cpp">
+			<Option target="KKOGSK"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/SKOGKK APP/AppDeployment/SKOGKK/build/KKOGSK/moc_secondwindowdialog.cpp.rule">
+			<Option target="KKOGSK"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/SKOGKK APP/AppDeployment/SKOGKK/build/KKOGSK/moc_settingsdialog.cpp">
+			<Option target="KKOGSK"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/SKOGKK APP/AppDeployment/SKOGKK/build/KKOGSK/moc_settingsdialog.cpp.rule">
+			<Option target="KKOGSK"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/SKOGKK APP/AppDeployment/SKOGKK/build/KKOGSK/moc_tasksdialog.cpp">
+			<Option target="KKOGSK"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/SKOGKK APP/AppDeployment/SKOGKK/build/KKOGSK/moc_tasksdialog.cpp.rule">
+			<Option target="KKOGSK"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/SKOGKK APP/AppDeployment/SKOGKK/build/KKOGSK/moc_textquestiondialog.cpp">
+			<Option target="KKOGSK"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/SKOGKK APP/AppDeployment/SKOGKK/build/KKOGSK/moc_textquestiondialog.cpp.rule">
+			<Option target="KKOGSK"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/SKOGKK APP/AppDeployment/SKOGKK/build/KKOGSK/moc_workerprofiledialog.cpp">
+			<Option target="KKOGSK"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/SKOGKK APP/AppDeployment/SKOGKK/build/KKOGSK/moc_workerprofiledialog.cpp.rule">
+			<Option target="KKOGSK"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/SKOGKK APP/AppDeployment/SKOGKK/build/KKOGSK/moc_workerresultdialog.cpp">
+			<Option target="KKOGSK"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/SKOGKK APP/AppDeployment/SKOGKK/build/KKOGSK/moc_workerresultdialog.cpp.rule">
+			<Option target="KKOGSK"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/SKOGKK APP/AppDeployment/SKOGKK/build/KKOGSK/ui_LoginDialog.h">
+			<Option target="KKOGSK"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/SKOGKK APP/AppDeployment/SKOGKK/build/KKOGSK/ui_ProfileDialog.h">
+			<Option target="KKOGSK"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/SKOGKK APP/AppDeployment/SKOGKK/build/KKOGSK/ui_QuestionDialog.h">
+			<Option target="KKOGSK"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/SKOGKK APP/AppDeployment/SKOGKK/build/KKOGSK/ui_SecondWindowDialog.h">
+			<Option target="KKOGSK"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/SKOGKK APP/AppDeployment/SKOGKK/build/KKOGSK/ui_avatardialog.h">
+			<Option target="KKOGSK"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/SKOGKK APP/AppDeployment/SKOGKK/build/KKOGSK/ui_bodyquestiondialog.h">
+			<Option target="KKOGSK"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/SKOGKK APP/AppDeployment/SKOGKK/build/KKOGSK/ui_calenderdialog.h">
+			<Option target="KKOGSK"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/SKOGKK APP/AppDeployment/SKOGKK/build/KKOGSK/ui_changepwdialog.h">
+			<Option target="KKOGSK"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/SKOGKK APP/AppDeployment/SKOGKK/build/KKOGSK/ui_choosetestdialog.h">
+			<Option target="KKOGSK"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/SKOGKK APP/AppDeployment/SKOGKK/build/KKOGSK/ui_commentdialog.h">
+			<Option target="KKOGSK"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/SKOGKK APP/AppDeployment/SKOGKK/build/KKOGSK/ui_homepagedialog.h">
+			<Option target="KKOGSK"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/SKOGKK APP/AppDeployment/SKOGKK/build/KKOGSK/ui_jumpqdialog.h">
+			<Option target="KKOGSK"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/SKOGKK APP/AppDeployment/SKOGKK/build/KKOGSK/ui_mainwindow.h">
+			<Option target="KKOGSK"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/SKOGKK APP/AppDeployment/SKOGKK/build/KKOGSK/ui_mainwindowuserdialog.h">
+			<Option target="KKOGSK"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/SKOGKK APP/AppDeployment/SKOGKK/build/KKOGSK/ui_nextquestion.h">
+			<Option target="KKOGSK"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/SKOGKK APP/AppDeployment/SKOGKK/build/KKOGSK/ui_onepicquestiondialog.h">
+			<Option target="KKOGSK"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/SKOGKK APP/AppDeployment/SKOGKK/build/KKOGSK/ui_patientInformationdialog.h">
+			<Option target="KKOGSK"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/SKOGKK APP/AppDeployment/SKOGKK/build/KKOGSK/ui_patientdialog.h">
+			<Option target="KKOGSK"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/SKOGKK APP/AppDeployment/SKOGKK/build/KKOGSK/ui_qt5databasedialog.h">
+			<Option target="KKOGSK"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/SKOGKK APP/AppDeployment/SKOGKK/build/KKOGSK/ui_readquestiondialog.h">
+			<Option target="KKOGSK"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/SKOGKK APP/AppDeployment/SKOGKK/build/KKOGSK/ui_registerdialog.h">
+			<Option target="KKOGSK"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/SKOGKK APP/AppDeployment/SKOGKK/build/KKOGSK/ui_resultsdialog.h">
+			<Option target="KKOGSK"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/SKOGKK APP/AppDeployment/SKOGKK/build/KKOGSK/ui_rewarddialog.h">
+			<Option target="KKOGSK"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/SKOGKK APP/AppDeployment/SKOGKK/build/KKOGSK/ui_secondwindowbodydialog.h">
+			<Option target="KKOGSK"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/SKOGKK APP/AppDeployment/SKOGKK/build/KKOGSK/ui_settingsdialog.h">
+			<Option target="KKOGSK"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/SKOGKK APP/AppDeployment/SKOGKK/build/KKOGSK/ui_tasksdialog.h">
+			<Option target="KKOGSK"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/SKOGKK APP/AppDeployment/SKOGKK/build/KKOGSK/ui_textquestiondialog.h">
+			<Option target="KKOGSK"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/SKOGKK APP/AppDeployment/SKOGKK/build/KKOGSK/ui_workerprofiledialog.h">
+			<Option target="KKOGSK"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/SKOGKK APP/AppDeployment/SKOGKK/build/KKOGSK/ui_workerresultdialog.h">
+			<Option target="KKOGSK"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/SKOGKK APP/AppDeployment/SKOGKK/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/SKOGKK APP/AppDeployment/SKOGKK/KKOGSK/BGandFontResource.qrc">
+			<Option virtualFolder="CMake Files\KKOGSK\"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/SKOGKK APP/AppDeployment/SKOGKK/KKOGSK/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\KKOGSK\"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/SKOGKK APP/AppDeployment/SKOGKK/KKOGSK/ResourceButton.qrc">
+			<Option virtualFolder="CMake Files\KKOGSK\"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/SKOGKK APP/AppDeployment/SKOGKK/KKOGSK/ResourcePictures1.qrc">
+			<Option virtualFolder="CMake Files\KKOGSK\"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/SKOGKK APP/AppDeployment/SKOGKK/KKOGSK/ResourcePictures2.qrc">
+			<Option virtualFolder="CMake Files\KKOGSK\"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/SKOGKK APP/AppDeployment/SKOGKK/Qt/5.13.0/msvc2017_64/lib/cmake/Qt5/Qt5Config.cmake">
+			<Option virtualFolder="CMake Files\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5\"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/SKOGKK APP/AppDeployment/SKOGKK/Qt/5.13.0/msvc2017_64/lib/cmake/Qt5/Qt5ConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5\"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/SKOGKK APP/AppDeployment/SKOGKK/Qt/5.13.0/msvc2017_64/lib/cmake/Qt5/Qt5ModuleLocation.cmake">
+			<Option virtualFolder="CMake Files\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5\"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/SKOGKK APP/AppDeployment/SKOGKK/Qt/5.13.0/msvc2017_64/lib/cmake/Qt5Core/Qt5CoreConfig.cmake">
+			<Option virtualFolder="CMake Files\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/SKOGKK APP/AppDeployment/SKOGKK/Qt/5.13.0/msvc2017_64/lib/cmake/Qt5Core/Qt5CoreConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/SKOGKK APP/AppDeployment/SKOGKK/Qt/5.13.0/msvc2017_64/lib/cmake/Qt5Core/Qt5CoreConfigExtrasMkspecDir.cmake">
+			<Option virtualFolder="CMake Files\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/SKOGKK APP/AppDeployment/SKOGKK/Qt/5.13.0/msvc2017_64/lib/cmake/Qt5Core/Qt5CoreConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/SKOGKK APP/AppDeployment/SKOGKK/Qt/5.13.0/msvc2017_64/lib/cmake/Qt5Core/Qt5CoreMacros.cmake">
+			<Option virtualFolder="CMake Files\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/SKOGKK APP/AppDeployment/SKOGKK/Qt/5.13.0/msvc2017_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake">
+			<Option virtualFolder="CMake Files\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/SKOGKK APP/AppDeployment/SKOGKK/Qt/5.13.0/msvc2017_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/SKOGKK APP/AppDeployment/SKOGKK/Qt/5.13.0/msvc2017_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/SKOGKK APP/AppDeployment/SKOGKK/Qt/5.13.0/msvc2017_64/lib/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake">
+			<Option virtualFolder="CMake Files\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/SKOGKK APP/AppDeployment/SKOGKK/Qt/5.13.0/msvc2017_64/lib/cmake/Qt5Widgets/Qt5Widgets_QWindowsVistaStylePlugin.cmake">
+			<Option virtualFolder="CMake Files\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/SKOGKK APP/AppDeployment/SKOGKK/Qt/5.13.0/msvc2017_64/lib/cmake/Qt5Gui/Qt5GuiConfig.cmake">
+			<Option virtualFolder="CMake Files\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/SKOGKK APP/AppDeployment/SKOGKK/Qt/5.13.0/msvc2017_64/lib/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/SKOGKK APP/AppDeployment/SKOGKK/Qt/5.13.0/msvc2017_64/lib/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/SKOGKK APP/AppDeployment/SKOGKK/Qt/5.13.0/msvc2017_64/lib/cmake/Qt5Gui/Qt5Gui_QGifPlugin.cmake">
+			<Option virtualFolder="CMake Files\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/SKOGKK APP/AppDeployment/SKOGKK/Qt/5.13.0/msvc2017_64/lib/cmake/Qt5Gui/Qt5Gui_QICNSPlugin.cmake">
+			<Option virtualFolder="CMake Files\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/SKOGKK APP/AppDeployment/SKOGKK/Qt/5.13.0/msvc2017_64/lib/cmake/Qt5Gui/Qt5Gui_QICOPlugin.cmake">
+			<Option virtualFolder="CMake Files\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/SKOGKK APP/AppDeployment/SKOGKK/Qt/5.13.0/msvc2017_64/lib/cmake/Qt5Gui/Qt5Gui_QJpegPlugin.cmake">
+			<Option virtualFolder="CMake Files\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/SKOGKK APP/AppDeployment/SKOGKK/Qt/5.13.0/msvc2017_64/lib/cmake/Qt5Gui/Qt5Gui_QMinimalIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/SKOGKK APP/AppDeployment/SKOGKK/Qt/5.13.0/msvc2017_64/lib/cmake/Qt5Gui/Qt5Gui_QOffscreenIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/SKOGKK APP/AppDeployment/SKOGKK/Qt/5.13.0/msvc2017_64/lib/cmake/Qt5Gui/Qt5Gui_QTgaPlugin.cmake">
+			<Option virtualFolder="CMake Files\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/SKOGKK APP/AppDeployment/SKOGKK/Qt/5.13.0/msvc2017_64/lib/cmake/Qt5Gui/Qt5Gui_QTiffPlugin.cmake">
+			<Option virtualFolder="CMake Files\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/SKOGKK APP/AppDeployment/SKOGKK/Qt/5.13.0/msvc2017_64/lib/cmake/Qt5Gui/Qt5Gui_QTuioTouchPlugin.cmake">
+			<Option virtualFolder="CMake Files\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/SKOGKK APP/AppDeployment/SKOGKK/Qt/5.13.0/msvc2017_64/lib/cmake/Qt5Gui/Qt5Gui_QVirtualKeyboardPlugin.cmake">
+			<Option virtualFolder="CMake Files\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/SKOGKK APP/AppDeployment/SKOGKK/Qt/5.13.0/msvc2017_64/lib/cmake/Qt5Gui/Qt5Gui_QWbmpPlugin.cmake">
+			<Option virtualFolder="CMake Files\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/SKOGKK APP/AppDeployment/SKOGKK/Qt/5.13.0/msvc2017_64/lib/cmake/Qt5Gui/Qt5Gui_QWebGLIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/SKOGKK APP/AppDeployment/SKOGKK/Qt/5.13.0/msvc2017_64/lib/cmake/Qt5Gui/Qt5Gui_QWebpPlugin.cmake">
+			<Option virtualFolder="CMake Files\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/SKOGKK APP/AppDeployment/SKOGKK/Qt/5.13.0/msvc2017_64/lib/cmake/Qt5Gui/Qt5Gui_QWindowsDirect2DIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/SKOGKK APP/AppDeployment/SKOGKK/Qt/5.13.0/msvc2017_64/lib/cmake/Qt5Gui/Qt5Gui_QWindowsIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/SKOGKK APP/AppDeployment/SKOGKK/Qt/5.13.0/msvc2017_64/lib/cmake/Qt5Gui/Qt5Gui_QXdgDesktopPortalThemePlugin.cmake">
+			<Option virtualFolder="CMake Files\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/SKOGKK APP/AppDeployment/SKOGKK/Qt/5.13.0/msvc2017_64/lib/cmake/Qt5LinguistTools/Qt5LinguistToolsConfig.cmake">
+			<Option virtualFolder="CMake Files\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5LinguistTools\"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/SKOGKK APP/AppDeployment/SKOGKK/Qt/5.13.0/msvc2017_64/lib/cmake/Qt5LinguistTools/Qt5LinguistToolsConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5LinguistTools\"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/SKOGKK APP/AppDeployment/SKOGKK/Qt/5.13.0/msvc2017_64/lib/cmake/Qt5LinguistTools/Qt5LinguistToolsMacros.cmake">
+			<Option virtualFolder="CMake Files\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5LinguistTools\"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/SKOGKK APP/AppDeployment/SKOGKK/Qt/5.13.0/msvc2017_64/lib/cmake/Qt5Quick/Qt5QuickConfig.cmake">
+			<Option virtualFolder="CMake Files\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Quick\"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/SKOGKK APP/AppDeployment/SKOGKK/Qt/5.13.0/msvc2017_64/lib/cmake/Qt5Quick/Qt5QuickConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Quick\"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/SKOGKK APP/AppDeployment/SKOGKK/Qt/5.13.0/msvc2017_64/lib/cmake/Qt5Qml/Qt5QmlConfig.cmake">
+			<Option virtualFolder="CMake Files\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Qml\"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/SKOGKK APP/AppDeployment/SKOGKK/Qt/5.13.0/msvc2017_64/lib/cmake/Qt5Qml/Qt5QmlConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Qml\"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/SKOGKK APP/AppDeployment/SKOGKK/Qt/5.13.0/msvc2017_64/lib/cmake/Qt5Qml/Qt5QmlConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Qml\"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/SKOGKK APP/AppDeployment/SKOGKK/Qt/5.13.0/msvc2017_64/lib/cmake/Qt5Qml/Qt5Qml_QDebugMessageServiceFactory.cmake">
+			<Option virtualFolder="CMake Files\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Qml\"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/SKOGKK APP/AppDeployment/SKOGKK/Qt/5.13.0/msvc2017_64/lib/cmake/Qt5Qml/Qt5Qml_QLocalClientConnectionFactory.cmake">
+			<Option virtualFolder="CMake Files\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Qml\"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/SKOGKK APP/AppDeployment/SKOGKK/Qt/5.13.0/msvc2017_64/lib/cmake/Qt5Qml/Qt5Qml_QQmlDebugServerFactory.cmake">
+			<Option virtualFolder="CMake Files\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Qml\"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/SKOGKK APP/AppDeployment/SKOGKK/Qt/5.13.0/msvc2017_64/lib/cmake/Qt5Qml/Qt5Qml_QQmlDebuggerServiceFactory.cmake">
+			<Option virtualFolder="CMake Files\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Qml\"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/SKOGKK APP/AppDeployment/SKOGKK/Qt/5.13.0/msvc2017_64/lib/cmake/Qt5Qml/Qt5Qml_QQmlInspectorServiceFactory.cmake">
+			<Option virtualFolder="CMake Files\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Qml\"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/SKOGKK APP/AppDeployment/SKOGKK/Qt/5.13.0/msvc2017_64/lib/cmake/Qt5Qml/Qt5Qml_QQmlNativeDebugConnectorFactory.cmake">
+			<Option virtualFolder="CMake Files\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Qml\"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/SKOGKK APP/AppDeployment/SKOGKK/Qt/5.13.0/msvc2017_64/lib/cmake/Qt5Qml/Qt5Qml_QQmlNativeDebugServiceFactory.cmake">
+			<Option virtualFolder="CMake Files\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Qml\"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/SKOGKK APP/AppDeployment/SKOGKK/Qt/5.13.0/msvc2017_64/lib/cmake/Qt5Qml/Qt5Qml_QQmlPreviewServiceFactory.cmake">
+			<Option virtualFolder="CMake Files\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Qml\"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/SKOGKK APP/AppDeployment/SKOGKK/Qt/5.13.0/msvc2017_64/lib/cmake/Qt5Qml/Qt5Qml_QQmlProfilerServiceFactory.cmake">
+			<Option virtualFolder="CMake Files\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Qml\"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/SKOGKK APP/AppDeployment/SKOGKK/Qt/5.13.0/msvc2017_64/lib/cmake/Qt5Qml/Qt5Qml_QQuickProfilerAdapterFactory.cmake">
+			<Option virtualFolder="CMake Files\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Qml\"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/SKOGKK APP/AppDeployment/SKOGKK/Qt/5.13.0/msvc2017_64/lib/cmake/Qt5Qml/Qt5Qml_QTcpServerConnectionFactory.cmake">
+			<Option virtualFolder="CMake Files\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Qml\"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/SKOGKK APP/AppDeployment/SKOGKK/Qt/5.13.0/msvc2017_64/lib/cmake/Qt5Network/Qt5NetworkConfig.cmake">
+			<Option virtualFolder="CMake Files\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Network\"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/SKOGKK APP/AppDeployment/SKOGKK/Qt/5.13.0/msvc2017_64/lib/cmake/Qt5Network/Qt5NetworkConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Network\"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/SKOGKK APP/AppDeployment/SKOGKK/Qt/5.13.0/msvc2017_64/lib/cmake/Qt5Network/Qt5Network_QGenericEnginePlugin.cmake">
+			<Option virtualFolder="CMake Files\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Network\"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/SKOGKK APP/AppDeployment/SKOGKK/Qt/5.13.0/msvc2017_64/lib/cmake/Qt5Sql/Qt5SqlConfig.cmake">
+			<Option virtualFolder="CMake Files\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Sql\"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/SKOGKK APP/AppDeployment/SKOGKK/Qt/5.13.0/msvc2017_64/lib/cmake/Qt5Sql/Qt5SqlConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Sql\"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/SKOGKK APP/AppDeployment/SKOGKK/Qt/5.13.0/msvc2017_64/lib/cmake/Qt5Sql/Qt5Sql_QODBCDriverPlugin.cmake">
+			<Option virtualFolder="CMake Files\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Sql\"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/SKOGKK APP/AppDeployment/SKOGKK/Qt/5.13.0/msvc2017_64/lib/cmake/Qt5Sql/Qt5Sql_QPSQLDriverPlugin.cmake">
+			<Option virtualFolder="CMake Files\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Sql\"/>
+		</Unit>
+		<Unit filename="D:/Bachelor/SKOGKK APP/AppDeployment/SKOGKK/Qt/5.13.0/msvc2017_64/lib/cmake/Qt5Sql/Qt5Sql_QSQLiteDriverPlugin.cmake">
+			<Option virtualFolder="CMake Files\Qt\5.13.0\msvc2017_64\lib\cmake\Qt5Sql\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

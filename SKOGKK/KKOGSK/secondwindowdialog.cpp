@@ -7,7 +7,6 @@
 #include <QMessageBox>
 #include "mainwindow.h"
 
-class QuestionDialog;
 
 SecondWindowDialog::SecondWindowDialog(QWidget *parent) :
     QDialog(parent)
@@ -62,12 +61,13 @@ void SecondWindowDialog::on_pushButton_clicked()
 
         close();
     }
-    else
+    else if(answerCorrect == false)
     {
         QPixmap pix(":/Assets/Buttons/x_active.png");
         ui->label_4->setPixmap(pix);
         ui->label_4->setScaledContents(true);
         ui->label_4->setSizePolicy(QSizePolicy::Ignored, QSizePolicy::Ignored);
+
         QTime closeTime = QTime::currentTime().addSecs(2);
         while(QTime::currentTime() < closeTime)
             QCoreApplication::processEvents(QEventLoop::AllEvents, 100);
@@ -76,12 +76,16 @@ void SecondWindowDialog::on_pushButton_clicked()
         ui->label_4->setPixmap(pix2);
         ui->label_4->setScaledContents(true);
         ui->label_4->setSizePolicy(QSizePolicy::Ignored, QSizePolicy::Ignored);
+
+        closePage = true;
         close();
     }
 }
 
 void SecondWindowDialog::on_pushButton_2_clicked()
 {
+    answerCorrect = false;
+    closePage = true;
     close();
 }
 

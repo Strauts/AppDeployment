@@ -26,16 +26,16 @@ The CXX compiler identification is MSVC, found in "D:/Bachelor/backup/AppDeploym
 Determining if the CXX compiler works passed with the following output:
 Change Dir: D:/Bachelor/backup/AppDeployment/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/PROGRA~2/MIB055~1/2017/COMMUN~1/Common7/IDE/COMMON~1/MICROS~1/CMake/Ninja/ninja.exe cmTC_26fb9 && [1/2] Building CXX object CMakeFiles\cmTC_26fb9.dir\testCXXCompiler.cxx.obj
-[2/2] Linking CXX executable cmTC_26fb9.exe
+Run Build Command(s):C:/PROGRA~2/MIB055~1/2017/COMMUN~1/Common7/IDE/COMMON~1/MICROS~1/CMake/Ninja/ninja.exe cmTC_13261 && [1/2] Building CXX object CMakeFiles\cmTC_13261.dir\testCXXCompiler.cxx.obj
+[2/2] Linking CXX executable cmTC_13261.exe
 
 
 
 Detecting CXX compiler ABI info compiled with the following output:
 Change Dir: D:/Bachelor/backup/AppDeployment/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/PROGRA~2/MIB055~1/2017/COMMUN~1/Common7/IDE/COMMON~1/MICROS~1/CMake/Ninja/ninja.exe cmTC_c2bc6 && [1/2] Building CXX object CMakeFiles\cmTC_c2bc6.dir\CMakeCXXCompilerABI.cpp.obj
-[2/2] Linking CXX executable cmTC_c2bc6.exe
+Run Build Command(s):C:/PROGRA~2/MIB055~1/2017/COMMUN~1/Common7/IDE/COMMON~1/MICROS~1/CMake/Ninja/ninja.exe cmTC_9d7dc && [1/2] Building CXX object CMakeFiles\cmTC_9d7dc.dir\CMakeCXXCompilerABI.cpp.obj
+[2/2] Linking CXX executable cmTC_9d7dc.exe
 
 
 

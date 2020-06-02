@@ -93,8 +93,8 @@ void textQuestionDialog::chooseNr()
         text2 = "22. Hvorfor må vi pusse tenner?";
         ui->label->setText(text);
         ui->label_2->setText(text2);
-        QPixmap pix(":/Assets/Pictures/Tannkrem.GIF");
-        QMovie *movie = new QMovie(":/Assets/Pictures/Tannkrem.GIF");
+        QPixmap pix(":/Assets/JPGS/IMG_0679.PNG");
+        QMovie *movie = new QMovie(":/Assets/JPGS/IMG_0679.PNG");
         ui->label_3->setPixmap(pix);
         ui->label_3->setMovie(movie);
         ui->label_3->setScaledContents(true);

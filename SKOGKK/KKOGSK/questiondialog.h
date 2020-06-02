@@ -31,6 +31,8 @@ public:
 
     int test = 0;
 
+    bool jump;
+
     QString text;
     QString theme;
 

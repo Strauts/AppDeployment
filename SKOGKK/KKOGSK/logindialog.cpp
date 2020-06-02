@@ -33,14 +33,14 @@ void LoginDialog::on_pushButton_login_clicked(bool loginSucceded)
     //test if username is in database
     if(username == "test" && password == "test")
     {
-        QMessageBox::information(this, "Login", "Brukernavn eller passord er riktig");
+        QMessageBox::information(this, "Login", "Brukernavn og passord er riktig");
         loginSucceded = true;
         loginOK = loginSucceded;
         this->close();
     }
     else
     {
-        QMessageBox::warning(this, "Login", "Brukernavn eller passord er feil");
+        QMessageBox::warning(this, "Login", "Brukernavn og passord er feil");
     }
 }
 

@@ -1,0 +1,94 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "KKOGSK",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "KKOGSK",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "SKOGKK"
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "KKOGSK",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "KKOGSK::@426adcf4bb348f9780f5",
+					"jsonFile" : "target-KKOGSK-Debug-ca5e99915c610abcd7b0.json",
+					"name" : "KKOGSK",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "KKOGSK_autogen::@426adcf4bb348f9780f5",
+					"jsonFile" : "target-KKOGSK_autogen-Debug-234015e8c767f7636c87.json",
+					"name" : "KKOGSK_autogen",
+					"projectIndex" : 1
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/Bachelor/SKOGKK APP/AppDeployment/SKOGKK/build",
+		"source" : "D:/Bachelor/SKOGKK APP/AppDeployment/SKOGKK"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 0
+	}
+}

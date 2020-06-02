@@ -1,5 +1,5 @@
 -DWIN32
 --compiler-flavor=msvc
 -o
-D:/Bachelor/wt-4.2.0/SKOGKK/build/KKOGSK/moc_commentdialog.cpp
-D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/commentdialog.h
+D:/Bachelor/SKOGKK APP/AppDeployment/SKOGKK/build/KKOGSK/moc_commentdialog.cpp
+D:/Bachelor/SKOGKK APP/AppDeployment/SKOGKK/KKOGSK/commentdialog.h

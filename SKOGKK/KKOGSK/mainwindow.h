@@ -13,6 +13,7 @@
 //#include "resultsdialog.h"
 //#include "bodyquestiondialog.h"
 #include "mainwindowuserdialog.h"
+#include "jumpqdialog.h"
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class MainWindow; }
@@ -28,6 +29,7 @@ public:
     ~MainWindow();
 
     LoginDialog startUpTest;
+    jumpQDialog jumpQuestion;
     homepageDialog openWorkerHome;
     MainWindowUserDialog openMain;
 

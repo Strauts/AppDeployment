@@ -25,12 +25,14 @@ QuestionDialog::QuestionDialog(QWidget *parent) :
     ui->pushButton_2->setStyleSheet("QPushButton{background:transparent;}");
     ui->pushButton_3->setStyleSheet("QPushButton{background:transparent;}");
     ui->pushButton_4->setStyleSheet("QPushButton{background:transparent;}");
+
 }
 
 QuestionDialog::~QuestionDialog()
 {
     delete ui;
 }
+
 
 void QuestionDialog::on_pushButton_clicked()
 {
@@ -44,6 +46,21 @@ void QuestionDialog::on_pushButton_clicked()
     gifWindow.chooseGif();
     gifWindow.setModal(true);
     gifWindow.exec();
+    for(int i = 1; i <10; i++)
+    {
+        if(gifWindow.answerCorrect == true)
+        {
+            gifWindow.answerCorrect = false;
+            chooseImage();
+            i = 11;
+        }
+        else if(gifWindow.closePage == true)
+        {
+            gifWindow.closePage = false;
+            i = 11;
+        }
+        i--;
+    }
 
 }
 
@@ -60,6 +77,22 @@ void QuestionDialog::on_pushButton_2_clicked()
     gifWindow.chooseGif();
     gifWindow.setModal(true);
     gifWindow.exec();
+
+    for(int i = 1; i <10; i++)
+    {
+        if(gifWindow.answerCorrect == true)
+        {
+            gifWindow.answerCorrect = false;
+            chooseImage();
+            i = 11;
+        }
+        else if(gifWindow.closePage == true)
+        {
+            gifWindow.closePage = false;
+            i = 11;
+        }
+        i--;
+    }
 }
 
 void QuestionDialog::on_pushButton_3_clicked()
@@ -74,6 +107,22 @@ void QuestionDialog::on_pushButton_3_clicked()
     gifWindow.chooseGif();
     gifWindow.setModal(true);
     gifWindow.exec();
+
+    for(int i = 1; i <10; i++)
+    {
+        if(gifWindow.answerCorrect == true)
+        {
+            gifWindow.answerCorrect = false;
+            chooseImage();
+            i = 11;
+        }
+        else if(gifWindow.closePage == true)
+        {
+            gifWindow.closePage = false;
+            i = 11;
+        }
+        i--;
+    }
 }
 
 void QuestionDialog::on_pushButton_4_clicked()
@@ -88,6 +137,22 @@ void QuestionDialog::on_pushButton_4_clicked()
     gifWindow.chooseGif();
     gifWindow.setModal(true);
     gifWindow.exec();
+
+    for(int i = 1; i <10; i++)
+    {
+        if(gifWindow.answerCorrect == true)
+        {
+            gifWindow.answerCorrect = false;
+            chooseImage();
+            i = 11;
+        }
+        else if(gifWindow.closePage == true)
+        {
+            gifWindow.closePage = false;
+            i = 11;
+        }
+        i--;
+    }
 }
 
 void QuestionDialog::chooseImage()
@@ -280,13 +345,13 @@ void QuestionDialog::chooseImage()
     else if(test == 28)
     {
         //setupImage_29();
-        test = test + 3;
+        test = test + 2;
         chooseImage();
     }
     //28
     else if(test == 29)
     {
-        //setupImage_30();
+        setupImage_30();
         test++;
     }
     //29
@@ -2157,7 +2222,7 @@ void QuestionDialog::setupImage_57()
     ui->label_2->setScaledContents(true);
     ui->label_2->setSizePolicy(QSizePolicy::Ignored, QSizePolicy::Ignored);
 
-    QPixmap pix3(":/Assets/Pictures/Tannkrem.GIF");
+    QPixmap pix3(":/Assets/JPGS/IMG_0679.PNG");
     ui->label_3->setPixmap(pix3);
     ui->label_3->setScaledContents(true);
     ui->label_3->setSizePolicy(QSizePolicy::Ignored, QSizePolicy::Ignored);

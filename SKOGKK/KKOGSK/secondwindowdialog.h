@@ -3,9 +3,11 @@
 
 #include <QDialog>
 #include <QFileDialog>
+//#include "jumpqdialog.h"
+
+
 namespace Ui { class SecondWindowDialog; }
 
-class QuestionDialog;
 
 class SecondWindowDialog : public QDialog
 {
@@ -14,6 +16,8 @@ class SecondWindowDialog : public QDialog
 public:
     explicit SecondWindowDialog(QWidget *parent = nullptr);
     ~SecondWindowDialog();
+
+    //jumpQDialog goNextQuestion;
 
     void setUpGif();
     void setUpGif_2();
@@ -26,12 +30,15 @@ public:
     int getNextQuestion();
     void setNextQuestion(int &value);
 
+
     int ID;
     int nextQuestion = 0;
     QString text;
     QString text2;
 
     bool answerCorrect = false;
+    bool proceed = false;
+    bool closePage = false;
 
 
 public slots:
@@ -39,10 +46,9 @@ public slots:
 
     void on_pushButton_2_clicked();
 
-private slots:
-
 private:
     Ui::SecondWindowDialog *ui;
+
 
 };
 
